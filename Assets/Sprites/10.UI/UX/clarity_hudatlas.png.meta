@@ -1,0 +1,4536 @@
+fileFormatVersion: 2
+guid: 97647809bbbcfdd44b60a0d29820920d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -810134844302435195
+    second: clarity_hudatlas_0
+  - first:
+      213: -5545983895296267315
+    second: clarity_hudatlas_1
+  - first:
+      213: -3576259158313140050
+    second: clarity_hudatlas_2
+  - first:
+      213: 4104300921087848741
+    second: clarity_hudatlas_3
+  - first:
+      213: 5936140968096066384
+    second: clarity_hudatlas_4
+  - first:
+      213: 3395922642635271612
+    second: clarity_hudatlas_5
+  - first:
+      213: 4014166852053049502
+    second: clarity_hudatlas_6
+  - first:
+      213: 1529598839053512838
+    second: clarity_hudatlas_7
+  - first:
+      213: -559365659331415992
+    second: clarity_hudatlas_8
+  - first:
+      213: 2129243735808185402
+    second: clarity_hudatlas_9
+  - first:
+      213: -953332765931067222
+    second: clarity_hudatlas_10
+  - first:
+      213: 93120766893340678
+    second: clarity_hudatlas_11
+  - first:
+      213: -7097834977296517776
+    second: clarity_hudatlas_12
+  - first:
+      213: -6761275954613232465
+    second: clarity_hudatlas_13
+  - first:
+      213: -8372257463371697326
+    second: clarity_hudatlas_14
+  - first:
+      213: -1986174606056923829
+    second: clarity_hudatlas_15
+  - first:
+      213: 7640831628181873030
+    second: clarity_hudatlas_16
+  - first:
+      213: 8767278095768440733
+    second: clarity_hudatlas_17
+  - first:
+      213: -664989161293943819
+    second: clarity_hudatlas_18
+  - first:
+      213: 7830762382965450869
+    second: clarity_hudatlas_19
+  - first:
+      213: 3756408786484707446
+    second: clarity_hudatlas_20
+  - first:
+      213: 131966829025259184
+    second: clarity_hudatlas_21
+  - first:
+      213: -7443285696708974276
+    second: clarity_hudatlas_22
+  - first:
+      213: 3044332162323271736
+    second: clarity_hudatlas_23
+  - first:
+      213: 8462196935033842053
+    second: clarity_hudatlas_24
+  - first:
+      213: -1811549064567155835
+    second: clarity_hudatlas_25
+  - first:
+      213: -4542303176429180060
+    second: clarity_hudatlas_26
+  - first:
+      213: 4493299072453622391
+    second: clarity_hudatlas_27
+  - first:
+      213: 388858639337024850
+    second: clarity_hudatlas_28
+  - first:
+      213: -1702323478091348614
+    second: clarity_hudatlas_29
+  - first:
+      213: -2923396325937439825
+    second: clarity_hudatlas_30
+  - first:
+      213: -2785396028428030578
+    second: clarity_hudatlas_31
+  - first:
+      213: 3853173900383687244
+    second: clarity_hudatlas_32
+  - first:
+      213: 5839063950975965412
+    second: clarity_hudatlas_33
+  - first:
+      213: -4819855805518398775
+    second: clarity_hudatlas_34
+  - first:
+      213: -6036517898078271856
+    second: clarity_hudatlas_35
+  - first:
+      213: -1455239148051222300
+    second: clarity_hudatlas_36
+  - first:
+      213: -8031480539926387381
+    second: clarity_hudatlas_37
+  - first:
+      213: -2021728069385655847
+    second: clarity_hudatlas_38
+  - first:
+      213: 5544254424004150231
+    second: clarity_hudatlas_39
+  - first:
+      213: 7436666376173238342
+    second: clarity_hudatlas_40
+  - first:
+      213: 2476221843987071297
+    second: clarity_hudatlas_41
+  - first:
+      213: -4938543223937258357
+    second: clarity_hudatlas_42
+  - first:
+      213: -6272204491221503991
+    second: clarity_hudatlas_43
+  - first:
+      213: -8499629516640915568
+    second: clarity_hudatlas_44
+  - first:
+      213: 1858697377096952453
+    second: clarity_hudatlas_45
+  - first:
+      213: 6414419922696189756
+    second: clarity_hudatlas_46
+  - first:
+      213: -1753115532211407300
+    second: clarity_hudatlas_47
+  - first:
+      213: -910025244928975281
+    second: clarity_hudatlas_48
+  - first:
+      213: 8964954459443465841
+    second: clarity_hudatlas_49
+  - first:
+      213: 8033543885874047864
+    second: clarity_hudatlas_50
+  - first:
+      213: -1467822496549740002
+    second: clarity_hudatlas_51
+  - first:
+      213: -2023379259203055229
+    second: clarity_hudatlas_52
+  - first:
+      213: 3266611750456902913
+    second: clarity_hudatlas_53
+  - first:
+      213: 8191408667896201619
+    second: clarity_hudatlas_54
+  - first:
+      213: -4808653698997710241
+    second: clarity_hudatlas_55
+  - first:
+      213: 8509163244752185643
+    second: clarity_hudatlas_56
+  - first:
+      213: 7029976331674600744
+    second: clarity_hudatlas_57
+  - first:
+      213: -3228492887203793306
+    second: clarity_hudatlas_58
+  - first:
+      213: 2190295828524970839
+    second: clarity_hudatlas_59
+  - first:
+      213: -8560073977185917517
+    second: clarity_hudatlas_60
+  - first:
+      213: 2284332932185763319
+    second: clarity_hudatlas_61
+  - first:
+      213: -5596160422728379677
+    second: clarity_hudatlas_62
+  - first:
+      213: 373419022519029191
+    second: clarity_hudatlas_63
+  - first:
+      213: 3887650394675811549
+    second: clarity_hudatlas_64
+  - first:
+      213: -3280025901106738059
+    second: clarity_hudatlas_65
+  - first:
+      213: 2289002779491877758
+    second: clarity_hudatlas_66
+  - first:
+      213: 2874644480759988428
+    second: clarity_hudatlas_67
+  - first:
+      213: -646613962924896889
+    second: clarity_hudatlas_68
+  - first:
+      213: 4051979388774053064
+    second: clarity_hudatlas_69
+  - first:
+      213: 1643204625643114916
+    second: clarity_hudatlas_70
+  - first:
+      213: -7554746390918009147
+    second: clarity_hudatlas_71
+  - first:
+      213: 831505956496424793
+    second: clarity_hudatlas_72
+  - first:
+      213: 540524363996608432
+    second: clarity_hudatlas_73
+  - first:
+      213: -7494433400859742227
+    second: clarity_hudatlas_74
+  - first:
+      213: -2089389950546635730
+    second: clarity_hudatlas_75
+  - first:
+      213: -3310487688999057774
+    second: clarity_hudatlas_76
+  - first:
+      213: 139790390196584516
+    second: clarity_hudatlas_77
+  - first:
+      213: -2235653267097659388
+    second: clarity_hudatlas_78
+  - first:
+      213: -160633389405050994
+    second: clarity_hudatlas_79
+  - first:
+      213: -697360255846368109
+    second: clarity_hudatlas_80
+  - first:
+      213: 5412862882164772014
+    second: clarity_hudatlas_81
+  - first:
+      213: -4986507227825876831
+    second: clarity_hudatlas_82
+  - first:
+      213: 3444326274694442794
+    second: clarity_hudatlas_83
+  - first:
+      213: 7073309211657397698
+    second: clarity_hudatlas_84
+  - first:
+      213: 5460203572698539378
+    second: clarity_hudatlas_85
+  - first:
+      213: -1339487342011853566
+    second: clarity_hudatlas_86
+  - first:
+      213: -627360772224912599
+    second: clarity_hudatlas_87
+  - first:
+      213: -4314971971457819920
+    second: clarity_hudatlas_88
+  - first:
+      213: -2992014436913981217
+    second: clarity_hudatlas_89
+  - first:
+      213: -3414264698387009549
+    second: clarity_hudatlas_90
+  - first:
+      213: 3779064277231111813
+    second: clarity_hudatlas_91
+  - first:
+      213: -5143961094198060028
+    second: clarity_hudatlas_92
+  - first:
+      213: -5543694931356792238
+    second: clarity_hudatlas_93
+  - first:
+      213: -6314641058208541987
+    second: clarity_hudatlas_94
+  - first:
+      213: 5992536767499301864
+    second: clarity_hudatlas_95
+  - first:
+      213: -1620473404662997651
+    second: clarity_hudatlas_96
+  - first:
+      213: -8954522606000958635
+    second: clarity_hudatlas_97
+  - first:
+      213: 7846117178083311334
+    second: clarity_hudatlas_98
+  - first:
+      213: -2426035024133201321
+    second: clarity_hudatlas_99
+  - first:
+      213: -3961605674684371492
+    second: clarity_hudatlas_100
+  - first:
+      213: 3130965264494295639
+    second: clarity_hudatlas_101
+  - first:
+      213: 191378260907712651
+    second: clarity_hudatlas_102
+  - first:
+      213: -6163626811279530150
+    second: clarity_hudatlas_103
+  - first:
+      213: -2822928203571349713
+    second: clarity_hudatlas_104
+  - first:
+      213: 5986054070234339545
+    second: clarity_hudatlas_105
+  - first:
+      213: -6287878064993804885
+    second: clarity_hudatlas_106
+  - first:
+      213: -3949555249633743421
+    second: clarity_hudatlas_107
+  - first:
+      213: -4723479119682491630
+    second: clarity_hudatlas_108
+  - first:
+      213: 6638463826171023936
+    second: clarity_hudatlas_109
+  - first:
+      213: -8811632136548303695
+    second: clarity_hudatlas_110
+  - first:
+      213: 1950408260555204355
+    second: clarity_hudatlas_111
+  - first:
+      213: -733466488575195055
+    second: clarity_hudatlas_112
+  - first:
+      213: 1597241943094322373
+    second: clarity_hudatlas_113
+  - first:
+      213: -3100272872802475256
+    second: clarity_hudatlas_114
+  - first:
+      213: -7545146773826770100
+    second: clarity_hudatlas_115
+  - first:
+      213: 7269572631678198757
+    second: clarity_hudatlas_116
+  - first:
+      213: 571865894845028756
+    second: clarity_hudatlas_117
+  - first:
+      213: -9058102614513966323
+    second: clarity_hudatlas_118
+  - first:
+      213: 6057952517089971586
+    second: clarity_hudatlas_119
+  - first:
+      213: 482692884899484979
+    second: clarity_hudatlas_120
+  - first:
+      213: -3238604569936235964
+    second: clarity_hudatlas_121
+  - first:
+      213: -3682261626411141623
+    second: clarity_hudatlas_122
+  - first:
+      213: -1550557601787580811
+    second: clarity_hudatlas_123
+  - first:
+      213: 5150226941348159363
+    second: clarity_hudatlas_124
+  - first:
+      213: -8046370030482079937
+    second: clarity_hudatlas_125
+  - first:
+      213: -5044349177072783928
+    second: clarity_hudatlas_126
+  - first:
+      213: 1826562841798204962
+    second: clarity_hudatlas_127
+  - first:
+      213: 8916945519153447158
+    second: clarity_hudatlas_128
+  - first:
+      213: -6348357427453421984
+    second: clarity_hudatlas_129
+  - first:
+      213: 2658547958409209530
+    second: clarity_hudatlas_130
+  - first:
+      213: -519980187062840911
+    second: clarity_hudatlas_131
+  - first:
+      213: -703168122422157670
+    second: clarity_hudatlas_132
+  - first:
+      213: -8479445233590890906
+    second: clarity_hudatlas_133
+  - first:
+      213: 1019280686395264045
+    second: clarity_hudatlas_134
+  - first:
+      213: -2327527219914083287
+    second: clarity_hudatlas_135
+  - first:
+      213: -5323371857420256684
+    second: clarity_hudatlas_136
+  - first:
+      213: -8103340424609070458
+    second: clarity_hudatlas_137
+  - first:
+      213: -7591509076653405494
+    second: clarity_hudatlas_138
+  - first:
+      213: -2819003565984598808
+    second: clarity_hudatlas_139
+  - first:
+      213: 6193215707420087715
+    second: clarity_hudatlas_140
+  - first:
+      213: -7171932250864585949
+    second: clarity_hudatlas_141
+  - first:
+      213: -5599980568084134628
+    second: clarity_hudatlas_142
+  - first:
+      213: -767882309566078657
+    second: clarity_hudatlas_143
+  - first:
+      213: 3944648412996988774
+    second: clarity_hudatlas_144
+  - first:
+      213: -4287368152812137820
+    second: clarity_hudatlas_145
+  - first:
+      213: -5407120235931113411
+    second: clarity_hudatlas_146
+  - first:
+      213: 3304310162556773806
+    second: clarity_hudatlas_147
+  - first:
+      213: -505592822906375962
+    second: clarity_hudatlas_148
+  - first:
+      213: -788159719091615158
+    second: clarity_hudatlas_149
+  - first:
+      213: -454155712970473327
+    second: clarity_hudatlas_150
+  - first:
+      213: 3142686098449480335
+    second: clarity_hudatlas_151
+  - first:
+      213: 4466650695498650352
+    second: clarity_hudatlas_152
+  - first:
+      213: 5005768358767152874
+    second: clarity_hudatlas_153
+  - first:
+      213: 5126900005518080939
+    second: clarity_hudatlas_154
+  - first:
+      213: -4206404524678825559
+    second: clarity_hudatlas_155
+  - first:
+      213: 7949240112157065733
+    second: clarity_hudatlas_156
+  - first:
+      213: -2658907280190898855
+    second: clarity_hudatlas_157
+  - first:
+      213: 6113583547934892722
+    second: clarity_hudatlas_158
+  - first:
+      213: 8422085385672072694
+    second: clarity_hudatlas_159
+  - first:
+      213: 2224096393233684484
+    second: clarity_hudatlas_160
+  - first:
+      213: -5267295316915123652
+    second: clarity_hudatlas_161
+  - first:
+      213: -4330408284648788241
+    second: clarity_hudatlas_162
+  - first:
+      213: -5857790205191190325
+    second: clarity_hudatlas_163
+  - first:
+      213: -666403103621272880
+    second: clarity_hudatlas_164
+  - first:
+      213: 6602981060767128656
+    second: clarity_hudatlas_165
+  - first:
+      213: -2465961130185291461
+    second: clarity_hudatlas_166
+  - first:
+      213: -1365458902778678767
+    second: clarity_hudatlas_167
+  - first:
+      213: -257691614473540700
+    second: clarity_hudatlas_168
+  - first:
+      213: 8104365374189785338
+    second: clarity_hudatlas_169
+  - first:
+      213: 8080662379769083959
+    second: clarity_hudatlas_170
+  - first:
+      213: 51248416832740317
+    second: clarity_hudatlas_171
+  - first:
+      213: -3236290836404654462
+    second: clarity_hudatlas_172
+  - first:
+      213: -6760972235343304898
+    second: clarity_hudatlas_173
+  - first:
+      213: -4867730995679736558
+    second: clarity_hudatlas_174
+  - first:
+      213: -7771052708564477229
+    second: clarity_hudatlas_175
+  - first:
+      213: -3007578781414121410
+    second: clarity_hudatlas_176
+  - first:
+      213: 1330398304764107645
+    second: clarity_hudatlas_177
+  - first:
+      213: 3585743638310671289
+    second: clarity_hudatlas_178
+  - first:
+      213: -1575504423837501686
+    second: clarity_hudatlas_179
+  - first:
+      213: 5238372624837569641
+    second: clarity_hudatlas_180
+  - first:
+      213: -282841888904404650
+    second: clarity_hudatlas_181
+  - first:
+      213: -2869035886588906509
+    second: clarity_hudatlas_182
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: clarity_hudatlas_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1006
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58cdf21c6a2d1c4f0800000000000000
+      internalID: -810134844302435195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1006
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb24d6f705b803b0800000000000000
+      internalID: -5545983895296267315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_2
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 940
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0020c4e339e5ec0800000000000000
+      internalID: -3576259158313140050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_3
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1000
+        width: 464
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521ffb431f765f830800000000000000
+      internalID: 4104300921087848741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 985
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b620c62c8616250800000000000000
+      internalID: 5936140968096066384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_5
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 985
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd2bfea6adb02f20800000000000000
+      internalID: 3395922642635271612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_6
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 988
+        width: 71
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9025c5eb7f25b730800000000000000
+      internalID: 4014166852053049502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_7
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 982
+        width: 460
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68072aa3a0a3a3510800000000000000
+      internalID: 1529598839053512838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_8
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 938
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840bfff75ebbc38f0800000000000000
+      internalID: -559365659331415992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_9
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 973
+        width: 69
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34921185e79c8d10800000000000000
+      internalID: 2129243735808185402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_10
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 965
+        width: 461
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa820fd76e415c2f0800000000000000
+      internalID: -953332765931067222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_11
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 953
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608b3e718d4da4100800000000000000
+      internalID: 93120766893340678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 936
+        width: 198
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075f5efa1bc6f7d90800000000000000
+      internalID: -7097834977296517776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_13
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 623
+        width: 323
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac53e0975f1b22a0800000000000000
+      internalID: -6761275954613232465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_14
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 951
+        width: 461
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253fd97f134cfcb80800000000000000
+      internalID: -8372257463371697326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_15
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 930
+        width: 485
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d531018b0bf64e0800000000000000
+      internalID: -1986174606056923829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_16
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 907
+        width: 485
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681a95a02efa90a60800000000000000
+      internalID: 7640831628181873030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_17
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 861
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f47512af0aba970800000000000000
+      internalID: 8767278095768440733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_18
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 884
+        width: 485
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbe69d81eb75c6f0800000000000000
+      internalID: -664989161293943819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_19
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 858
+        width: 210
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578a52de5e47cac60800000000000000
+      internalID: 7830762382965450869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_20
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 858
+        width: 210
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670c39593e1712430800000000000000
+      internalID: 3756408786484707446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_21
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 835
+        width: 12
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be6f2eb127d4d100800000000000000
+      internalID: 131966829025259184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_22
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 844
+        width: 13
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c396ae5581324b890800000000000000
+      internalID: -7443285696708974276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_23
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 862
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8305399d8f3af3a20800000000000000
+      internalID: 3044332162323271736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_24
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 861
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589671c1743cf6570800000000000000
+      internalID: 8462196935033842053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_25
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 841
+        width: 152
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583984949b51cd6e0800000000000000
+      internalID: -1811549064567155835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_26
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 841
+        width: 152
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b6fc2c35f76f0c0800000000000000
+      internalID: -4542303176429180060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_27
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 833
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ab03b23b76b5e30800000000000000
+      internalID: 4493299072453622391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_28
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 832
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d66894fd0856500800000000000000
+      internalID: 388858639337024850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_29
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 831
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75ce83e0d12068e0800000000000000
+      internalID: -1702323478091348614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_30
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 831
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab11d6c7820e67d0800000000000000
+      internalID: -2923396325937439825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_31
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 833
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d63ced1194859d0800000000000000
+      internalID: -2785396028428030578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_32
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 832
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c421d265f39397530800000000000000
+      internalID: 3853173900383687244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_33
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 740
+        width: 85
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e816ba0ab5880150800000000000000
+      internalID: 5839063950975965412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_34
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 782
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cab87b7eae6c1db0800000000000000
+      internalID: -4819855805518398775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_35
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 771
+        width: 234
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096c1cc54faf93ca0800000000000000
+      internalID: -6036517898078271856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_36
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 769
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e03a2d74b3fdcbe0800000000000000
+      internalID: -1455239148051222300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_37
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 804
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45a93560037a8090800000000000000
+      internalID: -8031480539926387381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_38
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 804
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9e4df480161f3e0800000000000000
+      internalID: -2021728069385655847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_39
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 769
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3c72f160621fc40800000000000000
+      internalID: 5544254424004150231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_40
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 805
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648b5e00ba8543760800000000000000
+      internalID: 7436666376173238342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_41
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 806
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14189e3c5ae4d5220800000000000000
+      internalID: 2476221843987071297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_42
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 804
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8cae457a15c67bb0800000000000000
+      internalID: -4938543223937258357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_43
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 804
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900f12e2f37a4f8a0800000000000000
+      internalID: -6272204491221503991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_44
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 806
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f6132dcff3b0a80800000000000000
+      internalID: -8499629516640915568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_45
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 805
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a60daaa6b6bc910800000000000000
+      internalID: 1858697377096952453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_46
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 777
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37be744fe8940950800000000000000
+      internalID: 6414419922696189756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_47
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 777
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36b15c36beaba7e0800000000000000
+      internalID: -1753115532211407300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_48
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 776
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ede5b7cd0fe53f0800000000000000
+      internalID: -910025244928975281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_49
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 777
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e8eae159ae96c70800000000000000
+      internalID: 8964954459443465841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_50
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 777
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ba805c991ec7f60800000000000000
+      internalID: 8033543885874047864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_51
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 790
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1263db573f31abe0800000000000000
+      internalID: -1467822496549740002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_52
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 776
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3811f49b8438be3e0800000000000000
+      internalID: -2023379259203055229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_53
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 778
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105c91d6416555d20800000000000000
+      internalID: 3266611750456902913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_54
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 771
+        width: 35
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391420498cabda170800000000000000
+      internalID: 8191408667896201619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_55
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 763
+        width: 35
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f529f5720fa344db0800000000000000
+      internalID: -4808653698997710241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_56
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 756
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29a34b33ee961670800000000000000
+      internalID: 8509163244752185643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_57
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 757
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8254edc2a3e7f8160800000000000000
+      internalID: 7029976331674600744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_58
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 755
+        width: 35
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666b75a03d61233d0800000000000000
+      internalID: -3228492887203793306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_59
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 706
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753304c837e756e10800000000000000
+      internalID: 2190295828524970839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_60
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 688
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5a4ca2212843980800000000000000
+      internalID: -8560073977185917517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_61
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 747
+        width: 35
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fda8abe2b493bf10800000000000000
+      internalID: 2284332932185763319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_62
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 723
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2dc29ceb17652b0800000000000000
+      internalID: -5596160422728379677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_63
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 723
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cdce9d5f96ae2500800000000000000
+      internalID: 373419022519029191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_64
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 723
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd41f81bf65b3f530800000000000000
+      internalID: 3887650394675811549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_65
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 723
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cc37e32d10b72d0800000000000000
+      internalID: -3280025901106738059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_66
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 723
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73ce7976eb24cf10800000000000000
+      internalID: 2289002779491877758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_67
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 723
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc08c3bbce9c4e720800000000000000
+      internalID: 2874644480759988428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_68
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 723
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78dcd01d604c607f0800000000000000
+      internalID: -646613962924896889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_69
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 731
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4f41929c58b3830800000000000000
+      internalID: 4051979388774053064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_70
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 736
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a19cb4a6e5ddc610800000000000000
+      internalID: 1643204625643114916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_71
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 736
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ceea292f26282790800000000000000
+      internalID: -7554746390918009147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_72
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 744
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f379d034a1a8b00800000000000000
+      internalID: 831505956496424793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_73
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 724
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b736749b04508700800000000000000
+      internalID: 540524363996608432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_74
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 739
+        width: 35
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: defaee4778c6ef790800000000000000
+      internalID: -7494433400859742227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_75
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 732
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e249568f8eef003e0800000000000000
+      internalID: -2089389950546635730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_76
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 676
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29648ef8cf8ce02d0800000000000000
+      internalID: -3310487688999057774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_77
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 720
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4404ea68e92a0f100800000000000000
+      internalID: 139790390196584516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_78
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 729
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408d3b5d23d59f0e0800000000000000
+      internalID: -2235653267097659388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_79
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 721
+        width: 35
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87e17d88c055cdf0800000000000000
+      internalID: -160633389405050994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_80
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 697
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c3dc5ca8a7256f0800000000000000
+      internalID: -697360255846368109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_81
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 703
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac045ddc1a5e1b40800000000000000
+      internalID: 5412862882164772014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_82
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 702
+        width: 37
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0558f881e5ccab0800000000000000
+      internalID: -4986507227825876831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_83
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 686
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fe4bd7f74bccf20800000000000000
+      internalID: 3444326274694442794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_84
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 686
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c566538041792260800000000000000
+      internalID: 7073309211657397698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_85
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 686
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275e300583a86cb40800000000000000
+      internalID: 5460203572698539378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_86
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 686
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205504efb5f296de0800000000000000
+      internalID: -1339487342011853566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_87
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 686
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923f48993ba2b47f0800000000000000
+      internalID: -627360772224912599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_88
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 686
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa5d798ad32e14c0800000000000000
+      internalID: -4314971971457819920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_89
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 686
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8d6e4d8ba3a76d0800000000000000
+      internalID: -2992014436913981217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_90
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 689
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff6c7ba8581e90d0800000000000000
+      internalID: -3414264698387009549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_91
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 699
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e8ab310fee17430800000000000000
+      internalID: 3779064277231111813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_92
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 675
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c15e183aafc98b0800000000000000
+      internalID: -5143961094198060028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_93
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 666
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a4859e4d6d013b0800000000000000
+      internalID: -5543694931356792238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_94
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 666
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd21269f963ed58a0800000000000000
+      internalID: -6314641058208541987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_95
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 664
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e37342b074c92350800000000000000
+      internalID: 5992536767499301864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_96
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 671
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d181b260ce289e0800000000000000
+      internalID: -1620473404662997651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_97
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 592
+        width: 239
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5539b1802252bb380800000000000000
+      internalID: -8954522606000958635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_98
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 623
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eefeb1c00203ec60800000000000000
+      internalID: 7846117178083311334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_99
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 605
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75262edcffdf45ed0800000000000000
+      internalID: -2426035024133201321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_100
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 604
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd244cd0ac8509c0800000000000000
+      internalID: -3961605674684371492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_101
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 634
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75af44ac15c637b20800000000000000
+      internalID: 3130965264494295639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_102
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 594
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80e22ba389e7a200800000000000000
+      internalID: 191378260907712651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_103
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 639
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a572c994216667aa0800000000000000
+      internalID: -6163626811279530150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_104
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 639
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27b2bf51c1f2d8d0800000000000000
+      internalID: -2822928203571349713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_105
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 599
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8599e167cb21350800000000000000
+      internalID: 5986054070234339545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_106
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 599
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: badd219e638fcb8a0800000000000000
+      internalID: -6287878064993804885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_107
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 438
+        width: 254
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd2dc41d6c5039c0800000000000000
+      internalID: -3949555249633743421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_108
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 604
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ba95744c4d27eb0800000000000000
+      internalID: -4723479119682491630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_109
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 608
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04254358daf802c50800000000000000
+      internalID: 6638463826171023936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_110
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 592
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc3f91024bc6b580800000000000000
+      internalID: -8811632136548303695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_111
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 592
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3076161bafd311b10800000000000000
+      internalID: 1950408260555204355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_112
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 435
+        width: 420
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15882dd5d1432d5f0800000000000000
+      internalID: -733466488575195055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_113
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 548
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4ed7ea51b8a2610800000000000000
+      internalID: 1597241943094322373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_114
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 548
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80324d58f3e99f4d0800000000000000
+      internalID: -3100272872802475256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_115
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 548
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4beedf2cf04a4790800000000000000
+      internalID: -7545146773826770100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_116
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 548
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3a41ceac5b2e460800000000000000
+      internalID: 7269572631678198757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_117
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 548
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4991661600dafe700800000000000000
+      internalID: 571865894845028756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_118
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 558
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03abdaf9a72b4280800000000000000
+      internalID: -9058102614513966323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_119
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 548
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28dc457c7bb221450800000000000000
+      internalID: 6057952517089971586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_120
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 543
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335da041f9ed2b600800000000000000
+      internalID: 482692884899484979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_121
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 493
+        width: 299
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4427ef07d4a2e03d0800000000000000
+      internalID: -3238604569936235964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_122
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 455
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90636bb6f8af5ecc0800000000000000
+      internalID: -3682261626411141623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_123
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 455
+        width: 271
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e6bad83105b7ae0800000000000000
+      internalID: -1550557601787580811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_124
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 455
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f14b7bd18497740800000000000000
+      internalID: 5150226941348159363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_125
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 455
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f34c9b61d855090800000000000000
+      internalID: -8046370030482079937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_126
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 455
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cdea89462fdef9b0800000000000000
+      internalID: -5044349177072783928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_127
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 455
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e5f412a31495910800000000000000
+      internalID: 1826562841798204962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_128
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 455
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f007a6a4ba5fbb70800000000000000
+      internalID: 8916945519153447158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_129
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 455
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0661d650e8a16e7a0800000000000000
+      internalID: -6348357427453421984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_130
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 455
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab62257584f05e420800000000000000
+      internalID: 2658547958409209530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_131
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 388
+        width: 198
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1d0eb56c8a8c8f0800000000000000
+      internalID: -519980187062840911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_132
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 388
+        width: 198
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e16a57158dd36f0800000000000000
+      internalID: -703168122422157670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_133
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 388
+        width: 198
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e8f6f6c75f25a80800000000000000
+      internalID: -8479445233590890906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_134
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 418
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c81074266352e00800000000000000
+      internalID: 1019280686395264045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_135
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 418
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924f7f34356f2bfd0800000000000000
+      internalID: -2327527219914083287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_136
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 418
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a772700859f16b0800000000000000
+      internalID: -5323371857420256684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_137
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 372
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6820d1131d62b8f80800000000000000
+      internalID: -8103340424609070458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_138
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 372
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca8be067ba85a690800000000000000
+      internalID: -7591509076653405494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_139
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 418
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4bde44133e0e8d0800000000000000
+      internalID: -2819003565984598808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_140
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 381
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5d4227fd8b2f550800000000000000
+      internalID: 6193215707420087715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_141
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 381
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3237c0acd9d287c90800000000000000
+      internalID: -7171932250864585949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_142
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 381
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c154142e75fd842b0800000000000000
+      internalID: -5599980568084134628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_143
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 381
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31e10d9b1fe755f0800000000000000
+      internalID: -767882309566078657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_144
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 204
+        width: 162
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f6e7cf4d43eb630800000000000000
+      internalID: 3944648412996988774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_145
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 195
+        width: 581
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a25f4661653084c0800000000000000
+      internalID: -4287368152812137820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_146
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 344
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38ef772bcc06f4b0800000000000000
+      internalID: -5407120235931113411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_147
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 243
+        width: 112
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5e8eaf5944bdd20800000000000000
+      internalID: 3304310162556773806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_148
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 344
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0bdad9106cbf8f0800000000000000
+      internalID: -505592822906375962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_149
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 307
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ac54d49e4ef05f0800000000000000
+      internalID: -788159719091615158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_150
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 307
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1904ea709c382b9f0800000000000000
+      internalID: -454155712970473327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_151
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 270
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ab3aa1b501d9b20800000000000000
+      internalID: 3142686098449480335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_152
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 270
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2d2f8642bbcfd30800000000000000
+      internalID: 4466650695498650352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_153
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 233
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeec434fccf087540800000000000000
+      internalID: 5005768358767152874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_154
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 233
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab7adb3468662740800000000000000
+      internalID: 5126900005518080939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_155
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 151
+        width: 459
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a93cec0f59df95c0800000000000000
+      internalID: -4206404524678825559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_156
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 152
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502886fd3cf515e60800000000000000
+      internalID: 7949240112157065733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_157
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 152
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d75898ae9a91bd0800000000000000
+      internalID: -2658907280190898855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_158
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 154
+        width: 125
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2e45f78dfc7d450800000000000000
+      internalID: 6113583547934892722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_159
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 160
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd1ef0490241e470800000000000000
+      internalID: 8422085385672072694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_160
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 161
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408dbe8c2e39dde10800000000000000
+      internalID: 2224096393233684484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_161
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 160
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a023c01dec6e6b0800000000000000
+      internalID: -5267295316915123652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_162
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 96
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feea91dcb9c47e3c0800000000000000
+      internalID: -4330408284648788241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_163
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 136
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc801d228d2f4bea0800000000000000
+      internalID: -5857790205191190325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_164
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 130
+        width: 459
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0daaf6378e570c6f0800000000000000
+      internalID: -666403103621272880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_165
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 130
+        width: 156
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c18a96a4082ab50800000000000000
+      internalID: 6602981060767128656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_166
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 35
+        width: 49
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b398265da6527cdd0800000000000000
+      internalID: -2465961130185291461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_167
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 34
+        width: 47
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1127b78cc5aec0de0800000000000000
+      internalID: -1365458902778678767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_168
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 35
+        width: 47
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab25b987de7c6cf0800000000000000
+      internalID: -257691614473540700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_169
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 108
+        width: 459
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0de8a7e5d787070800000000000000
+      internalID: 8104365374189785338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_170
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 107
+        width: 156
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738bff70f97442070800000000000000
+      internalID: 8080662379769083959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_171
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 7
+        width: 64
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbdd90e92216b000800000000000000
+      internalID: 51248416832740317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_172
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 86
+        width: 459
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28eaf3281a26613d0800000000000000
+      internalID: -3236290836404654462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_173
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 86
+        width: 156
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e376518b2933c22a0800000000000000
+      internalID: -6760972235343304898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_174
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 63
+        width: 459
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21dc9542378527cb0800000000000000
+      internalID: -4867730995679736558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_175
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 63
+        width: 156
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da5d2ffbbca72490800000000000000
+      internalID: -7771052708564477229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_176
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 12
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e302fcb780fe246d0800000000000000
+      internalID: -3007578781414121410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_177
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 5
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b1f3d9536867210800000000000000
+      internalID: 1330398304764107645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_178
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 42
+        width: 459
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3df1947de13c130800000000000000
+      internalID: 3585743638310671289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_179
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 41
+        width: 156
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07fb1be21fa22ae0800000000000000
+      internalID: -1575504423837501686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_180
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1
+        width: 459
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ce290f52072b840800000000000000
+      internalID: 5238372624837569641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_181
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1
+        width: 156
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651a044fcc4231cf0800000000000000
+      internalID: -282841888904404650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_182
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 699
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3350cdf032f28d0800000000000000
+      internalID: -2869035886588906509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 4238642d98542934eb114d3e5575019f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

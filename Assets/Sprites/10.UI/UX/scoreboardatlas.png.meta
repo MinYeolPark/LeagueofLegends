@@ -1,0 +1,840 @@
+fileFormatVersion: 2
+guid: 6e9875ed6ca284e4f8b3169276ace717
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 791907271424692037
+    second: scoreboardatlas_0
+  - first:
+      213: -584176987947761343
+    second: scoreboardatlas_1
+  - first:
+      213: 37795481142063922
+    second: scoreboardatlas_2
+  - first:
+      213: 6734500763765179904
+    second: scoreboardatlas_3
+  - first:
+      213: 5157395893784001139
+    second: scoreboardatlas_4
+  - first:
+      213: 7714313155319012043
+    second: scoreboardatlas_5
+  - first:
+      213: 8097678140789411370
+    second: scoreboardatlas_6
+  - first:
+      213: -6869743180426585346
+    second: scoreboardatlas_7
+  - first:
+      213: -7634445403501622743
+    second: scoreboardatlas_8
+  - first:
+      213: -7116446461302945800
+    second: scoreboardatlas_9
+  - first:
+      213: 5988110435462833577
+    second: scoreboardatlas_10
+  - first:
+      213: -2959374476680504962
+    second: scoreboardatlas_11
+  - first:
+      213: -2643156028303933132
+    second: scoreboardatlas_12
+  - first:
+      213: -3788948554555146590
+    second: scoreboardatlas_13
+  - first:
+      213: -5507196428267267856
+    second: scoreboardatlas_14
+  - first:
+      213: -5669485968837128956
+    second: scoreboardatlas_15
+  - first:
+      213: -1523008587993378114
+    second: scoreboardatlas_16
+  - first:
+      213: 2000967897620121680
+    second: scoreboardatlas_17
+  - first:
+      213: 4235570615655284798
+    second: scoreboardatlas_18
+  - first:
+      213: 3805087564064437274
+    second: scoreboardatlas_19
+  - first:
+      213: 8601668490508563222
+    second: scoreboardatlas_20
+  - first:
+      213: 3671556473781090976
+    second: scoreboardatlas_21
+  - first:
+      213: -4920341016471016572
+    second: scoreboardatlas_22
+  - first:
+      213: 6340829416107579008
+    second: scoreboardatlas_23
+  - first:
+      213: 5069595391271422107
+    second: scoreboardatlas_24
+  - first:
+      213: 5802281813181667486
+    second: scoreboardatlas_25
+  - first:
+      213: 9026090045532216822
+    second: scoreboardatlas_26
+  - first:
+      213: 395740909623502092
+    second: scoreboardatlas_27
+  - first:
+      213: -6843561463623310709
+    second: scoreboardatlas_28
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: scoreboardatlas_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 35
+        width: 1124
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f4158b77b6dfa00800000000000000
+      internalID: 791907271424692037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scoreboardatlas_1
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 415
+        width: 163
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1418a63ef1694e7f0800000000000000
+      internalID: -584176987947761343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scoreboardatlas_2
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 425
+        width: 109
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23376933ac6468000800000000000000
+      internalID: 37795481142063922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scoreboardatlas_3
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 302
+        width: 532
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00602d383c0c57d50800000000000000
+      internalID: 6734500763765179904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scoreboardatlas_4
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 215
+        width: 123
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37abd078d30c29740800000000000000
+      internalID: 5157395893784001139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scoreboardatlas_5
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 215
+        width: 98
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca99ec41febe0b60800000000000000
+      internalID: 7714313155319012043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scoreboardatlas_6
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 215
+        width: 98
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ec23f9d5bb06070800000000000000
+      internalID: 8097678140789411370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scoreboardatlas_7
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 252
+        width: 51
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efad28099f4c9a0a0800000000000000
+      internalID: -6869743180426585346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scoreboardatlas_8
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 202
+        width: 34
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a0c23ca500d0690800000000000000
+      internalID: -7634445403501622743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scoreboardatlas_9
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 202
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7c3f2e5ad4d3d90800000000000000
+      internalID: -7116446461302945800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scoreboardatlas_10
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 202
+        width: 63
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a56295f6ba0a1350800000000000000
+      internalID: 5988110435462833577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scoreboardatlas_11
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 171
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79d918c7903ee6d0800000000000000
+      internalID: -2959374476680504962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scoreboardatlas_12
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 196
+        width: 518
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4310307a89f915bd0800000000000000
+      internalID: -2643156028303933132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scoreboardatlas_13
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 120
+        width: 516
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aeb2854d53fa6bc0800000000000000
+      internalID: -3788948554555146590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scoreboardatlas_14
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 122
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f854d0e6028293b0800000000000000
+      internalID: -5507196428267267856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scoreboardatlas_15
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 147
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40dc660bc80f151b0800000000000000
+      internalID: -5669485968837128956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scoreboardatlas_16
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 112
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb219ca22cf2ddae0800000000000000
+      internalID: -1523008587993378114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scoreboardatlas_17
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 31
+        width: 324
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0588b9883bdd4cb10800000000000000
+      internalID: 2000967897620121680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scoreboardatlas_18
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 47
+        width: 64
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30473fa805c7ca30800000000000000
+      internalID: 4235570615655284798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scoreboardatlas_19
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 47
+        width: 64
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a143153baf26ec430800000000000000
+      internalID: 3805087564064437274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scoreboardatlas_20
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 47
+        width: 64
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613fe642be34f5770800000000000000
+      internalID: 8601668490508563222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scoreboardatlas_21
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aaf180092df3f230800000000000000
+      internalID: 3671556473781090976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scoreboardatlas_22
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 64
+        width: 45
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48be5732aef67bbb0800000000000000
+      internalID: -4920341016471016572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scoreboardatlas_23
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 19
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086907042c62ff750800000000000000
+      internalID: 6340829416107579008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scoreboardatlas_24
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 19
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98c0b30622da5640800000000000000
+      internalID: 5069595391271422107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scoreboardatlas_25
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 19
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9817693198d58050800000000000000
+      internalID: 5802281813181667486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scoreboardatlas_26
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 12
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd13aaf21d134d70800000000000000
+      internalID: 9026090045532216822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scoreboardatlas_27
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 12
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05e235b244fd7500800000000000000
+      internalID: 395740909623502092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scoreboardatlas_28
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 14
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b822e2a8b19c601a0800000000000000
+      internalID: -6843561463623310709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 461aac81f0c7b3649b2a1a492402c982
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

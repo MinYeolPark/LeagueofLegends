@@ -1,0 +1,1152 @@
+fileFormatVersion: 2
+guid: 0bb2bb2ea3de9cc469250dc5f7ebef28
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5967813836858352116
+    second: AnyConv.com__optionsmenuatlas_0
+  - first:
+      213: 1966647457213139116
+    second: AnyConv.com__optionsmenuatlas_1
+  - first:
+      213: 8030087416712539995
+    second: AnyConv.com__optionsmenuatlas_2
+  - first:
+      213: 6745843755091243788
+    second: AnyConv.com__optionsmenuatlas_3
+  - first:
+      213: -4643165043246359825
+    second: AnyConv.com__optionsmenuatlas_4
+  - first:
+      213: -5275292758323993110
+    second: AnyConv.com__optionsmenuatlas_5
+  - first:
+      213: 9150068347899709346
+    second: AnyConv.com__optionsmenuatlas_6
+  - first:
+      213: 1157488993109654586
+    second: AnyConv.com__optionsmenuatlas_7
+  - first:
+      213: -8981424744982984073
+    second: AnyConv.com__optionsmenuatlas_8
+  - first:
+      213: 5126812938642288255
+    second: AnyConv.com__optionsmenuatlas_9
+  - first:
+      213: 7008652507085544031
+    second: AnyConv.com__optionsmenuatlas_10
+  - first:
+      213: 1649573166361822646
+    second: AnyConv.com__optionsmenuatlas_11
+  - first:
+      213: -5957557992676610747
+    second: AnyConv.com__optionsmenuatlas_12
+  - first:
+      213: 7594671366865386138
+    second: AnyConv.com__optionsmenuatlas_13
+  - first:
+      213: -1248339546516218217
+    second: AnyConv.com__optionsmenuatlas_14
+  - first:
+      213: -1920890491552487934
+    second: AnyConv.com__optionsmenuatlas_15
+  - first:
+      213: -7212127564271123417
+    second: AnyConv.com__optionsmenuatlas_16
+  - first:
+      213: 7209904039198622522
+    second: AnyConv.com__optionsmenuatlas_17
+  - first:
+      213: 5318965747638152810
+    second: AnyConv.com__optionsmenuatlas_18
+  - first:
+      213: -3371045828083777756
+    second: AnyConv.com__optionsmenuatlas_19
+  - first:
+      213: 689394163125756535
+    second: AnyConv.com__optionsmenuatlas_20
+  - first:
+      213: -7968177779185262061
+    second: AnyConv.com__optionsmenuatlas_21
+  - first:
+      213: 1238958942219355063
+    second: AnyConv.com__optionsmenuatlas_22
+  - first:
+      213: 1781166610675474454
+    second: AnyConv.com__optionsmenuatlas_23
+  - first:
+      213: -8553134828537977136
+    second: AnyConv.com__optionsmenuatlas_24
+  - first:
+      213: 2960703541759490467
+    second: AnyConv.com__optionsmenuatlas_25
+  - first:
+      213: -4376132682865893347
+    second: AnyConv.com__optionsmenuatlas_26
+  - first:
+      213: -2688882846664609211
+    second: AnyConv.com__optionsmenuatlas_27
+  - first:
+      213: 9024385383983631008
+    second: AnyConv.com__optionsmenuatlas_28
+  - first:
+      213: -4969497124011649025
+    second: AnyConv.com__optionsmenuatlas_29
+  - first:
+      213: 6458320248099177927
+    second: AnyConv.com__optionsmenuatlas_30
+  - first:
+      213: -3097068526771963938
+    second: AnyConv.com__optionsmenuatlas_31
+  - first:
+      213: 3834962963044310994
+    second: AnyConv.com__optionsmenuatlas_32
+  - first:
+      213: -6580588336809964965
+    second: AnyConv.com__optionsmenuatlas_33
+  - first:
+      213: -4262319820005178345
+    second: AnyConv.com__optionsmenuatlas_34
+  - first:
+      213: -618572292642118949
+    second: AnyConv.com__optionsmenuatlas_35
+  - first:
+      213: 4405468238198072860
+    second: AnyConv.com__optionsmenuatlas_36
+  - first:
+      213: 8994252252087755382
+    second: AnyConv.com__optionsmenuatlas_37
+  - first:
+      213: 1804501861989246178
+    second: AnyConv.com__optionsmenuatlas_38
+  - first:
+      213: 5814312725948094583
+    second: AnyConv.com__optionsmenuatlas_39
+  - first:
+      213: -582231192553473537
+    second: AnyConv.com__optionsmenuatlas_40
+  - first:
+      213: 175627030575132118
+    second: AnyConv.com__optionsmenuatlas_41
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 346
+        width: 938
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 220, y: 81, z: 36, w: 78}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f16a97d01fe1d250800000000000000
+      internalID: 5967813836858352116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 184
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca84d9d417fea4b10800000000000000
+      internalID: 1966647457213139116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_2
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 320
+        width: 589
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f2c74d5f9907f60800000000000000
+      internalID: 8030087416712539995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_3
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 322
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03308c772d0e9d50800000000000000
+      internalID: 6745843755091243788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_4
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 322
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea1ac36ef9209fb0800000000000000
+      internalID: -4643165043246359825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_5
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 322
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae568ed9f256ac6b0800000000000000
+      internalID: -5275292758323993110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_6
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 276
+        width: 160
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a78b1beea29bfe70800000000000000
+      internalID: 9150068347899709346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_7
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 287
+        width: 236
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3cb9b94b1a301010800000000000000
+      internalID: 1157488993109654586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_8
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 214
+        width: 216
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ac262b7c19b5380800000000000000
+      internalID: -8981424744982984073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 254
+        width: 236
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e66a56439162740800000000000000
+      internalID: 5126812938642288255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 222
+        width: 236
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a1cfe525cb34160800000000000000
+      internalID: 7008652507085544031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_11
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 208
+        width: 236
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b543041e0674e610800000000000000
+      internalID: 1649573166361822646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_12
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 79
+        width: 216
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54da8b5f190825da0800000000000000
+      internalID: -5957557992676610747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_13
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 176
+        width: 231
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a77dfae51b56960800000000000000
+      internalID: 7594671366865386138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 69
+        width: 338
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e14d2ebc10daee0800000000000000
+      internalID: -1248339546516218217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_15
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 68
+        width: 167
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206a6967640a755e0800000000000000
+      internalID: -1920890491552487934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 144
+        width: 231
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72401d8113069eb90800000000000000
+      internalID: -7212127564271123417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_17
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 136
+        width: 2
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3386112689be0460800000000000000
+      internalID: 7209904039198622522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e21789a23c0d940800000000000000
+      internalID: 5318965747638152810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 44
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ff08f0ea3a731d0800000000000000
+      internalID: -3371045828083777756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 44
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772a65bb658319900800000000000000
+      internalID: 689394163125756535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 44
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312608ce6885b6190800000000000000
+      internalID: -7968177779185262061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 24
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3474af79aa13110800000000000000
+      internalID: 1238958942219355063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_23
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 114
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610291b6899f7b810800000000000000
+      internalID: 1781166610675474454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_24
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 114
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6e8fc90392d4980800000000000000
+      internalID: -8553134828537977136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_25
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 114
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9b0db4f28861920800000000000000
+      internalID: 2960703541759490467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_26
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 114
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d102dcbb28ad443c0800000000000000
+      internalID: -4376132682865893347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_27
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 464
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5423ae91c4b2faad0800000000000000
+      internalID: -2688882846664609211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_28
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 464
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa429881be0d3d70800000000000000
+      internalID: 9024385383983631008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_29
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 465
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7d5faf1bcc80bb0800000000000000
+      internalID: -4969497124011649025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_30
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 465
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c50aa94c0090a950800000000000000
+      internalID: 6458320248099177927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_31
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 436
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7f6b875900505d0800000000000000
+      internalID: -3097068526771963938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_32
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 436
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df19031f76883530800000000000000
+      internalID: 3834962963044310994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_33
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 436
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a0d5be5cd0da4a0800000000000000
+      internalID: -6580588336809964965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_34
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7140c79d4b239d4c0800000000000000
+      internalID: -4262319820005178345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_35
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 235
+        width: 160
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2ea25f6c36a67f0800000000000000
+      internalID: -618572292642118949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_36
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 195
+        width: 160
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16ef0f750e532d30800000000000000
+      internalID: 4405468238198072860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_37
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 156
+        width: 160
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672a2f905c002dc70800000000000000
+      internalID: 8994252252087755382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_38
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 156
+        width: 160
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4666002e0ea0910800000000000000
+      internalID: 1804501861989246178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_39
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 195
+        width: 160
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7785b236e9690b050800000000000000
+      internalID: 5814312725948094583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_40
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 235
+        width: 160
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9b2bea0df7be7f0800000000000000
+      internalID: -582231192553473537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnyConv.com__optionsmenuatlas_41
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 276
+        width: 160
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd23629ad3ff6200800000000000000
+      internalID: 175627030575132118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d8d9bca3e83c1594f8cf2bdc296fd1c7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
