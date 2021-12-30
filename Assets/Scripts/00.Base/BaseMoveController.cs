@@ -6,7 +6,6 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(NavMeshAgent))]
 public class BaseMoveController : MonoBehaviour
 {
-    [SerializeField] private CinemachineVirtualCamera localCamera;
 
     private Animator anim;
     private NavMeshAgent agent;
@@ -14,7 +13,7 @@ public class BaseMoveController : MonoBehaviour
     float motionSmoothTime = .1f;
     public float rotateSpeedMovement = 0.1f;
     public float rotateVelocity;
-
+    
     private void Awake()
     {
         agent = GetComponent<NavMeshAgent>();

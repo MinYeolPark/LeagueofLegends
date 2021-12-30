@@ -10,11 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8b3e7eed0096b9b498e554780b210082, type: 3}
-  m_Name: Charm
+  m_Name: W_Skill
   m_EditorClassIdentifier: 
   coolDownTime: 0
   activeTime: 0
-  Icon: {fileID: 21300000, guid: 0a7533d89570473478898558ca7ebaa8, type: 3}
-  RangeIndicator: {fileID: 6055679168710634044, guid: 10d414ad6c4a547498354c45568513ef, type: 3}
-  DisplayedName: Charming
-  Description: Charm other units
+  cost: 40
+  range: 700
+  Icon: {fileID: 21300000, guid: 6fc154bba67491043aaa8cc93add56fe, type: 3}
+  RangeIndicator: {fileID: 0}
+  DisplayedName: Fox-Fire
+  Description: Fox-Fire

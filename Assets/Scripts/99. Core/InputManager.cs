@@ -24,11 +24,11 @@ public class InputManager : MonoBehaviour
 
                 
             }
-            else
-            {
-                units.OnHoverExit();
-                return;
-            }
+            //else
+            //{
+            //    units.OnHoverExit();
+            //    return;
+            //}
         }
     }
 }

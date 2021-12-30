@@ -21,6 +21,9 @@ public class LeagueAbilityData : ScriptableObject
     public float coolDownTime;
     public float activeTime;
 
+    public float cost;
+    public float range;
+
     [Tooltip("If this Action describes a player ability, this is the ability's iconic representation")]
     public Sprite Icon;
 
