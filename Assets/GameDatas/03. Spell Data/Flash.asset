@@ -20,9 +20,12 @@ MonoBehaviour:
   coolDownTime: 1
   cost: 0
   range: 0
+  durationVFX: 1.5
   canMove: 0
   icon: {fileID: 21300000, guid: 2724effeb615c964893a2aebf66f121f, type: 3}
   rangeIndicator: {fileID: 0}
   characterSound: {fileID: 0}
   skillSounds: []
   description: 
+  startVFX: {fileID: 8192386618480028540, guid: 670609e1e8b18194c908f6a1a75c276c, type: 3}
+  endVFX: {fileID: 0}

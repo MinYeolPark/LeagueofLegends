@@ -8,12 +8,10 @@ public class OrbOfDeception : LeagueAbilityData
     public override IEnumerator Initialize(GameObject obj)
     {
         yield return null;
-        Debug.Log("OrbOfDeception Init");
     }
     public override IEnumerator TriggerAbility(GameObject obj)
     {
         yield return null;
 
-        Debug.Log("OrbOfDeception Activate");
     }
 }

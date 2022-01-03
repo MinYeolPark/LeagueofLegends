@@ -24,8 +24,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5523918e8c71e424dba0007182f33a3d, type: 2}
   - {fileID: 11400000, guid: 5df075d50fef8dd44851079565479ce3, type: 2}
   objType: 0
-  attackType: 1
   category: 3
+  attackType: 1
+  projectile: {fileID: 1466745915212507218, guid: 37b47f9f0e369aa44a696925c3356d7c, type: 3}
   maxHealth: 526
   health: 526
   healthRegen: 5.5

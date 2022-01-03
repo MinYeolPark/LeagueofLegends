@@ -5,40 +5,12 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "NewSkill", menuName = "League of Legends/LeagueAbility Data/Flash")]
 public class Flash : LeagueAbilityData
 {
+    public GameObject startVFX;
+    public GameObject endVFX;
+
     #region SUMMONER'S SPELL
     Vector3 dashTarget;
     float dashRadius = 3f;
-    //void Activate()
-    //{
-    //    Plane plane = new Plane(Vector3.up, transform.position);
-    //    Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-
-    //    float point = 0f;
-    //    if (plane.Raycast(ray, out point))
-    //    {
-    //        dashTarget = ray.GetPoint(point);
-    //    }
-    //    Invoke("Flash_Dash", 0.05f);
-    //}
-
-    //void Flash_Dash()
-    //{
-    //    Debug.Log("Flash!!");
-    //    if (Vector3.Distance(transform.position, dashTarget) <= dashRadius)
-    //    {
-    //        transform.position = Vector3.Lerp(transform.position, dashTarget, 1f);
-    //    }
-    //    else if (Vector3.Distance(transform.position, dashTarget) > dashRadius)
-    //    {
-    //        Vector3 dir = dashTarget - transform.position;
-
-    //        dir.Normalize();
-    //        dashTarget = transform.position + dashRadius * dir;
-
-    //        transform.position = Vector3.Lerp(transform.position, dashTarget, 1f);
-    //    }
-    //}
-
     #endregion
     //private List<GameEventListener> listeners =
     //    new List<GameEventListener>();
@@ -58,7 +30,6 @@ public class Flash : LeagueAbilityData
     public override IEnumerator Initialize(GameObject obj)
     {
         yield return null;
-        Debug.Log("Flash Init");
     }
     public override IEnumerator TriggerAbility(GameObject obj)
     {
@@ -70,13 +41,16 @@ public class Flash : LeagueAbilityData
         {
             dashTarget = ray.GetPoint(point);
         }
+        //VFX Instantiate
+        var vfx=Instantiate(startVFX, obj.transform.position, obj.transform.rotation);
+
         yield return new WaitForSeconds(0.05f);
 
-        Debug.Log("Flash!!");
         if (Vector3.Distance(obj.transform.position, dashTarget) <= dashRadius)
         {
             obj.transform.position = Vector3.Lerp(obj.transform.position, dashTarget, 1f);
         }
+
         else if (Vector3.Distance(obj.transform.position, dashTarget) > dashRadius)
         {
             Vector3 dir = dashTarget - obj.transform.position;
@@ -85,6 +59,13 @@ public class Flash : LeagueAbilityData
             dashTarget = obj.transform.position + dashRadius * dir;
 
             obj.transform.position = Vector3.Lerp(obj.transform.position, dashTarget, 1f);
+
+        }
+
+
+        if(vfx!=null)
+        {
+            Destroy(vfx,durationVFX);
         }
     }
 }

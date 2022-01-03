@@ -37,7 +37,7 @@ public class BaseChampController : BaseUnits
 
     private void OnEnable()
     {
-        inputManager.Enable();       
+        inputManager.Enable();
     }
     private void OnDisable()
     {
@@ -49,10 +49,10 @@ public class BaseChampController : BaseUnits
         anim.SetFloat("Speed", speed, motionSmoothTime, Time.deltaTime);     
     }
 
-    protected override IEnumerator RangeAttack()
-    {
-        yield return null;
-    }
+    //protected override IEnumerator RangeAttack()
+    //{
+    //    yield return null;
+    //}
 
     protected virtual void OnPassive() { }
     protected virtual void OnAbility1(InputValue value) 
@@ -142,8 +142,10 @@ public class BaseChampController : BaseUnits
             }
         }
     }
-    public override IEnumerator StartAttack()
+    protected override IEnumerator StartAttack()
     {
+        state = States.Attacking;
+
         anim.SetBool("BaseAttack", true);
 
         yield return new WaitForSeconds(stats.attackRange / ((100 + stats.attackSpeed) * 0.01f));
@@ -154,6 +156,27 @@ public class BaseChampController : BaseUnits
             target = null;
         }
     }
+
+    protected override IEnumerator RangeAttack()
+    {
+        yield return null;
+        if (localData.attackType == LeagueObjectData.AttackType.Range && state == States.Attacking)
+        {
+            if (rangedProjectile!=null)
+            {
+                Debug.Log("Instantiate bullet prefab");
+                
+                GameObject bullet = Instantiate(rangedProjectile, transform.position, transform.rotation);
+                RangedProjectile projectile = bullet.GetComponent<RangedProjectile>();
+                Debug.Log($"bullet={bullet}, projectile={projectile}");
+                if(projectile!=null)
+                {
+                    projectile.Seek(target);
+                }
+            }
+        }
+    }
+
 
     protected virtual void OnAttack(InputValue value)
     {

@@ -8,7 +8,7 @@ public class BaseUnits : MonoBehaviour, IClickable
 {
     [Tooltip("Access to Audio Clips, Stats, UI components")]
     public LeagueObjectData localData;
-
+    
     public Animator anim;
     protected NavMeshAgent agent;
     
@@ -20,10 +20,12 @@ public class BaseUnits : MonoBehaviour, IClickable
     protected Vector3 hitPoint;
     protected Vector3 hitNormal;
     protected ParticleSystem hitEffect;
-
+    protected GameObject basePrjoectile;
 
     protected bool canMove = true;
     protected bool CanMove { get { return canMove; } set { canMove = value; } }
+
+    protected GameObject rangedProjectile;
 
     protected States state { get; set; }
     protected enum States
@@ -77,8 +79,13 @@ public class BaseUnits : MonoBehaviour, IClickable
         agent = GetComponent<NavMeshAgent>(); //will be disabled until Activate is called
         stats = GetComponent<BaseStats>();
         stats.SetStats();
+
+        if(localData.attackType==LeagueObjectData.AttackType.Range)
+        {
+            rangedProjectile = localData.projectile;
+        }
     }
-    public virtual IEnumerator StartAttack()
+    protected virtual IEnumerator StartAttack()
     {
         state = States.Attacking;
         yield return null;
@@ -99,6 +106,7 @@ public class BaseUnits : MonoBehaviour, IClickable
     protected virtual IEnumerator RangeAttack()
     {
         Debug.Log("RangeAttack Coroutine");
+        
         yield return null;
     }
 
@@ -110,6 +118,7 @@ public class BaseUnits : MonoBehaviour, IClickable
     //계속해서 데미지를 주는 주체, 데미지를 받아온다
     public virtual void OnDamage(BaseUnits unit, float damage, Vector3 hitPoint, Vector3 hitNormal)
     {
+        Debug.Log("OnDamage");
         state = States.Damaged;
 
         stats.health -= damage;

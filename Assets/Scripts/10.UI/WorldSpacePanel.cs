@@ -24,7 +24,7 @@ public class WorldSpacePanel : MonoBehaviour {
     }
 
     void doProjection(Camera cam) 
-    {
+    {   
         var targetCamera = (CameraToFace != null) ? CameraToFace : Camera.main;
 
         if (cam != targetCamera) 
@@ -39,5 +39,11 @@ public class WorldSpacePanel : MonoBehaviour {
                 transform.position = offset;
             transform.rotation = Quaternion.LookRotation(cam.transform.forward, cam.transform.up);
         }
+    }
+
+    private void LateUpdate()
+    {
+        transform.LookAt(Camera.main.transform);
+        transform.Rotate(0, 180, 0);
     }
 }

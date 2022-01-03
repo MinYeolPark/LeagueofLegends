@@ -37,8 +37,8 @@ public abstract class LeagueAbilityData : ScriptableObject
     public float coolDownTime;
     public float cost;
     public float range;
+    public float durationVFX;
     public bool canMove;
-
 
     public Sprite icon;
     public GameObject rangeIndicator;

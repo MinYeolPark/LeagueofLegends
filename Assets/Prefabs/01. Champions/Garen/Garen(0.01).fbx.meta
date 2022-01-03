@@ -1,0 +1,200 @@
+fileFormatVersion: 2
+guid: 5d3c75353cf34144babba0637ed0c207
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -9065485007533947783
+    second: model|garen_2013_attack_01_model
+  - first:
+      74: -8297684672034028772
+    second: model|garen_2013_attack_02_model
+  - first:
+      74: 6218589094861467473
+    second: model|garen_2013_channel_model
+  - first:
+      74: 6381999238312112257
+    second: model|garen_2013_channelin_model
+  - first:
+      74: -6021023960236496621
+    second: model|garen_2013_crit_model
+  - first:
+      74: 1522892737476789652
+    second: model|garen_2013_dance_loop_model
+  - first:
+      74: -276312221507752911
+    second: model|garen_2013_dance_model
+  - first:
+      74: -6135149773004236122
+    second: model|garen_2013_death_model
+  - first:
+      74: -6724929377994435950
+    second: model|garen_2013_idle1_model
+  - first:
+      74: 6034621530052596570
+    second: model|garen_2013_idle2_model
+  - first:
+      74: 6898339654188247628
+    second: model|garen_2013_idle3_model
+  - first:
+      74: -3345981318593070047
+    second: model|garen_2013_idle_leadin_model
+  - first:
+      74: -3129009230707926725
+    second: model|garen_2013_joke_loop_model
+  - first:
+      74: -1733673172167290465
+    second: model|garen_2013_joke_model
+  - first:
+      74: 1326978612890444580
+    second: model|garen_2013_laugh_model
+  - first:
+      74: 6744960841271054058
+    second: model|garen_2013_recall_leadout_model
+  - first:
+      74: -2188917549860817914
+    second: model|garen_2013_recall_loop_model
+  - first:
+      74: -2444670620465894889
+    second: model|garen_2013_recall_model
+  - first:
+      74: -1547178477106731002
+    second: model|garen_2013_respawn_model
+  - first:
+      74: -1919742910133483430
+    second: model|garen_2013_run_fast_model
+  - first:
+      74: -2209068858119064725
+    second: model|garen_2013_run_haste_model
+  - first:
+      74: 8787680145895146619
+    second: model|garen_2013_run_model
+  - first:
+      74: -2623579437945141874
+    second: model|garen_2013_run_spell1_model
+  - first:
+      74: 9071523706635334916
+    second: model|garen_2013_spell1_model
+  - first:
+      74: 8146046616687153199
+    second: model|garen_2013_spell4_model
+  - first:
+      74: 4898338823483897566
+    second: model|garen_2013_taunt_model
+  - first:
+      74: -238804059744671395
+    second: model|garen_base_spell3_-180_model
+  - first:
+      74: 8892004728909200842
+    second: model|garen_base_spell3_-90_model
+  - first:
+      74: -7112688119285833989
+    second: model|garen_base_spell3_0_model
+  - first:
+      74: 5538670954959631983
+    second: model|garen_base_spell3_180_model
+  - first:
+      74: -6759703683483319693
+    second: model|garen_base_spell3_90_model
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Garen_Base_Mat
+    second: {fileID: 2100000, guid: 9b7cc29b40da0664ab5f809a48a48a87, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

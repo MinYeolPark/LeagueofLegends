@@ -10,7 +10,7 @@ public class LeagueObjectData : ScriptableObject
 
     public LeagueObjectData localData;
     public List<LeagueAbilityData> localChampionAbilities;
-        
+    
     public enum ObjType
     {
         Champion,
@@ -35,8 +35,9 @@ public class LeagueObjectData : ScriptableObject
     
     [Header("Common")]
     public ObjType objType;
-    public AttackType attackType;
     public Category category;
+    public AttackType attackType;
+    public GameObject projectile;
 
     [Space(5)]
     [Header("Health")]
@@ -76,7 +77,5 @@ public class LeagueObjectData : ScriptableObject
     public int kills;
     public int deaths;
     public int assists;
-    public int minionScore;
-
-   
+    public int minionScore;   
 }

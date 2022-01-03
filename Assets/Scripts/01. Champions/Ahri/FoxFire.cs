@@ -8,12 +8,9 @@ public class FoxFire : LeagueAbilityData
     public override IEnumerator Initialize(GameObject obj)
     {
         yield return null;
-        Debug.Log("FoxFire Init");
     }
     public override IEnumerator TriggerAbility(GameObject obj)
     {
         yield return null;
-
-        Debug.Log("FoxFire Activate");
     }
 }

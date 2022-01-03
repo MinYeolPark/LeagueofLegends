@@ -98,7 +98,8 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: Event CheckActionEnd has a time (0.684982) outside the
+      clip's valid range (0.000000..0.666667). It will never be fired
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -136,7 +137,7 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 0.9273018
+      - time: 0.3989071
         functionName: RangeAttack
         data: 
         objectReferenceParameter: {fileID: 11400000, guid: 7a130ccc802cc234d8af4972f607c5e5, type: 2}
