@@ -1,8 +1,18 @@
 using UnityEngine;
+using System;
+using System.Collections;
 
-[CreateAssetMenu(fileName = "NewSkill", menuName = "League of Legends/LeagueAbility Data")]
-public class LeagueAbilityData : ScriptableObject
-{
+public abstract class LeagueAbilityData : ScriptableObject
+{    
+    public int skillLevel;
+    int GetSkillLevel { get { return skillLevel; } set { skillLevel = value; } }
+    
+    public enum AbilityType
+    {
+        Target,
+        Non_Target,
+        Self_Cast
+    }
     public enum Ability
     {
         Passive,
@@ -11,32 +21,39 @@ public class LeagueAbilityData : ScriptableObject
         Ability3,
         Ability4,
     }
+    //Init state=Ready
+    public AbilityState abilityState = AbilityState.Ready;
     public enum AbilityState
     {
         Ready,
         Active,
-        CoolDown
+        CoolDown,
+        Casting
     }
 
-    public float coolDownTime;
+    public string displayedName;
     public float activeTime;
-
+    public float duration;
+    public float coolDownTime;
     public float cost;
     public float range;
+    public bool canMove;
 
-    [Tooltip("If this Action describes a player ability, this is the ability's iconic representation")]
-    public Sprite Icon;
 
-    [Tooltip("If this Action describes a player ability, this is the ability's iconic representation")]
-    public GameObject RangeIndicator;
+    public Sprite icon;
+    public GameObject rangeIndicator;
 
-    [Tooltip("If this Action describes a player ability, this is the name we show for the ability")]
-    public string DisplayedName;
+    public AudioClip characterSound;
+    public System.Collections.Generic.List<AudioClip> skillSounds;
 
-    [Tooltip("If this Action describes a player ability, this is the tooltip description we show for the ability")]
     [Multiline]
-    public string Description;
+    public string description;
 
-    public virtual void Activate() { Debug.Log("Abilitydata"); }
-    public virtual void CoolDown() { }
+    public virtual void SetReady() { abilityState = AbilityState.Ready; }
+    public virtual void SetActivate() { abilityState = AbilityState.Active; }
+    public virtual void SetCoolDown() { abilityState = AbilityState.CoolDown; }
+
+    public virtual  IEnumerator Initialize(GameObject obj) { yield return null; }
+    public virtual IEnumerator TriggerAbility(GameObject obj) { yield return null; }
+
 }

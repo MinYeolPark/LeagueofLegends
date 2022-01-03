@@ -8,24 +8,9 @@ public class UI_2D : MonoBehaviour
     public GameObject statsBoardExtension;
     public GameObject optionExtension;
     public GameObject statusBoardExtension;
-    InputMaster inputManager;
 
-    private void Awake()
-    {
-        inputManager = new InputMaster();
-    }
-
-    private void OnEnable()
-    {
-        inputManager.Enable();
-    }
-    private void OnDisable()
-    {
-        inputManager.Disable();
-    }
     public void OnTab(InputValue value)
     {
-        Debug.Log("On Tab");
         if (statusBoardExtension.activeSelf == false)
         {
             statusBoardExtension.SetActive(true);

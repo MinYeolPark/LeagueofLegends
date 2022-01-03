@@ -9,12 +9,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b3e7eed0096b9b498e554780b210082, type: 3}
+  m_Script: {fileID: 11500000, guid: f81a953b33b54a44c85d04bd5a309556, type: 3}
   m_Name: Flash
   m_EditorClassIdentifier: 
-  coolDownTime: 0
+  skillLevel: 0
+  abilityState: 0
+  displayedName: 
   activeTime: 0
-  Icon: {fileID: 21300000, guid: 2724effeb615c964893a2aebf66f121f, type: 3}
-  RangeIndicator: {fileID: 6055679168710634044, guid: 10d414ad6c4a547498354c45568513ef, type: 3}
-  DisplayedName: 
-  Description: 
+  duration: 0
+  coolDownTime: 1
+  cost: 0
+  range: 0
+  canMove: 0
+  icon: {fileID: 21300000, guid: 2724effeb615c964893a2aebf66f121f, type: 3}
+  rangeIndicator: {fileID: 0}
+  characterSound: {fileID: 0}
+  skillSounds: []
+  description: 

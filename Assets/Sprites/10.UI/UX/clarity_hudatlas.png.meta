@@ -551,6 +551,15 @@ TextureImporter:
   - first:
       213: -2869035886588906509
     second: clarity_hudatlas_182
+  - first:
+      213: 3251926593275376238
+    second: clarity_hudatlas_183
+  - first:
+      213: 4972944429974475468
+    second: clarity_hudatlas_184
+  - first:
+      213: 1179400502794100029
+    second: clarity_hudatlas_185
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -1415,9 +1424,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 482
-        y: 771
-        width: 234
-        height: 57
+        y: 770
+        width: 58
+        height: 58
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4514,6 +4523,69 @@ TextureImporter:
       bones: []
       spriteID: 3f3350cdf032f28d0800000000000000
       internalID: -2869035886588906509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_183
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 770
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6233d3d10a212d20800000000000000
+      internalID: 3251926593275376238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_184
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 770
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2d26c7c92730540800000000000000
+      internalID: 4972944429974475468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_hudatlas_185
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 770
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d95f032821e5010800000000000000
+      internalID: 1179400502794100029
       vertices: []
       indices: 
       edges: []

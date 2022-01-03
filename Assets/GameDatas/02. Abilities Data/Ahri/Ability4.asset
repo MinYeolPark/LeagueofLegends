@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c4ca90b66fb0154f80b50d8aed8d0b2, type: 3}
+  m_Name: Ability4
+  m_EditorClassIdentifier: 
+  skillLevel: 0
+  abilityState: 0
+  displayedName: Spirit Rush
+  activeTime: 0
+  duration: 2
+  coolDownTime: 4
+  cost: 0
+  range: 0
+  canMove: 0
+  icon: {fileID: 21300000, guid: 38398cc44ae2bd84997066f83ede54ad, type: 3}
+  rangeIndicator: {fileID: 0}
+  characterSound: {fileID: 0}
+  skillSounds: []
+  description: 'ACTIVE: Ahri sends her orb in the target direction, dealing magic
+    damage to enemies within its path. At maximum range, the orb homes back to Ahri,
+    dealing the same in true damage to enemies hit on its way back.'

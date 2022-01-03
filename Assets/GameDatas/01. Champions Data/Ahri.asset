@@ -17,8 +17,12 @@ MonoBehaviour:
   idleClips: []
   emotionClips: []
   localData: {fileID: 11400000}
-  localChampionAbilityies:
-  - {fileID: 11400000, guid: a93f424c8d706af4dbba86337721387f, type: 2}
+  localChampionAbilities:
+  - {fileID: 11400000, guid: 047f5527ecc534143bdcbfe88b4b16e0, type: 2}
+  - {fileID: 11400000, guid: da873627a02140e408023c2be4d895ef, type: 2}
+  - {fileID: 11400000, guid: 957025ec87c00f445abbeadf01f841b4, type: 2}
+  - {fileID: 11400000, guid: 5523918e8c71e424dba0007182f33a3d, type: 2}
+  - {fileID: 11400000, guid: 5df075d50fef8dd44851079565479ce3, type: 2}
   objType: 0
   attackType: 1
   category: 3

@@ -4,7 +4,12 @@ using UnityEngine.Events;
 public class GameManager : Singleton<GameManager>
 {
     private GameState curGameState;
+    public float GameTime;
 
+    void Update()
+    {
+        GameTime += Time.realtimeSinceStartup;
+    }
     private void Start()
     {
         SetupBattle();

@@ -7,7 +7,7 @@ using UnityEngine.AI;
 public class BaseUnits : MonoBehaviour, IClickable
 {
     [Tooltip("Access to Audio Clips, Stats, UI components")]
-    [SerializeField] protected LeagueObjectData localData;
+    public LeagueObjectData localData;
 
     public Animator anim;
     protected NavMeshAgent agent;
@@ -21,10 +21,12 @@ public class BaseUnits : MonoBehaviour, IClickable
     protected Vector3 hitNormal;
     protected ParticleSystem hitEffect;
 
-    protected HealthBar healthBar;
 
-    private States state { get; set; }
-    public enum States
+    protected bool canMove = true;
+    protected bool CanMove { get { return canMove; } set { canMove = value; } }
+
+    protected States state { get; set; }
+    protected enum States
     {
         Idle,           //Initialize
         Moving,         //Update Path
@@ -34,6 +36,8 @@ public class BaseUnits : MonoBehaviour, IClickable
         Damaged,        //Decision for cut Casting
         Dead            //Dead animation, before removal from play field
     }
+    
+    
     protected bool HasTarget
     {
         get
@@ -68,7 +72,7 @@ public class BaseUnits : MonoBehaviour, IClickable
         //사망하지 않은 IDLE 상태로 시작
         state = States.Idle;
 
-        healthBar = GetComponentInChildren<HealthBar>();
+        //healthBar = GetComponentInChildren<HealthBar>();
         anim = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>(); //will be disabled until Activate is called
         stats = GetComponent<BaseStats>();
@@ -106,6 +110,8 @@ public class BaseUnits : MonoBehaviour, IClickable
     //계속해서 데미지를 주는 주체, 데미지를 받아온다
     public virtual void OnDamage(BaseUnits unit, float damage, Vector3 hitPoint, Vector3 hitNormal)
     {
+        state = States.Damaged;
+
         stats.health -= damage;
 
         if (stats.health <= 0 && state != States.Dead)
@@ -115,12 +121,12 @@ public class BaseUnits : MonoBehaviour, IClickable
     }
     protected virtual void Destroy()
     {
+        state = States.Dead;
+
         if (OnDestroy != null)
         {
             OnDestroy();
         }
-
-        state = States.Dead;
     }
     protected void SetTarget(BaseUnits target)
     {

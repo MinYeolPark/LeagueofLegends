@@ -24,7 +24,7 @@ public class @InputMaster : IInputActionCollection, IDisposable
                     ""id"": ""19b085b9-f4d0-47e6-a655-96b4b96edcad"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": """"
+                    ""interactions"": ""Press""
                 },
                 {
                     ""name"": ""Ability2"",
@@ -32,7 +32,7 @@ public class @InputMaster : IInputActionCollection, IDisposable
                     ""id"": ""a6e5cecf-9387-4fa9-bd5a-e4cc805bafc0"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": """"
+                    ""interactions"": ""Press""
                 },
                 {
                     ""name"": ""Ability3"",
@@ -40,7 +40,7 @@ public class @InputMaster : IInputActionCollection, IDisposable
                     ""id"": ""460bfb0b-692d-47e7-be7a-39ca9be1e4fe"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": """"
+                    ""interactions"": ""Press""
                 },
                 {
                     ""name"": ""Ability4"",
@@ -48,7 +48,7 @@ public class @InputMaster : IInputActionCollection, IDisposable
                     ""id"": ""2a863e5d-71aa-423f-b6da-51c416a4091d"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": """"
+                    ""interactions"": ""Press""
                 },
                 {
                     ""name"": ""Summoner's Spell1"",
@@ -56,7 +56,7 @@ public class @InputMaster : IInputActionCollection, IDisposable
                     ""id"": ""feb156f7-f14d-44e6-ad5e-8da70cc19a4b"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": """"
+                    ""interactions"": ""Press""
                 },
                 {
                     ""name"": ""Summoner's Spell2"",
@@ -64,7 +64,7 @@ public class @InputMaster : IInputActionCollection, IDisposable
                     ""id"": ""407e47f5-19d2-417c-a068-5e9f3cc276c0"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": """"
+                    ""interactions"": ""Press""
                 },
                 {
                     ""name"": ""Camera Movement"",
@@ -72,7 +72,7 @@ public class @InputMaster : IInputActionCollection, IDisposable
                     ""id"": ""c563bf0d-6b6a-47a1-99a3-f97479bc24af"",
                     ""expectedControlType"": ""Dpad"",
                     ""processors"": """",
-                    ""interactions"": """"
+                    ""interactions"": ""Press""
                 },
                 {
                     ""name"": ""Attack"",
@@ -80,7 +80,7 @@ public class @InputMaster : IInputActionCollection, IDisposable
                     ""id"": ""7efac50e-7013-46c7-9442-9621b2cea5d3"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": """"
+                    ""interactions"": ""Press""
                 },
                 {
                     ""name"": ""Tab"",
@@ -88,7 +88,15 @@ public class @InputMaster : IInputActionCollection, IDisposable
                     ""id"": ""a66c1b22-b471-45ac-85a2-8afb8393cb45"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": """"
+                    ""interactions"": ""Hold""
+                },
+                {
+                    ""name"": ""Recall"",
+                    ""type"": ""Button"",
+                    ""id"": ""b21f26af-c1e1-4a4e-95f8-011aa0a20bff"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": ""Press""
                 }
             ],
             ""bindings"": [
@@ -232,6 +240,17 @@ public class @InputMaster : IInputActionCollection, IDisposable
                     ""processors"": """",
                     ""groups"": ""Keyboard and Mouse"",
                     ""action"": ""Tab"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""48726117-b82a-41ec-975d-3e0dd5ec566e"",
+                    ""path"": ""<Keyboard>/b"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard and Mouse"",
+                    ""action"": ""Recall"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -802,6 +821,7 @@ public class @InputMaster : IInputActionCollection, IDisposable
         m_Player_CameraMovement = m_Player.FindAction("Camera Movement", throwIfNotFound: true);
         m_Player_Attack = m_Player.FindAction("Attack", throwIfNotFound: true);
         m_Player_Tab = m_Player.FindAction("Tab", throwIfNotFound: true);
+        m_Player_Recall = m_Player.FindAction("Recall", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -870,6 +890,7 @@ public class @InputMaster : IInputActionCollection, IDisposable
     private readonly InputAction m_Player_CameraMovement;
     private readonly InputAction m_Player_Attack;
     private readonly InputAction m_Player_Tab;
+    private readonly InputAction m_Player_Recall;
     public struct PlayerActions
     {
         private @InputMaster m_Wrapper;
@@ -883,6 +904,7 @@ public class @InputMaster : IInputActionCollection, IDisposable
         public InputAction @CameraMovement => m_Wrapper.m_Player_CameraMovement;
         public InputAction @Attack => m_Wrapper.m_Player_Attack;
         public InputAction @Tab => m_Wrapper.m_Player_Tab;
+        public InputAction @Recall => m_Wrapper.m_Player_Recall;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -919,6 +941,9 @@ public class @InputMaster : IInputActionCollection, IDisposable
                 @Tab.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnTab;
                 @Tab.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnTab;
                 @Tab.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnTab;
+                @Recall.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRecall;
+                @Recall.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRecall;
+                @Recall.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRecall;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -950,6 +975,9 @@ public class @InputMaster : IInputActionCollection, IDisposable
                 @Tab.started += instance.OnTab;
                 @Tab.performed += instance.OnTab;
                 @Tab.canceled += instance.OnTab;
+                @Recall.started += instance.OnRecall;
+                @Recall.performed += instance.OnRecall;
+                @Recall.canceled += instance.OnRecall;
             }
         }
     }
@@ -1072,6 +1100,7 @@ public class @InputMaster : IInputActionCollection, IDisposable
         void OnCameraMovement(InputAction.CallbackContext context);
         void OnAttack(InputAction.CallbackContext context);
         void OnTab(InputAction.CallbackContext context);
+        void OnRecall(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {

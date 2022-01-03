@@ -9,8 +9,8 @@ public class LeagueObjectData : ScriptableObject
     public List<AudioClip> attackClip, dieClip, idleClips, emotionClips;
 
     public LeagueObjectData localData;
-    public List<LeagueAbilityData> localChampionAbilityies;
-
+    public List<LeagueAbilityData> localChampionAbilities;
+        
     public enum ObjType
     {
         Champion,
@@ -21,7 +21,7 @@ public class LeagueObjectData : ScriptableObject
     }
     public enum AttackType
     {
-        Melee,Range
+        Melee, Range
     }
 
     public enum Category
@@ -32,7 +32,7 @@ public class LeagueObjectData : ScriptableObject
         Mage,
         Assasin
     }
-
+    
     [Header("Common")]
     public ObjType objType;
     public AttackType attackType;

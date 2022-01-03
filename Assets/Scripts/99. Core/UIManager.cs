@@ -3,15 +3,21 @@ using UnityEngine;
 using UnityEngine.UI;
 public class UIManager : Singleton<UIManager>
 {
-    [SerializeField] private List<GameObject> abilities;
-    [SerializeField] private List<GameObject> spells;
+    public BaseChampController localChamp;
+    [SerializeField] private List<LeagueAbilityData> abilities;
+    [SerializeField] private List<LeagueAbilityData> spells;
     [SerializeField] private List<Transform> itemSlots;
 
-    public void Ability1CoolDown()
+    private void Start()
     {
-        Image ability1Image = abilities[1].GetComponent<Image>();
-        ability1Image.fillAmount = 1;
+        localChamp = FindObjectOfType<BaseChampController>();
 
-        Debug.Log(ability1Image.fillAmount);
+        UIInit();
+    }
+
+    public void UIInit()
+    {
+        abilities = localChamp.localData.localChampionAbilities;
+
     }
 }

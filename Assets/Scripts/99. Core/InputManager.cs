@@ -3,10 +3,6 @@ using UnityEngine.InputSystem;
 
 public class InputManager : MonoBehaviour
 {
-    private void Start()
-    {
-        Debug.Log("Inputmanager");
-    }
     private void Update()
     {
         //if(IsPointerOverUIObject)     //Compare with tag
@@ -18,11 +14,7 @@ public class InputManager : MonoBehaviour
         {
             if(raycastHit.collider.TryGetComponent<BaseUnits>(out BaseUnits units))
             {
-                Debug.Log($"{raycastHit.collider.gameObject.name}");
-
-                units.OnHoverEnter();
-
-                
+                units.OnHoverEnter();                
             }
             //else
             //{

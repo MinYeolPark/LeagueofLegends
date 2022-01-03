@@ -1,7 +1,334 @@
 fileFormatVersion: 2
 guid: 7e2793d101386fa4a9c8f4ba0393631b
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 1078695971274035059
+    second: spotlighthealthbaratlas_0
+  - first:
+      213: 2489745353534847583
+    second: spotlighthealthbaratlas_1
+  - first:
+      213: 8862578656055137115
+    second: spotlighthealthbaratlas_2
+  - first:
+      213: 7969521643665787374
+    second: spotlighthealthbaratlas_3
+  - first:
+      213: 3096347077350710457
+    second: spotlighthealthbaratlas_4
+  - first:
+      213: 6359226081872118646
+    second: spotlighthealthbaratlas_5
+  - first:
+      213: 2545605176663781189
+    second: spotlighthealthbaratlas_6
+  - first:
+      213: 3255596950544521650
+    second: spotlighthealthbaratlas_7
+  - first:
+      213: 3982793260145206866
+    second: spotlighthealthbaratlas_8
+  - first:
+      213: 3704922574343149479
+    second: spotlighthealthbaratlas_9
+  - first:
+      213: -8791533480428459971
+    second: spotlighthealthbaratlas_10
+  - first:
+      213: 503153146166078647
+    second: spotlighthealthbaratlas_11
+  - first:
+      213: 3858151923683738092
+    second: spotlighthealthbaratlas_12
+  - first:
+      213: -4940140274251936628
+    second: spotlighthealthbaratlas_13
+  - first:
+      213: 1410107046334459168
+    second: spotlighthealthbaratlas_14
+  - first:
+      213: -293238285850398435
+    second: spotlighthealthbaratlas_15
+  - first:
+      213: -7448333233647772475
+    second: spotlighthealthbaratlas_16
+  - first:
+      213: -6894406165310278263
+    second: spotlighthealthbaratlas_17
+  - first:
+      213: 5658834816277445126
+    second: spotlighthealthbaratlas_18
+  - first:
+      213: -5736976609882024942
+    second: spotlighthealthbaratlas_19
+  - first:
+      213: 4934037268156444162
+    second: spotlighthealthbaratlas_20
+  - first:
+      213: 665992981499931129
+    second: spotlighthealthbaratlas_21
+  - first:
+      213: -543428648313255516
+    second: spotlighthealthbaratlas_22
+  - first:
+      213: -8141719904153756906
+    second: spotlighthealthbaratlas_23
+  - first:
+      213: -3197590031174557646
+    second: spotlighthealthbaratlas_24
+  - first:
+      213: -436850454734055442
+    second: spotlighthealthbaratlas_25
+  - first:
+      213: 2849010653138235636
+    second: spotlighthealthbaratlas_26
+  - first:
+      213: -1066026125287273489
+    second: spotlighthealthbaratlas_27
+  - first:
+      213: -4552132962476560424
+    second: spotlighthealthbaratlas_28
+  - first:
+      213: 5522177976815772329
+    second: spotlighthealthbaratlas_29
+  - first:
+      213: 6663349776722339152
+    second: spotlighthealthbaratlas_30
+  - first:
+      213: -5564220888222580756
+    second: spotlighthealthbaratlas_31
+  - first:
+      213: 1224088387016666810
+    second: spotlighthealthbaratlas_32
+  - first:
+      213: -3735099897156619525
+    second: spotlighthealthbaratlas_33
+  - first:
+      213: 4254960553812369318
+    second: spotlighthealthbaratlas_34
+  - first:
+      213: -8748349787932756401
+    second: spotlighthealthbaratlas_35
+  - first:
+      213: 4981956929761760721
+    second: spotlighthealthbaratlas_36
+  - first:
+      213: 5050793036954803075
+    second: spotlighthealthbaratlas_37
+  - first:
+      213: -1127314013205652286
+    second: spotlighthealthbaratlas_38
+  - first:
+      213: 6337619530816845015
+    second: spotlighthealthbaratlas_39
+  - first:
+      213: 4807684307520740022
+    second: spotlighthealthbaratlas_40
+  - first:
+      213: -7083341211210129190
+    second: spotlighthealthbaratlas_41
+  - first:
+      213: -3899822748647406340
+    second: spotlighthealthbaratlas_42
+  - first:
+      213: 4645372952076347076
+    second: spotlighthealthbaratlas_43
+  - first:
+      213: 2404042256592250279
+    second: spotlighthealthbaratlas_44
+  - first:
+      213: 6046088046709011363
+    second: spotlighthealthbaratlas_45
+  - first:
+      213: 8762951233974440119
+    second: spotlighthealthbaratlas_46
+  - first:
+      213: 448735382791471806
+    second: spotlighthealthbaratlas_47
+  - first:
+      213: 5057193058227738977
+    second: spotlighthealthbaratlas_48
+  - first:
+      213: 2095981089923822091
+    second: spotlighthealthbaratlas_49
+  - first:
+      213: -8606864613033026719
+    second: spotlighthealthbaratlas_50
+  - first:
+      213: -8102858452807516737
+    second: spotlighthealthbaratlas_51
+  - first:
+      213: 1880120759507938864
+    second: spotlighthealthbaratlas_52
+  - first:
+      213: -1903976199362299465
+    second: spotlighthealthbaratlas_53
+  - first:
+      213: -7405842841327828514
+    second: spotlighthealthbaratlas_54
+  - first:
+      213: 8028902735478756056
+    second: spotlighthealthbaratlas_55
+  - first:
+      213: 2755029042149326774
+    second: spotlighthealthbaratlas_56
+  - first:
+      213: 2673422113790930058
+    second: spotlighthealthbaratlas_57
+  - first:
+      213: -4606928670958833930
+    second: spotlighthealthbaratlas_58
+  - first:
+      213: -4320675255556541941
+    second: spotlighthealthbaratlas_59
+  - first:
+      213: 3354899727637650831
+    second: spotlighthealthbaratlas_60
+  - first:
+      213: 4944515296181686241
+    second: spotlighthealthbaratlas_61
+  - first:
+      213: 5574730506731434507
+    second: spotlighthealthbaratlas_62
+  - first:
+      213: 7476613700620986021
+    second: spotlighthealthbaratlas_63
+  - first:
+      213: -5287130773805670636
+    second: spotlighthealthbaratlas_64
+  - first:
+      213: 5894008008103091431
+    second: spotlighthealthbaratlas_65
+  - first:
+      213: 2332316399594874124
+    second: spotlighthealthbaratlas_66
+  - first:
+      213: -888237138339642841
+    second: spotlighthealthbaratlas_67
+  - first:
+      213: -7917807680283371090
+    second: spotlighthealthbaratlas_68
+  - first:
+      213: 8197695083970077505
+    second: spotlighthealthbaratlas_69
+  - first:
+      213: 1340557488924572492
+    second: spotlighthealthbaratlas_70
+  - first:
+      213: -7700875852207577024
+    second: spotlighthealthbaratlas_71
+  - first:
+      213: 4349388368543509031
+    second: spotlighthealthbaratlas_72
+  - first:
+      213: -1228070748151829314
+    second: spotlighthealthbaratlas_73
+  - first:
+      213: -4994004665705079015
+    second: spotlighthealthbaratlas_74
+  - first:
+      213: 4876861765527757714
+    second: spotlighthealthbaratlas_75
+  - first:
+      213: 3552110577904423290
+    second: spotlighthealthbaratlas_76
+  - first:
+      213: -170011949875855362
+    second: spotlighthealthbaratlas_77
+  - first:
+      213: 8341879219998967612
+    second: spotlighthealthbaratlas_78
+  - first:
+      213: -2707331209432906163
+    second: spotlighthealthbaratlas_79
+  - first:
+      213: -7557067430024141563
+    second: spotlighthealthbaratlas_80
+  - first:
+      213: -7182979037449169792
+    second: spotlighthealthbaratlas_81
+  - first:
+      213: 8564149852253675539
+    second: spotlighthealthbaratlas_82
+  - first:
+      213: 519692820252884858
+    second: spotlighthealthbaratlas_83
+  - first:
+      213: -7455779938892212654
+    second: spotlighthealthbaratlas_84
+  - first:
+      213: -8523348607799688541
+    second: spotlighthealthbaratlas_85
+  - first:
+      213: -2707976942863751514
+    second: spotlighthealthbaratlas_86
+  - first:
+      213: -370857732210751375
+    second: spotlighthealthbaratlas_87
+  - first:
+      213: -7296040373763378274
+    second: spotlighthealthbaratlas_88
+  - first:
+      213: -5171122591240450754
+    second: spotlighthealthbaratlas_89
+  - first:
+      213: 7647391315642338427
+    second: spotlighthealthbaratlas_90
+  - first:
+      213: 2531351438862897519
+    second: spotlighthealthbaratlas_91
+  - first:
+      213: 8369051562843084082
+    second: spotlighthealthbaratlas_92
+  - first:
+      213: -8456458679726713217
+    second: spotlighthealthbaratlas_93
+  - first:
+      213: -6345232886255511014
+    second: spotlighthealthbaratlas_94
+  - first:
+      213: -4403088461963728194
+    second: spotlighthealthbaratlas_95
+  - first:
+      213: 1813286499686374201
+    second: spotlighthealthbaratlas_96
+  - first:
+      213: 8166121373304244366
+    second: spotlighthealthbaratlas_97
+  - first:
+      213: -3696342778075686927
+    second: spotlighthealthbaratlas_98
+  - first:
+      213: 6417363542011302384
+    second: spotlighthealthbaratlas_99
+  - first:
+      213: 8966446393946157985
+    second: spotlighthealthbaratlas_100
+  - first:
+      213: 5783646764234611917
+    second: spotlighthealthbaratlas_101
+  - first:
+      213: -7904288775563776559
+    second: spotlighthealthbaratlas_102
+  - first:
+      213: -1920662183703987992
+    second: spotlighthealthbaratlas_103
+  - first:
+      213: -1328744489837903833
+    second: spotlighthealthbaratlas_104
+  - first:
+      213: -4711879410739042795
+    second: spotlighthealthbaratlas_105
+  - first:
+      213: -5464384331481233977
+    second: spotlighthealthbaratlas_106
+  - first:
+      213: -7790213698452382042
+    second: spotlighthealthbaratlas_107
+  - first:
+      213: 7302071781559787556
+    second: spotlighthealthbaratlas_108
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -125,11 +452,2300 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 481
+        width: 136
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f0f6c454c48fe00800000000000000
+      internalID: 1078695971274035059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_1
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 497
+        width: 111
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5abf92353a5d8220800000000000000
+      internalID: 2489745353534847583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_2
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 478
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53102ce4543efa70800000000000000
+      internalID: 8862578656055137115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_3
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 487
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee98c78e5bd699e60800000000000000
+      internalID: 7969521643665787374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_4
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 487
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bcdecef24f68fa20800000000000000
+      internalID: 3096347077350710457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_5
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 489
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6730368cd62804850800000000000000
+      internalID: 6359226081872118646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_6
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 489
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fa075cb6ec35320800000000000000
+      internalID: 2545605176663781189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_7
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 493
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b91d097d243e2d20800000000000000
+      internalID: 3255596950544521650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_8
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 485
+        width: 111
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25666cc4e59b54730800000000000000
+      internalID: 3982793260145206866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_9
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 478
+        width: 4
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a79c0ca3778a6330800000000000000
+      internalID: 3704922574343149479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_10
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 478
+        width: 4
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38ab1c01e23ef580800000000000000
+      internalID: -8791533480428459971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_11
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 466
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc69d0ee1f8bf600800000000000000
+      internalID: 503153146166078647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 448
+        width: 136
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1c8a4bbb8ea8530800000000000000
+      internalID: 3858151923683738092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_13
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 473
+        width: 111
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ccc943898117bb0800000000000000
+      internalID: -4940140274251936628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_14
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 460
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d6a0833e4b19310800000000000000
+      internalID: 1410107046334459168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_15
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 459
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11b75925553eebf0800000000000000
+      internalID: -293238285850398435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_16
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 460
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc10bf036432a890800000000000000
+      internalID: -7448333233647772475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_17
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 464
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985fa6bee162250a0800000000000000
+      internalID: -6894406165310278263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_18
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 473
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a74da9848388e40800000000000000
+      internalID: 5658834816277445126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_19
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 461
+        width: 111
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214d14b4b2a2260b0800000000000000
+      internalID: -5736976609882024942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_20
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 440
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ee005f0c8397440800000000000000
+      internalID: 4934037268156444162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_21
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 447
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9e43d86151e3900800000000000000
+      internalID: 665992981499931129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_22
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 449
+        width: 111
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a98488068a5578f0800000000000000
+      internalID: -543428648313255516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_23
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 450
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b103442ecc20f80800000000000000
+      internalID: -8141719904153756906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_24
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 434
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230a286eec0ef93d0800000000000000
+      internalID: -3197590031174557646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_25
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 433
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7db9173deffe9f0800000000000000
+      internalID: -436850454734055442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_26
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 434
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0bb952818b98720800000000000000
+      internalID: 2849010653138235636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_27
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 412
+        width: 136
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb47f813e6b431f0800000000000000
+      internalID: -1066026125287273489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_28
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 437
+        width: 111
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfec39503393d0c0800000000000000
+      internalID: -4552132962476560424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_29
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 430
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2e696bc97b2ac40800000000000000
+      internalID: 5522177976815772329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_30
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 417
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055a6b76159f87c50800000000000000
+      internalID: 6663349776722339152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_31
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 427
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef3fa9259ae7c2b0800000000000000
+      internalID: -5564220888222580756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_32
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 425
+        width: 111
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe2fc907e5dcf010800000000000000
+      internalID: 1224088387016666810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_33
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 418
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2b165de624a2cc0800000000000000
+      internalID: -3735099897156619525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_34
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 415
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af19477418ac0b30800000000000000
+      internalID: 4254960553812369318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_35
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 414
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f467767f73e979680800000000000000
+      internalID: -8748349787932756401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_36
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 413
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5debc9e67732540800000000000000
+      internalID: 4981956929761760721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_37
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 415
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b15b1c185081640800000000000000
+      internalID: 5050793036954803075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_38
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 412
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc9e84b0e9fa50f0800000000000000
+      internalID: -1127314013205652286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_39
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 416
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d47ae7926fb3f750800000000000000
+      internalID: 6337619530816845015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_40
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 413
+        width: 111
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba5efdc76358b240800000000000000
+      internalID: 4807684307520740022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_41
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 393
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad06fe292bae2bd90800000000000000
+      internalID: -7083341211210129190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_42
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 392
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf442eb4fdb01e9c0800000000000000
+      internalID: -3899822748647406340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_43
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 407
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6e7b1761ea77040800000000000000
+      internalID: 4645372952076347076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_44
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 401
+        width: 111
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5a539f1bfdc5120800000000000000
+      internalID: 2404042256592250279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_45
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a373d08b0508e350800000000000000
+      internalID: 6046088046709011363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_46
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 397
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b01e1d18b14c9970800000000000000
+      internalID: 8762951233974440119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_47
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb24f61047a3a3600800000000000000
+      internalID: 448735382791471806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_48
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 398
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1695c34da42ce2640800000000000000
+      internalID: 5057193058227738977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_49
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0278d042bb661d10800000000000000
+      internalID: 2095981089923822091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_50
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 366
+        width: 111
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b594e4c364e8880800000000000000
+      internalID: -8606864613033026719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_51
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 389
+        width: 111
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdf22ffa2ddc8f80800000000000000
+      internalID: -8102858452807516737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_52
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 370
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03eee459ed7871a10800000000000000
+      internalID: 1880120759507938864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_53
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 381
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b936300cb7b395e0800000000000000
+      internalID: -1903976199362299465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_54
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 377
+        width: 111
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed109447c29293990800000000000000
+      internalID: -7405842841327828514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_55
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 380
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d29f5cbf746c6f60800000000000000
+      internalID: 8028902735478756056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_56
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 380
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bff13b2154db3620800000000000000
+      internalID: 2755029042149326774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_57
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 380
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8cae238f37e91520800000000000000
+      internalID: 2673422113790930058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_58
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 380
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6feafe548c6e010c0800000000000000
+      internalID: -4606928670958833930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_59
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 364
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b027bba3fb0e904c0800000000000000
+      internalID: -4320675255556541941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_60
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 362
+        width: 111
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d95eaf68ffe8e20800000000000000
+      internalID: 3354899727637650831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_61
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 368
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef0567f6727e9440800000000000000
+      internalID: 4944515296181686241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_62
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 365
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02b2441cdb6d5d40800000000000000
+      internalID: 5574730506731434507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_63
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 367
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a625544c8442c760800000000000000
+      internalID: 7476613700620986021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 327
+        width: 140
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41fd64ad29650a6b0800000000000000
+      internalID: -5287130773805670636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_65
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 349
+        width: 111
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ecda4a3e09bbc150800000000000000
+      internalID: 5894008008103091431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_66
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 345
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05aba5886d0e5020800000000000000
+      internalID: 2332316399594874124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_67
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 344
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722c4fc57095ca3f0800000000000000
+      internalID: -888237138339642841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_68
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 335
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea999d87ddb4e1290800000000000000
+      internalID: -7917807680283371090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_69
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 346
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143a001ee3014c170800000000000000
+      internalID: 8197695083970077505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_70
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 335
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4bb6500fed9a9210800000000000000
+      internalID: 1340557488924572492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_71
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 335
+        width: 111
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048a8c1a63ef02590800000000000000
+      internalID: -7700875852207577024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_72
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 324
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a60495da12c5c30800000000000000
+      internalID: 4349388368543509031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_73
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 323
+        width: 111
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebcac51492405fee0800000000000000
+      internalID: -1228070748151829314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_74
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 323
+        width: 40
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f5106473bb1bab0800000000000000
+      internalID: -4994004665705079015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_75
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 288
+        width: 143
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29367f0efe71ea340800000000000000
+      internalID: 4876861765527757714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_76
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 308
+        width: 111
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7196ee20c1ab4130800000000000000
+      internalID: 3552110577904423290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_77
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 296
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efff318480ff3adf0800000000000000
+      internalID: -170011949875855362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_78
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 293
+        width: 111
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37404314fe44c370800000000000000
+      internalID: 8341879219998967612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_79
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 274
+        width: 136
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d464c6ceb90ad6ad0800000000000000
+      internalID: -2707331209432906163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_80
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 258
+        width: 137
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505acb12637ef1790800000000000000
+      internalID: -7557067430024141563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_81
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 264
+        width: 111
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084d3cb5f9ee05c90800000000000000
+      internalID: -7182979037449169792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_82
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 222
+        width: 192
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3106bc27ae8f9d670800000000000000
+      internalID: 8564149852253675539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_83
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 171
+        width: 192
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f7e77ddd1563700800000000000000
+      internalID: 519692820252884858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_84
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 189
+        width: 133
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25698d2e5afb78890800000000000000
+      internalID: -7455779938892212654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_85
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 168
+        width: 131
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2874f899bf6b980800000000000000
+      internalID: -8523348607799688541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_86
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 144
+        width: 151
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a668a461555b6ad0800000000000000
+      internalID: -2707976942863751514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_87
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 151
+        width: 53
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1780f518bd27adaf0800000000000000
+      internalID: -370857732210751375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_88
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 153
+        width: 177
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93fce6afe14fba90800000000000000
+      internalID: -7296040373763378274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_89
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 141
+        width: 55
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d8d1ba66b7c38b0800000000000000
+      internalID: -5171122591240450754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_90
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 94
+        width: 181
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7cc44b42edf02a60800000000000000
+      internalID: 7647391315642338427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_91
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 98
+        width: 151
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61d813d8ba212320800000000000000
+      internalID: 2531351438862897519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_92
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 133
+        width: 80
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23590362e08d42470800000000000000
+      internalID: 8369051562843084082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_93
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 123
+        width: 79
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76de1192af94aa80800000000000000
+      internalID: -8456458679726713217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_94
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 116
+        width: 134
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a1d95fe4431f7a0800000000000000
+      internalID: -6345232886255511014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_95
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 106
+        width: 136
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebae7065f5615e2c0800000000000000
+      internalID: -4403088461963728194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_96
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 80
+        width: 168
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b51d9d6761a2910800000000000000
+      internalID: 1813286499686374201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_97
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 58
+        width: 146
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8846808f14e35170800000000000000
+      internalID: 8166121373304244366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_98
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 159
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7d7b0d3d3f3bcc0800000000000000
+      internalID: -3696342778075686927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_99
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 67
+        width: 143
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1502c042e0f0950800000000000000
+      internalID: 6417363542011302384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_100
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 49
+        width: 143
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a33eb03d773f6c70800000000000000
+      internalID: 8966446393946157985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_101
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 3
+        width: 161
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc9a88c614a34050800000000000000
+      internalID: 5783646764234611917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_102
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 41
+        width: 64
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dde962cc335e4290800000000000000
+      internalID: -7904288775563776559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_103
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 34
+        width: 90
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e83cc68bef6855e0800000000000000
+      internalID: -1920662183703987992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_104
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 27
+        width: 145
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72044fd2de95f8de0800000000000000
+      internalID: -1328744489837903833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_105
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 18
+        width: 92
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5162c6af3aa0c9eb0800000000000000
+      internalID: -4711879410739042795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_106
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 10
+        width: 147
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5c9dde66b9a24b0800000000000000
+      internalID: -5464384331481233977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_107
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 66
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae1d536ae993e390800000000000000
+      internalID: -7790213698452382042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spotlighthealthbaratlas_108
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 487
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4206648e89b265560800000000000000
+      internalID: 7302071781559787556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f7fa02a781a065f4e90de590b6825c16
     internalID: 0
     vertices: []
     indices: 

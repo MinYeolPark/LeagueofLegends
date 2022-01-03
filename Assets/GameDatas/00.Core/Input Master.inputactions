@@ -11,7 +11,7 @@
                     "id": "19b085b9-f4d0-47e6-a655-96b4b96edcad",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "Press"
                 },
                 {
                     "name": "Ability2",
@@ -19,7 +19,7 @@
                     "id": "a6e5cecf-9387-4fa9-bd5a-e4cc805bafc0",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "Press"
                 },
                 {
                     "name": "Ability3",
@@ -27,7 +27,7 @@
                     "id": "460bfb0b-692d-47e7-be7a-39ca9be1e4fe",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "Press"
                 },
                 {
                     "name": "Ability4",
@@ -35,7 +35,7 @@
                     "id": "2a863e5d-71aa-423f-b6da-51c416a4091d",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "Press"
                 },
                 {
                     "name": "Summoner's Spell1",
@@ -43,7 +43,7 @@
                     "id": "feb156f7-f14d-44e6-ad5e-8da70cc19a4b",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "Press"
                 },
                 {
                     "name": "Summoner's Spell2",
@@ -51,7 +51,7 @@
                     "id": "407e47f5-19d2-417c-a068-5e9f3cc276c0",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "Press"
                 },
                 {
                     "name": "Camera Movement",
@@ -59,7 +59,7 @@
                     "id": "c563bf0d-6b6a-47a1-99a3-f97479bc24af",
                     "expectedControlType": "Dpad",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "Press"
                 },
                 {
                     "name": "Attack",
@@ -67,7 +67,7 @@
                     "id": "7efac50e-7013-46c7-9442-9621b2cea5d3",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "Press"
                 },
                 {
                     "name": "Tab",
@@ -75,7 +75,15 @@
                     "id": "a66c1b22-b471-45ac-85a2-8afb8393cb45",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "Hold"
+                },
+                {
+                    "name": "Recall",
+                    "type": "Button",
+                    "id": "b21f26af-c1e1-4a4e-95f8-011aa0a20bff",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
                 }
             ],
             "bindings": [
@@ -219,6 +227,17 @@
                     "processors": "",
                     "groups": "Keyboard and Mouse",
                     "action": "Tab",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "48726117-b82a-41ec-975d-3e0dd5ec566e",
+                    "path": "<Keyboard>/b",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard and Mouse",
+                    "action": "Recall",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

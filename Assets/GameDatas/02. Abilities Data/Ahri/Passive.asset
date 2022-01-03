@@ -9,12 +9,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b3e7eed0096b9b498e554780b210082, type: 3}
+  m_Script: {fileID: 11500000, guid: 45c92a3ee1fb5c3428d4d21fb25103e6, type: 3}
   m_Name: Passive
   m_EditorClassIdentifier: 
-  coolDownTime: 0
+  skillLevel: 0
+  abilityState: 0
+  displayedName: Essence Theft
   activeTime: 0
-  Icon: {fileID: 21300000, guid: b9e8d622270d406478f90ac2222046cd, type: 3}
-  RangeIndicator: {fileID: 0}
-  DisplayedName: Essence Theft
-  Description: Essence Theft
+  duration: 0
+  coolDownTime: 0
+  cost: 0
+  range: 0
+  canMove: 0
+  icon: {fileID: 21300000, guid: b9e8d622270d406478f90ac2222046cd, type: 3}
+  rangeIndicator: {fileID: 0}
+  characterSound: {fileID: 0}
+  skillSounds: []
+  description: 
