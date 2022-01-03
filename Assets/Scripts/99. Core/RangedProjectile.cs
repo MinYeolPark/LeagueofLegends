@@ -33,11 +33,11 @@ public class RangedProjectile : MonoBehaviour
         Vector3 dir = targetStats.transform.position - transform.position;
         float distanceThisFrame = speed * Time.deltaTime;
 
-        if (dir.magnitude <= distanceThisFrame)
-        {
-            HitTarget();
-            return;
-        }
+        //if (dir.magnitude <= distanceThisFrame)
+        //{
+        //    HitTarget();
+        //    return;
+        //}
 
         transform.Translate(dir.normalized * distanceThisFrame, Space.World);
     }
@@ -53,15 +53,18 @@ public class RangedProjectile : MonoBehaviour
         target.OnDamage(target, damage, hitPoint, hitNormal);
 
 
+        if (hitEffecet != null)
+        {
+            GameObject effectIns = (GameObject)Instantiate(hitEffecet, transform.position, transform.rotation);
+
+            Destroy(effectIns, 2f);
+        }
+
+        Destroy(gameObject);
     }
     private void OnCollisionEnter(Collision other)
-    {
-        Debug.Log("collision enter");
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        Vector3 hitPoint = other.ClosestPoint(transform.position);
+    {        
+        Vector3 hitPoint = other.gameObject.GetComponent<Collider>().ClosestPoint(transform.position);
         Vector3 hitNormal = transform.position - other.transform.position;
 
         BaseUnits target = targetStats.GetComponent<BaseUnits>();
@@ -76,6 +79,6 @@ public class RangedProjectile : MonoBehaviour
             Destroy(effectIns, 2f);
         }
 
-        Destroy(gameObject);
+        Destroy(gameObject,1f);
     }
 }

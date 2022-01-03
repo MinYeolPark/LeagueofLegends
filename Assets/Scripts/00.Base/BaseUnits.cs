@@ -12,7 +12,7 @@ public class BaseUnits : MonoBehaviour, IClickable
     public Animator anim;
     protected NavMeshAgent agent;
     
-    public event UnityAction OnDestroy;
+    protected event UnityAction OnDestroy;
     protected BaseStats stats;
     protected BaseUnits curTarget;
     protected List<BaseUnits> inRangeObject;
@@ -69,7 +69,7 @@ public class BaseUnits : MonoBehaviour, IClickable
         }
     }
 
-    private void Start()
+    protected virtual void Start()
     {
         //사망하지 않은 IDLE 상태로 시작
         state = States.Idle;
@@ -135,6 +135,7 @@ public class BaseUnits : MonoBehaviour, IClickable
         if (OnDestroy != null)
         {
             OnDestroy();
+            Debug.Log("Destroy Object");
         }
     }
     protected void SetTarget(BaseUnits target)

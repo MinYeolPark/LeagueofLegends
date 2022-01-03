@@ -54,6 +54,7 @@ public class BaseStats : MonoBehaviour
 
     public void SetStats()
     {
+        Debug.Log($"obj Ω∫≈» ºº∆√");
         maxHealth=localData.maxHealth;
         health = localData.health;
         healthRegen = localData.healthRegen;

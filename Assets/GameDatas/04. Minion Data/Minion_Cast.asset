@@ -17,12 +17,13 @@ MonoBehaviour:
   idleClips: []
   emotionClips: []
   localData: {fileID: 11400000}
-  localChampionAbilityies: []
+  localChampionAbilities: []
   objType: 1
-  attackType: 1
   category: 0
+  attackType: 1
+  projectile: {fileID: 0}
   maxHealth: 477
-  health: 477
+  health: 100
   healthRegen: 0
   attackDamage: 0
   attackSpeed: 0
