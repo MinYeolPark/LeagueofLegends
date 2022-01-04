@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerInfoSettings : Singleton<PlayerInfoSettings>
 {
+    public string myID="Jongro Monkey";
     public int mySelectedChampion;
     public int myTeam;
     public int mySpell1;
@@ -12,6 +13,7 @@ public class PlayerInfoSettings : Singleton<PlayerInfoSettings>
     private void Start()
     {
         SpellSetup();
+
         if (PlayerPrefs.HasKey("MyCharacter"))
         {
             mySelectedChampion = PlayerPrefs.GetInt("MyCharacter");
@@ -23,6 +25,7 @@ public class PlayerInfoSettings : Singleton<PlayerInfoSettings>
         }
     }
 
+    //Temp variable value
     public void SpellSetup()
     {
         mySpell1 = 0;

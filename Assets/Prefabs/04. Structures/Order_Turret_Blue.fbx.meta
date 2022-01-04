@@ -1,27 +1,38 @@
 fileFormatVersion: 2
-guid: 7d5a149af4e92b44cb6625ef5511d56f
+guid: f99128b7afe77eb45bd6480985d0c5e4
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
   - first:
-      74: 8102354227563883420
-    second: model|sruap_chaosturret1_idle0_model
+      74: 5751514294237246690
+    second: model|sruap_orderturret1_idle1_model
   - first:
-      74: 3564213335229902800
-    second: model|sruap_chaosturret1_idle0_model.001
+      74: -8520078623348938950
+    second: model|sruap_orderturret1_idle1_seq_model
   - first:
-      74: -4752087443048213543
-    second: model|sruap_chaosturret1_idle1_model
+      74: 7487904102824342850
+    second: model|sruap_orderturret1_rg_model
+  externalObjects:
   - first:
-      74: 353914464132987170
-    second: model|sruap_chaosturret1_idle1_model.001
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SRUAP_OrderTurret1_Mat
+    second: {fileID: 2100000, guid: 6c3370feb2334f1489c7746946bcc7ad, type: 2}
   - first:
-      74: 4578910089797315614
-    second: model|sruap_turret_chaos_cloth_stage1_model
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stage1
+    second: {fileID: 2100000, guid: 6c3370feb2334f1489c7746946bcc7ad, type: 2}
   - first:
-      74: -1645604287152812578
-    second: model|sruap_turret_chaos_cloth_stage1_model.001
-  externalObjects: {}
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stage2
+    second: {fileID: 2100000, guid: 6c3370feb2334f1489c7746946bcc7ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stage3
+    second: {fileID: 2100000, guid: 6c3370feb2334f1489c7746946bcc7ad, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -48,65 +59,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: model|sruap_chaosturret1_idle0_model
-      takeName: model|sruap_chaosturret1_idle0_model
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 23
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: model|sruap_turret_chaos_cloth_stage1_model
-      takeName: model|sruap_turret_chaos_cloth_stage1_model
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 56
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 0
   meshes:
     lODScreenPercentages: []

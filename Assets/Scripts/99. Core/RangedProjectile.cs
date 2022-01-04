@@ -6,46 +6,45 @@ public class RangedProjectile : MonoBehaviour
 {
     [SerializeField] GameObject hitEffecet;
 
-    private BaseStats thisStats;
-    private BaseStats targetStats;
+    private BaseUnits fireObj;
+    private BaseUnits targetObj;
     public float speed = 70f;
     public float damage;
     private void Start()
     {
-        thisStats = FindObjectOfType<BaseChampController>().GetComponent<BaseStats>();
+        fireObj= FindObjectOfType<BaseChampController>();
 
-        damage = thisStats.attackDamage;
+        damage = fireObj.GetComponent<BaseStats>().attackDamage;
     }
-    public void Seek(BaseStats curTarget)
+    public void Seek(BaseUnits curTarget)
     {
-        targetStats = curTarget;
+        targetObj = curTarget;
         Debug.Log($"Target={curTarget}");
     }
 
     private void Update()
     {
-        if (targetStats == null)
+        if (targetObj == null)
         {
             Destroy(gameObject);
             return;
         }
 
-        Vector3 dir = targetStats.transform.position - transform.position;
+        Vector3 dir = targetObj.transform.position - transform.position;
         float distanceThisFrame = speed * Time.deltaTime;
 
-        //if (dir.magnitude <= distanceThisFrame)
-        //{
-        //    HitTarget();
-        //    return;
-        //}
+        if (dir.magnitude <= distanceThisFrame)
+        {
+            HitTarget();
+            return;
+        }
 
         transform.Translate(dir.normalized * distanceThisFrame, Space.World);
     }
 
     void HitTarget()
     {
-        BaseUnits target = targetStats.GetComponent<BaseUnits>();
-               
+        BaseUnits target = targetObj;               
         
         Vector3 hitPoint = target.GetComponent<Collider>().ClosestPoint(transform.position);
         Vector3 hitNormal = transform.position - target.GetComponent<Collider>().transform.position;
@@ -62,23 +61,28 @@ public class RangedProjectile : MonoBehaviour
 
         Destroy(gameObject);
     }
-    private void OnCollisionEnter(Collision other)
-    {        
-        Vector3 hitPoint = other.gameObject.GetComponent<Collider>().ClosestPoint(transform.position);
-        Vector3 hitNormal = transform.position - other.transform.position;
+    //private void OnCollisionEnter(Collision other)
+    //{
+    //    Vector3 hitPoint = other.gameObject.GetComponent<Collider>().ClosestPoint(transform.position);
+    //    Vector3 hitNormal = transform.position - other.transform.position;
 
-        BaseUnits target = targetStats.GetComponent<BaseUnits>();
-        target.OnDamage(target, damage, hitPoint, hitNormal);
+    //    BaseUnits target = targetStats.GetComponent<BaseUnits>();
+    //    Debug.Log(other.gameObject.GetComponent<BaseUnits>());
 
-        Debug.Log($"맞은방향={hitNormal},맞은부위={hitPoint}");
+    //    if (other.gameObject.GetComponent<BaseUnits>() == target)
+    //    {
+    //        target.OnDamage(target, damage, hitPoint, hitNormal);
+    //        Debug.Log(other.gameObject.GetComponent<BaseUnits>());
+    //        Debug.Log($"맞은방향={hitNormal},맞은부위={hitPoint}");
 
-        if (hitEffecet != null)
-        {
-            GameObject effectIns = (GameObject)Instantiate(hitEffecet, transform.position, transform.rotation);
+    //        if (hitEffecet != null)
+    //        {
+    //            GameObject effectIns = (GameObject)Instantiate(hitEffecet, transform.position, transform.rotation);
 
-            Destroy(effectIns, 2f);
-        }
+    //            Destroy(effectIns, 2f);
+    //        }
 
-        Destroy(gameObject,1f);
-    }
+    //        Destroy(gameObject, 1f);
+    //    }
+    //}
 }

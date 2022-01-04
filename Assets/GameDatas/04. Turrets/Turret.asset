@@ -10,24 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70abe9d8503a59d4b8b7153888d3740d, type: 3}
-  m_Name: Minion_Cast
+  m_Name: Turret
   m_EditorClassIdentifier: 
   attackClip: []
   dieClip: []
   idleClips: []
   emotionClips: []
-  localData: {fileID: 11400000}
+  localData: {fileID: 0}
   localChampionAbilities: []
-  objType: 1
+  objType: 3
   category: 0
   attackType: 1
-  projectile: {fileID: 0}
-  maxHealth: 477
-  health: 100
+  projectile: {fileID: 1466745915212507218, guid: 37b47f9f0e369aa44a696925c3356d7c, type: 3}
+  maxHealth: 6000
+  health: 6000
   healthRegen: 0
-  attackDamage: 0
-  attackSpeed: 0
-  attackRange: 0
+  attackDamage: 100
+  attackSpeed: 2
+  attackRange: 10
   lifeSteal: 0
   criticalStrike: 0
   lethality: 0

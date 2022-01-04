@@ -7,7 +7,6 @@ public class LeagueObjectData : ScriptableObject
     [Space(5)]
     [Header("Audio Clips")]
     public List<AudioClip> attackClip, dieClip, idleClips, emotionClips;
-
     public LeagueObjectData localData;
     public List<LeagueAbilityData> localChampionAbilities;
     
@@ -32,7 +31,7 @@ public class LeagueObjectData : ScriptableObject
         Mage,
         Assasin
     }
-    
+
     [Header("Common")]
     public ObjType objType;
     public Category category;

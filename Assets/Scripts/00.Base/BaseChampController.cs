@@ -5,15 +5,17 @@ using Cinemachine;
 using UnityEngine.AI;
 
 
-public class BaseChampController : BaseUnits
+public class BaseChampController : BaseUnits,IAttackable
 {
     //Critical
-    public BaseStats target;
+    public BaseUnits target;
 
     //Movement
     float motionSmoothTime = .1f;
     public float rotateSpeedMovement = 0.1f;
     public float rotateVelocity;
+
+
 
     //Inputs
     private PlayerInput playerInput;
@@ -121,7 +123,7 @@ public class BaseChampController : BaseUnits
                 //Move
                 agent.SetDestination(raycastHit.point);
                 agent.stoppingDistance = 0;
-                
+
                 //ROTATION
                 Quaternion rotationToLookAt = Quaternion.LookRotation(raycastHit.point - transform.position);
                 float rotationY = Mathf.SmoothDampAngle(transform.eulerAngles.y,
@@ -129,9 +131,9 @@ public class BaseChampController : BaseUnits
                     ref rotateVelocity,
                     rotateSpeedMovement * (Time.deltaTime * 5));
 
-                transform.eulerAngles = new Vector3(0, rotationY, 0);                
+                transform.eulerAngles = new Vector3(0, rotationY, 0);
 
-                if (raycastHit.collider.TryGetComponent(out BaseStats other))
+                if (raycastHit.collider.TryGetComponent(out BaseUnits other))
                 {
                     state = States.Targetting;
                     target = other;
@@ -142,30 +144,22 @@ public class BaseChampController : BaseUnits
             }
         }
     }
-    protected override IEnumerator StartAttack()
-    {
-        state = States.Attacking;
-
-        anim.SetBool("BaseAttack", true);
-
-        yield return new WaitForSeconds(stats.attackRange / ((100 + stats.attackSpeed) * 0.01f));
-
-        if(target==null)
-        {
-            anim.SetBool("BaseAttack", false);
-            target = null;
-        }
-    }
 
     protected override IEnumerator RangeAttack()
     {
+        if(target.state==States.Dead||target==null)
+        {
+            StartCoroutine(StopAttack());
+
+            anim.SetBool("BaseAttack", false);
+            target = null;
+        }
+
         yield return null;
         if (localData.attackType == LeagueObjectData.AttackType.Range && state == States.Attacking)
         {
             if (rangedProjectile!=null)
-            {
-                Debug.Log("Instantiate bullet prefab");
-                
+            {                
                 GameObject bullet = Instantiate(rangedProjectile, transform.position, transform.rotation);
                 RangedProjectile projectile = bullet.GetComponent<RangedProjectile>();
                 Debug.Log($"bullet={bullet}, projectile={projectile}");
@@ -189,5 +183,32 @@ public class BaseChampController : BaseUnits
         UIStatusBoard statusBoard=FindObjectOfType<UIStatusBoard>().GetComponent<UIStatusBoard>();
         statusBoard.OnBoardPopup();
     }
-    
+
+    public IEnumerator StartAttack()
+    {
+        if (target.state != States.Dead)
+        {
+            state = States.Attacking;
+
+            anim.SetBool("BaseAttack", true);
+        }
+        yield return new WaitForSeconds(stats.attackRange / ((100 + stats.attackSpeed) * 0.01f));
+
+        if(target!=null)
+        {
+            if (target.state == States.Dead)
+            {
+                state = States.Idle;
+                anim.SetBool("BaseAttack", false);
+                target = null;
+            }
+        }        
+    }
+
+    public IEnumerator StopAttack()
+    {
+        yield return null;
+        state = States.Idle;
+        anim.SetBool("BaseAttack", false);
+    }
 }

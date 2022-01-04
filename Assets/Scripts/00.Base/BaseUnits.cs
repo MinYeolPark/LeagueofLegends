@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.AI;
 
-public class BaseUnits : MonoBehaviour, IClickable
+public class BaseUnits : MonoBehaviour, IClickable, IDamagable
 {
     [Tooltip("Access to Audio Clips, Stats, UI components")]
     public LeagueObjectData localData;
@@ -27,8 +27,8 @@ public class BaseUnits : MonoBehaviour, IClickable
 
     protected GameObject rangedProjectile;
 
-    protected States state { get; set; }
-    protected enum States
+    public States state { get; set; }
+    public enum States
     {
         Idle,           //Initialize
         Moving,         //Update Path
@@ -85,17 +85,6 @@ public class BaseUnits : MonoBehaviour, IClickable
             rangedProjectile = localData.projectile;
         }
     }
-    protected virtual IEnumerator StartAttack()
-    {
-        state = States.Attacking;
-        yield return null;
-    }
-
-    public virtual IEnumerator StopAttack()
-    {
-        state = States.Idle;
-        yield return null;
-    }
 
     protected virtual IEnumerator MeleeAttack()
     {
@@ -116,9 +105,8 @@ public class BaseUnits : MonoBehaviour, IClickable
     }
 
     //계속해서 데미지를 주는 주체, 데미지를 받아온다
-    public virtual void OnDamage(BaseUnits unit, float damage, Vector3 hitPoint, Vector3 hitNormal)
+    public void OnDamage(BaseUnits unit, float damage, Vector3 hitPoint, Vector3 hitNormal)
     {
-        Debug.Log("OnDamage");
         state = States.Damaged;
 
         stats.health -= damage;
