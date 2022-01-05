@@ -4,37 +4,30 @@ using System.Collections.Generic;
 [CreateAssetMenu(fileName = "NewObject", menuName = "League of Legends/LeagueObject Data")]
 public class LeagueObjectData : ScriptableObject
 {
-    [Space(5)]
-    [Header("Audio Clips")]
-    public List<AudioClip> attackClip, dieClip, idleClips, emotionClips;
+    [Header("Critical")]
     public LeagueObjectData localData;
-    public List<LeagueAbilityData> localChampionAbilities;
+    public Team team;
+    public enum Team
+    {
+        Neutral,
+        RedTeam,
+        BlueTeam
+    }
     
     public enum ObjType
     {
         Champion,
         Minion,
+        Structure,        
         Creep,
-        Building,
-        Spell
     }
     public enum AttackType
     {
         Melee, Range
     }
 
-    public enum Category
-    {
-        Tank,
-        Bruser,
-        ADCarry,
-        Mage,
-        Assasin
-    }
-
     [Header("Common")]
     public ObjType objType;
-    public Category category;
     public AttackType attackType;
     public GameObject projectile;
 
@@ -76,5 +69,11 @@ public class LeagueObjectData : ScriptableObject
     public int kills;
     public int deaths;
     public int assists;
-    public int minionScore;   
+    public int minionScore;
+    public int sightRange;
+
+    [Space(5)]
+    [Header("Audio Clips")]
+    public List<AudioClip> attackClip, dieClip, idleClips, emotionClips;
+    public List<LeagueAbilityData> localChampionAbilities;
 }

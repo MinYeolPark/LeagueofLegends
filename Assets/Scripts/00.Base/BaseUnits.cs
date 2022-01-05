@@ -8,11 +8,11 @@ public class BaseUnits : MonoBehaviour, IClickable, IDamagable
 {
     [Tooltip("Access to Audio Clips, Stats, UI components")]
     public LeagueObjectData localData;
-    
+    public GameDataSettings.TEAM teamID = GameDataSettings.TEAM.NEAUTRAL;       //Default
     public Animator anim;
     protected NavMeshAgent agent;
     
-    protected event UnityAction OnDestroy;
+    public event UnityAction OnDestroy;
     protected BaseStats stats;
     protected BaseUnits curTarget;
     protected List<BaseUnits> inRangeObject;
@@ -27,7 +27,7 @@ public class BaseUnits : MonoBehaviour, IClickable, IDamagable
 
     protected GameObject rangedProjectile;
 
-    public States state { get; set; }
+    public virtual States state { get; set; }
     public enum States
     {
         Idle,           //Initialize

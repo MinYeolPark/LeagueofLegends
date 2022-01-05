@@ -13,7 +13,6 @@ public class Teleport : LeagueAbilityData
     public override IEnumerator Initialize(GameObject obj)
     {
         yield return null;
-        Debug.Log("Recall Init");
     }
     public override IEnumerator TriggerAbility(GameObject obj)
     {

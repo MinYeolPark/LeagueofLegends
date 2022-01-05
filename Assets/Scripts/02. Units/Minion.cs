@@ -8,16 +8,69 @@ public class Minion : BaseUnits,IAttackable
     public LayerMask structureLayer;
     public LayerMask championLayer;
 
+    [Header("Minion Move")]
+    public List<Transform> path;
+    public int pathIdx = 0;
+
     private void Awake()
     {
-        Minion minion = GetComponent<Minion>();
+        //Spawner로 이동 고려
+        Minion minion = GetComponent<Minion>();        
         minion.OnDestroy += () => Destroy(gameObject, 2f);
+
+        //Initialize
+        state = States.Idle;
     }
     protected override void Start()
     {
         base.Start();
 
-        StartCoroutine(UpdateTarget());
+        Debug.Log($"Minion agent is enable={agent.isActiveAndEnabled}");
+        StartCoroutine(CheckMinionState());
+    }
+    IEnumerator CheckMinionState()
+    {        
+        while(state!=States.Dead)
+        {
+            switch(state)
+            {
+                case States.Idle:
+                    //Minion have to move
+                    state = States.Moving;
+                    StartCoroutine(UpdatePath());
+                    break;
+                case States.Moving:
+                    StartCoroutine(UpdateTarget());
+                    break;
+                case States.Targetting:
+                    if (IsTargetInRange)
+                        state = States.Attacking;                    
+                    break;
+                case States.Attacking:
+                    if(!HasTarget)
+                        state = States.Idle;
+                    break;
+                case States.Damaged:
+                    break;
+                default:
+                    break;
+            }
+            yield return new WaitForSeconds(0.2f);
+        }
+    }
+
+    IEnumerator UpdatePath()
+    {
+        yield return null;
+        if (path.Count == 0)
+            yield return null;
+        agent.SetDestination(path[pathIdx].transform.position);
+        //Debug.Log("PathIdx=" + pathIdx);
+
+        ////If Minions arrived to destination. update Path Idx
+        //if (agent.remainingDistance<=localData.attackRange)
+        //    pathIdx++;
+
     }
 
     IEnumerator UpdateTarget()
@@ -29,7 +82,7 @@ public class Minion : BaseUnits,IAttackable
 
             float shortestDistance = Mathf.Infinity;
             GameObject nearestMinion = null;
-            GameObject targetChamp = null;
+            //GameObject targetChamp = null;
 
             ///Minion Target Process>>
             foreach (var targetMinion in minions)
@@ -91,8 +144,11 @@ public class Minion : BaseUnits,IAttackable
 
     public IEnumerator StartAttack()
     {
+        state = States.Attacking;
         if (curTarget.state != States.Dead)
         {
+
+            //Range Process
             if (rangedProjectile != null)
             {
                 GameObject bullet = Instantiate(rangedProjectile, firePoint.transform);

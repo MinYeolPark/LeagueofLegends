@@ -6,7 +6,6 @@ public class Charm : LeagueAbilityData
 {
     public override IEnumerator Initialize(GameObject obj)
     {
-        Debug.Log("Charm Init");
 
         yield return null;
     }
@@ -14,6 +13,5 @@ public class Charm : LeagueAbilityData
     {
         yield return null;
 
-        Debug.Log("Charm Activate");
     }
 }
