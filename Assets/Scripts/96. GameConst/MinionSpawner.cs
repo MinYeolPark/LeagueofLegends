@@ -53,30 +53,19 @@ public class MinionSpawner : MonoBehaviour
             //{
             for (int i = 0; i < GameDataSettings.RANGE_COUNT; i++)
             {
-                SpawnUnit(castMinion.gameObject, spawnLoc: midSpawnPoint);
-                SpawnUnit(castMinion.gameObject, spawnLoc: topSpawnPoint);
-                SpawnUnit(castMinion.gameObject, spawnLoc: botSpawnPoint);
+                StartCoroutine(SpawnUnit(castMinion.gameObject, spawnLoc: midSpawnPoint));
+                StartCoroutine(SpawnUnit(castMinion.gameObject, spawnLoc: topSpawnPoint));
+                StartCoroutine(SpawnUnit(castMinion.gameObject, spawnLoc: botSpawnPoint));
+
                 yield return new WaitForSeconds(GameDataSettings.MINION_SPAWNINTERVAL);      //Spawn Interval
             }
-            //}
-            //else
-            //{
-            //    for (int i = 0; i < LoLGameSetting.MELEE_COUNT; i++)
-            //    {
-            //        SpawnUnit(GameDataSources.Instance.Minions[0].bluePrefab, LoLGameSetting.SPAWN_MID);
-            //        SpawnUnit(GameDataSources.Instance.Minions[0].bluePrefab, LoLGameSetting.SPAWN_TOP);
-            //        SpawnUnit(GameDataSources.Instance.Minions[0].bluePrefab, LoLGameSetting.SPAWN_BOT);
-            //        yield return new WaitForSeconds(LoLGameSetting.MINION_SPAWNINTERVAL);      //Spawn Interval
-            //    }
-            //}
         }
 
-        void SpawnUnit(GameObject prefab, Transform spawnLoc)
+        IEnumerator SpawnUnit(GameObject prefab, Transform spawnLoc)
         {
-            Minion minion = Instantiate(prefab, spawnLoc.transform.position, transform.rotation).GetComponent<Minion>();
-            TeamManager teamManager = GetComponentInParent<TeamManager>();
+            TeamManager teamManager = GetComponentInParent<TeamManager>();           
 
-            minions.Add(minion);
+            Minion minion = Instantiate(prefab, spawnLoc.transform.position, Quaternion.identity).GetComponent<Minion>();
             
             if(spawnLoc==midSpawnPoint)
             {
@@ -91,8 +80,11 @@ public class MinionSpawner : MonoBehaviour
                 minion.path = teamManager.botWayPoints;
             }
 
+            minions.Add(minion);
             minion.OnDestroy += () => minions.Remove(minion);
             //minion.onDeath += () => Destroy(minion.gameObject, 1f);     //사망한 미니언 1초뒤에 파괴
+
+            yield return new WaitForSeconds(0.5f);      //0.2초마다 생성
         }
 
     }

@@ -12,14 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70abe9d8503a59d4b8b7153888d3740d, type: 3}
   m_Name: Minion_Cast
   m_EditorClassIdentifier: 
-  attackClip: []
-  dieClip: []
-  idleClips: []
-  emotionClips: []
   localData: {fileID: 11400000}
-  localChampionAbilities: []
+  team: 0
   objType: 1
-  category: 0
   attackType: 1
   projectile: {fileID: 0}
   maxHealth: 477
@@ -47,3 +42,9 @@ MonoBehaviour:
   deaths: 0
   assists: 0
   minionScore: 0
+  sightRange: 5
+  attackClip: []
+  dieClip: []
+  idleClips: []
+  emotionClips: []
+  localChampionAbilities: []

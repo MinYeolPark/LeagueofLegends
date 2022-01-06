@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.AI;
 
-public class BaseUnits : MonoBehaviour, IClickable, IDamagable
+public class BaseUnits : MonoBehaviour, IDamagable
 {
     [Tooltip("Access to Audio Clips, Stats, UI components")]
     public LeagueObjectData localData;
@@ -38,9 +38,9 @@ public class BaseUnits : MonoBehaviour, IClickable, IDamagable
         Damaged,        //Decision for cut Casting
         Dead            //Dead animation, before removal from play field
     }
-    
-    
-    protected bool HasTarget
+
+
+    public bool HasTarget
     {
         get
         {
@@ -57,7 +57,7 @@ public class BaseUnits : MonoBehaviour, IClickable, IDamagable
             return false;
         }
     }
-    protected bool IsTargetInRange
+    public bool IsTargetInRange
     {
         get
         {
@@ -68,6 +68,7 @@ public class BaseUnits : MonoBehaviour, IClickable, IDamagable
             return false;
         }
     }
+
 
     protected virtual void Start()
     {
@@ -131,25 +132,4 @@ public class BaseUnits : MonoBehaviour, IClickable, IDamagable
         curTarget = target;
     }
 
-    public void OnLeftClick()
-    {
-    }
-
-    public void OnRightClick()
-    {
-    }
-
-    public void OnHoverEnter()
-    {
-        Debug.Log("On Hover Enter");
-
-        //1. Change cursor
-        //2. Check team
-        //3. Hitted Gameobejct Info
-    }
-
-    public void OnHoverExit()
-    {
-        Debug.Log("On Hover End !!");
-    }
 }

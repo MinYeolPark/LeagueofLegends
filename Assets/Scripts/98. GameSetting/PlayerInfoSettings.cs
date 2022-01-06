@@ -5,10 +5,10 @@ using UnityEngine;
 public class PlayerInfoSettings : Singleton<PlayerInfoSettings>
 {
     public string myID="Jongro Monkey";
-    public int mySelectedChampion;
-    public int myTeam;
-    public int mySpell1;
-    public int mySpell2;
+    public GameDataSettings.CHAMPIONS myChampion;
+    public GameDataSettings.TEAM myTeam;
+    public GameDataSettings.SPELL mySpell1;
+    public GameDataSettings.SPELL mySpell2;
 
     private void Start()
     {
@@ -16,20 +16,19 @@ public class PlayerInfoSettings : Singleton<PlayerInfoSettings>
 
         if (PlayerPrefs.HasKey("MyCharacter"))
         {
-            mySelectedChampion = PlayerPrefs.GetInt("MyCharacter");
+           // mySelectedChampion = PlayerPrefs.GetInt("MyCharacter");
         }
         else
         {
-            mySelectedChampion = 0;
-            PlayerPrefs.SetInt("MyCharacter", mySelectedChampion);
+            //mySelectedChampion = 0;
+            //PlayerPrefs.SetInt("MyCharacter", mySelectedChampion);
         }
     }
 
     //Temp variable value
     public void SpellSetup()
     {
-        mySpell1 = 0;
-        mySpell2 = 1;
+      
     }
     
 }

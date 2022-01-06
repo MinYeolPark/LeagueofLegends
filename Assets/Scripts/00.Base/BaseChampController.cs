@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 using Cinemachine;
 using UnityEngine.AI;
 
-
+//[RequireComponent(typeof(MouseInteractive))]
 public class BaseChampController : BaseUnits,IAttackable
 {
     //Critical
@@ -15,12 +15,9 @@ public class BaseChampController : BaseUnits,IAttackable
     public float rotateSpeedMovement = 0.1f;
     public float rotateVelocity;
 
-
-
     //Inputs
     private PlayerInput playerInput;
     private InputMaster inputManager;
-    private BaseSkillController skillController;
 
     private float indicatorOffset=0.5f;
     [SerializeField] private GameObject baseIndicator;
@@ -33,7 +30,6 @@ public class BaseChampController : BaseUnits,IAttackable
         anim = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
         
-        skillController = GetComponent<BaseSkillController>();
         GetComponent<BaseStats>().SetStats();
     }
 
@@ -110,8 +106,8 @@ public class BaseChampController : BaseUnits,IAttackable
     {
         if (Mouse.current.rightButton.wasPressedThisFrame)
         {
+            Debug.Log(Mouse.current.rightButton.wasPressedThisFrame);
             Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
-
             if (Physics.Raycast(ray, out RaycastHit raycastHit, Mathf.Infinity))
             {
                 state = States.Moving;

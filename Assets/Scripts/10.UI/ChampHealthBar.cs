@@ -56,6 +56,8 @@ public class ChampHealthBar : MonoBehaviour {
 
     bool oldFlipValue;
 
+
+    //Addtional
     public void SetValueNoBurn(float value)
     {
         Value = value;
@@ -195,14 +197,17 @@ public class ChampHealthBar : MonoBehaviour {
             m.SetFloat("_BigGapSize", BigGapSize);
             oldBigGapSize = BigGapSize;
         }
-        if (oldValue != Value) {
+        if (oldValue != Value)
+        {
             m.SetFloat("_Value", Value);
             oldValue = Value;
         }
-        if (oldMaxValue != MaxValue) {
+        if (oldMaxValue != MaxValue)
+        {
             m.SetFloat("_MaxValue", MaxValue);
             oldMaxValue = Value;
         }
+
         if (oldDamage != damage) {
             m.SetFloat("_DamageValue", damage);
             oldDamage = damage;

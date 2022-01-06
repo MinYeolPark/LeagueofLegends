@@ -18,6 +18,7 @@ public class Turret : BaseUnits,IAttackable
     {
         base.Start();
 
+        state = States.Idle;
         StartCoroutine(UpdateTarget());
     }
 
@@ -34,7 +35,7 @@ public class Turret : BaseUnits,IAttackable
                 StartCoroutine(StartAttack());
             }
             //<<
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(1f);
         }
     }
 
@@ -55,12 +56,6 @@ public class Turret : BaseUnits,IAttackable
             col.enabled = false;
         }
     }
-
-    void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, 10f);
-    }
     void FindCloseChampion()
     {
         Collider[] champions = Physics.OverlapSphere(transform.position, localData.attackRange, championLayer);
@@ -79,16 +74,16 @@ public class Turret : BaseUnits,IAttackable
         ///Minion Target Process>>
         foreach (var targetMinion in minions)
         {
-            float distanceToEnemy = Vector3.Distance(transform.position, targetMinion.transform.position);
-
-            Debug.Log($"Enemy={targetMinion} distanceToEnemy={distanceToEnemy}");
-
-
-            if (distanceToEnemy < shortestDistance)
+            if(targetMinion.GetComponent<Minion>().teamID!=teamID)
             {
-                shortestDistance = distanceToEnemy;
-                nearestMinion = targetMinion.gameObject;
-            }
+                float distanceToEnemy = Vector3.Distance(transform.position, targetMinion.transform.position);
+
+                if (distanceToEnemy < shortestDistance)
+                {
+                    shortestDistance = distanceToEnemy;
+                    nearestMinion = targetMinion.gameObject;
+                }
+            }            
         }
 
         if (nearestMinion != null && shortestDistance <= GetComponent<BaseStats>().attackRange)
@@ -99,6 +94,8 @@ public class Turret : BaseUnits,IAttackable
     }
     public IEnumerator StartAttack()
     {
+        state = States.Attacking;
+
         if(curTarget.state != States.Dead)
         {
             if (rangedProjectile != null)

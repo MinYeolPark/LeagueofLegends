@@ -1,11 +1,33 @@
 public static class GameDataSettings
 {
+    //All champion have to update
+    public static CHAMPIONS champ;
+    public enum CHAMPIONS
+    {
+        AHRI,
+        GAREN
+    }
     public static TEAM team;
     public enum TEAM
     {
         NEAUTRAL,
         RED_TEAM,
         BLUE_TEAM
+    }
+    public static SPELL spell;
+    public enum SPELL
+    {
+        BARRIER,
+        CLARITY,
+        CLEANSE,
+        EXHASUT,
+        FLASH,
+        GHOST,
+        HEAL,
+        IGNITE,
+        SMITE,
+        TELEPORT,
+        MARK_DASH       //FOR ARAM
     }
 
     public static LANE lane;
@@ -32,7 +54,9 @@ public static class GameDataSettings
 
     public static float MINION_WAVESPAWNINTERVAL_TIME = 5f;
     public static float MINION_WAVESTART_TIME = 3;
-    public static float MINION_SPAWNINTERVAL = 0.5f;
+    public static float MINION_SPAWNINTERVAL = 0.7f;
     public static float CANNON_FIRST_WAVE = 1200;
     public static float CANNON_SECOND_WAVE = 2100;
+
+
 }

@@ -1,0 +1,227 @@
+fileFormatVersion: 2
+guid: 5b165cd26e1cfb540a0580d4ded6604b
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 4749285153471852592
+    second: model.001|model.001|model.001|minion_melee_attack2_model.001|model.00
+  - first:
+      74: -7915034465973203771
+    second: model.001|model.001|model.001|minion_melee_attack2_model.001|model.001
+  - first:
+      74: 2892768987948574278
+    second: model.001|model.001|model.001|minion_melee_attack2_model.001|model.001|mi
+  - first:
+      74: 5615957143762904264
+    second: model.001|model.001|model.001|minion_melee_attack2_model.001|model.002
+  - first:
+      74: -5907212004739018080
+    second: model.001|model.001|model.001|minion_melee_attack3_model.001|model.00
+  - first:
+      74: -8830409041310481347
+    second: model.001|model.001|model.001|minion_melee_attack3_model.001|model.001
+  - first:
+      74: -1048198971727293984
+    second: model.001|model.001|model.001|minion_melee_attack3_model.001|model.001|mi
+  - first:
+      74: 2013135818528208855
+    second: model.001|model.001|model.001|minion_melee_attack3_model.001|model.002
+  - first:
+      74: 1243417039479702639
+    second: model.001|model.001|model.001|minion_melee_attack3b_model.001|model.0
+  - first:
+      74: -8684219899518169581
+    second: model.001|model.001|model.001|minion_melee_attack3b_model.001|model.001
+  - first:
+      74: -8803866032715219382
+    second: model.001|model.001|model.001|minion_melee_attack3b_model.001|model.001|m
+  - first:
+      74: 5755390309729952818
+    second: model.001|model.001|model.001|minion_melee_attack3b_model.001|model.002
+  - first:
+      74: -374729967537714772
+    second: model.001|model.001|model.001|minion_melee_attack_model.001|model.001
+  - first:
+      74: 4868108018841693255
+    second: model.001|model.001|model.001|minion_melee_attack_model.001|model.001|min
+  - first:
+      74: 6457171952009408649
+    second: model.001|model.001|model.001|minion_melee_attack_model.001|model.002
+  - first:
+      74: 4563608276719968457
+    second: model.001|model.001|model.001|minion_melee_attack_model.001|model.003
+  - first:
+      74: -4738052444553744745
+    second: model.001|model.001|model.001|minion_melee_death2_model.001|model.001
+  - first:
+      74: -3146046741027388619
+    second: model.001|model.001|model.001|minion_melee_death2_model.001|model.001|min
+  - first:
+      74: 8011575455987304854
+    second: model.001|model.001|model.001|minion_melee_death2_model.001|model.002
+  - first:
+      74: 6357312126548727414
+    second: model.001|model.001|model.001|minion_melee_death2_model.001|model.003
+  - first:
+      74: -6691753663391043410
+    second: model.001|model.001|model.001|minion_melee_death3_model.001|model.001
+  - first:
+      74: -1008623282952841538
+    second: model.001|model.001|model.001|minion_melee_death3_model.001|model.001|min
+  - first:
+      74: -2675920306947078151
+    second: model.001|model.001|model.001|minion_melee_death3_model.001|model.002
+  - first:
+      74: 4516640486269749819
+    second: model.001|model.001|model.001|minion_melee_death3_model.001|model.003
+  - first:
+      74: 1239741703609075841
+    second: model.001|model.001|model.001|minion_melee_death4_model.001|model.001
+  - first:
+      74: 8627720895474051991
+    second: model.001|model.001|model.001|minion_melee_death4_model.001|model.001|min
+  - first:
+      74: 7197141207663534036
+    second: model.001|model.001|model.001|minion_melee_death4_model.001|model.002
+  - first:
+      74: -5633758259643365500
+    second: model.001|model.001|model.001|minion_melee_death4_model.001|model.003
+  - first:
+      74: -5918923795402693996
+    second: model.001|model.001|model.001|minion_melee_death_model.001|model.001|
+  - first:
+      74: -7342488849372368233
+    second: model.001|model.001|model.001|minion_melee_death_model.001|model.001|.001
+  - first:
+      74: -8496342941497027972
+    second: model.001|model.001|model.001|minion_melee_death_model.001|model.001|.002
+  - first:
+      74: -8783722878028446409
+    second: model.001|model.001|model.001|minion_melee_death_model.001|model.001|mini
+  - first:
+      74: -8083537281657201259
+    second: model.001|model.001|model.001|minion_melee_idle_model.001|model.001|m
+  - first:
+      74: -1582071474556482140
+    second: model.001|model.001|model.001|minion_melee_idle_model.001|model.001|m.001
+  - first:
+      74: -7394112223745336643
+    second: model.001|model.001|model.001|minion_melee_idle_model.001|model.001|m.002
+  - first:
+      74: -5050071165206051900
+    second: model.001|model.001|model.001|minion_melee_idle_model.001|model.001|minio
+  - first:
+      74: 4374474931090271709
+    second: model.001|model.001|model.001|minion_melee_run_model.001|model.001|mi
+  - first:
+      74: -7669562954776470665
+    second: model.001|model.001|model.001|minion_melee_run_model.001|model.001|mi.001
+  - first:
+      74: 4032901805987897789
+    second: model.001|model.001|model.001|minion_melee_run_model.001|model.001|mi.002
+  - first:
+      74: 3148863335012836225
+    second: model.001|model.001|model.001|minion_melee_run_model.001|model.001|minion
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1.004
+    second: {fileID: 2100000, guid: 6d7cd30539a769f4ca0bcb1fa6b497a1, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

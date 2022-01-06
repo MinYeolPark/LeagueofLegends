@@ -8,7 +8,7 @@ public class GameManager : Singleton<GameManager>
 
     void Update()
     {
-        GameTime += Time.realtimeSinceStartup;
+        GameTime += Time.deltaTime;
     }
     private void Start()
     {

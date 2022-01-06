@@ -280,12 +280,12 @@
                     "interactions": ""
                 },
                 {
-                    "name": "Click",
+                    "name": "LeftClick",
                     "type": "PassThrough",
                     "id": "556d1d0e-3a14-4676-8345-2ac059c860ab",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "Press"
                 },
                 {
                     "name": "ScrollWheel",
@@ -309,7 +309,7 @@
                     "id": "f691242b-cd03-42df-9bcf-68e7d7791063",
                     "expectedControlType": "",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "Press"
                 }
             ],
             "bindings": [
@@ -605,7 +605,7 @@
                     "path": "<Mouse>/position",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Keyboard&Mouse",
+                    "groups": "Keyboard&Mouse;Keyboard and Mouse",
                     "action": "Point",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -639,7 +639,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
-                    "action": "Click",
+                    "action": "LeftClick",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -650,7 +650,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
-                    "action": "Click",
+                    "action": "LeftClick",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -661,7 +661,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Touch",
-                    "action": "Click",
+                    "action": "LeftClick",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -672,7 +672,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "XR",
-                    "action": "Click",
+                    "action": "LeftClick",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -727,7 +727,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard and Mouse",
-                    "action": "Click",
+                    "action": "LeftClick",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },

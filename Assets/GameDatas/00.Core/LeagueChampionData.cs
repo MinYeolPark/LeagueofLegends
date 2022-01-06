@@ -5,7 +5,6 @@ using System.Collections.Generic;
 public class LeagueChampionData : LeagueObjectData
 {
     public Category category;
-
     public enum Category
     {
         Tank,
@@ -13,5 +12,13 @@ public class LeagueChampionData : LeagueObjectData
         ADCarry,
         Mage,
         Assasin
+    }
+
+    public ResourceType resourceType;
+    public enum ResourceType
+    {
+        None,
+        Mana,
+
     }
 }

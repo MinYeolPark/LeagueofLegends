@@ -6,6 +6,8 @@ public class LeagueObjectData : ScriptableObject
 {
     [Header("Critical")]
     public LeagueObjectData localData;
+
+    public Sprite portraitImage;
     public Team team;
     public enum Team
     {
