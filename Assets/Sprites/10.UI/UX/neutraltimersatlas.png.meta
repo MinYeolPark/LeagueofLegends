@@ -1,7 +1,67 @@
 fileFormatVersion: 2
 guid: fd09cf4304724414ba894a169011a99f
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4826833652608907274
+    second: neutraltimersatlas_0
+  - first:
+      213: 4825287690766515782
+    second: neutraltimersatlas_1
+  - first:
+      213: 2358523721614160036
+    second: neutraltimersatlas_2
+  - first:
+      213: 5752285889268343582
+    second: neutraltimersatlas_3
+  - first:
+      213: -7981845200990006063
+    second: neutraltimersatlas_4
+  - first:
+      213: 4665580794759346297
+    second: neutraltimersatlas_5
+  - first:
+      213: -2242131673869474627
+    second: neutraltimersatlas_6
+  - first:
+      213: -3535178565413080641
+    second: neutraltimersatlas_7
+  - first:
+      213: -7723055247608363760
+    second: neutraltimersatlas_8
+  - first:
+      213: -2347326214421330211
+    second: neutraltimersatlas_9
+  - first:
+      213: 6338269439431378057
+    second: neutraltimersatlas_10
+  - first:
+      213: -274280712879487114
+    second: neutraltimersatlas_11
+  - first:
+      213: 790957734702989929
+    second: neutraltimersatlas_12
+  - first:
+      213: -8936064924582196377
+    second: neutraltimersatlas_13
+  - first:
+      213: -1820311798315684025
+    second: neutraltimersatlas_14
+  - first:
+      213: 7456892886642444346
+    second: neutraltimersatlas_15
+  - first:
+      213: 4232157708148912898
+    second: neutraltimersatlas_16
+  - first:
+      213: 5679823014456871645
+    second: neutraltimersatlas_17
+  - first:
+      213: -4880117083088977016
+    second: neutraltimersatlas_18
+  - first:
+      213: -1625307872462152816
+    second: neutraltimersatlas_19
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -125,11 +185,431 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: neutraltimersatlas_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 411
+        width: 545
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08b7a522ab5cf240800000000000000
+      internalID: 4826833652608907274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltimersatlas_1
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 464
+        width: 167
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ef33bd69dd6f240800000000000000
+      internalID: 4825287690766515782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltimersatlas_2
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 401
+        width: 167
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0f42d24d82bb020800000000000000
+      internalID: 2358523721614160036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltimersatlas_3
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 280
+        width: 109
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13e4541a8934df40800000000000000
+      internalID: 5752285889268343582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltimersatlas_4
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 295
+        width: 184
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d495de441aca3190800000000000000
+      internalID: -7981845200990006063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltimersatlas_5
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 295
+        width: 184
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978f38673097fb040800000000000000
+      internalID: 4665580794759346297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltimersatlas_6
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 291
+        width: 337
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4ab573f1952e0e0800000000000000
+      internalID: -2242131673869474627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltimersatlas_7
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 190
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb17afe23d580fec0800000000000000
+      internalID: -3535178565413080641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltimersatlas_8
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 191
+        width: 83
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0154699bb2232d490800000000000000
+      internalID: -7723055247608363760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltimersatlas_9
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 203
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd64471ae3f9c6fd0800000000000000
+      internalID: -2347326214421330211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltimersatlas_10
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 203
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984850c397e06f750800000000000000
+      internalID: 6338269439431378057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltimersatlas_11
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 196
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677c314152f813cf0800000000000000
+      internalID: -274280712879487114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltimersatlas_12
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 103
+        width: 85
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962c1597edb0afa00800000000000000
+      internalID: 790957734702989929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltimersatlas_13
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 108
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b4370eb48bcf380800000000000000
+      internalID: -8936064924582196377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltimersatlas_14
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 108
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74fe0f85014fcb6e0800000000000000
+      internalID: -1820311798315684025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltimersatlas_15
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 101
+        width: 65
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38c57472943c7760800000000000000
+      internalID: 7456892886642444346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltimersatlas_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203b5ab3305abba30800000000000000
+      internalID: 4232157708148912898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltimersatlas_17
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 203
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda4acb40f8c2de40800000000000000
+      internalID: 5679823014456871645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltimersatlas_18
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 108
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8838a207e57564cb0800000000000000
+      internalID: -4880117083088977016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltimersatlas_19
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 108
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b5f3be91fb179e0800000000000000
+      internalID: -1625307872462152816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5de9ffb06e0b6194ea9f652ca61888f2
     internalID: 0
     vertices: []
     indices: 

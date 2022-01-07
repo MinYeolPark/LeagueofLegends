@@ -6,6 +6,8 @@ public class BaseStats : MonoBehaviour
 {
     [SerializeField] public LeagueObjectData localData;
 
+    public GameDataSettings.TEAM teamID = GameDataSettings.TEAM.NEAUTRAL;       //Default
+
     [Space(5)]
     [Header("Health")]
     public float maxHealth;
@@ -37,7 +39,7 @@ public class BaseStats : MonoBehaviour
     [Space(5)]
     [Header("Utilities")]
     public float moveSpeed;
-    public float expValue;
+    public float curExp;
 
     [Space(5)]
     [Header("Buffs")]
@@ -52,6 +54,10 @@ public class BaseStats : MonoBehaviour
     public int assists;
     public int minionScore;
 
+    private void Start()
+    {
+        SetStats();
+    }
     public void SetStats()
     {        
         maxHealth=localData.maxHealth;
@@ -72,7 +78,7 @@ public class BaseStats : MonoBehaviour
         resourceRegen = localData.resourceRegen;
         moveSpeed = localData.moveSpeed;
         disablingEffect = localData.disablingEffect;   
-        expValue = localData.expValue;
+        curExp = localData.curExp;
         level = localData.level;
         gold = localData.gold;
         kills = localData.kills;

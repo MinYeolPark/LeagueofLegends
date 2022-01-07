@@ -7,7 +7,7 @@ public class RangedProjectile : MonoBehaviour
     [SerializeField] GameObject hitEffecet;
 
     private BaseUnits fireObj;
-    private BaseUnits targetObj;
+    private GameObject targetObj;
     public float speed = 70f;
     public float damage;
     private void Start()
@@ -16,7 +16,7 @@ public class RangedProjectile : MonoBehaviour
 
         damage = fireObj.GetComponent<BaseStats>().attackDamage;
     }
-    public void Seek(BaseUnits curTarget)
+    public void Seek(GameObject curTarget)
     {
         targetObj = curTarget;
         Debug.Log($"Target={curTarget}");
@@ -44,12 +44,12 @@ public class RangedProjectile : MonoBehaviour
 
     void HitTarget()
     {
-        BaseUnits target = targetObj;               
+        GameObject target = targetObj;               
         
         Vector3 hitPoint = target.GetComponent<Collider>().ClosestPoint(transform.position);
         Vector3 hitNormal = transform.position - target.GetComponent<Collider>().transform.position;
 
-        target.OnDamage(target, damage, hitPoint, hitNormal);
+        target.GetComponent<BaseUnits>().OnDamage(target.GetComponent<BaseUnits>(), damage, hitPoint, hitNormal);
 
 
         if (hitEffecet != null)

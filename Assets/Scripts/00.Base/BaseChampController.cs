@@ -8,7 +8,7 @@ using UnityEngine.AI;
 public class BaseChampController : BaseUnits,IAttackable
 {
     //Critical
-    public BaseUnits target;
+    public GameObject target;
 
     //Movement
     float motionSmoothTime = .1f;
@@ -29,7 +29,7 @@ public class BaseChampController : BaseUnits,IAttackable
         playerInput = GetComponent<PlayerInput>();
         anim = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
-        
+
         GetComponent<BaseStats>().SetStats();
     }
 
@@ -41,6 +41,7 @@ public class BaseChampController : BaseUnits,IAttackable
     {
         inputManager.Disable();
     }
+
     private void Update()
     {
         float speed = agent.velocity.magnitude / agent.speed;
@@ -106,7 +107,6 @@ public class BaseChampController : BaseUnits,IAttackable
     {
         if (Mouse.current.rightButton.wasPressedThisFrame)
         {
-            Debug.Log(Mouse.current.rightButton.wasPressedThisFrame);
             Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
             if (Physics.Raycast(ray, out RaycastHit raycastHit, Mathf.Infinity))
             {
@@ -129,10 +129,10 @@ public class BaseChampController : BaseUnits,IAttackable
 
                 transform.eulerAngles = new Vector3(0, rotationY, 0);
 
-                if (raycastHit.collider.TryGetComponent(out BaseUnits other))
+                if (raycastHit.collider.TryGetComponent(out BaseStats obj))
                 {
                     state = States.Targetting;
-                    target = other;
+                    target = obj.gameObject;
                     agent.stoppingDistance = localData.attackRange;
 
                     StartCoroutine(StartAttack());
@@ -143,7 +143,7 @@ public class BaseChampController : BaseUnits,IAttackable
 
     protected override IEnumerator RangeAttack()
     {
-        if(target.state==States.Dead||target==null)
+        if(target.GetComponent<BaseUnits>().state==States.Dead||target==null)
         {
             StartCoroutine(StopAttack());
 
@@ -176,29 +176,31 @@ public class BaseChampController : BaseUnits,IAttackable
     }
     public void OnTab(InputValue value)
     {
-        UIStatusBoard statusBoard=FindObjectOfType<UIStatusBoard>().GetComponent<UIStatusBoard>();
+        Debug.Log("On Tab");
+        UIStatusBoard statusBoard=FindObjectOfType<UIStatusBoard>();
         statusBoard.OnBoardPopup();
     }
 
     public IEnumerator StartAttack()
     {
-        if (target.state != States.Dead)
+        if (target.TryGetComponent<BaseUnits>(out BaseUnits obj))
         {
-            state = States.Attacking;
+            if(obj.state!=States.Dead)
+            {
+                state = States.Attacking;
 
-            anim.SetBool("BaseAttack", true);
-        }
-        yield return new WaitForSeconds(stats.attackRange / ((100 + stats.attackSpeed) * 0.01f));
+                anim.SetBool("BaseAttack", true);
+            }
 
-        if(target!=null)
-        {
-            if (target.state == States.Dead)
+            yield return new WaitForSeconds(stats.attackRange / ((100 + stats.attackSpeed) * 0.01f));
+
+            if(obj.state==States.Dead)
             {
                 state = States.Idle;
                 anim.SetBool("BaseAttack", false);
                 target = null;
             }
-        }        
+        }           
     }
 
     public IEnumerator StopAttack()

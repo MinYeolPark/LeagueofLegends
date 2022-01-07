@@ -13,32 +13,51 @@ MonoBehaviour:
   m_Name: Garen
   m_EditorClassIdentifier: 
   localData: {fileID: 11400000}
-  portraitImage: {fileID: 21300000, guid: 1ac3cf92789161b4a8a6678b153e9e07, type: 3}
-  team: 0
+  portraitImage: {fileID: 21300000, guid: d9ebb26d9c3369842934fc3c823fd323, type: 3}
   objType: 0
-  attackType: 1
-  projectile: {fileID: 1466745915212507218, guid: 37b47f9f0e369aa44a696925c3356d7c, type: 3}
+  attackType: 0
+  projectile: {fileID: 0}
   maxHealth: 526
   health: 526
   healthRegen: 5.5
+  maxHealthPerLvl: 0
+  healthPerLvl: 0
+  healthRegenPerLvl: 0
   attackDamage: 53
   attackSpeed: 0.668
   attackRange: 5.5
   lifeSteal: 0
   criticalStrike: 0
   lethality: 0
+  attackDamagePerLvl: 0
+  attackSpeedPerLvl: 0
+  attackRangePerLvl: 0
+  lifeStealPerLvl: 0
+  criticalStrikePerLvl: 0
+  lethalityPerLvl: 0
   armor: 21
   magicResist: 30
   disablingEffect: 0
+  armorPerLvl: 0
+  magicResistPerLvl: 0
+  disablingEffectPerLvl: 0
   abilityPower: 0
   abilityHaste: 0
   magicPenetration: 0
   resource: 418
   resourceRegen: 8
   moveSpeed: 3.3
+  abilityPowerPerLvl: 0
+  abilityHastePerLvl: 0
+  magicPenetrationPerLvl: 0
+  resourcePerLvl: 0
+  resourceRegenPerLvl: 0
+  moveSpeedPerLvl: 0
   gold: 0
   level: 0
-  expValue: 0
+  returnExp: 0
+  curExp: 0
+  needExp: 0
   kills: 0
   deaths: 0
   assists: 0
@@ -54,4 +73,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 957025ec87c00f445abbeadf01f841b4, type: 2}
   - {fileID: 11400000, guid: 5523918e8c71e424dba0007182f33a3d, type: 2}
   - {fileID: 11400000, guid: 5df075d50fef8dd44851079565479ce3, type: 2}
-  category: 3
+  category: 0
+  resourceType: 0

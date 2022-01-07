@@ -8,13 +8,12 @@ public class BaseUnits : MonoBehaviour, IDamagable
 {
     [Tooltip("Access to Audio Clips, Stats, UI components")]
     public LeagueObjectData localData;
-    public GameDataSettings.TEAM teamID = GameDataSettings.TEAM.NEAUTRAL;       //Default
     public Animator anim;
     protected NavMeshAgent agent;
     
     public event UnityAction OnDestroy;
     protected BaseStats stats;
-    protected BaseUnits curTarget;
+    protected GameObject curTarget;
     protected List<BaseUnits> inRangeObject;
 
     protected Vector3 hitPoint;
@@ -45,7 +44,7 @@ public class BaseUnits : MonoBehaviour, IDamagable
         get
         {
             //추적할 대상이 존재하고, 대상이 사망하지 않았다면 true
-            if (curTarget != null && curTarget.state != States.Dead)
+            if (curTarget != null && curTarget.GetComponent<BaseUnits>().state != States.Dead)
             {
                 return true;
             }
@@ -81,9 +80,15 @@ public class BaseUnits : MonoBehaviour, IDamagable
         stats = GetComponent<BaseStats>();
         stats.SetStats();
 
-        if(localData.attackType==LeagueObjectData.AttackType.Range)
+        OnDestroy += () => Destroy(gameObject, 2f);
+
+        if (localData.attackType==LeagueObjectData.AttackType.Range)
         {
             rangedProjectile = localData.projectile;
+        }
+        else
+        {
+            return;
         }
     }
 
@@ -126,8 +131,28 @@ public class BaseUnits : MonoBehaviour, IDamagable
             OnDestroy();
             Debug.Log("Destroy Object");
         }
+
+        agent.isStopped = true;
+        agent.enabled = false;
+
+        //If animation is playing
+        if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime < 1.0f)
+        {
+            return;
+        }
+        else
+        {
+            anim.SetTrigger("Dead");
+        }
+        Collider[] colliders = GetComponents<Collider>();
+
+        foreach (Collider col in colliders)
+        {
+            col.enabled = false;
+        }
     }
-    protected void SetTarget(BaseUnits target)
+
+    protected void SetTarget(GameObject target)
     {
         curTarget = target;
     }

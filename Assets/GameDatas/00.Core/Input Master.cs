@@ -88,7 +88,7 @@ public class @InputMaster : IInputActionCollection, IDisposable
                     ""id"": ""a66c1b22-b471-45ac-85a2-8afb8393cb45"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": ""Hold""
+                    ""interactions"": ""Press,Press(behavior=1)""
                 },
                 {
                     ""name"": ""Recall"",

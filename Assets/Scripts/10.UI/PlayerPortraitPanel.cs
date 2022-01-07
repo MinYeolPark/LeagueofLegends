@@ -23,7 +23,7 @@ public class PlayerPortraitPanel : MonoBehaviour
     void UpdatePortrait()
     {
         playerPortraitImg.sprite = stats.localData.portraitImage;
-        playerEXPImg.fillAmount = stats.expValue / 100;
+        playerEXPImg.fillAmount = stats.curExp / 100;
         levelText.text = stats.level.ToString();
     }
 }

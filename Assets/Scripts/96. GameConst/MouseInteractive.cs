@@ -25,7 +25,19 @@ public class MouseInteractive : MonoBehaviour, IClickable
     {
         if(LayerMask.GetMask(orgLayer)!=LayerMask.NameToLayer(orgLayer))
         {
-            Debug.Log("get obj info");
+            Debug.Log("Left Clicked");
+            Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
+            if (Physics.Raycast(ray, out RaycastHit raycastHit, Mathf.Infinity))
+            {
+                Debug.Log("Raycast hit" + raycastHit.point);
+
+                if (raycastHit.collider.TryGetComponent<BaseStats>(out BaseStats obj))
+                {                   
+                    Debug.Log("clicked Obj" + obj);
+                    ObjectStatusPanel objStatus=FindObjectOfType<ObjectStatusPanel>();
+                    objStatus.ObjStatusUpdate(obj);
+                }
+            }
         }
     }
 
@@ -48,14 +60,21 @@ public class MouseInteractive : MonoBehaviour, IClickable
 
         foreach (Transform t in tran)
         {
-            if (gameObject.GetComponent<BaseUnits>().teamID == GameDataSettings.TEAM.RED_TEAM)
+            if(gameObject.TryGetComponent<BaseStats>(out BaseStats obj))
             {
-                t.gameObject.layer = LayerMask.NameToLayer(redLayer);
-            }
-            else
-            {
-                t.gameObject.layer = LayerMask.NameToLayer(blueLayer);
-            }
+                if (obj.teamID == GameDataSettings.TEAM.RED_TEAM)
+                {
+                    t.gameObject.layer = LayerMask.NameToLayer(redLayer);
+                }
+                else if (obj.teamID == GameDataSettings.TEAM.BLUE_TEAM)
+                {
+                    t.gameObject.layer = LayerMask.NameToLayer(blueLayer);
+                }
+                else
+                {
+                    return;
+                }
+            }                     
         }
     }
 

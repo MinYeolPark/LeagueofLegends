@@ -151,7 +151,7 @@ public class Minion : BaseUnits,IAttackable
         float shortestDistance = Mathf.Infinity;
         GameObject nearestMinion = null;
         ///Minion Target Process>>
-        if (curTarget.GetComponent<BaseUnits>().teamID != teamID)
+        if (curTarget.GetComponent<BaseStats>().teamID != GetComponent<BaseStats>().teamID)
         {
             foreach (var targetMinion in minions)
             {
@@ -168,7 +168,7 @@ public class Minion : BaseUnits,IAttackable
 
         if (nearestMinion != null && shortestDistance <= GetComponent<BaseStats>().attackRange)
         {
-            curTarget = nearestMinion.GetComponent<BaseUnits>();
+            curTarget = nearestMinion.gameObject;
         }
         //<<  
     }
@@ -181,7 +181,7 @@ public class Minion : BaseUnits,IAttackable
         GameObject targetStructure = null;
 
         ///Structure Target Process>>
-        if (curTarget.GetComponent<BaseUnits>().teamID != teamID)
+        if (curTarget.GetComponent<BaseStats>().teamID != GetComponent<BaseStats>().teamID)
         {
             foreach (var targetMinion in structure)
             {
@@ -198,7 +198,7 @@ public class Minion : BaseUnits,IAttackable
 
         if (targetStructure != null && shortestDistance <= GetComponent<BaseStats>().attackRange)
         {
-            curTarget = targetStructure.GetComponent<BaseUnits>();
+            curTarget = targetStructure.gameObject;
         }
 
     }
@@ -210,7 +210,7 @@ public class Minion : BaseUnits,IAttackable
         float shortestDistance = Mathf.Infinity;
 
         GameObject targetChamp = null;
-        if (curTarget.GetComponent<BaseUnits>().teamID != teamID)
+        if (curTarget.GetComponent<BaseStats>().teamID != GetComponent<BaseStats>().teamID)
         {
             foreach (var targetMinion in champions)
             {
@@ -225,13 +225,13 @@ public class Minion : BaseUnits,IAttackable
         }
         if (targetChamp != null && shortestDistance <= GetComponent<BaseStats>().attackRange)
         {
-            curTarget = targetChamp.GetComponent<BaseUnits>();
+            curTarget = targetChamp.gameObject;
         }
     }
     public IEnumerator StartAttack()
     {
         state = States.Attacking;
-        if (curTarget.state != States.Dead)
+        if (curTarget.GetComponent<BaseUnits>().state != States.Dead)
         {
 
             //Range Process
@@ -249,7 +249,7 @@ public class Minion : BaseUnits,IAttackable
 
         yield return new WaitForSeconds((float)(100 + localData.attackSpeed * 0.01));
 
-        if (curTarget.state == States.Dead)
+        if (curTarget.GetComponent<BaseUnits>().state == States.Dead)
         {
             StartCoroutine(StopAttack());
         }

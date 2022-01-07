@@ -74,7 +74,7 @@ public class Turret : BaseUnits,IAttackable
         ///Minion Target Process>>
         foreach (var targetMinion in minions)
         {
-            if(targetMinion.GetComponent<Minion>().teamID!=teamID)
+            if(targetMinion.GetComponent<BaseStats>().teamID!=GetComponent<BaseStats>().teamID)
             {
                 float distanceToEnemy = Vector3.Distance(transform.position, targetMinion.transform.position);
 
@@ -88,7 +88,7 @@ public class Turret : BaseUnits,IAttackable
 
         if (nearestMinion != null && shortestDistance <= GetComponent<BaseStats>().attackRange)
         {
-            curTarget = nearestMinion.GetComponent<BaseUnits>();
+            curTarget = nearestMinion.gameObject;
         }
         //<<           
     }
@@ -96,7 +96,7 @@ public class Turret : BaseUnits,IAttackable
     {
         state = States.Attacking;
 
-        if(curTarget.state != States.Dead)
+        if(curTarget.GetComponent<BaseUnits>().state != States.Dead)
         {
             if (rangedProjectile != null)
             {
@@ -112,7 +112,7 @@ public class Turret : BaseUnits,IAttackable
         
         yield return new WaitForSeconds((float)(100 +localData.attackSpeed*0.01));
 
-        if(curTarget.state==States.Dead)
+        if(curTarget.GetComponent<BaseUnits>().state == States.Dead)
         {
             StartCoroutine(StopAttack());
         }
