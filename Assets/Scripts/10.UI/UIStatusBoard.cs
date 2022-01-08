@@ -9,7 +9,7 @@ public class UIStatusBoard : MonoBehaviour
     public void OnBoardPopup()
     {
         Debug.Log("On board pop");
-        if(statusBoard.activeSelf==false)
+        if (statusBoard.activeSelf == false)
         {
             statusBoard.SetActive(true);
         }

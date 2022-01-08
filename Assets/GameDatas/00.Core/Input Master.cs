@@ -97,6 +97,62 @@ public class @InputMaster : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": ""Press""
+                },
+                {
+                    ""name"": ""ActiveItem1"",
+                    ""type"": ""Button"",
+                    ""id"": ""b6e97216-083c-417d-8713-86c3278911ad"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": ""Press""
+                },
+                {
+                    ""name"": ""ActiveItem2"",
+                    ""type"": ""Button"",
+                    ""id"": ""b2206cce-0494-4e0f-9b36-d5975e03b5ea"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": ""Press""
+                },
+                {
+                    ""name"": ""ActiveItem3"",
+                    ""type"": ""Button"",
+                    ""id"": ""5a91acb3-a736-49ac-b22c-747d8fcac456"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": ""Press""
+                },
+                {
+                    ""name"": ""ActiveItem4"",
+                    ""type"": ""Button"",
+                    ""id"": ""dd450e7c-a02e-469d-b6a3-fa92a553064b"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": ""Press""
+                },
+                {
+                    ""name"": ""ActiveItem5"",
+                    ""type"": ""Button"",
+                    ""id"": ""3a8cfc2b-b74e-4c08-a9a5-641d84ef5b16"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": ""Press""
+                },
+                {
+                    ""name"": ""ActiveItem6"",
+                    ""type"": ""Button"",
+                    ""id"": ""21ffad2b-380d-426b-b0fb-19fff4b8bf73"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": ""Press""
+                },
+                {
+                    ""name"": ""ActiveItem7"",
+                    ""type"": ""Button"",
+                    ""id"": ""f3e9c838-57f6-4b6e-bd37-d674a8175633"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": ""Press""
                 }
             ],
             ""bindings"": [
@@ -251,6 +307,83 @@ public class @InputMaster : IInputActionCollection, IDisposable
                     ""processors"": """",
                     ""groups"": ""Keyboard and Mouse"",
                     ""action"": ""Recall"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""365223f7-4c35-41b0-91b4-672c24423ac8"",
+                    ""path"": ""<Keyboard>/1"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard and Mouse"",
+                    ""action"": ""ActiveItem1"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""1a02293c-9672-473f-97d9-ac2c745377b8"",
+                    ""path"": ""<Keyboard>/2"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard and Mouse"",
+                    ""action"": ""ActiveItem2"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e62447b9-d458-4fd9-bb71-09029546e26f"",
+                    ""path"": ""<Keyboard>/3"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard and Mouse"",
+                    ""action"": ""ActiveItem3"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""1881db86-699a-4659-92ea-f6575ff48fbd"",
+                    ""path"": ""<Keyboard>/4"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard and Mouse"",
+                    ""action"": ""ActiveItem4"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""87aaa15c-8732-4c41-b2eb-c62623ff9afb"",
+                    ""path"": ""<Keyboard>/5"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard and Mouse"",
+                    ""action"": ""ActiveItem5"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""db5b5fb1-f324-4298-91e7-c4d7bab635ea"",
+                    ""path"": ""<Keyboard>/6"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ActiveItem6"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""d5022c52-4707-4f2c-b40b-074dc0e719e3"",
+                    ""path"": ""<Keyboard>/f7"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard and Mouse"",
+                    ""action"": ""ActiveItem7"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -822,6 +955,13 @@ public class @InputMaster : IInputActionCollection, IDisposable
         m_Player_Attack = m_Player.FindAction("Attack", throwIfNotFound: true);
         m_Player_Tab = m_Player.FindAction("Tab", throwIfNotFound: true);
         m_Player_Recall = m_Player.FindAction("Recall", throwIfNotFound: true);
+        m_Player_ActiveItem1 = m_Player.FindAction("ActiveItem1", throwIfNotFound: true);
+        m_Player_ActiveItem2 = m_Player.FindAction("ActiveItem2", throwIfNotFound: true);
+        m_Player_ActiveItem3 = m_Player.FindAction("ActiveItem3", throwIfNotFound: true);
+        m_Player_ActiveItem4 = m_Player.FindAction("ActiveItem4", throwIfNotFound: true);
+        m_Player_ActiveItem5 = m_Player.FindAction("ActiveItem5", throwIfNotFound: true);
+        m_Player_ActiveItem6 = m_Player.FindAction("ActiveItem6", throwIfNotFound: true);
+        m_Player_ActiveItem7 = m_Player.FindAction("ActiveItem7", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -891,6 +1031,13 @@ public class @InputMaster : IInputActionCollection, IDisposable
     private readonly InputAction m_Player_Attack;
     private readonly InputAction m_Player_Tab;
     private readonly InputAction m_Player_Recall;
+    private readonly InputAction m_Player_ActiveItem1;
+    private readonly InputAction m_Player_ActiveItem2;
+    private readonly InputAction m_Player_ActiveItem3;
+    private readonly InputAction m_Player_ActiveItem4;
+    private readonly InputAction m_Player_ActiveItem5;
+    private readonly InputAction m_Player_ActiveItem6;
+    private readonly InputAction m_Player_ActiveItem7;
     public struct PlayerActions
     {
         private @InputMaster m_Wrapper;
@@ -905,6 +1052,13 @@ public class @InputMaster : IInputActionCollection, IDisposable
         public InputAction @Attack => m_Wrapper.m_Player_Attack;
         public InputAction @Tab => m_Wrapper.m_Player_Tab;
         public InputAction @Recall => m_Wrapper.m_Player_Recall;
+        public InputAction @ActiveItem1 => m_Wrapper.m_Player_ActiveItem1;
+        public InputAction @ActiveItem2 => m_Wrapper.m_Player_ActiveItem2;
+        public InputAction @ActiveItem3 => m_Wrapper.m_Player_ActiveItem3;
+        public InputAction @ActiveItem4 => m_Wrapper.m_Player_ActiveItem4;
+        public InputAction @ActiveItem5 => m_Wrapper.m_Player_ActiveItem5;
+        public InputAction @ActiveItem6 => m_Wrapper.m_Player_ActiveItem6;
+        public InputAction @ActiveItem7 => m_Wrapper.m_Player_ActiveItem7;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -944,6 +1098,27 @@ public class @InputMaster : IInputActionCollection, IDisposable
                 @Recall.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRecall;
                 @Recall.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRecall;
                 @Recall.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRecall;
+                @ActiveItem1.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnActiveItem1;
+                @ActiveItem1.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnActiveItem1;
+                @ActiveItem1.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnActiveItem1;
+                @ActiveItem2.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnActiveItem2;
+                @ActiveItem2.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnActiveItem2;
+                @ActiveItem2.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnActiveItem2;
+                @ActiveItem3.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnActiveItem3;
+                @ActiveItem3.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnActiveItem3;
+                @ActiveItem3.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnActiveItem3;
+                @ActiveItem4.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnActiveItem4;
+                @ActiveItem4.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnActiveItem4;
+                @ActiveItem4.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnActiveItem4;
+                @ActiveItem5.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnActiveItem5;
+                @ActiveItem5.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnActiveItem5;
+                @ActiveItem5.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnActiveItem5;
+                @ActiveItem6.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnActiveItem6;
+                @ActiveItem6.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnActiveItem6;
+                @ActiveItem6.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnActiveItem6;
+                @ActiveItem7.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnActiveItem7;
+                @ActiveItem7.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnActiveItem7;
+                @ActiveItem7.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnActiveItem7;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -978,6 +1153,27 @@ public class @InputMaster : IInputActionCollection, IDisposable
                 @Recall.started += instance.OnRecall;
                 @Recall.performed += instance.OnRecall;
                 @Recall.canceled += instance.OnRecall;
+                @ActiveItem1.started += instance.OnActiveItem1;
+                @ActiveItem1.performed += instance.OnActiveItem1;
+                @ActiveItem1.canceled += instance.OnActiveItem1;
+                @ActiveItem2.started += instance.OnActiveItem2;
+                @ActiveItem2.performed += instance.OnActiveItem2;
+                @ActiveItem2.canceled += instance.OnActiveItem2;
+                @ActiveItem3.started += instance.OnActiveItem3;
+                @ActiveItem3.performed += instance.OnActiveItem3;
+                @ActiveItem3.canceled += instance.OnActiveItem3;
+                @ActiveItem4.started += instance.OnActiveItem4;
+                @ActiveItem4.performed += instance.OnActiveItem4;
+                @ActiveItem4.canceled += instance.OnActiveItem4;
+                @ActiveItem5.started += instance.OnActiveItem5;
+                @ActiveItem5.performed += instance.OnActiveItem5;
+                @ActiveItem5.canceled += instance.OnActiveItem5;
+                @ActiveItem6.started += instance.OnActiveItem6;
+                @ActiveItem6.performed += instance.OnActiveItem6;
+                @ActiveItem6.canceled += instance.OnActiveItem6;
+                @ActiveItem7.started += instance.OnActiveItem7;
+                @ActiveItem7.performed += instance.OnActiveItem7;
+                @ActiveItem7.canceled += instance.OnActiveItem7;
             }
         }
     }
@@ -1101,6 +1297,13 @@ public class @InputMaster : IInputActionCollection, IDisposable
         void OnAttack(InputAction.CallbackContext context);
         void OnTab(InputAction.CallbackContext context);
         void OnRecall(InputAction.CallbackContext context);
+        void OnActiveItem1(InputAction.CallbackContext context);
+        void OnActiveItem2(InputAction.CallbackContext context);
+        void OnActiveItem3(InputAction.CallbackContext context);
+        void OnActiveItem4(InputAction.CallbackContext context);
+        void OnActiveItem5(InputAction.CallbackContext context);
+        void OnActiveItem6(InputAction.CallbackContext context);
+        void OnActiveItem7(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {

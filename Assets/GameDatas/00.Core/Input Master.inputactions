@@ -84,6 +84,62 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "Press"
+                },
+                {
+                    "name": "ActiveItem1",
+                    "type": "Button",
+                    "id": "b6e97216-083c-417d-8713-86c3278911ad",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                },
+                {
+                    "name": "ActiveItem2",
+                    "type": "Button",
+                    "id": "b2206cce-0494-4e0f-9b36-d5975e03b5ea",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                },
+                {
+                    "name": "ActiveItem3",
+                    "type": "Button",
+                    "id": "5a91acb3-a736-49ac-b22c-747d8fcac456",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                },
+                {
+                    "name": "ActiveItem4",
+                    "type": "Button",
+                    "id": "dd450e7c-a02e-469d-b6a3-fa92a553064b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                },
+                {
+                    "name": "ActiveItem5",
+                    "type": "Button",
+                    "id": "3a8cfc2b-b74e-4c08-a9a5-641d84ef5b16",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                },
+                {
+                    "name": "ActiveItem6",
+                    "type": "Button",
+                    "id": "21ffad2b-380d-426b-b0fb-19fff4b8bf73",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                },
+                {
+                    "name": "ActiveItem7",
+                    "type": "Button",
+                    "id": "f3e9c838-57f6-4b6e-bd37-d674a8175633",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
                 }
             ],
             "bindings": [
@@ -238,6 +294,83 @@
                     "processors": "",
                     "groups": "Keyboard and Mouse",
                     "action": "Recall",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "365223f7-4c35-41b0-91b4-672c24423ac8",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard and Mouse",
+                    "action": "ActiveItem1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1a02293c-9672-473f-97d9-ac2c745377b8",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard and Mouse",
+                    "action": "ActiveItem2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e62447b9-d458-4fd9-bb71-09029546e26f",
+                    "path": "<Keyboard>/3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard and Mouse",
+                    "action": "ActiveItem3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1881db86-699a-4659-92ea-f6575ff48fbd",
+                    "path": "<Keyboard>/4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard and Mouse",
+                    "action": "ActiveItem4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "87aaa15c-8732-4c41-b2eb-c62623ff9afb",
+                    "path": "<Keyboard>/5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard and Mouse",
+                    "action": "ActiveItem5",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "db5b5fb1-f324-4298-91e7-c4d7bab635ea",
+                    "path": "<Keyboard>/6",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ActiveItem6",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d5022c52-4707-4f2c-b40b-074dc0e719e3",
+                    "path": "<Keyboard>/f7",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard and Mouse",
+                    "action": "ActiveItem7",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
