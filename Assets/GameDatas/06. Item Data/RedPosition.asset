@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e03b249f3672644a4f84f159bddc7f, type: 3}
+  m_Name: RedPosition
+  m_EditorClassIdentifier: 
+  portraitImage: {fileID: 21300000, guid: 6a7ea9811404d4a4f90bc900b0aee74c, type: 3}
+  buffs: []
+  Id: 0
+  startingAmount: 1
+  purchaseCost: 50
+  sellCost: 180
+  unique: None
+  displayedName: Red Postion
+  description: 
+  isActive: 1
+  itemCategory: 0
+  canUse: 0
+  itemType: 6
+  maxHealth: 0
+  health: 0
+  healthRegen: 0
+  attackDamage: 0
+  attackSpeed: 0
+  attackRange: 0
+  lifeSteal: 0
+  criticalStrike: 0
+  lethality: 0
+  armor: 0
+  magicResist: 0
+  disablingEffect: 0
+  abilityPower: 0
+  abilityHaste: 0
+  magicPenetration: 0
+  resource: 0
+  resourceRegen: 0
+  moveSpeed: 0

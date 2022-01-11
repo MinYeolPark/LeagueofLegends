@@ -7,6 +7,7 @@ using UnityEngine.AI;
 //[RequireComponent(typeof(MouseInteractive))]
 public class BaseChampController : BaseUnits,IAttackable
 {
+    public LeagueInventoryData inventory;
     //Critical
     public GameObject target;
 
@@ -208,5 +209,15 @@ public class BaseChampController : BaseUnits,IAttackable
         yield return null;
         state = States.Idle;
         anim.SetBool("BaseAttack", false);
+    }
+
+    public void PurchaseItem(GameObject newItem)
+    {
+        newItem.GetComponent<Item>();
+
+        if(newItem)
+        {
+
+        }
     }
 }

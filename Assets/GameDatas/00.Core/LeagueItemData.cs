@@ -1,12 +1,16 @@
 using UnityEngine;
+using System.Collections.Generic;
 
-[CreateAssetMenu(fileName = "NewObject", menuName = "League of Legends/LeagueItem Data")]
-public class LeagueItemData : ScriptableObject
+public abstract class LeagueItemData : ScriptableObject
 {
     [Header("Critical")]
-    public LeagueItemData localData;
-
+    //public LeagueItemData localData;
     public Sprite portraitImage;
+
+    //Tests
+    public ItemBuff[] buffs;
+    public int Id;
+
     public enum HasUnique
     {
         True,
@@ -97,4 +101,49 @@ public class LeagueItemData : ScriptableObject
     public float resource;          //자원: 스킬을 사용하는데 필요한 자원
     public float resourceRegen;
     public float moveSpeed;
+    public Item CreateItem()
+    {
+        Item newItem = new Item(this);
+        return newItem;
+    }
+}
+
+[System.Serializable]
+public class Item
+{
+    public string Name;
+    public int Id;
+    public ItemBuff[] buffs;
+    public Item(LeagueItemData item)
+    {
+        Name = item.name;
+        Id = item.Id;
+        buffs = new ItemBuff[item.buffs.Length];
+        for (int i = 0; i < buffs.Length; i++)
+        {
+            buffs[i] = new ItemBuff(item.buffs[i].min, item.buffs[i].max)
+            {
+                itemType = item.buffs[i].itemType
+            };
+        }
+    }
+}
+
+[System.Serializable]
+public class ItemBuff
+{
+    public LeagueItemData.ItemType itemType;
+    public int value;
+    public int min;
+    public int max;
+    public ItemBuff(int _min, int _max)
+    {
+        min = _min;
+        max = _max;
+        GenerateValue();
+    }
+    public void GenerateValue()
+    {
+        value = UnityEngine.Random.Range(min, max);
+    }
 }

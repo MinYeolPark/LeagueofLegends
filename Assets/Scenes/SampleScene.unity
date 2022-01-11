@@ -1182,7 +1182,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &54788949
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1196,7 +1196,7 @@ RectTransform:
   m_Children:
   - {fileID: 2134094976}
   m_Father: {fileID: 1633162754}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -1826,7 +1826,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 95072600}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1633162757}
+        m_TargetAssemblyTypeName: UIShopPanel, Assembly-CSharp
+        m_MethodName: OnAllItems
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &95072600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3141,10 +3153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2231bab2e9774ce48808158cb3e34ced, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shopInventory:
-  - {fileID: 11400000, guid: a4955ac7740afba4fa816282f0e64759, type: 2}
-  - {fileID: 11400000, guid: a4955ac7740afba4fa816282f0e64759, type: 2}
-  - {fileID: 11400000, guid: a4955ac7740afba4fa816282f0e64759, type: 2}
+  itemDataBase: {fileID: 0}
 --- !u!114 &189668564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6292,54 +6301,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!21 &368857954
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: UI/DividedHealthBar
-  m_Shader: {fileID: 4800000, guid: f417ed6352c7c194da55986920648a97, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BurnTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _CellTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _AAF: 1
-    - _BigGapInterval: 5
-    - _BigGapSize: 0.05
-    - _DamageValue: 0
-    - _Flip: 0
-    - _GapInterval: 100
-    - _GapSize: 0.025
-    - _MaxValue: 1000
-    - _Value: 1000
-    m_Colors:
-    - _BigGapColour: {r: 0, g: 0, b: 0, a: 1}
-    - _DamageColour: {r: 1, g: 0.43, b: 0.43, a: 1}
-    - _EmptyColour: {r: 0, g: 0, b: 0, a: 0}
-    - _FullColour: {r: 0.09431505, g: 0, b: 1, a: 1}
-    - _GapColour: {r: 0.2, g: 0.29, b: 0.19, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1 &376715191
 GameObject:
   m_ObjectHideFlags: 0
@@ -7107,7 +7068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 1884795792}
+  m_Material: {fileID: 2097423610}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -7411,7 +7372,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 410963051}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1633162757}
+        m_TargetAssemblyTypeName: UIShopPanel, Assembly-CSharp
+        m_MethodName: OnAllItems
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &410963051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9572,6 +9545,54 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!21 &545481485
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI/DividedHealthBar
+  m_Shader: {fileID: 4800000, guid: f417ed6352c7c194da55986920648a97, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BurnTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CellTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AAF: 1
+    - _BigGapInterval: 5
+    - _BigGapSize: 0.05
+    - _DamageValue: 0
+    - _Flip: 0
+    - _GapInterval: 100
+    - _GapSize: 0.025
+    - _MaxValue: 1000
+    - _Value: 1000
+    m_Colors:
+    - _BigGapColour: {r: 0, g: 0, b: 0, a: 1}
+    - _DamageColour: {r: 1, g: 0.43, b: 0.43, a: 1}
+    - _EmptyColour: {r: 0, g: 0, b: 0, a: 0}
+    - _FullColour: {r: 0.09431505, g: 0, b: 1, a: 1}
+    - _GapColour: {r: 0.2, g: 0.29, b: 0.19, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &550468698
 GameObject:
   m_ObjectHideFlags: 0
@@ -11625,54 +11646,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 648731798}
   m_CullTransparentMesh: 1
---- !u!21 &665203628
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: UI/DividedHealthBar
-  m_Shader: {fileID: 4800000, guid: f417ed6352c7c194da55986920648a97, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BurnTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _CellTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _AAF: 1
-    - _BigGapInterval: 5
-    - _BigGapSize: 0.05
-    - _DamageValue: 0
-    - _Flip: 0
-    - _GapInterval: 100
-    - _GapSize: 0.025
-    - _MaxValue: 1000
-    - _Value: 1000
-    m_Colors:
-    - _BigGapColour: {r: 0, g: 0, b: 0, a: 1}
-    - _DamageColour: {r: 1, g: 0.43, b: 0.43, a: 1}
-    - _EmptyColour: {r: 0, g: 0, b: 0, a: 0}
-    - _FullColour: {r: 0.09431505, g: 0, b: 1, a: 1}
-    - _GapColour: {r: 0.2, g: 0.29, b: 0.19, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1 &666513208
 GameObject:
   m_ObjectHideFlags: 0
@@ -17879,7 +17852,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1129523222
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17893,7 +17866,7 @@ RectTransform:
   m_Children:
   - {fileID: 1030177472}
   m_Father: {fileID: 1633162754}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -18162,6 +18135,54 @@ Transform:
   m_Father: {fileID: 303507660}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &1148802417
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI/DividedHealthBar
+  m_Shader: {fileID: 4800000, guid: f417ed6352c7c194da55986920648a97, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BurnTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CellTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AAF: 1
+    - _BigGapInterval: 5
+    - _BigGapSize: 0.05
+    - _DamageValue: 0
+    - _Flip: 0
+    - _GapInterval: 100
+    - _GapSize: 0.025
+    - _MaxValue: 1000
+    - _Value: 1000
+    m_Colors:
+    - _BigGapColour: {r: 0, g: 0, b: 0, a: 1}
+    - _DamageColour: {r: 1, g: 0.43, b: 0.43, a: 1}
+    - _EmptyColour: {r: 0, g: 0, b: 0, a: 0}
+    - _FullColour: {r: 0.09431505, g: 0, b: 1, a: 1}
+    - _GapColour: {r: 0.2, g: 0.29, b: 0.19, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &1151227677
 GameObject:
   m_ObjectHideFlags: 0
@@ -19376,6 +19397,8 @@ GameObject:
   - component: {fileID: 1241367998}
   - component: {fileID: 1241368000}
   - component: {fileID: 1241367999}
+  - component: {fileID: 1241368002}
+  - component: {fileID: 1241368001}
   m_Layer: 5
   m_Name: Recoommended Item Panel
   m_TagString: Untagged
@@ -19390,17 +19413,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1241367997}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1254247296}
-  m_RootOrder: 1
+  m_Father: {fileID: 1327238175}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 392.5, y: -340}
-  m_SizeDelta: {x: 815, y: 540}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 599.1033, y: -356.125}
+  m_SizeDelta: {x: 1143.296, y: 547.5191}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1241367999
 MonoBehaviour:
@@ -19440,6 +19463,46 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1241367997}
   m_CullTransparentMesh: 1
+--- !u!114 &1241368001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1241367997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 2
+  m_StartCorner: 1
+  m_StartAxis: 0
+  m_CellSize: {x: 100, y: 100}
+  m_Spacing: {x: 0, y: 0}
+  m_Constraint: 0
+  m_ConstraintCount: 2
+--- !u!114 &1241368002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1241367997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf37c5cfcbb82af4c9d188f2be441e22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gridLayout: {fileID: 1241368001}
+  itemSlotPrefab: {fileID: 1063475870492665005, guid: 0540dc12772318445a45fc6793d69c6b, type: 3}
+  itemDataBase: {fileID: 11400000, guid: 2f743176a5b274245bb142381c1dd6da, type: 2}
+  inventory: {fileID: 11400000, guid: 57192a302d9b6064bba3da27d01a3bdd, type: 2}
 --- !u!1 &1243803083
 GameObject:
   m_ObjectHideFlags: 0
@@ -19739,7 +19802,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 417228883}
-  - {fileID: 1241367998}
   m_Father: {fileID: 1841186812}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -19791,7 +19853,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1254247298}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1633162757}
+        m_TargetAssemblyTypeName: UIShopPanel, Assembly-CSharp
+        m_MethodName: OnRecommendedItems
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1254247298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20978,7 +21052,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1327238175}
-  - component: {fileID: 1327238176}
   m_Layer: 5
   m_Name: Header Panels
   m_TagString: Untagged
@@ -20996,39 +21069,18 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1241367998}
+  - {fileID: 1601744121}
+  - {fileID: 1386110854}
   m_Father: {fileID: 1633162754}
-  m_RootOrder: 5
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 65}
+  m_SizeDelta: {x: 1200, y: 700}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1327238176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1327238174}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Padding:
-    m_Left: 0
-    m_Right: 0
-    m_Top: 0
-    m_Bottom: 0
-  m_ChildAlignment: 0
-  m_StartCorner: 0
-  m_StartAxis: 0
-  m_CellSize: {x: 100, y: 100}
-  m_Spacing: {x: 0, y: 0}
-  m_Constraint: 0
-  m_ConstraintCount: 2
 --- !u!1001 &1340076248
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22049,6 +22101,81 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1383261612}
+  m_CullTransparentMesh: 1
+--- !u!1 &1386110853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1386110854}
+  - component: {fileID: 1386110856}
+  - component: {fileID: 1386110855}
+  m_Layer: 5
+  m_Name: Item Sets Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1386110854
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386110853}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1327238175}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 599.1033, y: -356.125}
+  m_SizeDelta: {x: 1143.296, y: 547.5191}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1386110855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386110853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -7419989458099814689, guid: 03e281caf1a3eba43960214667b23e7a, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1386110856
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386110853}
   m_CullTransparentMesh: 1
 --- !u!1 &1386648507
 GameObject:
@@ -23194,7 +23321,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1461360091
 RectTransform:
   m_ObjectHideFlags: 0
@@ -23209,7 +23336,7 @@ RectTransform:
   - {fileID: 1943886102}
   - {fileID: 863291775}
   m_Father: {fileID: 1633162754}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -23934,7 +24061,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1487661297
 RectTransform:
   m_ObjectHideFlags: 0
@@ -23947,7 +24074,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1633162754}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -26321,6 +26448,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1600062878}
   m_CullTransparentMesh: 1
+--- !u!1 &1601744120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1601744121}
+  - component: {fileID: 1601744123}
+  - component: {fileID: 1601744122}
+  m_Layer: 5
+  m_Name: All Item Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1601744121
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601744120}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1327238175}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 599.1033, y: -356.125}
+  m_SizeDelta: {x: 1143.296, y: 547.5191}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1601744122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601744120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -7419989458099814689, guid: 03e281caf1a3eba43960214667b23e7a, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1601744123
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601744120}
+  m_CullTransparentMesh: 1
 --- !u!1 &1603200647
 GameObject:
   m_ObjectHideFlags: 0
@@ -26704,13 +26906,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1841186812}
+  - {fileID: 1327238175}
   - {fileID: 1129523222}
   - {fileID: 1487661297}
   - {fileID: 2029553262}
   - {fileID: 54788949}
   - {fileID: 1461360091}
-  - {fileID: 1327238175}
-  - {fileID: 1841186812}
   - {fileID: 1290882438}
   - {fileID: 1134976350}
   - {fileID: 25927218}
@@ -26774,8 +26976,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shopItemPrefab: {fileID: 1063475870492665005, guid: 0540dc12772318445a45fc6793d69c6b, type: 3}
-  shopLayout: {fileID: 0}
   itemShop: {fileID: 179857735}
+  RecommendedItemsPanel: {fileID: 1241367997}
+  AllItemsPanel: {fileID: 1601744120}
+  ItemSetsPanel: {fileID: 1386110853}
 --- !u!1 &1633491952
 GameObject:
   m_ObjectHideFlags: 0
@@ -28310,54 +28514,6 @@ Transform:
   m_Father: {fileID: 886709670}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &1695066351
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: UI/DividedHealthBar
-  m_Shader: {fileID: 4800000, guid: f417ed6352c7c194da55986920648a97, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BurnTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _CellTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _AAF: 1
-    - _BigGapInterval: 5
-    - _BigGapSize: 0.05
-    - _DamageValue: 0
-    - _Flip: 0
-    - _GapInterval: 100
-    - _GapSize: 0.025
-    - _MaxValue: 1000
-    - _Value: 1000
-    m_Colors:
-    - _BigGapColour: {r: 0, g: 0, b: 0, a: 1}
-    - _DamageColour: {r: 1, g: 0.43, b: 0.43, a: 1}
-    - _EmptyColour: {r: 0, g: 0, b: 0, a: 0}
-    - _FullColour: {r: 0, g: 1, b: 0, a: 1}
-    - _GapColour: {r: 0.2, g: 0.29, b: 0.19, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1 &1695822005
 GameObject:
   m_ObjectHideFlags: 0
@@ -30320,7 +30476,7 @@ GameObject:
   - component: {fileID: 1841186812}
   - component: {fileID: 1841186813}
   m_Layer: 5
-  m_Name: Header Texts
+  m_Name: Header Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30341,7 +30497,7 @@ RectTransform:
   - {fileID: 410963049}
   - {fileID: 95072598}
   m_Father: {fileID: 1633162754}
-  m_RootOrder: 6
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -30679,54 +30835,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd95bc3414bca9042b99404a8f17ab77, type: 3}
---- !u!21 &1884795792
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: UI/DividedHealthBar
-  m_Shader: {fileID: 4800000, guid: f417ed6352c7c194da55986920648a97, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BurnTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _CellTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _AAF: 1
-    - _BigGapInterval: 5
-    - _BigGapSize: 0.05
-    - _DamageValue: 0
-    - _Flip: 0
-    - _GapInterval: 100
-    - _GapSize: 0.025
-    - _MaxValue: 1000
-    - _Value: 1000
-    m_Colors:
-    - _BigGapColour: {r: 0, g: 0, b: 0, a: 1}
-    - _DamageColour: {r: 1, g: 0.43, b: 0.43, a: 1}
-    - _EmptyColour: {r: 0, g: 0, b: 0, a: 0}
-    - _FullColour: {r: 0, g: 1, b: 0, a: 1}
-    - _GapColour: {r: 0.2, g: 0.29, b: 0.19, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1001 &1889737018
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31273,6 +31381,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1907461851}
   m_CullTransparentMesh: 1
+--- !u!21 &1907716877
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI/DividedHealthBar
+  m_Shader: {fileID: 4800000, guid: f417ed6352c7c194da55986920648a97, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BurnTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CellTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AAF: 1
+    - _BigGapInterval: 5
+    - _BigGapSize: 0.05
+    - _DamageValue: 0
+    - _Flip: 0
+    - _GapInterval: 100
+    - _GapSize: 0.025
+    - _MaxValue: 1000
+    - _Value: 1000
+    m_Colors:
+    - _BigGapColour: {r: 0, g: 0, b: 0, a: 1}
+    - _DamageColour: {r: 1, g: 0.43, b: 0.43, a: 1}
+    - _EmptyColour: {r: 0, g: 0, b: 0, a: 0}
+    - _FullColour: {r: 0, g: 1, b: 0, a: 1}
+    - _GapColour: {r: 0.2, g: 0.29, b: 0.19, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &1911466212
 GameObject:
   m_ObjectHideFlags: 0
@@ -32940,7 +33096,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2029553262
 RectTransform:
   m_ObjectHideFlags: 0
@@ -32953,7 +33109,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1633162754}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -33841,7 +33997,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 665203628}
+  m_Material: {fileID: 545481485}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -33996,6 +34152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   localData: {fileID: 11400000, guid: 17b4b28f61ef56a44b7c557a5e98b9ea, type: 2}
   anim: {fileID: 2095716512}
+  inventory: {fileID: 0}
   target: {fileID: 0}
   rotateSpeedMovement: 0.1
   rotateVelocity: 0
@@ -34169,6 +34326,54 @@ MonoBehaviour:
   - {fileID: 240007406}
   emyptyObject: {fileID: 206473777}
   inventorySize: 7
+--- !u!21 &2097423610
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI/DividedHealthBar
+  m_Shader: {fileID: 4800000, guid: f417ed6352c7c194da55986920648a97, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BurnTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CellTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AAF: 1
+    - _BigGapInterval: 5
+    - _BigGapSize: 0.05
+    - _DamageValue: 0
+    - _Flip: 0
+    - _GapInterval: 100
+    - _GapSize: 0.025
+    - _MaxValue: 1000
+    - _Value: 1000
+    m_Colors:
+    - _BigGapColour: {r: 0, g: 0, b: 0, a: 1}
+    - _DamageColour: {r: 1, g: 0.43, b: 0.43, a: 1}
+    - _EmptyColour: {r: 0, g: 0, b: 0, a: 0}
+    - _FullColour: {r: 0, g: 1, b: 0, a: 1}
+    - _GapColour: {r: 0.2, g: 0.29, b: 0.19, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &2100337626
 GameObject:
   m_ObjectHideFlags: 0
@@ -35499,7 +35704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 1695066351}
+  m_Material: {fileID: 1907716877}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -36375,7 +36580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 368857954}
+  m_Material: {fileID: 1148802417}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}

@@ -28,6 +28,10 @@ public class UIManager : Singleton<UIManager>
         {
             whichUIPanel.SetActive(true);
         }
+        else
+        {
+            whichUIPanel.SetActive(false);
+        }
     }
 
     public void OnPanelCloseButton(GameObject whichUIPanel)

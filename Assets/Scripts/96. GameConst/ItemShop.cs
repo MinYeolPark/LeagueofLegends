@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class ItemShop : MonoBehaviour
 {
-    public List<LeagueItemData> shopInventory;
+    public LeagueItemDataBase itemDataBase;
 }
