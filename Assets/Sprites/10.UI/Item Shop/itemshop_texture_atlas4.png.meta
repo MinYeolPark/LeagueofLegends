@@ -1,0 +1,2028 @@
+fileFormatVersion: 2
+guid: 1d4b094536835e642ae9d82a53b038e3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3699688678776321405
+    second: itemshop_texture_atlas4_0
+  - first:
+      213: -7344326987244422393
+    second: itemshop_texture_atlas4_1
+  - first:
+      213: 6564890063901987445
+    second: itemshop_texture_atlas4_2
+  - first:
+      213: -8722494712304035173
+    second: itemshop_texture_atlas4_3
+  - first:
+      213: 8606800231204267299
+    second: itemshop_texture_atlas4_4
+  - first:
+      213: -2430573618280525845
+    second: itemshop_texture_atlas4_5
+  - first:
+      213: 192529703486310555
+    second: itemshop_texture_atlas4_6
+  - first:
+      213: -8292756831797088811
+    second: itemshop_texture_atlas4_7
+  - first:
+      213: -1734011695006584800
+    second: itemshop_texture_atlas4_8
+  - first:
+      213: -2150496144878844822
+    second: itemshop_texture_atlas4_9
+  - first:
+      213: -8540226564879322241
+    second: itemshop_texture_atlas4_10
+  - first:
+      213: 1633085036091437354
+    second: itemshop_texture_atlas4_11
+  - first:
+      213: -460293696894944947
+    second: itemshop_texture_atlas4_12
+  - first:
+      213: -4349240475704819151
+    second: itemshop_texture_atlas4_13
+  - first:
+      213: 1905629038740174197
+    second: itemshop_texture_atlas4_14
+  - first:
+      213: 6909332847990574142
+    second: itemshop_texture_atlas4_15
+  - first:
+      213: -3187916587318144851
+    second: itemshop_texture_atlas4_16
+  - first:
+      213: -3666045728828280614
+    second: itemshop_texture_atlas4_17
+  - first:
+      213: 2997256255403589827
+    second: itemshop_texture_atlas4_18
+  - first:
+      213: -7425495725592448725
+    second: itemshop_texture_atlas4_19
+  - first:
+      213: 6502218280366478305
+    second: itemshop_texture_atlas4_20
+  - first:
+      213: 8902837739657792353
+    second: itemshop_texture_atlas4_21
+  - first:
+      213: -4779895389229798912
+    second: itemshop_texture_atlas4_22
+  - first:
+      213: -5289854405661219894
+    second: itemshop_texture_atlas4_23
+  - first:
+      213: -4800400271990378279
+    second: itemshop_texture_atlas4_24
+  - first:
+      213: 1914501407380972124
+    second: itemshop_texture_atlas4_25
+  - first:
+      213: -8048380571748566109
+    second: itemshop_texture_atlas4_26
+  - first:
+      213: 4963891965050432294
+    second: itemshop_texture_atlas4_27
+  - first:
+      213: -362672865480238863
+    second: itemshop_texture_atlas4_28
+  - first:
+      213: 3664576373620157382
+    second: itemshop_texture_atlas4_29
+  - first:
+      213: 424155602749007857
+    second: itemshop_texture_atlas4_30
+  - first:
+      213: -1884820749578318956
+    second: itemshop_texture_atlas4_31
+  - first:
+      213: 5390544066422952883
+    second: itemshop_texture_atlas4_32
+  - first:
+      213: 6212766037113443793
+    second: itemshop_texture_atlas4_33
+  - first:
+      213: -6819058349971898439
+    second: itemshop_texture_atlas4_34
+  - first:
+      213: 6772508302479702671
+    second: itemshop_texture_atlas4_35
+  - first:
+      213: -8401700146748068770
+    second: itemshop_texture_atlas4_36
+  - first:
+      213: -2841334341718098182
+    second: itemshop_texture_atlas4_37
+  - first:
+      213: 4656107768599024915
+    second: itemshop_texture_atlas4_38
+  - first:
+      213: 4991784453966201606
+    second: itemshop_texture_atlas4_39
+  - first:
+      213: 7677842786948124740
+    second: itemshop_texture_atlas4_40
+  - first:
+      213: -5804476326819727031
+    second: itemshop_texture_atlas4_41
+  - first:
+      213: 5890623356063126974
+    second: itemshop_texture_atlas4_42
+  - first:
+      213: -7563871487104622238
+    second: itemshop_texture_atlas4_43
+  - first:
+      213: -980252657732809652
+    second: itemshop_texture_atlas4_44
+  - first:
+      213: 6331569337622285122
+    second: itemshop_texture_atlas4_45
+  - first:
+      213: -375893493584026180
+    second: itemshop_texture_atlas4_46
+  - first:
+      213: 3607789453985937840
+    second: itemshop_texture_atlas4_47
+  - first:
+      213: 9093583865720880401
+    second: itemshop_texture_atlas4_48
+  - first:
+      213: -2193934289252362788
+    second: itemshop_texture_atlas4_49
+  - first:
+      213: -2840978039037560628
+    second: itemshop_texture_atlas4_50
+  - first:
+      213: -6385874374881467206
+    second: itemshop_texture_atlas4_51
+  - first:
+      213: 2136375764881823532
+    second: itemshop_texture_atlas4_52
+  - first:
+      213: -6754327875916033942
+    second: itemshop_texture_atlas4_53
+  - first:
+      213: 2454462880803879747
+    second: itemshop_texture_atlas4_54
+  - first:
+      213: -4556599679563614787
+    second: itemshop_texture_atlas4_55
+  - first:
+      213: 8048675242924778143
+    second: itemshop_texture_atlas4_56
+  - first:
+      213: -7493047735607026938
+    second: itemshop_texture_atlas4_57
+  - first:
+      213: -5175930552130203234
+    second: itemshop_texture_atlas4_58
+  - first:
+      213: 2185419654412256017
+    second: itemshop_texture_atlas4_59
+  - first:
+      213: -4785324407585467929
+    second: itemshop_texture_atlas4_60
+  - first:
+      213: -7956699963674758307
+    second: itemshop_texture_atlas4_61
+  - first:
+      213: -9211470342753900293
+    second: itemshop_texture_atlas4_62
+  - first:
+      213: -4881602863967770891
+    second: itemshop_texture_atlas4_63
+  - first:
+      213: 7779108674479462966
+    second: itemshop_texture_atlas4_64
+  - first:
+      213: -578758382321152010
+    second: itemshop_texture_atlas4_65
+  - first:
+      213: 2363467872120132134
+    second: itemshop_texture_atlas4_66
+  - first:
+      213: -4137899891317622849
+    second: itemshop_texture_atlas4_67
+  - first:
+      213: 5339929390023994442
+    second: itemshop_texture_atlas4_68
+  - first:
+      213: -8264207158764532695
+    second: itemshop_texture_atlas4_69
+  - first:
+      213: -6224680787761110579
+    second: itemshop_texture_atlas4_70
+  - first:
+      213: -8207851032834991066
+    second: itemshop_texture_atlas4_71
+  - first:
+      213: -7236669005580323793
+    second: itemshop_texture_atlas4_72
+  - first:
+      213: 3723022108821265450
+    second: itemshop_texture_atlas4_73
+  - first:
+      213: 1976972294219816837
+    second: itemshop_texture_atlas4_74
+  - first:
+      213: -2667854755715635204
+    second: itemshop_texture_atlas4_75
+  - first:
+      213: -3991036870507908667
+    second: itemshop_texture_atlas4_76
+  - first:
+      213: 2560527729284621586
+    second: itemshop_texture_atlas4_77
+  - first:
+      213: 8096835002224377980
+    second: itemshop_texture_atlas4_78
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1004
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d753ff5604fe75330800000000000000
+      internalID: 3699688678776321405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1003
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b3bfa5485b31a90800000000000000
+      internalID: -7344326987244422393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_2
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1003
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5729e581bbc2b1b50800000000000000
+      internalID: 6564890063901987445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_3
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1002
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a15edd54973f680800000000000000
+      internalID: -8722494712304035173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_4
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1002
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3252ea1a53f717770800000000000000
+      internalID: 8606800231204267299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_5
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 988
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef04f10c2ed44ed0800000000000000
+      internalID: -2430573618280525845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_6
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1007
+        width: 277
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b984309ceb00ca200800000000000000
+      internalID: 192529703486310555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_7
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 978
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd6a0039953aec80800000000000000
+      internalID: -8292756831797088811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_8
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 978
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02072c2fc8d8fe7e0800000000000000
+      internalID: -1734011695006584800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_9
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 978
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6446a96627e722e0800000000000000
+      internalID: -2150496144878844822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_10
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 978
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f737303ff250b7980800000000000000
+      internalID: -8540226564879322241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_11
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 978
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a217c381032e9a610800000000000000
+      internalID: 1633085036091437354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_12
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 935
+        width: 270
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49b9384255bc99f0800000000000000
+      internalID: -460293696894944947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_13
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 951
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1320dd2a4d464a3c0800000000000000
+      internalID: -4349240475704819151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_14
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 951
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575f6c7a387227a10800000000000000
+      internalID: 1905629038740174197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_15
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 951
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c8a673e91e2ef50800000000000000
+      internalID: 6909332847990574142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_16
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 951
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0935f01ce32c3d0800000000000000
+      internalID: -3187916587318144851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_17
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 951
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad03ada45d69f1dc0800000000000000
+      internalID: -3666045728828280614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_18
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 908
+        width: 34
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c006242fa4689920800000000000000
+      internalID: 2997256255403589827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_19
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 923
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2171e2caf653f890800000000000000
+      internalID: -7425495725592448725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_20
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 923
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e39b4563158c3a50800000000000000
+      internalID: 6502218280366478305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_21
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 923
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b8e3541cb3d8b70800000000000000
+      internalID: 8902837739657792353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_22
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 923
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a2e6de7766aadb0800000000000000
+      internalID: -4779895389229798912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_23
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 923
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac32705e179a696b0800000000000000
+      internalID: -5289854405661219894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 903
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d03350e26d816db0800000000000000
+      internalID: -4800400271990378279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_25
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 896
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52ade4f2eca19a10800000000000000
+      internalID: 1914501407380972124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_26
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 903
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab75cb13886e4090800000000000000
+      internalID: -8048380571748566109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_27
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 896
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b2f30417943e440800000000000000
+      internalID: 4963891965050432294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_28
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 903
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8906b43f687faf0800000000000000
+      internalID: -362672865480238863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_29
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 896
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb2be9cbc03bd230800000000000000
+      internalID: 3664576373620157382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_30
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 903
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7a85ff547e2e500800000000000000
+      internalID: 424155602749007857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_31
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 896
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b4914b385c7d5e0800000000000000
+      internalID: -1884820749578318956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_32
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 903
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3da31a44f0fca40800000000000000
+      internalID: 5390544066422952883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_33
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 896
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d512ca4bcd283650800000000000000
+      internalID: 6212766037113443793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_34
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 866
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf73434f86dd51a0800000000000000
+      internalID: -6819058349971898439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_35
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 866
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8abfa73b68ccfd50800000000000000
+      internalID: 6772508302479702671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_36
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 866
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5cebbb0b3a276b80800000000000000
+      internalID: -8401700146748068770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_37
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 866
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe36c1687d8198d0800000000000000
+      internalID: -2841334341718098182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_38
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 866
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315184fa851dd9040800000000000000
+      internalID: 4656107768599024915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_39
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 709
+        width: 397
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60309f56381664540800000000000000
+      internalID: 4991784453966201606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_40
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 838
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4409655f55d2d8a60800000000000000
+      internalID: 7677842786948124740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_41
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 838
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949feb0c88b527fa0800000000000000
+      internalID: -5804476326819727031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_42
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 838
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb513c38bb2bfb150800000000000000
+      internalID: 5890623356063126974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_43
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 838
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2616c6425fab70790800000000000000
+      internalID: -7563871487104622238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_44
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 838
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c04b1c6617562f0800000000000000
+      internalID: -980252657732809652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_45
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 811
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b4bb734c04ed750800000000000000
+      internalID: 6331569337622285122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_46
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 816
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb52b81fbde88caf0800000000000000
+      internalID: -375893493584026180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_47
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 811
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b97b3db461711230800000000000000
+      internalID: 3607789453985937840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_48
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 811
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d34839856e23e70800000000000000
+      internalID: 9093583865720880401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_49
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 811
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5509c43649d81e0800000000000000
+      internalID: -2193934289252362788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_50
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 811
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8fa709681d298d0800000000000000
+      internalID: -2840978039037560628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_51
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 783
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4abe00711d067a0800000000000000
+      internalID: -6385874374881467206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_52
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 783
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27d88c607ee5ad10800000000000000
+      internalID: 2136375764881823532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_53
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 783
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a609183359ec342a0800000000000000
+      internalID: -6754327875916033942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_54
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 783
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b72bc5cf0001220800000000000000
+      internalID: 2454462880803879747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_55
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 783
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5b3fbbbb4b3c0c0800000000000000
+      internalID: -4556599679563614787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_56
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 755
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92230f5d73a2bf60800000000000000
+      internalID: 8048675242924778143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_57
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 755
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b191ac8c8530890800000000000000
+      internalID: -7493047735607026938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_58
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 755
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91103a06966b28b0800000000000000
+      internalID: -5175930552130203234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_59
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 755
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113466ac89b245e10800000000000000
+      internalID: 2185419654412256017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_60
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 755
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e19cd61ecc179db0800000000000000
+      internalID: -4785324407585467929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_61
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 728
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d537dc81a8f149190800000000000000
+      internalID: -7956699963674758307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_62
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 728
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8ab1917884a2080800000000000000
+      internalID: -9211470342753900293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_63
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 728
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6ebae1f00114cb0800000000000000
+      internalID: -4881602863967770891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_64
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 728
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a128bbf12f4fb60800000000000000
+      internalID: 7779108674479462966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_65
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 728
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ffc7f25156d7f7f0800000000000000
+      internalID: -578758382321152010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_66
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 700
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622d4cbe189bcc020800000000000000
+      internalID: 2363467872120132134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_67
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 700
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7b2ede8f93396c0800000000000000
+      internalID: -4137899891317622849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_68
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 700
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c6c02fc7d3b1a40800000000000000
+      internalID: 5339929390023994442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_69
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 700
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c899fef53af4d80800000000000000
+      internalID: -8264207158764532695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_70
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 673
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1ec45adcd7d99a0800000000000000
+      internalID: -6224680787761110579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_71
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 672
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c1c8209fad71e80800000000000000
+      internalID: -8207851032834991066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_72
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 672
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f243e4581ef229b90800000000000000
+      internalID: -7236669005580323793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_73
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 673
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c973fe1e4daa330800000000000000
+      internalID: 3723022108821265450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_74
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 645
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58fd2cfb3dd9f6b10800000000000000
+      internalID: 1976972294219816837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_75
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 645
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7ab3d0c30e9fad0800000000000000
+      internalID: -2667854755715635204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_76
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 645
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1b3e79c1dfc98c0800000000000000
+      internalID: -3991036870507908667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_77
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 646
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2152c8d4762d88320800000000000000
+      internalID: 2560527729284621586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemshop_texture_atlas4_78
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 646
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c708880298cbd5070800000000000000
+      internalID: 8096835002224377980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

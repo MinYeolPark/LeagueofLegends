@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: b588a1cbe8a081c459d3efa2d3eee785
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Spiegel
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 35524b639512ab144bd62a4209c28ead, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

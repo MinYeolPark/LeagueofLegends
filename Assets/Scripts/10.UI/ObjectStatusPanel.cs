@@ -3,6 +3,11 @@ using UnityEngine.UI;
 using TMPro;
 public class ObjectStatusPanel : MonoBehaviour
 {
+    [Header("Parent")]
+    [SerializeField] private GameObject objectStatusPanel;
+
+    [Space(5)]
+    [Header("Values")]
     [SerializeField] private TextMeshProUGUI attackDamageText;
     [SerializeField] private TextMeshProUGUI abilityPowerText;
     [SerializeField] private TextMeshProUGUI armorText;
@@ -14,8 +19,14 @@ public class ObjectStatusPanel : MonoBehaviour
     [SerializeField] private Image objPortrait;
     [SerializeField] private Transform[] objItemSlots;
 
+    private void Start()
+    {
+        objectStatusPanel.SetActive(false);        
+    }
     public void ObjStatusUpdate(BaseStats clickedObj)
     {
+        objectStatusPanel.SetActive(objectStatusPanel.activeSelf ? false : true);
+
         attackDamageText.text = clickedObj.attackDamage.ToString();
         abilityPowerText.text = clickedObj.abilityPower.ToString(); ;
         armorText.text = clickedObj.attackDamage.ToString(); ;

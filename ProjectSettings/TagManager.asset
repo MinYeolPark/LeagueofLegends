@@ -9,6 +9,7 @@ TagManager:
   - Structure
   - Creep
   - Terrain
+  - ItemShop
   layers:
   - Default
   - TransparentFX

@@ -8,7 +8,7 @@ public class MouseInteractive : MonoBehaviour, IClickable
     public string orgLayer = "Champion";
     public string blueLayer = "Blue Outlined";
     public string redLayer = "Red Outlined";
-
+    public string shopLayer = "ItemShop";
     public Color hoverColor;
 
     private void Start()
@@ -29,11 +29,8 @@ public class MouseInteractive : MonoBehaviour, IClickable
             Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
             if (Physics.Raycast(ray, out RaycastHit raycastHit, Mathf.Infinity))
             {
-                Debug.Log("Raycast hit" + raycastHit.point);
-
                 if (raycastHit.collider.TryGetComponent<BaseStats>(out BaseStats obj))
                 {                   
-                    Debug.Log("clicked Obj" + obj);
                     ObjectStatusPanel objStatus=FindObjectOfType<ObjectStatusPanel>();
                     objStatus.ObjStatusUpdate(obj);
                 }
@@ -60,7 +57,7 @@ public class MouseInteractive : MonoBehaviour, IClickable
 
         foreach (Transform t in tran)
         {
-            if(gameObject.TryGetComponent<BaseStats>(out BaseStats obj))
+            if (gameObject.TryGetComponent<BaseStats>(out BaseStats obj))
             {
                 if (obj.teamID == GameDataSettings.TEAM.RED_TEAM)
                 {
@@ -74,8 +71,20 @@ public class MouseInteractive : MonoBehaviour, IClickable
                 {
                     return;
                 }
-            }                     
-        }
+            }
+
+            /////////////
+            //Temporary Shop Process//
+            /////////////
+            if (gameObject.TryGetComponent<LayerMask>(out LayerMask layerMask))
+            {
+                Debug.Log(layerMask);
+                if(layerMask.ToString()==shopLayer)
+                {
+                    Debug.Log("상점 열기");
+                }
+            }
+        }        
     }
 
     public void OnMouseExit()

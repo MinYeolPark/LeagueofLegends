@@ -4,9 +4,12 @@ using UnityEngine.UI;
 public class UIManager : Singleton<UIManager>
 {
     public BaseChampController localChamp;
-    [SerializeField] private List<LeagueAbilityData> abilities;
-    [SerializeField] private List<LeagueAbilityData> spells;
-    [SerializeField] private List<Transform> itemSlots;
+
+    public bool HasOpended(GameObject whichPanel)
+    {
+        if (whichPanel.activeSelf==true) { return true; }
+        return false;
+    }
 
     private void Start()
     {
@@ -17,7 +20,19 @@ public class UIManager : Singleton<UIManager>
 
     public void UIInit()
     {
-        abilities = localChamp.localData.localChampionAbilities;
-
     }
+
+    public void OnPanelOpenButton(GameObject whichUIPanel)
+    {
+        if(!HasOpended(whichUIPanel))
+        {
+            whichUIPanel.SetActive(true);
+        }
+    }
+
+    public void OnPanelCloseButton(GameObject whichUIPanel)
+    {
+        whichUIPanel.SetActive(false); 
+    }
+
 }

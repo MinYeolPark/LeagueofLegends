@@ -2,20 +2,13 @@ using UnityEngine;
 using System.Collections.Generic;
 
 [CreateAssetMenu(fileName = "NewObject", menuName = "League of Legends/LeagueObject Data")]
-public class LeagueObjectData : ScriptableObject
+public class LeagueObjectData : ScriptableObject,ISerializationCallbackReceiver
 {
     [Header("Critical")]
     public LeagueObjectData localData;
 
     public Sprite portraitImage;
-    //public Team team;
-    //public enum Team
-    //{
-    //    Neutral,
-    //    RedTeam,
-    //    BlueTeam
-    //}
-    
+
     public enum ObjType
     {
         Champion,
@@ -101,4 +94,20 @@ public class LeagueObjectData : ScriptableObject
     [Header("Audio Clips")]
     public List<AudioClip> attackClip, dieClip, idleClips, emotionClips;
     public List<LeagueAbilityData> localChampionAbilities;
+
+
+    public float InitialValue;
+
+    [System.NonSerialized] //직렬화 대상 배제 및 인스펙터 뷰에 노출 안됨
+    public float RuntimeValue;
+
+    public void OnBeforeSerialize()
+    {
+        Debug.Log("OnBeforeSerialize " + RuntimeValue);
+
+    }
+    public void OnAfterDeserialize()
+    {
+        Debug.Log("OnAfterDesrialize " + RuntimeValue);
+    }
 }
