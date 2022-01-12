@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8879062627339614582}
   - component: {fileID: 4242599676346203284}
+  - component: {fileID: 7990643948953689363}
   - component: {fileID: 6191321886744817713}
   m_Layer: 5
   m_Name: pfDamage Popup
@@ -45,6 +46,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2132132682337048988}
   m_CullTransparentMesh: 1
+--- !u!114 &7990643948953689363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2132132682337048988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b9955a90caf29e4380b6aba8492b604, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pfDamagePopup: {fileID: 8879062627339614582}
 --- !u!114 &6191321886744817713
 MonoBehaviour:
   m_ObjectHideFlags: 0
