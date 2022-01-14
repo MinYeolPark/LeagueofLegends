@@ -11,6 +11,7 @@ public class FoxFire : LeagueAbilityData
     }
     public override IEnumerator TriggerAbility(GameObject obj)
     {
+
         yield return null;
     }
 }

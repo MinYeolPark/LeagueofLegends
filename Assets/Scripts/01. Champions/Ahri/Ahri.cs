@@ -5,6 +5,10 @@ using UnityEngine.Events;
 
 public class Ahri : BaseChampController
 {
+    [Space(5)]
+    [Header("Character Characteristic")]
+    public Transform ahriFirePoint;
+
     [Header("Ability 1")]
     public Canvas S1_Canvas;
     public Image S1_Indicator;
@@ -57,6 +61,20 @@ public class Ahri : BaseChampController
         {
             anim.SetBool("BaseAttack", false);
             anim.SetTrigger("Ability3");
+
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            
+            if (Physics.Raycast(ray, out RaycastHit raycastHit, Mathf.Infinity))
+            {
+                //ROTATION
+                Quaternion rotationToLookAt = Quaternion.LookRotation(raycastHit.point - transform.position);
+                float rotationY = Mathf.SmoothDampAngle(transform.eulerAngles.y,
+                    rotationToLookAt.eulerAngles.y,
+                    ref rotateVelocity,
+                    rotateSpeedMovement * (Time.deltaTime * 5));
+
+                transform.eulerAngles = new Vector3(0, rotationY, 0);
+            }           
         }
 
     }
@@ -69,27 +87,5 @@ public class Ahri : BaseChampController
             anim.SetBool("BaseAttack", false);
             anim.SetTrigger("Ability4");
         }
-    }
-    public void CheckActionStart(LeagueAbilityData whichSkill)
-    {
-        if (!whichSkill.canMove)
-        {
-            if (agent.isActiveAndEnabled && agent.isStopped == false)
-            {
-                state = States.Casting;
-                agent.isStopped = true;
-                agent.updateRotation = false;
-            }
-        }       
-    }
-    public void CheckActionEnd()
-    {
-        if(agent.isActiveAndEnabled&&agent.isStopped==true)
-        {
-            state = States.Idle;
-            agent.isStopped = false;
-            agent.updateRotation = true;
-        }
-    }  
-    
+    } 
 }

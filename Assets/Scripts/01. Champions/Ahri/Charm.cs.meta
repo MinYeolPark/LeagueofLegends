@@ -3,7 +3,11 @@ guid: e10eb33343832284d876161d3d634230
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - icon: {instanceID: 0}
+  - rangeIndicator: {instanceID: 0}
+  - characterSound: {instanceID: 0}
+  - CharmPrefab: {fileID: 1370810546269209221, guid: 12db1904e2ce9f842853b5e007ea308d, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

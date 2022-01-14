@@ -8,43 +8,29 @@ using UnityEngine.Events;
 
 public class UIShopPanel : MonoBehaviour
 {
-    public GameObject shopItemPrefab;
-    public ItemShop itemShop;
-    private List<LeagueItemData> shopInventory;
+    public LeagueItemDataBase allItemData;
+    public LeagueInventoryData inventory;
+
+    public GameObject shopItemPrefab;    
     public GameObject RecommendedItemsPanel;
     public GameObject AllItemsPanel;
     public GameObject ItemSetsPanel;
 
+    public Button recommendButton;
+    public Button allItemButton;
+    public Button itemSetsButton;
     public void OnRecommendedItems()
     {
         RecommendedItemsPanel.SetActive(true);
         AllItemsPanel.SetActive(false);
         ItemSetsPanel.SetActive(false);
-        Debug.Log("OnRecommendItems");
-        if (RecommendedItemsPanel.activeSelf == true)
-        {
-            RecommendedItemsPanel.SetActive(false);
-        }
-        else
-        {
-            RecommendedItemsPanel.SetActive(true);
-        }
-        
+        //recommendButton.image.color = new Color(0f, 0f, 0f, .0f);        
     }
     public void OnAllItems()
     {
         RecommendedItemsPanel.SetActive(false);
         AllItemsPanel.SetActive(true);
         ItemSetsPanel.SetActive(false);
-        Debug.Log("OnAllItem");
-        if (AllItemsPanel.activeSelf == true)
-        {
-            AllItemsPanel.SetActive(false);
-        }
-        else
-        {
-            AllItemsPanel.SetActive(true);
-        }
     }
 
     public void OnItemSets()
@@ -52,15 +38,5 @@ public class UIShopPanel : MonoBehaviour
         RecommendedItemsPanel.SetActive(false);
         AllItemsPanel.SetActive(false);
         ItemSetsPanel.SetActive(true);
-
-        Debug.Log("OnItemSets");
-        if (ItemSetsPanel.activeSelf == true)
-        {
-            ItemSetsPanel.SetActive(false);
-        }
-        else
-        {
-            ItemSetsPanel.SetActive(true);
-        }
     }    
 }

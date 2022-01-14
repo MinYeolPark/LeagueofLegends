@@ -20,36 +20,6 @@ public class MouseInteractive : MonoBehaviour, IClickable
             t.gameObject.layer = LayerMask.NameToLayer(orgLayer);
         }
     }
-
-    public void OnLeftClick()
-    {
-        if(LayerMask.GetMask(orgLayer)!=LayerMask.NameToLayer(orgLayer))
-        {
-            Debug.Log("Left Clicked");
-            Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
-            if (Physics.Raycast(ray, out RaycastHit raycastHit, Mathf.Infinity))
-            {
-                if (raycastHit.collider.TryGetComponent<BaseStats>(out BaseStats obj))
-                {                   
-                    ObjectStatusPanel objStatus=FindObjectOfType<ObjectStatusPanel>();
-                    objStatus.ObjStatusUpdate(obj);
-                }
-            }
-        }
-    }
-
-    public void OnPoint()
-    {
-        Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
-        if (Physics.Raycast(ray, out RaycastHit raycastHit, Mathf.Infinity))
-        {
-            if (raycastHit.collider.TryGetComponent<MouseInteractive>(out MouseInteractive units))
-            {
-                //units.OnMouseEnter();                
-            }
-        }
-
-    }
     
     public void OnMouseEnter()
     {
@@ -76,15 +46,32 @@ public class MouseInteractive : MonoBehaviour, IClickable
             /////////////
             //Temporary Shop Process//
             /////////////
-            if (gameObject.TryGetComponent<LayerMask>(out LayerMask layerMask))
+            //if (gameObject.TryGetComponent<LayerMask>(out LayerMask layerMask))
+            //{
+            //    Debug.Log(layerMask);
+            //    if(layerMask.ToString()==shopLayer)
+            //    {
+            //        Debug.Log("상점 열기");
+            //    }
+            //}
+        }        
+    }
+
+    private void OnMouseDown()
+    {
+        if (LayerMask.GetMask(orgLayer) != LayerMask.NameToLayer(orgLayer))
+        {
+            Debug.Log("Left Clicked");
+            Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
+            if (Physics.Raycast(ray, out RaycastHit raycastHit, Mathf.Infinity))
             {
-                Debug.Log(layerMask);
-                if(layerMask.ToString()==shopLayer)
+                if (raycastHit.collider.TryGetComponent<BaseStats>(out BaseStats obj))
                 {
-                    Debug.Log("상점 열기");
+                    ObjectStatusPanel objStatus = FindObjectOfType<ObjectStatusPanel>();
+                    objStatus.ObjStatusUpdate(obj);
                 }
             }
-        }        
+        }
     }
 
     public void OnMouseExit()

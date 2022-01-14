@@ -12,20 +12,6 @@ public class Flash : LeagueAbilityData
     Vector3 dashTarget;
     float dashRadius = 3f;
     #endregion
-    //private List<GameEventListener> listeners =
-    //    new List<GameEventListener>();
-
-    //public void Raise()
-    //{
-    //    for (int i = listeners.Count - 1; i >= 0; i--)
-    //        listeners[i].OnEventRaised();
-    //}
-
-    //public void RegisterListener(GameEventListener listener)
-    //{ listeners.Add(listener); }
-
-    //public void UnregisterListener(GameEventListener listener)
-    //{ listeners.Remove(listener); }
 
     public override IEnumerator Initialize(GameObject obj)
     {
@@ -41,6 +27,7 @@ public class Flash : LeagueAbilityData
         {
             dashTarget = ray.GetPoint(point);
         }
+
         //VFX Instantiate
         var vfx=Instantiate(startVFX, obj.transform.position, obj.transform.rotation);
 
@@ -59,7 +46,6 @@ public class Flash : LeagueAbilityData
             dashTarget = obj.transform.position + dashRadius * dir;
 
             obj.transform.position = Vector3.Lerp(obj.transform.position, dashTarget, 1f);
-
         }
 
 

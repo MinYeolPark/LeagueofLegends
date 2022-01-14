@@ -5,12 +5,12 @@ public class DamagePopup : MonoBehaviour
 {
     private TextMeshProUGUI textMesh;
     private float disappearTimer;
-    private Color textColor;
-    [SerializeField] private Transform pfDamagePopup;
+    public Color textColor;
 
-    public static DamagePopup Create(Vector3 position, int damageAmount, bool isCriticalHit)
+    public static DamagePopup DamageFloat(Vector3 position, float damageAmount, bool isCriticalHit)
     {
-        Transform damagePopupTransform = Instantiate(GameAssets.Instance.pfDamagePopup, position, Quaternion.identity);
+        Vector3 yOffset = new Vector3(0, 3, 0);
+        Transform damagePopupTransform = Instantiate(GameAssets.Instance.pfDamagePopup, position+yOffset, Quaternion.identity);
 
         DamagePopup damagePopup = damagePopupTransform.GetComponent<DamagePopup>();
         damagePopup.Setup(damageAmount, isCriticalHit);
@@ -23,26 +23,25 @@ public class DamagePopup : MonoBehaviour
         textMesh = transform.GetComponent<TextMeshProUGUI>();
     }
 
-    public void Setup(int damageAmount, bool isCriticalHit)
+    public void Setup(float damageAmount, bool isCriticalHit)
     {
         textMesh.SetText(damageAmount.ToString());
-        if(!isCriticalHit)
+        if (!isCriticalHit)
         {
             //normalhit
-            textMesh.fontSize = 36f;
-            //textColor=
+            textMesh.fontSize = 0.3f;
         }
         else
         {
-            textMesh.fontSize = 42f;
+            textMesh.fontSize = 1f;
         }
-        textMesh.color = textColor;
+        //textMesh.color = textColor;
         textMesh.geometrySortingOrder++;
         disappearTimer = 1f;
     }
     private void Update()
     {
-        float moveYSpeed = 20f;
+        float moveYSpeed = 0.5f;
         transform.position += new Vector3(0,moveYSpeed*Time.deltaTime);
 
         disappearTimer -= Time.deltaTime;

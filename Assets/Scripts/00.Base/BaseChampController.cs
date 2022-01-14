@@ -130,6 +130,7 @@ public class BaseChampController : BaseUnits,IAttackable
 
                 transform.eulerAngles = new Vector3(0, rotationY, 0);
 
+
                 if (raycastHit.collider.TryGetComponent(out BaseStats obj))
                 {
                     state = States.Targetting;
@@ -153,13 +154,14 @@ public class BaseChampController : BaseUnits,IAttackable
         }
 
         yield return null;
+
         if (localData.attackType == LeagueObjectData.AttackType.Range && state == States.Attacking)
         {
             if (rangedProjectile!=null)
             {                
                 GameObject bullet = Instantiate(rangedProjectile, transform.position, transform.rotation);
                 RangedProjectile projectile = bullet.GetComponent<RangedProjectile>();
-                Debug.Log($"bullet={bullet}, projectile={projectile}");
+
                 if(projectile!=null)
                 {
                     projectile.Seek(target);
@@ -218,6 +220,28 @@ public class BaseChampController : BaseUnits,IAttackable
         if(newItem)
         {
 
+        }
+    }
+
+    public void CheckActionStart(LeagueAbilityData whichSkill)
+    {
+        if (!whichSkill.canMove)
+        {
+            if (agent.isActiveAndEnabled && agent.isStopped == false)
+            {
+                state = States.Casting;
+                agent.isStopped = true;
+                agent.updateRotation = false;
+            }
+        }
+    }
+    public void CheckActionEnd()
+    {
+        if (agent.isActiveAndEnabled && agent.isStopped == true)
+        {
+            state = States.Idle;
+            agent.isStopped = false;
+            agent.updateRotation = true;
         }
     }
 }

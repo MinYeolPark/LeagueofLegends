@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: Ability3
   m_EditorClassIdentifier: 
   skillLevel: 0
-  abilityState: 0
+  abilityState: 2
   displayedName: Charm
   activeTime: 0
   duration: 0
   coolDownTime: 3
   cost: 0
   range: 0
+  durationVFX: 0
+  canMove: 0
   icon: {fileID: 21300000, guid: 0a7533d89570473478898558ca7ebaa8, type: 3}
   rangeIndicator: {fileID: 0}
   characterSound: {fileID: 0}
@@ -27,3 +29,5 @@ MonoBehaviour:
   description: 'ACTIVE: Ahri blows forth a kiss in the target direction, dealing
     magic damage to the first enemy hit, Knockdown icon.png knocking them down, and
     Charm icon.png charming and Slow icon.png slowing them by 65% for a duration.'
+  CharmPrefab: {fileID: 1370810546269209221, guid: 12db1904e2ce9f842853b5e007ea308d, type: 3}
+  speed: 70

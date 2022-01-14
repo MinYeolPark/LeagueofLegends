@@ -101,9 +101,12 @@ public abstract class LeagueItemData : ScriptableObject
     public float resource;          //자원: 스킬을 사용하는데 필요한 자원
     public float resourceRegen;
     public float moveSpeed;
+
     public Item CreateItem()
-    {
+    {        
         Item newItem = new Item(this);
+        Debug.Log("CReate Item!" + newItem.Name);
+
         return newItem;
     }
 }
@@ -112,12 +115,12 @@ public abstract class LeagueItemData : ScriptableObject
 public class Item
 {
     public string Name;
-    public int Id;
+    public int itemId;
     public ItemBuff[] buffs;
     public Item(LeagueItemData item)
     {
         Name = item.name;
-        Id = item.Id;
+        itemId = item.Id;
         buffs = new ItemBuff[item.buffs.Length];
         for (int i = 0; i < buffs.Length; i++)
         {

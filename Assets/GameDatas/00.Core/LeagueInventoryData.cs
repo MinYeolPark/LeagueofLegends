@@ -19,7 +19,7 @@ public class LeagueInventoryData : ScriptableObject
 
         for (int i = 0; i < inventory.items.Length; i++)
         {
-            if (inventory.items[i].ID == _item.Id)
+            if (inventory.items[i].slotID == _item.itemId)
             {
                 inventory.items[i].AddAmount(_amount);
                 return;
@@ -32,9 +32,9 @@ public class LeagueInventoryData : ScriptableObject
     {
         for (int i = 0; i < inventory.items.Length; i++)
         {
-            if (inventory.items[i].ID <= -1)
+            if (inventory.items[i].slotID <= -1)
             {
-                inventory.items[i].UpdateSlot(_item.Id, _item, _amount);
+                inventory.items[i].UpdateSlot(_item.itemId, _item, _amount);
                 return inventory.items[i];
             }
         }
@@ -44,9 +44,9 @@ public class LeagueInventoryData : ScriptableObject
 
     public void MoveItem(InventorySlot item1, InventorySlot item2)
     {
-        InventorySlot temp = new InventorySlot(item2.ID, item2.item, item2.amount);
-        item2.UpdateSlot(item1.ID, item1.item, item1.amount);
-        item1.UpdateSlot(temp.ID, temp.item, temp.amount);
+        InventorySlot temp = new InventorySlot(item2.slotID, item2.item, item2.amount);
+        item2.UpdateSlot(item1.slotID, item1.item, item1.amount);
+        item1.UpdateSlot(temp.slotID, temp.item, temp.amount);
     }
 
 
@@ -71,24 +71,24 @@ public class Inventory
 [System.Serializable]
 public class InventorySlot
 {
-    public int ID = -1;
+    public int slotID = -1;
     public Item item;
     public int amount;
     public InventorySlot()
     {
-        ID = -1;
+        slotID = -1;
         item = null;
         amount = 0;
     }
     public InventorySlot(int _id, Item _item, int _amount)
     {
-        ID = _id;
+        slotID = _id;
         item = _item;
         amount = _amount;
     }
     public void UpdateSlot(int _id, Item _item, int _amount)
     {
-        ID = _id;
+        slotID = _id;
         item = _item;
         amount = _amount;
     }

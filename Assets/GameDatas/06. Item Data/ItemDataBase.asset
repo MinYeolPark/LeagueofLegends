@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: ItemDataBase
   m_EditorClassIdentifier: 
   leagueItems:
-  - {fileID: 11400000, guid: 29758f2f16569ae41ad3d4ddf419a47b, type: 2}
   - {fileID: 11400000, guid: a2aa21c97bbd2dd408aa8efc7d7a62f1, type: 2}
+  - {fileID: 11400000, guid: 29758f2f16569ae41ad3d4ddf419a47b, type: 2}

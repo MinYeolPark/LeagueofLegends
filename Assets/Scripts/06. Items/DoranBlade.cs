@@ -14,5 +14,5 @@ public class DoranBlade : LeagueItemData
         itemCategory = ItemCategory.Equipment;
         canUse = CanUse.Both;
         itemType = ItemType.None;
-    }
+    }    
 }

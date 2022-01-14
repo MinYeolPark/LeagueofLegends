@@ -117,11 +117,14 @@ public class BaseUnits : MonoBehaviour, IDamagable
 
         stats.health -= damage;
 
+        DamagePopup.DamageFloat(gameObject.transform.position, damage, false);
+
         if (stats.health <= 0 && state != States.Dead)
         {
             Destroy();
         }
     }
+
     protected virtual void Destroy()
     {
         state = States.Dead;

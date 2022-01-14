@@ -11,7 +11,7 @@ public class UISettings : MonoBehaviour
     [SerializeField] private Button manulPointerButton;
     private void OnEnable()
     {
-        switch(PlayerSettings.pointerType)
+        switch(PlayerOptionSettings.pointerType)
         {
             case EPointerType.SmartPointer:
 
@@ -23,9 +23,9 @@ public class UISettings : MonoBehaviour
 
     public void SetPointerMode(int ptrType)
     {
-        PlayerSettings.pointerType = (EPointerType)ptrType;
+        PlayerOptionSettings.pointerType = (EPointerType)ptrType;
 
-        switch(PlayerSettings.pointerType)
+        switch(PlayerOptionSettings.pointerType)
         {
             case EPointerType.SmartPointer:
                 break;

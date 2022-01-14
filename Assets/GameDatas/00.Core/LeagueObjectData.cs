@@ -103,11 +103,8 @@ public class LeagueObjectData : ScriptableObject,ISerializationCallbackReceiver
 
     public void OnBeforeSerialize()
     {
-        Debug.Log("OnBeforeSerialize " + RuntimeValue);
-
     }
     public void OnAfterDeserialize()
     {
-        Debug.Log("OnAfterDesrialize " + RuntimeValue);
     }
 }

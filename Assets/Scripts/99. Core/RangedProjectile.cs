@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RangedProjectile : MonoBehaviour
 {
-    [SerializeField] GameObject hitEffecet;
+    [SerializeField] private GameObject hitEffecet;
 
     private BaseUnits fireObj;
     private GameObject targetObj;
