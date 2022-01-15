@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using UnityEngine.Events;
+using System.Collections;
 
 public class Ahri : BaseChampController
 {
@@ -87,5 +88,32 @@ public class Ahri : BaseChampController
             anim.SetBool("BaseAttack", false);
             anim.SetTrigger("Ability4");
         }
-    } 
+    }
+
+    protected override IEnumerator RangeAttack()
+    {
+        if (target.GetComponent<BaseUnits>().state == States.Dead || target == null)
+        {
+            StartCoroutine(StopAttack());
+
+            anim.SetBool("BaseAttack", false);
+            target = null;
+        }
+
+        yield return null;
+
+        if (localData.attackType == LeagueObjectData.AttackType.Range && state == States.Attacking)
+        {
+            if (rangedProjectile != null)
+            {
+                GameObject bullet = Instantiate(rangedProjectile, ahriFirePoint.transform.position, ahriFirePoint.transform.rotation);
+                RangedProjectile projectile = bullet.GetComponent<RangedProjectile>();
+
+                if (projectile != null)
+                {
+                    projectile.Seek(target);
+                }
+            }
+        }
+    }
 }

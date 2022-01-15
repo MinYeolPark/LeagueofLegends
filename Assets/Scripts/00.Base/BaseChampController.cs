@@ -143,32 +143,6 @@ public class BaseChampController : BaseUnits,IAttackable
         }
     }
 
-    protected override IEnumerator RangeAttack()
-    {
-        if(target.GetComponent<BaseUnits>().state==States.Dead||target==null)
-        {
-            StartCoroutine(StopAttack());
-
-            anim.SetBool("BaseAttack", false);
-            target = null;
-        }
-
-        yield return null;
-
-        if (localData.attackType == LeagueObjectData.AttackType.Range && state == States.Attacking)
-        {
-            if (rangedProjectile!=null)
-            {                
-                GameObject bullet = Instantiate(rangedProjectile, transform.position, transform.rotation);
-                RangedProjectile projectile = bullet.GetComponent<RangedProjectile>();
-
-                if(projectile!=null)
-                {
-                    projectile.Seek(target);
-                }
-            }
-        }
-    }
 
 
     protected virtual void OnAttack(InputValue value)

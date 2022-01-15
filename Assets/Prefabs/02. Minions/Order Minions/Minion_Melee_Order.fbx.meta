@@ -5,7 +5,7 @@ ModelImporter:
   internalIDToNameTable:
   - first:
       74: 4749285153471852592
-    second: model.001|model.001|model.001|minion_melee_attack2_model.001|model.00
+    second: minion_melee_attack2
   - first:
       74: -7915034465973203771
     second: model.001|model.001|model.001|minion_melee_attack2_model.001|model.001
@@ -17,7 +17,7 @@ ModelImporter:
     second: model.001|model.001|model.001|minion_melee_attack2_model.001|model.002
   - first:
       74: -5907212004739018080
-    second: model.001|model.001|model.001|minion_melee_attack3_model.001|model.00
+    second: minion_melee_attack3
   - first:
       74: -8830409041310481347
     second: model.001|model.001|model.001|minion_melee_attack3_model.001|model.001
@@ -29,7 +29,7 @@ ModelImporter:
     second: model.001|model.001|model.001|minion_melee_attack3_model.001|model.002
   - first:
       74: 1243417039479702639
-    second: model.001|model.001|model.001|minion_melee_attack3b_model.001|model.0
+    second: minion_melee_attack3b
   - first:
       74: -8684219899518169581
     second: model.001|model.001|model.001|minion_melee_attack3b_model.001|model.001
@@ -41,7 +41,7 @@ ModelImporter:
     second: model.001|model.001|model.001|minion_melee_attack3b_model.001|model.002
   - first:
       74: -374729967537714772
-    second: model.001|model.001|model.001|minion_melee_attack_model.001|model.001
+    second: minion_melee_attack
   - first:
       74: 4868108018841693255
     second: model.001|model.001|model.001|minion_melee_attack_model.001|model.001|min
@@ -53,7 +53,7 @@ ModelImporter:
     second: model.001|model.001|model.001|minion_melee_attack_model.001|model.003
   - first:
       74: -4738052444553744745
-    second: model.001|model.001|model.001|minion_melee_death2_model.001|model.001
+    second: minion_melee_death2
   - first:
       74: -3146046741027388619
     second: model.001|model.001|model.001|minion_melee_death2_model.001|model.001|min
@@ -65,7 +65,7 @@ ModelImporter:
     second: model.001|model.001|model.001|minion_melee_death2_model.001|model.003
   - first:
       74: -6691753663391043410
-    second: model.001|model.001|model.001|minion_melee_death3_model.001|model.001
+    second: minion_melee_death3
   - first:
       74: -1008623282952841538
     second: model.001|model.001|model.001|minion_melee_death3_model.001|model.001|min
@@ -77,7 +77,7 @@ ModelImporter:
     second: model.001|model.001|model.001|minion_melee_death3_model.001|model.003
   - first:
       74: 1239741703609075841
-    second: model.001|model.001|model.001|minion_melee_death4_model.001|model.001
+    second: minion_melee_death4
   - first:
       74: 8627720895474051991
     second: model.001|model.001|model.001|minion_melee_death4_model.001|model.001|min
@@ -89,7 +89,7 @@ ModelImporter:
     second: model.001|model.001|model.001|minion_melee_death4_model.001|model.003
   - first:
       74: -5918923795402693996
-    second: model.001|model.001|model.001|minion_melee_death_model.001|model.001|
+    second: minion_melee_death
   - first:
       74: -7342488849372368233
     second: model.001|model.001|model.001|minion_melee_death_model.001|model.001|.001
@@ -101,7 +101,7 @@ ModelImporter:
     second: model.001|model.001|model.001|minion_melee_death_model.001|model.001|mini
   - first:
       74: -8083537281657201259
-    second: model.001|model.001|model.001|minion_melee_idle_model.001|model.001|m
+    second: minion_melee_idle
   - first:
       74: -1582071474556482140
     second: model.001|model.001|model.001|minion_melee_idle_model.001|model.001|m.001
@@ -113,7 +113,7 @@ ModelImporter:
     second: model.001|model.001|model.001|minion_melee_idle_model.001|model.001|minio
   - first:
       74: 4374474931090271709
-    second: model.001|model.001|model.001|minion_melee_run_model.001|model.001|mi
+    second: minion_melee_run
   - first:
       74: -7669562954776470665
     second: model.001|model.001|model.001|minion_melee_run_model.001|model.001|mi.001
@@ -155,7 +155,311 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: minion_melee_attack2
+      takeName: model.001|model.001|model.001|minion_melee_attack2_model.001|model.00
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: minion_melee_attack3
+      takeName: model.001|model.001|model.001|minion_melee_attack3_model.001|model.00
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: minion_melee_attack3b
+      takeName: model.001|model.001|model.001|minion_melee_attack3b_model.001|model.0
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: minion_melee_attack
+      takeName: model.001|model.001|model.001|minion_melee_attack_model.001|model.001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.17728531
+        functionName: CheckMinionActionStart
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.99722993
+        functionName: CheckMinionActionEnd
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: minion_melee_death2
+      takeName: model.001|model.001|model.001|minion_melee_death2_model.001|model.001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 68
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: minion_melee_death3
+      takeName: model.001|model.001|model.001|minion_melee_death3_model.001|model.001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: minion_melee_death4
+      takeName: model.001|model.001|model.001|minion_melee_death4_model.001|model.001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 69
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: minion_melee_death
+      takeName: model.001|model.001|model.001|minion_melee_death_model.001|model.001|
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 72
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: minion_melee_idle
+      takeName: model.001|model.001|model.001|minion_melee_idle_model.001|model.001|m
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: minion_melee_run
+      takeName: model.001|model.001|model.001|minion_melee_run_model.001|model.001|mi
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []

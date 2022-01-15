@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3777177413389806790}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 12.83, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5730198658549518966}
@@ -4898,7 +4898,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4738708200059309948}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 71.94, y: 93.2, z: 229.44}
+  m_LocalPosition: {x: 89.3, y: 93.2, z: 229.44}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4311248354307163303}
@@ -4931,7 +4931,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6771931274396635425}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 12.830002, y: 0, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 5730198658549518966}
@@ -4957,7 +4957,7 @@ TrailRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d4319134b57809e4fa241c741bc7d246, type: 2}
+  - {fileID: 2100000, guid: 0b137d8a89fe97b47b066aada28505db, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4978,7 +4978,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -18
-  m_Time: 0.1
+  m_Time: 0.2
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 2.5
@@ -5008,33 +5008,33 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0, g: 0, b: 0, a: 0}
-      key1: {r: 1, g: 1, b: 1, a: 1}
-      key2: {r: 0, g: 0, b: 0, a: 0}
-      key3: {r: 0, g: 0, b: 0, a: 0}
-      key4: {r: 0, g: 0, b: 0, a: 0}
+      key0: {r: 1, g: 0, b: 0, a: 0}
+      key1: {r: 1, g: 0, b: 0.1333332, a: 1}
+      key2: {r: 0.142, g: 0.06363208, b: 0.08322406, a: 1}
+      key3: {r: 1, g: 0.76019466, b: 0, a: 0.48235294}
+      key4: {r: 1, g: 1, b: 1, a: 1}
       key5: {r: 0, g: 0, b: 0, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
-      ctime0: 0
-      ctime1: 32630
+      ctime0: 19661
+      ctime1: 36430
       ctime2: 65535
       ctime3: 65535
-      ctime4: 0
+      ctime4: 65535
       ctime5: 0
       ctime6: 0
       ctime7: 0
       atime0: 0
-      atime1: 32630
-      atime2: 65535
-      atime3: 0
-      atime4: 0
+      atime1: 19661
+      atime2: 36044
+      atime3: 65535
+      atime4: 65535
       atime5: 0
       atime6: 0
       atime7: 0
       m_Mode: 0
       m_NumColorKeys: 3
-      m_NumAlphaKeys: 3
+      m_NumAlphaKeys: 4
     numCornerVertices: 0
     numCapVertices: 0
     alignment: 0

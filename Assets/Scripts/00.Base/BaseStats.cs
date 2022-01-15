@@ -40,6 +40,7 @@ public class BaseStats : MonoBehaviour
     [Header("Utilities")]
     public float moveSpeed;
     public float curExp;
+    public int sightRange;
 
     [Space(5)]
     [Header("Buffs")]
@@ -77,6 +78,7 @@ public class BaseStats : MonoBehaviour
         resource = localData.resource;          
         resourceRegen = localData.resourceRegen;
         moveSpeed = localData.moveSpeed;
+        sightRange = localData.sightRange;
         disablingEffect = localData.disablingEffect;   
         curExp = localData.curExp;
         level = localData.level;

@@ -1,7 +1,40 @@
 fileFormatVersion: 2
 guid: 1118b581f4c483645b9b971f30842b8d
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -419086837346036779
+    second: spellpickchoiceatlas.ruinedkinggamemode_11_14_0
+  - first:
+      213: -4543909715195207400
+    second: spellpickchoiceatlas.ruinedkinggamemode_11_14_1
+  - first:
+      213: -6562113487127162450
+    second: spellpickchoiceatlas.ruinedkinggamemode_11_14_2
+  - first:
+      213: -2680624717265154664
+    second: spellpickchoiceatlas.ruinedkinggamemode_11_14_3
+  - first:
+      213: 7100911246093305473
+    second: spellpickchoiceatlas.ruinedkinggamemode_11_14_4
+  - first:
+      213: 4023086995883121198
+    second: spellpickchoiceatlas.ruinedkinggamemode_11_14_5
+  - first:
+      213: 5178091609682437387
+    second: spellpickchoiceatlas.ruinedkinggamemode_11_14_6
+  - first:
+      213: 7436786514223055461
+    second: spellpickchoiceatlas.ruinedkinggamemode_11_14_7
+  - first:
+      213: -2187984868915399127
+    second: spellpickchoiceatlas.ruinedkinggamemode_11_14_8
+  - first:
+      213: 606170549365328776
+    second: spellpickchoiceatlas.ruinedkinggamemode_11_14_9
+  - first:
+      213: -20395636642965723
+    second: spellpickchoiceatlas.ruinedkinggamemode_11_14_10
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -125,11 +158,242 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: spellpickchoiceatlas.ruinedkinggamemode_11_14_0
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 238
+        width: 251
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d392f9edba1f2af0800000000000000
+      internalID: -419086837346036779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spellpickchoiceatlas.ruinedkinggamemode_11_14_1
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 87
+        width: 990
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 398, y: 139, z: 385, w: 141}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811e75e403ac0f0c0800000000000000
+      internalID: -4543909715195207400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spellpickchoiceatlas.ruinedkinggamemode_11_14_2
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 331
+        width: 276
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea15cff0d80bee4a0800000000000000
+      internalID: -6562113487127162450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spellpickchoiceatlas.ruinedkinggamemode_11_14_3
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 331
+        width: 276
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d474fa5028ccad0800000000000000
+      internalID: -2680624717265154664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spellpickchoiceatlas.ruinedkinggamemode_11_14_4
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 247
+        width: 360
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186c7f4f7218b8260800000000000000
+      internalID: 7100911246093305473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spellpickchoiceatlas.ruinedkinggamemode_11_14_5
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 215
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a5b1abe40e4d730800000000000000
+      internalID: 4023086995883121198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spellpickchoiceatlas.ruinedkinggamemode_11_14_6
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 231
+        width: 360
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b056d8162e64cd740800000000000000
+      internalID: 5178091609682437387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spellpickchoiceatlas.ruinedkinggamemode_11_14_7
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 217
+        width: 360
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5624ea2dee5c43760800000000000000
+      internalID: 7436786514223055461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spellpickchoiceatlas.ruinedkinggamemode_11_14_8
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 155
+        width: 242
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9263e5aaa57b2a1e0800000000000000
+      internalID: -2187984868915399127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spellpickchoiceatlas.ruinedkinggamemode_11_14_9
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 100
+        width: 242
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b493c27ec896800800000000000000
+      internalID: 606170549365328776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spellpickchoiceatlas.ruinedkinggamemode_11_14_10
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 45
+        width: 242
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5279deac64a87bff0800000000000000
+      internalID: -20395636642965723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ae87c913da75cbc4a971441b9c43fb31
     internalID: 0
     vertices: []
     indices: 

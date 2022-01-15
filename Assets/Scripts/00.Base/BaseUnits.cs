@@ -51,9 +51,8 @@ public class BaseUnits : MonoBehaviour, IDamagable
             else
             {
                 curTarget = null;
+                return false;
             }
-
-            return false;
         }
     }
     public bool IsTargetInRange

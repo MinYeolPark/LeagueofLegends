@@ -8,7 +8,7 @@ public class Minion : BaseUnits,IAttackable
     public LayerMask minionLayer;
     public LayerMask structureLayer;
     public LayerMask championLayer;
-
+    
     float motionSmoothTime = 0.1f;
     public float rotateSpeedMovement = 0.1f;
     public float rotateVelocity;
@@ -31,13 +31,13 @@ public class Minion : BaseUnits,IAttackable
     {
         base.Start();
 
-        Debug.Log($"Minion agent is enable={agent.isActiveAndEnabled}");
         StartCoroutine(CheckMinionState());
     }
     IEnumerator CheckMinionState()
     {        
         while(state!=States.Dead)
         {
+            //<::Moving Process
             float speed = agent.velocity.magnitude / agent.speed;
             anim.SetFloat("Speed", speed, motionSmoothTime, Time.deltaTime);
 
@@ -49,6 +49,7 @@ public class Minion : BaseUnits,IAttackable
                 rotateSpeedMovement * (Time.deltaTime * 1));
 
             transform.eulerAngles = new Vector3(0, rotationY, 0);
+            //::>
 
             switch (state)
             {
@@ -60,16 +61,39 @@ public class Minion : BaseUnits,IAttackable
                     if (!HasTarget)
                     {
                         StartCoroutine(UpdatePath());
+                        FindCloseMinion();
+                        agent.stoppingDistance = 0;
                     }
-                    StartCoroutine(UpdateTarget());
+                    else
+                    {
+                        //Need to search every type of enemies
+                        //FindCloseStructure();
+                        //FindCloseChamp();
+                        //<<
+                        agent.stoppingDistance = stats.attackRange;
+                        state = States.Targetting;
+                    }                    
                     break;
                 case States.Targetting:
-                    if (IsTargetInRange)
-                        state = States.Attacking;
+                    agent.SetDestination(curTarget.transform.position);
+
+                    if (agent.remainingDistance < Vector3.Distance(transform.position, curTarget.transform.position))
+                    {
+                        if (curTarget.TryGetComponent(out BaseStats obj))
+                        {
+                            state = States.Attacking;
+                        }
+                    }                    
+
                     break;
                 case States.Attacking:
+                    StartCoroutine(StartAttack());
                     if (!HasTarget)
+                    {
                         state = States.Idle;
+                        StartCoroutine(StopAttack());
+                    }
+                    
                     break;
                 case States.Damaged:
                     break;
@@ -83,37 +107,27 @@ public class Minion : BaseUnits,IAttackable
     IEnumerator UpdatePath()
     {
         yield return null;
-        if (path.Count == 0)
-            yield break;
-        agent.SetDestination(path[pathIdx].transform.position);
-        //Debug.Log("PathIdx=" + pathIdx);
 
-        ////If Minions arrived to destination. update Path Idx
+        if (path.Count == 0)
+        {
+            yield break;
+        }
+
+        agent.SetDestination(path[pathIdx].transform.position);
+
+        //If Minions arrived to destination. update Path Idx
         if (agent.remainingDistance<=localData.sightRange)
-            pathIdx++;
+        {          
+            if(pathIdx<=path.Capacity)
+            {
+                //pathIdx++;
+                yield return null;
+            }
+        }            
         
         if(pathIdx>=path.Count)
         {
             yield break;
-        }
-    }
-
-    IEnumerator UpdateTarget()
-    {
-        while (state != States.Dead)
-        {
-            //Need to search every type of enemies
-            FindCloseMinion();
-            FindCloseStructure();
-            FindCloseChamp();
-
-            //>>Attack Process
-            if (curTarget != null)
-            {
-                StartCoroutine(StartAttack());
-            }
-            //<<
-            yield return new WaitForSeconds(0.5f);
         }
     }
 
@@ -148,29 +162,34 @@ public class Minion : BaseUnits,IAttackable
     {
         Collider[] minions = Physics.OverlapSphere(transform.position, localData.attackRange, minionLayer);
 
+        foreach (var item in minions)
+        {
+            Debug.Log(item.name);
+        }
         float shortestDistance = Mathf.Infinity;
         GameObject nearestMinion = null;
         ///Minion Target Process>>
-        if (curTarget.GetComponent<BaseStats>().teamID != GetComponent<BaseStats>().teamID)
+        
+        foreach (var targetMinion in minions)
         {
-            foreach (var targetMinion in minions)
-            {
-                float distanceToEnemy = Vector3.Distance(transform.position, targetMinion.transform.position);
+            float distanceToEnemy = Vector3.Distance(transform.position, targetMinion.transform.position);
 
-                if (distanceToEnemy < shortestDistance)
+            if (distanceToEnemy < shortestDistance)
+            {
+                shortestDistance = distanceToEnemy;
+                nearestMinion = targetMinion.gameObject;
+
+                //TO DO: Enemy targetting rule update            
+                if (nearestMinion.GetComponent<BaseStats>().teamID != GetComponent<BaseStats>().teamID)
                 {
-                    shortestDistance = distanceToEnemy;
-                    nearestMinion = targetMinion.gameObject;
+                    if (nearestMinion != null && shortestDistance <= GetComponent<BaseStats>().attackRange)
+                    {
+                        curTarget = nearestMinion;
+                    }
                 }
             }
-        }
-
-
-        if (nearestMinion != null && shortestDistance <= GetComponent<BaseStats>().attackRange)
-        {
-            curTarget = nearestMinion.gameObject;
-        }
-        //<<  
+           
+        }        
     }
 
     void FindCloseStructure()
@@ -181,26 +200,21 @@ public class Minion : BaseUnits,IAttackable
         GameObject targetStructure = null;
 
         ///Structure Target Process>>
-        if (curTarget.GetComponent<BaseStats>().teamID != GetComponent<BaseStats>().teamID)
+        foreach (var targetMinion in structure)
         {
-            foreach (var targetMinion in structure)
-            {
-                float distanceToEnemy = Vector3.Distance(transform.position, targetMinion.transform.position);
+            float distanceToEnemy = Vector3.Distance(transform.position, targetMinion.transform.position);
 
-                if (distanceToEnemy < shortestDistance)
+            if (distanceToEnemy < shortestDistance)
+            {
+                shortestDistance = distanceToEnemy;
+                targetStructure = targetMinion.gameObject;
+
+                if (targetStructure.GetComponent<BaseStats>().teamID != GetComponent<BaseStats>().teamID)
                 {
-                    shortestDistance = distanceToEnemy;
-                    targetStructure = targetMinion.gameObject;
+                    curTarget = targetStructure;
                 }
             }
-        }
-
-
-        if (targetStructure != null && shortestDistance <= GetComponent<BaseStats>().attackRange)
-        {
-            curTarget = targetStructure.gameObject;
-        }
-
+        }       
     }
 
     void FindCloseChamp()
@@ -210,49 +224,53 @@ public class Minion : BaseUnits,IAttackable
         float shortestDistance = Mathf.Infinity;
 
         GameObject targetChamp = null;
-        if (curTarget.GetComponent<BaseStats>().teamID != GetComponent<BaseStats>().teamID)
+        
+        foreach (var targetMinion in champions)
         {
-            foreach (var targetMinion in champions)
-            {
-                float distanceToEnemy = Vector3.Distance(transform.position, targetMinion.transform.position);
+            float distanceToEnemy = Vector3.Distance(transform.position, targetMinion.transform.position);
 
-                if (distanceToEnemy < shortestDistance)
+            if (distanceToEnemy < shortestDistance)
+            {
+                shortestDistance = distanceToEnemy;
+                targetChamp = targetMinion.gameObject;
+
+                if (targetChamp.GetComponent<BaseStats>().teamID != GetComponent<BaseStats>().teamID)
                 {
-                    shortestDistance = distanceToEnemy;
-                    targetChamp = targetMinion.gameObject;
+                    curTarget = targetChamp;
                 }
             }
-        }
-        if (targetChamp != null && shortestDistance <= GetComponent<BaseStats>().attackRange)
-        {
-            curTarget = targetChamp.gameObject;
         }
     }
     public IEnumerator StartAttack()
     {
-        state = States.Attacking;
-        if (curTarget.GetComponent<BaseUnits>().state != States.Dead)
+        if (curTarget.TryGetComponent<BaseUnits>(out BaseUnits obj))
         {
-
-            //Range Process
-            if (rangedProjectile != null)
+            if (obj.state != States.Dead)
             {
-                GameObject bullet = Instantiate(rangedProjectile, firePoint.transform);
-                RangedProjectile projectile = bullet.GetComponent<RangedProjectile>();
+                anim.SetBool("BaseAttack", true);
+            }
 
-                if (projectile != null)
-                {
-                    projectile.Seek(curTarget);
-                }
+            yield return new WaitForSeconds(stats.attackRange / ((100 + stats.attackSpeed) * 0.01f));
+
+            if (obj.state == States.Dead)
+            {
+                state = States.Idle;
+                anim.SetBool("BaseAttack", false);
+                curTarget = null;
             }
         }
 
-        yield return new WaitForSeconds((float)(100 + localData.attackSpeed * 0.01));
+        ////Range Process
+        //if (rangedProjectile != null)
+        //{
+        //    GameObject bullet = Instantiate(rangedProjectile, firePoint.transform);
+        //    RangedProjectile projectile = bullet.GetComponent<RangedProjectile>();
 
-        if (curTarget.GetComponent<BaseUnits>().state == States.Dead)
-        {
-            StartCoroutine(StopAttack());
-        }
+        //    if (projectile != null)
+        //    {
+        //        projectile.Seek(curTarget);
+        //    }
+        //}
     }
 
     public IEnumerator StopAttack()
@@ -260,5 +278,29 @@ public class Minion : BaseUnits,IAttackable
         state = States.Idle;
 
         yield return null; ;
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawSphere(transform.position,gameObject.GetComponent<BaseStats>().sightRange);
+    }
+
+    public void CheckMinionActionStart()
+    {
+        if (agent.isActiveAndEnabled && agent.isStopped == false)
+        {
+            state = States.Casting;
+            agent.isStopped = true;
+            agent.updateRotation = false;
+        }
+    }
+    public void CheckMinionActionEnd()
+    {
+        if (agent.isActiveAndEnabled && agent.isStopped == true)
+        {
+            state = States.Idle;
+            agent.isStopped = false;
+            agent.updateRotation = true;
+        }
     }
 }
