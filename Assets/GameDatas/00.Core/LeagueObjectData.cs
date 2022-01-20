@@ -7,8 +7,8 @@ public class LeagueObjectData : ScriptableObject,ISerializationCallbackReceiver
     [Header("Critical")]
     public LeagueObjectData localData;
 
-    public Sprite portraitImage;
-
+    public Sprite portraitCircle;
+    public Sprite portraitSquare;
     public enum ObjType
     {
         Champion,

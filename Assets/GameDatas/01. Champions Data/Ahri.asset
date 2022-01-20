@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Ahri
   m_EditorClassIdentifier: 
   localData: {fileID: 11400000}
-  portraitImage: {fileID: 21300000, guid: 1ac3cf92789161b4a8a6678b153e9e07, type: 3}
+  portraitCircle: {fileID: 21300000, guid: 1ac3cf92789161b4a8a6678b153e9e07, type: 3}
+  portraitSquare: {fileID: 21300000, guid: f46e8a107685f8b42878da38a03ead16, type: 3}
   objType: 0
   attackType: 1
   projectile: {fileID: 1466745915212507218, guid: 37b47f9f0e369aa44a696925c3356d7c, type: 3}
@@ -73,5 +74,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 957025ec87c00f445abbeadf01f841b4, type: 2}
   - {fileID: 11400000, guid: 5523918e8c71e424dba0007182f33a3d, type: 2}
   - {fileID: 11400000, guid: 5df075d50fef8dd44851079565479ce3, type: 2}
+  InitialValue: 0
   category: 3
   resourceType: 1

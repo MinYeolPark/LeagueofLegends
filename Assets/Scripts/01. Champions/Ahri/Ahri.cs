@@ -31,6 +31,11 @@ public class Ahri : BaseChampController
     //public UnityEvent OnAbility3Active;
     //public UnityEvent OnAbility4Active;
 
+    protected override void Awake()
+    {
+        base.Awake();
+        rangedProjectile = localData.projectile;
+    }
     protected override void OnPassive() 
     {
         base.OnPassive();
@@ -94,7 +99,7 @@ public class Ahri : BaseChampController
     {
         if (target.GetComponent<BaseUnits>().state == States.Dead || target == null)
         {
-            StartCoroutine(StopAttack());
+            StopAttack();
 
             anim.SetBool("BaseAttack", false);
             target = null;
@@ -107,6 +112,7 @@ public class Ahri : BaseChampController
             if (rangedProjectile != null)
             {
                 GameObject bullet = Instantiate(rangedProjectile, ahriFirePoint.transform.position, ahriFirePoint.transform.rotation);
+                bullet.GetComponent<RangedProjectile>().SetDamage(gameObject);
                 RangedProjectile projectile = bullet.GetComponent<RangedProjectile>();
 
                 if (projectile != null)
@@ -115,5 +121,5 @@ public class Ahri : BaseChampController
                 }
             }
         }
-    }
+    }    
 }

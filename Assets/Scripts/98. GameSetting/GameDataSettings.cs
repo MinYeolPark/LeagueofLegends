@@ -1,11 +1,12 @@
 public static class GameDataSettings
 {
     //All champion have to update
-    public static CHAMPIONS champ;
+    public static CHAMPIONS champ = CHAMPIONS.NULL;
     public enum CHAMPIONS
     {
         AHRI,
-        GAREN
+        GAREN,
+        NULL,
     }
     public static TEAM team;
     public enum TEAM

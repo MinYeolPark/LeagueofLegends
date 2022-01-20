@@ -1,0 +1,6684 @@
+fileFormatVersion: 2
+guid: a66ff72fab2fe0d4eb8b6114e1d9f22f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4924406665650669046
+    second: champfhbfxatlas_0
+  - first:
+      213: 8739384508141517559
+    second: champfhbfxatlas_1
+  - first:
+      213: -7473352874935938931
+    second: champfhbfxatlas_2
+  - first:
+      213: 8907218833791101463
+    second: champfhbfxatlas_3
+  - first:
+      213: -6875712489356090527
+    second: champfhbfxatlas_4
+  - first:
+      213: -7666652397428710876
+    second: champfhbfxatlas_5
+  - first:
+      213: 5452005645579418586
+    second: champfhbfxatlas_6
+  - first:
+      213: 6536590934755963290
+    second: champfhbfxatlas_7
+  - first:
+      213: -5634665482450219575
+    second: champfhbfxatlas_8
+  - first:
+      213: -206725031739697556
+    second: champfhbfxatlas_9
+  - first:
+      213: 7285573263381063791
+    second: champfhbfxatlas_10
+  - first:
+      213: -8255403943996688680
+    second: champfhbfxatlas_11
+  - first:
+      213: -244820106434901387
+    second: champfhbfxatlas_12
+  - first:
+      213: -4020915702590414575
+    second: champfhbfxatlas_13
+  - first:
+      213: 6675530302569575278
+    second: champfhbfxatlas_14
+  - first:
+      213: -637860144192352275
+    second: champfhbfxatlas_15
+  - first:
+      213: 1998954100668659224
+    second: champfhbfxatlas_16
+  - first:
+      213: 6205824681747589841
+    second: champfhbfxatlas_17
+  - first:
+      213: -3485533043618547045
+    second: champfhbfxatlas_18
+  - first:
+      213: 5747360802457413864
+    second: champfhbfxatlas_19
+  - first:
+      213: 2767667283605618440
+    second: champfhbfxatlas_20
+  - first:
+      213: 9068826822922073132
+    second: champfhbfxatlas_21
+  - first:
+      213: 8867174013712727336
+    second: champfhbfxatlas_22
+  - first:
+      213: -1598531739334774951
+    second: champfhbfxatlas_23
+  - first:
+      213: 1832168228036947805
+    second: champfhbfxatlas_24
+  - first:
+      213: 5300962223228175838
+    second: champfhbfxatlas_25
+  - first:
+      213: -6775084410420846394
+    second: champfhbfxatlas_26
+  - first:
+      213: -8704029470235574211
+    second: champfhbfxatlas_27
+  - first:
+      213: 1511634470725071405
+    second: champfhbfxatlas_28
+  - first:
+      213: 5155374464838570804
+    second: champfhbfxatlas_29
+  - first:
+      213: 3443428993183178675
+    second: champfhbfxatlas_30
+  - first:
+      213: 4443414080544695295
+    second: champfhbfxatlas_31
+  - first:
+      213: -7054296809517832282
+    second: champfhbfxatlas_32
+  - first:
+      213: 1304743779817871804
+    second: champfhbfxatlas_33
+  - first:
+      213: 6240648157464169101
+    second: champfhbfxatlas_34
+  - first:
+      213: 3182661577785276493
+    second: champfhbfxatlas_35
+  - first:
+      213: -1673336081451777209
+    second: champfhbfxatlas_36
+  - first:
+      213: -8940460544820537772
+    second: champfhbfxatlas_37
+  - first:
+      213: 5925303611385739345
+    second: champfhbfxatlas_38
+  - first:
+      213: -8626280792383301003
+    second: champfhbfxatlas_39
+  - first:
+      213: -6963977710988770709
+    second: champfhbfxatlas_40
+  - first:
+      213: 6438955968311308061
+    second: champfhbfxatlas_41
+  - first:
+      213: -5768325155862137466
+    second: champfhbfxatlas_42
+  - first:
+      213: -2351760660765772906
+    second: champfhbfxatlas_43
+  - first:
+      213: -2431197592603704245
+    second: champfhbfxatlas_44
+  - first:
+      213: -6277700205825285722
+    second: champfhbfxatlas_45
+  - first:
+      213: -458209052007092951
+    second: champfhbfxatlas_46
+  - first:
+      213: -561913398201465587
+    second: champfhbfxatlas_47
+  - first:
+      213: 6946087909304599857
+    second: champfhbfxatlas_48
+  - first:
+      213: -4636146564456343464
+    second: champfhbfxatlas_49
+  - first:
+      213: 4842672020136143315
+    second: champfhbfxatlas_50
+  - first:
+      213: -4218073493140001662
+    second: champfhbfxatlas_51
+  - first:
+      213: -5282697408295305360
+    second: champfhbfxatlas_52
+  - first:
+      213: 3191850396801144727
+    second: champfhbfxatlas_53
+  - first:
+      213: 8379552067963395873
+    second: champfhbfxatlas_54
+  - first:
+      213: -5788341877749271931
+    second: champfhbfxatlas_55
+  - first:
+      213: 1531802040002874132
+    second: champfhbfxatlas_56
+  - first:
+      213: 9090883240625969118
+    second: champfhbfxatlas_57
+  - first:
+      213: -4884875028011327270
+    second: champfhbfxatlas_58
+  - first:
+      213: 5115435574700786209
+    second: champfhbfxatlas_59
+  - first:
+      213: 5744424238913178422
+    second: champfhbfxatlas_60
+  - first:
+      213: 3617831604861199510
+    second: champfhbfxatlas_61
+  - first:
+      213: -1267055825274194462
+    second: champfhbfxatlas_62
+  - first:
+      213: 4684655630585143915
+    second: champfhbfxatlas_63
+  - first:
+      213: -7347384759110467123
+    second: champfhbfxatlas_64
+  - first:
+      213: -7751748287476148589
+    second: champfhbfxatlas_65
+  - first:
+      213: -3275337383213049737
+    second: champfhbfxatlas_66
+  - first:
+      213: 1030237737501005754
+    second: champfhbfxatlas_67
+  - first:
+      213: 6575752132261055206
+    second: champfhbfxatlas_68
+  - first:
+      213: 4504235067579740709
+    second: champfhbfxatlas_69
+  - first:
+      213: -8668629562262440415
+    second: champfhbfxatlas_70
+  - first:
+      213: 6904407212443785815
+    second: champfhbfxatlas_71
+  - first:
+      213: -6775497027814758463
+    second: champfhbfxatlas_72
+  - first:
+      213: 326495326686850850
+    second: champfhbfxatlas_73
+  - first:
+      213: -7593277466182293822
+    second: champfhbfxatlas_74
+  - first:
+      213: -8462283219639894456
+    second: champfhbfxatlas_75
+  - first:
+      213: -151843139775522730
+    second: champfhbfxatlas_76
+  - first:
+      213: -6013652836571920727
+    second: champfhbfxatlas_77
+  - first:
+      213: 4940073296559388446
+    second: champfhbfxatlas_78
+  - first:
+      213: 5591611709122044448
+    second: champfhbfxatlas_79
+  - first:
+      213: -293799798280013079
+    second: champfhbfxatlas_80
+  - first:
+      213: 5854012941390499053
+    second: champfhbfxatlas_81
+  - first:
+      213: -552278882425973530
+    second: champfhbfxatlas_82
+  - first:
+      213: -8623577255897145723
+    second: champfhbfxatlas_83
+  - first:
+      213: -2029936244880410372
+    second: champfhbfxatlas_84
+  - first:
+      213: -2921254985753681957
+    second: champfhbfxatlas_85
+  - first:
+      213: 2193546178180176446
+    second: champfhbfxatlas_86
+  - first:
+      213: -4779415216322802210
+    second: champfhbfxatlas_87
+  - first:
+      213: 987882164215874003
+    second: champfhbfxatlas_88
+  - first:
+      213: 3397695646797120066
+    second: champfhbfxatlas_89
+  - first:
+      213: -3671319428158545825
+    second: champfhbfxatlas_90
+  - first:
+      213: 8525878174965926929
+    second: champfhbfxatlas_91
+  - first:
+      213: -4753558300220400364
+    second: champfhbfxatlas_92
+  - first:
+      213: -3368075907236549027
+    second: champfhbfxatlas_93
+  - first:
+      213: -4181954480228239556
+    second: champfhbfxatlas_94
+  - first:
+      213: 8097020646513242793
+    second: champfhbfxatlas_95
+  - first:
+      213: 5124480874047778349
+    second: champfhbfxatlas_96
+  - first:
+      213: -5610015265788221287
+    second: champfhbfxatlas_97
+  - first:
+      213: -597923484786035378
+    second: champfhbfxatlas_98
+  - first:
+      213: 3056050237119158740
+    second: champfhbfxatlas_99
+  - first:
+      213: -4115868474544355966
+    second: champfhbfxatlas_100
+  - first:
+      213: -6429485612029582684
+    second: champfhbfxatlas_101
+  - first:
+      213: -7797606875848213965
+    second: champfhbfxatlas_102
+  - first:
+      213: 4792667634763074304
+    second: champfhbfxatlas_103
+  - first:
+      213: -2944574537354592606
+    second: champfhbfxatlas_104
+  - first:
+      213: 5596643720914192701
+    second: champfhbfxatlas_105
+  - first:
+      213: 7112183166018484051
+    second: champfhbfxatlas_106
+  - first:
+      213: -4157765903633301736
+    second: champfhbfxatlas_107
+  - first:
+      213: -6374748488545656740
+    second: champfhbfxatlas_108
+  - first:
+      213: -3189557871021901937
+    second: champfhbfxatlas_109
+  - first:
+      213: -1826425836488816188
+    second: champfhbfxatlas_110
+  - first:
+      213: 23409505890904613
+    second: champfhbfxatlas_111
+  - first:
+      213: 3195537511502974343
+    second: champfhbfxatlas_112
+  - first:
+      213: 7727444723573185088
+    second: champfhbfxatlas_113
+  - first:
+      213: -7576011654587056834
+    second: champfhbfxatlas_114
+  - first:
+      213: 6020345305121256899
+    second: champfhbfxatlas_115
+  - first:
+      213: -8735593718786130325
+    second: champfhbfxatlas_116
+  - first:
+      213: 7609958316651873699
+    second: champfhbfxatlas_117
+  - first:
+      213: 7656786904565961912
+    second: champfhbfxatlas_118
+  - first:
+      213: -7926592691543374762
+    second: champfhbfxatlas_119
+  - first:
+      213: -297642482917056770
+    second: champfhbfxatlas_120
+  - first:
+      213: 4410068241042071809
+    second: champfhbfxatlas_121
+  - first:
+      213: -5037205415851492098
+    second: champfhbfxatlas_122
+  - first:
+      213: 48660367287572795
+    second: champfhbfxatlas_123
+  - first:
+      213: 5710307286012529732
+    second: champfhbfxatlas_124
+  - first:
+      213: 5541474774072625253
+    second: champfhbfxatlas_125
+  - first:
+      213: 3295556884991103096
+    second: champfhbfxatlas_126
+  - first:
+      213: -4737843081021389318
+    second: champfhbfxatlas_127
+  - first:
+      213: 3782941721054681468
+    second: champfhbfxatlas_128
+  - first:
+      213: -3540997499852486342
+    second: champfhbfxatlas_129
+  - first:
+      213: -1612904336266210973
+    second: champfhbfxatlas_130
+  - first:
+      213: -3202551050058623448
+    second: champfhbfxatlas_131
+  - first:
+      213: 7192926872954344612
+    second: champfhbfxatlas_132
+  - first:
+      213: 4336836457824053661
+    second: champfhbfxatlas_133
+  - first:
+      213: -4906771690487432418
+    second: champfhbfxatlas_134
+  - first:
+      213: 1740616010455393038
+    second: champfhbfxatlas_135
+  - first:
+      213: 4202238714123282708
+    second: champfhbfxatlas_136
+  - first:
+      213: 6779878773216334722
+    second: champfhbfxatlas_137
+  - first:
+      213: 2596922930612684345
+    second: champfhbfxatlas_138
+  - first:
+      213: 4628456369471211259
+    second: champfhbfxatlas_139
+  - first:
+      213: -4417359132749349529
+    second: champfhbfxatlas_140
+  - first:
+      213: 8914487859716860793
+    second: champfhbfxatlas_141
+  - first:
+      213: -1642714684473881288
+    second: champfhbfxatlas_142
+  - first:
+      213: 866781443862462580
+    second: champfhbfxatlas_143
+  - first:
+      213: -1653818199792616940
+    second: champfhbfxatlas_144
+  - first:
+      213: 6992832501994209198
+    second: champfhbfxatlas_145
+  - first:
+      213: 647941467342483468
+    second: champfhbfxatlas_146
+  - first:
+      213: -5621804930699920368
+    second: champfhbfxatlas_147
+  - first:
+      213: -8036128113458739629
+    second: champfhbfxatlas_148
+  - first:
+      213: 4857215877395954733
+    second: champfhbfxatlas_149
+  - first:
+      213: -4740312836883897205
+    second: champfhbfxatlas_150
+  - first:
+      213: -7079046790274318878
+    second: champfhbfxatlas_151
+  - first:
+      213: 715405341013657553
+    second: champfhbfxatlas_152
+  - first:
+      213: -2565928679252204242
+    second: champfhbfxatlas_153
+  - first:
+      213: -3979459298162823192
+    second: champfhbfxatlas_154
+  - first:
+      213: -1868650952353288605
+    second: champfhbfxatlas_155
+  - first:
+      213: 3706991981130353618
+    second: champfhbfxatlas_156
+  - first:
+      213: -6947755485122034985
+    second: champfhbfxatlas_157
+  - first:
+      213: 167945752347787886
+    second: champfhbfxatlas_158
+  - first:
+      213: 2950810083675313550
+    second: champfhbfxatlas_159
+  - first:
+      213: -5551801885325603319
+    second: champfhbfxatlas_160
+  - first:
+      213: 847575613270819236
+    second: champfhbfxatlas_161
+  - first:
+      213: 3116800086054356961
+    second: champfhbfxatlas_162
+  - first:
+      213: 2826831645823626394
+    second: champfhbfxatlas_163
+  - first:
+      213: 8559959033549771872
+    second: champfhbfxatlas_164
+  - first:
+      213: -8484984838564149401
+    second: champfhbfxatlas_165
+  - first:
+      213: 5243934301531323758
+    second: champfhbfxatlas_166
+  - first:
+      213: -3914219274729785093
+    second: champfhbfxatlas_167
+  - first:
+      213: -6461389976917558380
+    second: champfhbfxatlas_168
+  - first:
+      213: -1812001518806092402
+    second: champfhbfxatlas_169
+  - first:
+      213: -8435279754897709975
+    second: champfhbfxatlas_170
+  - first:
+      213: -7101386419802317437
+    second: champfhbfxatlas_171
+  - first:
+      213: 5910562988972872184
+    second: champfhbfxatlas_172
+  - first:
+      213: -6351553535514745129
+    second: champfhbfxatlas_173
+  - first:
+      213: 1784444731178783621
+    second: champfhbfxatlas_174
+  - first:
+      213: 4149282572015807834
+    second: champfhbfxatlas_175
+  - first:
+      213: 2256040864049791943
+    second: champfhbfxatlas_176
+  - first:
+      213: 4101302527072769224
+    second: champfhbfxatlas_177
+  - first:
+      213: -5703552675789844549
+    second: champfhbfxatlas_178
+  - first:
+      213: 6700713488964729447
+    second: champfhbfxatlas_179
+  - first:
+      213: 7234110474080496872
+    second: champfhbfxatlas_180
+  - first:
+      213: 6011547566352003439
+    second: champfhbfxatlas_181
+  - first:
+      213: 8480595773686080245
+    second: champfhbfxatlas_182
+  - first:
+      213: 995587187465403665
+    second: champfhbfxatlas_183
+  - first:
+      213: -8689683359207794002
+    second: champfhbfxatlas_184
+  - first:
+      213: -3702210139526988638
+    second: champfhbfxatlas_185
+  - first:
+      213: -7226029379141710805
+    second: champfhbfxatlas_186
+  - first:
+      213: 6140108025802250166
+    second: champfhbfxatlas_187
+  - first:
+      213: 7879831002270601348
+    second: champfhbfxatlas_188
+  - first:
+      213: -7051218154715679497
+    second: champfhbfxatlas_189
+  - first:
+      213: -5688502200667519629
+    second: champfhbfxatlas_190
+  - first:
+      213: -752390664618227526
+    second: champfhbfxatlas_191
+  - first:
+      213: -1428620964429442412
+    second: champfhbfxatlas_192
+  - first:
+      213: -2050500602229798701
+    second: champfhbfxatlas_193
+  - first:
+      213: -3306471427308520819
+    second: champfhbfxatlas_194
+  - first:
+      213: 7803700900989765882
+    second: champfhbfxatlas_195
+  - first:
+      213: 3535960534105818818
+    second: champfhbfxatlas_196
+  - first:
+      213: 8793678944388418685
+    second: champfhbfxatlas_197
+  - first:
+      213: -4975833230661787152
+    second: champfhbfxatlas_198
+  - first:
+      213: -5280686654221413977
+    second: champfhbfxatlas_199
+  - first:
+      213: 2681570663293191955
+    second: champfhbfxatlas_200
+  - first:
+      213: -6466495298048802278
+    second: champfhbfxatlas_201
+  - first:
+      213: -6201298380892138178
+    second: champfhbfxatlas_202
+  - first:
+      213: 2821986309692999320
+    second: champfhbfxatlas_203
+  - first:
+      213: 7321338380038453115
+    second: champfhbfxatlas_204
+  - first:
+      213: 2516777185164070147
+    second: champfhbfxatlas_205
+  - first:
+      213: 2686006364757628368
+    second: champfhbfxatlas_206
+  - first:
+      213: 6234567809210515447
+    second: champfhbfxatlas_207
+  - first:
+      213: -5841532558224777304
+    second: champfhbfxatlas_208
+  - first:
+      213: -1224300717813812163
+    second: champfhbfxatlas_209
+  - first:
+      213: -4298999408072944971
+    second: champfhbfxatlas_210
+  - first:
+      213: -1912386954009483438
+    second: champfhbfxatlas_211
+  - first:
+      213: 9157824830344184052
+    second: champfhbfxatlas_212
+  - first:
+      213: 568185035280624736
+    second: champfhbfxatlas_213
+  - first:
+      213: -4130827701760384165
+    second: champfhbfxatlas_214
+  - first:
+      213: 5590143370644159602
+    second: champfhbfxatlas_215
+  - first:
+      213: 6770989953813886223
+    second: champfhbfxatlas_216
+  - first:
+      213: 5964135535051516267
+    second: champfhbfxatlas_217
+  - first:
+      213: 8749788902720522706
+    second: champfhbfxatlas_218
+  - first:
+      213: -5652082550804803224
+    second: champfhbfxatlas_219
+  - first:
+      213: 9135071855905963340
+    second: champfhbfxatlas_220
+  - first:
+      213: 3695166555995763189
+    second: champfhbfxatlas_221
+  - first:
+      213: 4024454264550397561
+    second: champfhbfxatlas_222
+  - first:
+      213: -7138425485304661537
+    second: champfhbfxatlas_223
+  - first:
+      213: -5709899730030867368
+    second: champfhbfxatlas_224
+  - first:
+      213: 3293327206810278421
+    second: champfhbfxatlas_225
+  - first:
+      213: 5521646724905175368
+    second: champfhbfxatlas_226
+  - first:
+      213: 7621256803596719950
+    second: champfhbfxatlas_227
+  - first:
+      213: -7535696949142707364
+    second: champfhbfxatlas_228
+  - first:
+      213: 8005288345968296538
+    second: champfhbfxatlas_229
+  - first:
+      213: 8112564886471686496
+    second: champfhbfxatlas_230
+  - first:
+      213: -9207214948690342938
+    second: champfhbfxatlas_231
+  - first:
+      213: 5493747896538944290
+    second: champfhbfxatlas_232
+  - first:
+      213: 8608844338578541687
+    second: champfhbfxatlas_233
+  - first:
+      213: -7605832945379506565
+    second: champfhbfxatlas_234
+  - first:
+      213: -5327491327449352940
+    second: champfhbfxatlas_235
+  - first:
+      213: -5005041041402004031
+    second: champfhbfxatlas_236
+  - first:
+      213: -1303493397705574015
+    second: champfhbfxatlas_237
+  - first:
+      213: 5876903296036234928
+    second: champfhbfxatlas_238
+  - first:
+      213: 1742053539528393500
+    second: champfhbfxatlas_239
+  - first:
+      213: 4593887303297984450
+    second: champfhbfxatlas_240
+  - first:
+      213: 3452528444934756774
+    second: champfhbfxatlas_241
+  - first:
+      213: 4379142233065190433
+    second: champfhbfxatlas_242
+  - first:
+      213: 4893184643347459524
+    second: champfhbfxatlas_243
+  - first:
+      213: -8218724841696435222
+    second: champfhbfxatlas_244
+  - first:
+      213: -4805986574092733414
+    second: champfhbfxatlas_245
+  - first:
+      213: 7199326063817080987
+    second: champfhbfxatlas_246
+  - first:
+      213: -7825921005689042670
+    second: champfhbfxatlas_247
+  - first:
+      213: -1650023583912387338
+    second: champfhbfxatlas_248
+  - first:
+      213: -3643459974636290035
+    second: champfhbfxatlas_249
+  - first:
+      213: -2423849854752481406
+    second: champfhbfxatlas_250
+  - first:
+      213: -3063530136995246516
+    second: champfhbfxatlas_251
+  - first:
+      213: 492754772605086493
+    second: champfhbfxatlas_252
+  - first:
+      213: 5286507569155861966
+    second: champfhbfxatlas_253
+  - first:
+      213: 1638558656115322942
+    second: champfhbfxatlas_254
+  - first:
+      213: -4322517084667323518
+    second: champfhbfxatlas_255
+  - first:
+      213: 74921349887397165
+    second: champfhbfxatlas_256
+  - first:
+      213: -5923953054926654997
+    second: champfhbfxatlas_257
+  - first:
+      213: -1519010819826055570
+    second: champfhbfxatlas_258
+  - first:
+      213: -7880182552797048400
+    second: champfhbfxatlas_259
+  - first:
+      213: 6889592184231076028
+    second: champfhbfxatlas_260
+  - first:
+      213: -6346658935513987260
+    second: champfhbfxatlas_261
+  - first:
+      213: 740476748446517248
+    second: champfhbfxatlas_262
+  - first:
+      213: -5035155283734205758
+    second: champfhbfxatlas_263
+  - first:
+      213: -5741954677437909266
+    second: champfhbfxatlas_264
+  - first:
+      213: 7920273876610390164
+    second: champfhbfxatlas_265
+  - first:
+      213: -4751837160198763918
+    second: champfhbfxatlas_266
+  - first:
+      213: 3665222958714125255
+    second: champfhbfxatlas_267
+  - first:
+      213: 4363152109602834614
+    second: champfhbfxatlas_268
+  - first:
+      213: -7137459356778613385
+    second: champfhbfxatlas_269
+  - first:
+      213: 8481190825476253435
+    second: champfhbfxatlas_270
+  - first:
+      213: -1921340347795291950
+    second: champfhbfxatlas_271
+  - first:
+      213: 8005491340377206554
+    second: champfhbfxatlas_272
+  - first:
+      213: -6360496171904336294
+    second: champfhbfxatlas_273
+  - first:
+      213: -1897023808481319426
+    second: champfhbfxatlas_274
+  - first:
+      213: 6043707406510736425
+    second: champfhbfxatlas_275
+  - first:
+      213: 6350497208695658770
+    second: champfhbfxatlas_276
+  - first:
+      213: 4524838092341795345
+    second: champfhbfxatlas_277
+  - first:
+      213: -4839974329458124557
+    second: champfhbfxatlas_278
+  - first:
+      213: 8797635508468082210
+    second: champfhbfxatlas_279
+  - first:
+      213: -8182754483402612804
+    second: champfhbfxatlas_280
+  - first:
+      213: -8962589377848950212
+    second: champfhbfxatlas_281
+  - first:
+      213: 7961490766454086066
+    second: champfhbfxatlas_282
+  - first:
+      213: -8056403882548086903
+    second: champfhbfxatlas_283
+  - first:
+      213: 478903148205041524
+    second: champfhbfxatlas_284
+  - first:
+      213: -5961403559504317465
+    second: champfhbfxatlas_285
+  - first:
+      213: -3314122211448242501
+    second: champfhbfxatlas_286
+  - first:
+      213: -5879690499596252439
+    second: champfhbfxatlas_287
+  - first:
+      213: 8694056072240428123
+    second: champfhbfxatlas_288
+  - first:
+      213: -3935786365188359454
+    second: champfhbfxatlas_289
+  - first:
+      213: 4847493615950070079
+    second: champfhbfxatlas_290
+  - first:
+      213: -4152373303425789357
+    second: champfhbfxatlas_291
+  - first:
+      213: -2727731221120359906
+    second: champfhbfxatlas_292
+  - first:
+      213: -7945741947403327685
+    second: champfhbfxatlas_293
+  - first:
+      213: 8305594442678246377
+    second: champfhbfxatlas_294
+  - first:
+      213: 4032801447836220394
+    second: champfhbfxatlas_295
+  - first:
+      213: 6986399840409778474
+    second: champfhbfxatlas_296
+  - first:
+      213: -1764455222816641996
+    second: champfhbfxatlas_297
+  - first:
+      213: -9208247027534219120
+    second: champfhbfxatlas_298
+  - first:
+      213: 5604645775238938560
+    second: champfhbfxatlas_299
+  - first:
+      213: -2266265919815768402
+    second: champfhbfxatlas_300
+  - first:
+      213: 2311727683122361772
+    second: champfhbfxatlas_301
+  - first:
+      213: -2309724703042236007
+    second: champfhbfxatlas_302
+  - first:
+      213: -220104222330297853
+    second: champfhbfxatlas_303
+  - first:
+      213: -1962044797637373970
+    second: champfhbfxatlas_304
+  - first:
+      213: -1743592001982531957
+    second: champfhbfxatlas_305
+  - first:
+      213: 5117131663638671415
+    second: champfhbfxatlas_306
+  - first:
+      213: -8634594243505097604
+    second: champfhbfxatlas_307
+  - first:
+      213: 8671755933816859715
+    second: champfhbfxatlas_308
+  - first:
+      213: -6367726148456138954
+    second: champfhbfxatlas_309
+  - first:
+      213: 2251020317721765208
+    second: champfhbfxatlas_310
+  - first:
+      213: -8503644888354851617
+    second: champfhbfxatlas_311
+  - first:
+      213: -7761141318135313765
+    second: champfhbfxatlas_312
+  - first:
+      213: -3926367486595852868
+    second: champfhbfxatlas_313
+  - first:
+      213: -5837305418215467817
+    second: champfhbfxatlas_314
+  - first:
+      213: -1607326497111225236
+    second: champfhbfxatlas_315
+  - first:
+      213: 7937364848848229047
+    second: champfhbfxatlas_316
+  - first:
+      213: 6467568934064135202
+    second: champfhbfxatlas_317
+  - first:
+      213: -3233794010752681958
+    second: champfhbfxatlas_318
+  - first:
+      213: -4412521928292586988
+    second: champfhbfxatlas_319
+  - first:
+      213: -6231658380796073357
+    second: champfhbfxatlas_320
+  - first:
+      213: -8044594634720024090
+    second: champfhbfxatlas_321
+  - first:
+      213: -4720246448821470842
+    second: champfhbfxatlas_322
+  - first:
+      213: 7843274651478795374
+    second: champfhbfxatlas_323
+  - first:
+      213: 496833292411277770
+    second: champfhbfxatlas_324
+  - first:
+      213: 6661741038429169172
+    second: champfhbfxatlas_325
+  - first:
+      213: 6821974080634917159
+    second: champfhbfxatlas_326
+  - first:
+      213: 7160681371089071862
+    second: champfhbfxatlas_327
+  - first:
+      213: 4916270477324425621
+    second: champfhbfxatlas_328
+  - first:
+      213: -5127782519403966182
+    second: champfhbfxatlas_329
+  - first:
+      213: -4859980495873418885
+    second: champfhbfxatlas_330
+  - first:
+      213: 1839850047713902881
+    second: champfhbfxatlas_331
+  - first:
+      213: -916700503119552352
+    second: champfhbfxatlas_332
+  - first:
+      213: -2300454723934904450
+    second: champfhbfxatlas_333
+  - first:
+      213: 4392102750894426600
+    second: champfhbfxatlas_334
+  - first:
+      213: -4675838873874570838
+    second: champfhbfxatlas_335
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: champfhbfxatlas_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1967
+        width: 152
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f58ca395c1075440800000000000000
+      internalID: 4924406665650669046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_1
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1967
+        width: 152
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fab35b28e7884970800000000000000
+      internalID: 8739384508141517559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_2
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1967
+        width: 152
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d809c40e721594890800000000000000
+      internalID: -7473352874935938931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_3
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1967
+        width: 152
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71aa9cc365ccc9b70800000000000000
+      internalID: 8907218833791101463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_4
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1967
+        width: 152
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163a6368bef8490a0800000000000000
+      internalID: -6875712489356090527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_5
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1870
+        width: 152
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4226dd2a3449a9590800000000000000
+      internalID: -7666652397428710876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_6
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1870
+        width: 153
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb7f2aaf3a69ab40800000000000000
+      internalID: 5452005645579418586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_7
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1871
+        width: 159
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91fa24a2d2a6ba50800000000000000
+      internalID: 6536590934755963290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_8
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1870
+        width: 160
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd4662f895adc1b0800000000000000
+      internalID: -5634665482450219575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_9
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 1871
+        width: 160
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6659fccda0912df0800000000000000
+      internalID: -206725031739697556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1781
+        width: 160
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6869ec484e8b1560800000000000000
+      internalID: 7285573263381063791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_11
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1781
+        width: 161
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6f7b81ad9ee6d80800000000000000
+      internalID: -8255403943996688680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_12
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1782
+        width: 159
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a031a09693a9cf0800000000000000
+      internalID: -244820106434901387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_13
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1784
+        width: 162
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111ee43e876d238c0800000000000000
+      internalID: -4020915702590414575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_14
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 1785
+        width: 169
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63f304117f34ac50800000000000000
+      internalID: 6675530302569575278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_15
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1690
+        width: 178
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def0901149dd527f0800000000000000
+      internalID: -637860144192352275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_16
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1689
+        width: 178
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8167aa4e926bdbb10800000000000000
+      internalID: 1998954100668659224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_17
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1688
+        width: 178
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1daaaed0ba48f1650800000000000000
+      internalID: 6205824681747589841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_18
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1688
+        width: 178
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9afa3af926e0afc0800000000000000
+      internalID: -3485533043618547045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_51
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1436
+        width: 151
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c26ec91846675c0800000000000000
+      internalID: -4218073493140001662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_52
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1436
+        width: 151
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f7ea232b610b6b0800000000000000
+      internalID: -5282697408295305360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_53
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1436
+        width: 151
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7979585560bbb4c20800000000000000
+      internalID: 3191850396801144727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_54
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1436
+        width: 151
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f19d385362a4470800000000000000
+      internalID: 8379552067963395873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_55
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 1436
+        width: 151
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582bc3aeabdabafa0800000000000000
+      internalID: -5788341877749271931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_56
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1347
+        width: 151
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b079ce6dd024510800000000000000
+      internalID: 1531802040002874132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_57
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1345
+        width: 151
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7101c442e492e70800000000000000
+      internalID: 9090883240625969118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_58
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1345
+        width: 155
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0653f0b00753cb0800000000000000
+      internalID: -4884875028011327270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_59
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1345
+        width: 156
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122cf6d6d8dadf640800000000000000
+      internalID: 5115435574700786209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_60
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 1345
+        width: 156
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b4097f86b48bf40800000000000000
+      internalID: 5744424238913178422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_61
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1254
+        width: 158
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694eee03dae153230800000000000000
+      internalID: 3617831604861199510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_62
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1255
+        width: 157
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e531f7a0738a6ee0800000000000000
+      internalID: -1267055825274194462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_63
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1255
+        width: 159
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62af04c97d330140800000000000000
+      internalID: 4684655630585143915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_64
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1259
+        width: 162
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc10a1d5d78d80a90800000000000000
+      internalID: -7347384759110467123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_65
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1259
+        width: 169
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396ddb8c0024c6490800000000000000
+      internalID: -7751748287476148589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_110
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 858
+        width: 149
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c90d77e06b37a6e0800000000000000
+      internalID: -1826425836488816188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_111
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 854
+        width: 154
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52aaef252da235000800000000000000
+      internalID: 23409505890904613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_112
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 846
+        width: 161
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d029f9f64d85c20800000000000000
+      internalID: 3195537511502974343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_113
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 846
+        width: 159
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04adb0ac8066d3b60800000000000000
+      internalID: 7727444723573185088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_114
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 848
+        width: 158
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d7e122a899cd690800000000000000
+      internalID: -7576011654587056834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_115
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 776
+        width: 155
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c571f868209c8350800000000000000
+      internalID: 6020345305121256899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_116
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 778
+        width: 155
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e7e91cbcfe4c680800000000000000
+      internalID: -8735593718786130325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_117
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 779
+        width: 155
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5809b05c00c9960800000000000000
+      internalID: 7609958316651873699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_118
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 780
+        width: 154
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4548f4f1f524a60800000000000000
+      internalID: 7656786904565961912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_119
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 780
+        width: 154
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6548955a1f51ff190800000000000000
+      internalID: -7926592691543374762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_120
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 782
+        width: 153
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efed9af1dbf8edbf0800000000000000
+      internalID: -297642482917056770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_121
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 710
+        width: 151
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1016b8e13b5b33d30800000000000000
+      internalID: 4410068241042071809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_122
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 710
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc7f7fcc50481ab0800000000000000
+      internalID: -5037205415851492098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_123
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 650
+        width: 189
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39d0d2a850eca000800000000000000
+      internalID: 48660367287572795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_124
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 712
+        width: 144
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c0a1dd8361f3f40800000000000000
+      internalID: 5710307286012529732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_125
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 730
+        width: 70
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568036072f547ec40800000000000000
+      internalID: 5541474774072625253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_126
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 714
+        width: 140
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870dcfab68b2cbd20800000000000000
+      internalID: 3295556884991103096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_127
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 730
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af58d2ae1dccf3eb0800000000000000
+      internalID: -4737843081021389318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_128
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 737
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c791871d375bf7430800000000000000
+      internalID: 3782941721054681468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_129
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 716
+        width: 126
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a390fbee889dbdec0800000000000000
+      internalID: -3540997499852486342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_130
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 743
+        width: 27
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3615a2c3d00dd99e0800000000000000
+      internalID: -1612904336266210973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_131
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 738
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826933ea9c04e83d0800000000000000
+      internalID: -3202551050058623448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_132
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 735
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a41ec591e862d360800000000000000
+      internalID: 7192926872954344612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_133
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 724
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99e095e7c98f2c30800000000000000
+      internalID: 4336836457824053661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_134
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 668
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1bbd8a0525a7ebb0800000000000000
+      internalID: -4906771690487432418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_135
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 669
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e032d811a09e72810800000000000000
+      internalID: 1740616010455393038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_136
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 670
+        width: 24
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41966b898d9515a30800000000000000
+      internalID: 4202238714123282708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_137
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 671
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28355c9a2d7f61e50800000000000000
+      internalID: 6779878773216334722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_138
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 645
+        width: 95
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9364c3475af1a0420800000000000000
+      internalID: 2596922930612684345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_139
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 645
+        width: 78
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6c9b0ab849b3040800000000000000
+      internalID: 4628456369471211259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_140
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 648
+        width: 107
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76db52fd54362b2c0800000000000000
+      internalID: -4417359132749349529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_141
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 645
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ba4f83a7f96bb70800000000000000
+      internalID: 8914487859716860793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_142
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 645
+        width: 55
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83dcd9ca2b7e339e0800000000000000
+      internalID: -1642714684473881288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_143
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 647
+        width: 51
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470825b712d670c00800000000000000
+      internalID: 866781443862462580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_144
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 550
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41af84e0c157c09e0800000000000000
+      internalID: -1653818199792616940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_145
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 567
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafbb276c188b0160800000000000000
+      internalID: 6992832501994209198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_146
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 575
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00b134e453fdf800800000000000000
+      internalID: 647941467342483468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_147
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 574
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c771d73365bf1b0800000000000000
+      internalID: -5621804930699920368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_148
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 571
+        width: 55
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35603cbde00f97090800000000000000
+      internalID: -8036128113458739629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_149
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 551
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2cb2991b1c486340800000000000000
+      internalID: 4857215877395954733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_150
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 546
+        width: 145
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84af411796073eb0800000000000000
+      internalID: -4740312836883897205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_151
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 545
+        width: 147
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed745d537c22cd90800000000000000
+      internalID: -7079046790274318878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_152
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 549
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d749850e51ade900800000000000000
+      internalID: 715405341013657553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_153
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 548
+        width: 72
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e256f2a067df36cd0800000000000000
+      internalID: -2565928679252204242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_154
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 499
+        width: 146
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef21e63ade16c8c0800000000000000
+      internalID: -3979459298162823192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_155
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 499
+        width: 145
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e69cffbd73116e0800000000000000
+      internalID: -1868650952353288605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_156
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 499
+        width: 146
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db0f7cf091e17330800000000000000
+      internalID: 3706991981130353618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_157
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 454
+        width: 146
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d28703723d949f90800000000000000
+      internalID: -6947755485122034985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_158
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 454
+        width: 146
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62c93e95c9a45200800000000000000
+      internalID: 167945752347787886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_159
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 454
+        width: 145
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e859b15132263f820800000000000000
+      internalID: 2950810083675313550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 409
+        width: 145
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ec2d9999904f2b0800000000000000
+      internalID: -5551801885325603319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_161
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 409
+        width: 145
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a18a45978133cb00800000000000000
+      internalID: 847575613270819236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_162
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 410
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e74d2d2a29114b20800000000000000
+      internalID: 3116800086054356961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_163
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 413
+        width: 105
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c6629976cea3720800000000000000
+      internalID: 2826831645823626394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_164
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 436
+        width: 38
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06451ae63651bc670800000000000000
+      internalID: 8559959033549771872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_165
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 365
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7670fc4ae374f3a80800000000000000
+      internalID: -8484984838564149401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_166
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 391
+        width: 54
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6db244b67236c840800000000000000
+      internalID: 5243934301531323758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_167
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 374
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf87ebcde46eda9c0800000000000000
+      internalID: -3914219274729785093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_168
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 365
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b3f86cc088456a0800000000000000
+      internalID: -6461389976917558380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_169
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 392
+        width: 52
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e853813183a7ad6e0800000000000000
+      internalID: -1812001518806092402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_170
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 374
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964274441cddfea80800000000000000
+      internalID: -8435279754897709975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_171
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 365
+        width: 47
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d56ea0daec27d90800000000000000
+      internalID: -7101386419802317437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_172
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 392
+        width: 50
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f19c4419b9860250800000000000000
+      internalID: 5910562988972872184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_173
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 374
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d664cf16bfbad7a0800000000000000
+      internalID: -6351553535514745129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_174
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 304
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5839a33570f93c810800000000000000
+      internalID: 1784444731178783621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_175
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 347
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5da8b1f386359930800000000000000
+      internalID: 4149282572015807834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_176
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 346
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3047c76311f4f10800000000000000
+      internalID: 2256040864049791943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_177
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 326
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c495923be0cae830800000000000000
+      internalID: 4101302527072769224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_178
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 368
+        width: 98
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf41d16f09e8d0b0800000000000000
+      internalID: -5703552675789844549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_179
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 347
+        width: 63
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a39639a67bdfc50800000000000000
+      internalID: 6700713488964729447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_180
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 283
+        width: 93
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec2081f529b46460800000000000000
+      internalID: 7234110474080496872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_181
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 320
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6176ca39ae4d6350800000000000000
+      internalID: 6011547566352003439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_182
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 348
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2ec3e8ce021b570800000000000000
+      internalID: 8480595773686080245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_183
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 348
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d3ecba54901dd00800000000000000
+      internalID: 995587187465403665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_184
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 327
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaadbc3560b086780800000000000000
+      internalID: -8689683359207794002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_185
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 368
+        width: 84
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2acf4a54e7b1f9cc0800000000000000
+      internalID: -3702210139526988638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_186
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 307
+        width: 59
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2cc8b7909cf7bb90800000000000000
+      internalID: -7226029379141710805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_187
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 348
+        width: 47
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7d770c7bb063550800000000000000
+      internalID: 6140108025802250166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_188
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 321
+        width: 58
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48013742c88ca5d60800000000000000
+      internalID: 7879831002270601348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_189
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 328
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4f26e727a052e90800000000000000
+      internalID: -7051218154715679497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_190
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 328
+        width: 93
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3754f2133616e01b0800000000000000
+      internalID: -5688502200667519629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_191
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 350
+        width: 30
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab84c174da8fe85f0800000000000000
+      internalID: -752390664618227526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_192
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 277
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492d1805dc48c2ce0800000000000000
+      internalID: -1428620964429442412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_193
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 283
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d84e58f0982b83e0800000000000000
+      internalID: -2050500602229798701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_194
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 279
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8afb4b51cd0d12d0800000000000000
+      internalID: -3306471427308520819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_195
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 226
+        width: 115
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af804e8af905c4c60800000000000000
+      internalID: 7803700900989765882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_196
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 231
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c68d271f51421130800000000000000
+      internalID: 3535960534105818818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_197
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 223
+        width: 131
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c8a15b86c690a70800000000000000
+      internalID: 8793678944388418685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_198
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 222
+        width: 158
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1e1d03a0a42fab0800000000000000
+      internalID: -4975833230661787152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_199
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 222
+        width: 134
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a19cfc577b37b6b0800000000000000
+      internalID: -5280686654221413977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_200
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 223
+        width: 130
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31703b98f4ad63520800000000000000
+      internalID: 2681570663293191955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_201
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 170
+        width: 130
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12411299c46246a0800000000000000
+      internalID: -6466495298048802278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_202
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 170
+        width: 122
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3518bc7aff80f9a0800000000000000
+      internalID: -6201298380892138178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_203
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 169
+        width: 123
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896444ed895b92720800000000000000
+      internalID: 2821986309692999320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_204
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 170
+        width: 114
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7730ae677e9a9560800000000000000
+      internalID: 7321338380038453115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_205
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 196
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d0384f3836de220800000000000000
+      internalID: 2516777185164070147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_206
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 169
+        width: 101
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d511d3ce8c964520800000000000000
+      internalID: 2686006364757628368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_207
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 210
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fff31ce362a58650800000000000000
+      internalID: 6234567809210515447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_208
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 198
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af122b8615beeea0800000000000000
+      internalID: -5841532558224777304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_209
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 117
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34b378dbf8620fe0800000000000000
+      internalID: -1224300717813812163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_210
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 210
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b29230c0d2e654c0800000000000000
+      internalID: -4298999408072944971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_211
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 193
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2576c259236d575e0800000000000000
+      internalID: -1912386954009483438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_212
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 194
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0cae7b921271f70800000000000000
+      internalID: 9157824830344184052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_213
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 194
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c289a774992e700800000000000000
+      internalID: 568185035280624736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_214
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 198
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53aa30671a5ca6c0800000000000000
+      internalID: -4130827701760384165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_215
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 195
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27cffba17cd249d40800000000000000
+      internalID: 5590143370644159602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_216
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 199
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05b0de1d7367fd50800000000000000
+      internalID: 6770989953813886223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_217
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 195
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69a7077badd4c250800000000000000
+      internalID: 5964135535051516267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_218
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 199
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9cf4e06ae7d6970800000000000000
+      internalID: 8749788902720522706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_219
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 179
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8619816bdd4cf81b0800000000000000
+      internalID: -5652082550804803224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_220
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 178
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d71f8047b46ce70800000000000000
+      internalID: 9135071855905963340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_221
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 178
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1f704a76ed74330800000000000000
+      internalID: 3695166555995763189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_222
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 176
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9761555c4dbb9d730800000000000000
+      internalID: 4024454264550397561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_223
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 178
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9f1d497d73fec90800000000000000
+      internalID: -7138425485304661537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_224
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 176
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c4968a27c52c0b0800000000000000
+      internalID: -5709899730030867368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_225
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 179
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a5e0355af34bd20800000000000000
+      internalID: 3293327206810278421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_226
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 176
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8490c2df074d0ac40800000000000000
+      internalID: 5521646724905175368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_227
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 149
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4759680fa424c960800000000000000
+      internalID: 7621256803596719950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_228
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 155
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53aa53fc83db6790800000000000000
+      internalID: -7535696949142707364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_229
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 148
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52c30a365f781f60800000000000000
+      internalID: 8005288345968296538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_230
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 156
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069b37338ce959070800000000000000
+      internalID: 8112564886471686496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_231
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 150
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb45ac39c6693080800000000000000
+      internalID: -9207214948690342938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_232
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 157
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223d0c2da96bd3c40800000000000000
+      internalID: 5493747896538944290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_233
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 157
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c4b977052c87770800000000000000
+      internalID: 8608844338578541687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_234
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 145
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7601bdcb37a27690800000000000000
+      internalID: -7605832945379506565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_235
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 143
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415386b2dd2f016b0800000000000000
+      internalID: -5327491327449352940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_236
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 147
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd7bf0d0b58a8ab0800000000000000
+      internalID: -5005041041402004031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_237
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 117
+        width: 72
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18931b639af09ede0800000000000000
+      internalID: -1303493397705574015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_238
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 146
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6ef8b1964fe8150800000000000000
+      internalID: 5876903296036234928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_239
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 144
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c134d43e6740d2810800000000000000
+      internalID: 1742053539528393500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_240
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 148
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7e043b924c0cf30800000000000000
+      internalID: 4593887303297984450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_241
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 119
+        width: 71
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a994411458d9ef20800000000000000
+      internalID: 3452528444934756774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_242
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 145
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124f2c6c8a6d5cc30800000000000000
+      internalID: 4379142233065190433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_243
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 144
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd2f17028518e340800000000000000
+      internalID: 4893184643347459524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_244
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 148
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae361081d4931fd80800000000000000
+      internalID: -8218724841696435222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_245
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 118
+        width: 71
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14f7ef8ca4bd4db0800000000000000
+      internalID: -4805986574092733414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_246
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 146
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90470059e429e360800000000000000
+      internalID: 7199326063817080987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_247
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 144
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21903af0f4eb46390800000000000000
+      internalID: -7825921005689042670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_248
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 148
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc92e9ea40f919e0800000000000000
+      internalID: -1650023583912387338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_249
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 150
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00437af474df6dc0800000000000000
+      internalID: -3643459974636290035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_250
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 119
+        width: 71
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f98923661cc5ed0800000000000000
+      internalID: -2423849854752481406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_251
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 147
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ec1b952972c75d0800000000000000
+      internalID: -3063530136995246516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_252
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 144
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b218edadd96d600800000000000000
+      internalID: 492754772605086493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_253
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 150
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecde2f100a27d5940800000000000000
+      internalID: 5286507569155861966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_254
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 150
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3035619a645db610800000000000000
+      internalID: 1638558656115322942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_255
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 146
+        width: 69
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bd8d8fc955304c0800000000000000
+      internalID: -4322517084667323518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_256
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 147
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d812e129c2a0100800000000000000
+      internalID: 74921349887397165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_257
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 146
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1b10f3514e9cda0800000000000000
+      internalID: -5923953054926654997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_258
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 150
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e660b4a15b36beae0800000000000000
+      internalID: -1519010819826055570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_259
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 151
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b11d4f18b7f3a290800000000000000
+      internalID: -7880182552797048400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_260
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 140
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0a664c69fbc9f50800000000000000
+      internalID: 6889592184231076028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_261
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 140
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447412ef2532ce7a0800000000000000
+      internalID: -6346658935513987260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_262
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 141
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0084793fda3b64a00800000000000000
+      internalID: 740476748446517248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_263
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 141
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca671462f88f1ab0800000000000000
+      internalID: -5035155283734205758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_264
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 142
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6bbee94aa7050b0800000000000000
+      internalID: -5741954677437909266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_265
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 117
+        width: 69
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4981b2b90277aed60800000000000000
+      internalID: 7920273876610390164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_266
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 143
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a0ad377451e0eb0800000000000000
+      internalID: -4751837160198763918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_267
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 123
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cbf2cc9cdc7dd230800000000000000
+      internalID: 3665222958714125255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_268
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 120
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b88fd90ab70d8c30800000000000000
+      internalID: 4363152109602834614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_269
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 122
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7753c68e786a2fc90800000000000000
+      internalID: -7137459356778613385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_270
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 116
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf660d8de1e33b570800000000000000
+      internalID: 8481190825476253435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_271
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 122
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0490522270655e0800000000000000
+      internalID: -1921340347795291950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_272
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 120
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f26ab85f7391f60800000000000000
+      internalID: 8005491340377206554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_273
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 122
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ef8665e6afab7a0800000000000000
+      internalID: -6360496171904336294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_274
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 116
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef52305a5ea6ca5e0800000000000000
+      internalID: -1897023808481319426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_275
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 123
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92448738ddf8fd350800000000000000
+      internalID: 6043707406510736425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_276
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 120
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2191a6f909f712850800000000000000
+      internalID: 6350497208695658770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_277
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 122
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a503875447bce30800000000000000
+      internalID: 4524838092341795345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_278
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 116
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f893aa9df4f4dcb0800000000000000
+      internalID: -4839974329458124557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_279
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 122
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2266a9112ea771a70800000000000000
+      internalID: 8797635508468082210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_280
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 121
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf5d84c624017e80800000000000000
+      internalID: -8182754483402612804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_281
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 122
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32cf99527c7e9380800000000000000
+      internalID: -8962589377848950212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_282
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 116
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b95c099ba5ec7e60800000000000000
+      internalID: 7961490766454086066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_283
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 123
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987b4ad7a57e13090800000000000000
+      internalID: -8056403882548086903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_284
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 121
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477e39e30e765a600800000000000000
+      internalID: 478903148205041524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_285
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 122
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3fef82c07d44da0800000000000000
+      internalID: -5961403559504317465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_286
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 117
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe356c586fd102d0800000000000000
+      internalID: -3314122211448242501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_287
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 122
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea835e74a4276ea0800000000000000
+      internalID: -5879690499596252439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_288
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 120
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54f7334fed77a870800000000000000
+      internalID: 8694056072240428123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_289
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 122
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea3f1f47274169c0800000000000000
+      internalID: -3935786365188359454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_290
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 118
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f318da5b2c1c54340800000000000000
+      internalID: 4847493615950070079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_291
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 116
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3529d721b7ecf56c0800000000000000
+      internalID: -4152373303425789357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_292
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 114
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12e06218e6252ad0800000000000000
+      internalID: -2727731221120359906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_293
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 115
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37aa141ccd0bb190800000000000000
+      internalID: -7945741947403327685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_294
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 114
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb9b440426634370800000000000000
+      internalID: 8305594442678246377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_295
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 115
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb75f3dc8367f730800000000000000
+      internalID: 4032801447836220394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_296
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 117
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29787aa3ada4f060800000000000000
+      internalID: 6986399840409778474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_297
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 114
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c6ee5c2556387e0800000000000000
+      internalID: -1764455222816641996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_298
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 115
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098b6c7ad1cb53080800000000000000
+      internalID: -9208247027534219120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_299
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 117
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cfb20d43a3b7cd40800000000000000
+      internalID: 5604645775238938560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_300
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 114
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6aec2372b9c80e0800000000000000
+      internalID: -2266265919815768402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_301
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 115
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5f1f96418e41020800000000000000
+      internalID: 2311727683122361772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_302
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 117
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991193abe9532ffd0800000000000000
+      internalID: -2309724703042236007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_303
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 114
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302607e306802fcf0800000000000000
+      internalID: -220104222330297853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_304
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 113
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefcb63e6aa65c4e0800000000000000
+      internalID: -1962044797637373970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_305
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 93
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b867e98ef448dc7e0800000000000000
+      internalID: -1743592001982531957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_306
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 91
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7303618e224b30740800000000000000
+      internalID: 5117131663638671415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_307
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 95
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74fe389842cb2880800000000000000
+      internalID: -8634594243505097604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_308
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 96
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c2a0ea314485870800000000000000
+      internalID: 8671755933816859715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_309
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 93
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6373e4e3eca41a7a0800000000000000
+      internalID: -6367726148456138954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_310
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 91
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8552ef37d0b3d3f10800000000000000
+      internalID: 2251020317721765208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_311
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 95
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4fa8d370cfcf980800000000000000
+      internalID: -8503644888354851617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_312
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 97
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a00f86713ea4490800000000000000
+      internalID: -7761141318135313765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_313
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 89
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb59fcfd29db289c0800000000000000
+      internalID: -3926367486595852868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_314
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 92
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4ddc546a9bdfea0800000000000000
+      internalID: -5837305418215467817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_315
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 97
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ccc9d1111a1b9e0800000000000000
+      internalID: -1607326497111225236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_316
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 92
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2554ca64f272e60800000000000000
+      internalID: 7937364848848229047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_317
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 96
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c9e3bcdab61c950800000000000000
+      internalID: 6467568934064135202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_318
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 88
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18fc480b714f13d0800000000000000
+      internalID: -3233794010752681958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_319
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 88
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41aaf7c4fa293c2c0800000000000000
+      internalID: -4412521928292586988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_320
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 89
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a601b28b3b489a0800000000000000
+      internalID: -6231658380796073357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_321
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 67
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9ef734dcbdb5090800000000000000
+      internalID: -8044594634720024090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_322
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 65
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68972bd1dd05e7eb0800000000000000
+      internalID: -4720246448821470842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_323
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 67
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6428357db8e8dc60800000000000000
+      internalID: 7843274651478795374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_324
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 62
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac113c24f3b15e600800000000000000
+      internalID: 496833292411277770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_325
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 65
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4166635dd22437c50800000000000000
+      internalID: 6661741038429169172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_326
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 67
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7219a2f28458cae50800000000000000
+      internalID: 6821974080634917159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_327
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 62
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe6581a4c9df5360800000000000000
+      internalID: 7160681371089071862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_328
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 64
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59999ac93f91a3440800000000000000
+      internalID: 4916270477324425621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_329
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 68
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11187d77f476d8b0800000000000000
+      internalID: -5127782519403966182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_330
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 65
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7953200d71ed8cb0800000000000000
+      internalID: -4859980495873418885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_331
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 68
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12109f5ded5788910800000000000000
+      internalID: 1839850047713902881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_332
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 59
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a02322dfb93743f0800000000000000
+      internalID: -916700503119552352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_333
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 59
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f9dfded942310e0800000000000000
+      internalID: -2300454723934904450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_334
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 59
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9041c7e22e3fc30800000000000000
+      internalID: 4392102750894426600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_335
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 59
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa16ebf51551c1fb0800000000000000
+      internalID: -4675838873874570838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_19
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1166
+        width: 178
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e86a72f23ab2cf40800000000000000
+      internalID: 5747360802457413864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_20
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1165
+        width: 178
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f78cf0bbab86620800000000000000
+      internalID: 2767667283605618440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_21
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1165
+        width: 178
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24fdcd52f1fadd70800000000000000
+      internalID: 9068826822922073132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: champfhbfxatlas_22
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1165
+        width: 178
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82dfbe009c78e0b70800000000000000
+      internalID: 8867174013712727336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

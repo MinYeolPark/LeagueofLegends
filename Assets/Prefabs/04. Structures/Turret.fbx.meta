@@ -5,7 +5,7 @@ ModelImporter:
   internalIDToNameTable:
   - first:
       74: 8102354227563883420
-    second: model|sruap_chaosturret1_idle0_model
+    second: chaosturret_idle
   - first:
       74: 3564213335229902800
     second: model|sruap_chaosturret1_idle0_model.001
@@ -17,11 +17,41 @@ ModelImporter:
     second: model|sruap_chaosturret1_idle1_model.001
   - first:
       74: 4578910089797315614
-    second: model|sruap_turret_chaos_cloth_stage1_model
+    second: chaosturret_cloth
   - first:
       74: -1645604287152812578
     second: model|sruap_turret_chaos_cloth_stage1_model.001
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cloth1.001
+    second: {fileID: 2100000, guid: 17ff00a4264655247b51b40e3e04cccd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cloth2.001
+    second: {fileID: 2100000, guid: 17ff00a4264655247b51b40e3e04cccd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rubble.001
+    second: {fileID: 2100000, guid: 17ff00a4264655247b51b40e3e04cccd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SRUAP_ChaosTurret1_Mat.001
+    second: {fileID: 2100000, guid: 17ff00a4264655247b51b40e3e04cccd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stage1.001
+    second: {fileID: 2100000, guid: 17ff00a4264655247b51b40e3e04cccd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stage2.001
+    second: {fileID: 2100000, guid: 17ff00a4264655247b51b40e3e04cccd, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -50,7 +80,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: model|sruap_chaosturret1_idle0_model
+      name: chaosturret_idle
       takeName: model|sruap_chaosturret1_idle0_model
       internalID: 0
       firstFrame: 0
@@ -61,7 +91,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -79,7 +109,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: model|sruap_turret_chaos_cloth_stage1_model
+      name: chaosturret_cloth
       takeName: model|sruap_turret_chaos_cloth_stage1_model
       internalID: 0
       firstFrame: 0

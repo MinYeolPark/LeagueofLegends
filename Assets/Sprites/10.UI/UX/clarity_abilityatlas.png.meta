@@ -1,7 +1,247 @@
 fileFormatVersion: 2
 guid: 231225e45fed168458c53971c832a7c8
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -512816759797811608
+    second: clarity_abilityatlas_0
+  - first:
+      213: -8205278635316112322
+    second: clarity_abilityatlas_12
+  - first:
+      213: -4009942230589130343
+    second: clarity_abilityatlas_4
+  - first:
+      213: 3211698213985624567
+    second: clarity_abilityatlas_3
+  - first:
+      213: 3217209105952391855
+    second: clarity_abilityatlas_4
+  - first:
+      213: -2107136028810456174
+    second: clarity_abilityatlas_5
+  - first:
+      213: -2570010500241609226
+    second: clarity_abilityatlas_6
+  - first:
+      213: -1447994626463030446
+    second: clarity_abilityatlas_7
+  - first:
+      213: -6589136433933361652
+    second: clarity_abilityatlas_8
+  - first:
+      213: -6824512679892691133
+    second: clarity_abilityatlas_9
+  - first:
+      213: 9010086266970762204
+    second: clarity_abilityatlas_10
+  - first:
+      213: -70119726165143680
+    second: clarity_abilityatlas_11
+  - first:
+      213: -4903569273502114872
+    second: clarity_abilityatlas_12
+  - first:
+      213: 1179329662916408023
+    second: clarity_abilityatlas_13
+  - first:
+      213: 5514180705572279224
+    second: clarity_abilityatlas_14
+  - first:
+      213: -6908737111022498886
+    second: clarity_abilityatlas_15
+  - first:
+      213: -8438986443836481777
+    second: clarity_abilityatlas_16
+  - first:
+      213: -155740423100849517
+    second: clarity_abilityatlas_17
+  - first:
+      213: 705260746893013441
+    second: clarity_abilityatlas_18
+  - first:
+      213: 2782585030118186276
+    second: clarity_abilityatlas_19
+  - first:
+      213: -4961974663721741138
+    second: clarity_abilityatlas_20
+  - first:
+      213: 2521609613657459906
+    second: clarity_abilityatlas_21
+  - first:
+      213: 5123407114878997650
+    second: clarity_abilityatlas_22
+  - first:
+      213: 8266125337526859674
+    second: clarity_abilityatlas_23
+  - first:
+      213: 2109525459288788308
+    second: clarity_abilityatlas_24
+  - first:
+      213: -2920508549172296283
+    second: clarity_abilityatlas_25
+  - first:
+      213: -8849390874539169212
+    second: clarity_abilityatlas_26
+  - first:
+      213: 3543602651998467261
+    second: clarity_abilityatlas_27
+  - first:
+      213: -4615990940589873999
+    second: clarity_abilityatlas_28
+  - first:
+      213: -259462630579507146
+    second: clarity_abilityatlas_29
+  - first:
+      213: -124449615359649080
+    second: clarity_abilityatlas_30
+  - first:
+      213: 6616172803713131845
+    second: clarity_abilityatlas_31
+  - first:
+      213: 4543630648891739198
+    second: clarity_abilityatlas_32
+  - first:
+      213: 3575539748147005482
+    second: clarity_abilityatlas_33
+  - first:
+      213: -4309591927906088540
+    second: clarity_abilityatlas_34
+  - first:
+      213: 6162195404405629642
+    second: clarity_abilityatlas_35
+  - first:
+      213: 6271954104798587560
+    second: clarity_abilityatlas_36
+  - first:
+      213: -2085693839789771153
+    second: clarity_abilityatlas_37
+  - first:
+      213: 7005032297074539351
+    second: clarity_abilityatlas_38
+  - first:
+      213: 4512833942114175863
+    second: clarity_abilityatlas_39
+  - first:
+      213: -2065751243144282230
+    second: clarity_abilityatlas_40
+  - first:
+      213: -6982753374055616528
+    second: clarity_abilityatlas_41
+  - first:
+      213: 3506780551800197532
+    second: clarity_abilityatlas_42
+  - first:
+      213: -4988359557084664452
+    second: clarity_abilityatlas_43
+  - first:
+      213: -217618373024900110
+    second: clarity_abilityatlas_44
+  - first:
+      213: -3119054320434499526
+    second: clarity_abilityatlas_45
+  - first:
+      213: 8219164709152762385
+    second: clarity_abilityatlas_46
+  - first:
+      213: -8338478105879614715
+    second: clarity_abilityatlas_47
+  - first:
+      213: 1202197992817265107
+    second: clarity_abilityatlas_48
+  - first:
+      213: -8839854316727411271
+    second: clarity_abilityatlas_49
+  - first:
+      213: -5038696432434830433
+    second: clarity_abilityatlas_50
+  - first:
+      213: 2006452302580132523
+    second: clarity_abilityatlas_51
+  - first:
+      213: 8924809738379504538
+    second: clarity_abilityatlas_52
+  - first:
+      213: -8876659277031255122
+    second: clarity_abilityatlas_53
+  - first:
+      213: -5817934099610087649
+    second: clarity_abilityatlas_54
+  - first:
+      213: 2561575597254803465
+    second: clarity_abilityatlas_55
+  - first:
+      213: -2027712061250336943
+    second: clarity_abilityatlas_56
+  - first:
+      213: -6027255289618991513
+    second: clarity_abilityatlas_57
+  - first:
+      213: -494563111811157019
+    second: clarity_abilityatlas_58
+  - first:
+      213: 1422383730182521928
+    second: clarity_abilityatlas_59
+  - first:
+      213: 4165962393714759786
+    second: clarity_abilityatlas_60
+  - first:
+      213: -7233511179668441571
+    second: clarity_abilityatlas_61
+  - first:
+      213: -363731994856508250
+    second: clarity_abilityatlas_62
+  - first:
+      213: -1703126395333645195
+    second: clarity_abilityatlas_63
+  - first:
+      213: -6576493455734025185
+    second: clarity_abilityatlas_64
+  - first:
+      213: 5079005275120387688
+    second: clarity_abilityatlas_65
+  - first:
+      213: 8590618534369207726
+    second: clarity_abilityatlas_66
+  - first:
+      213: -7648965039338879590
+    second: clarity_abilityatlas_67
+  - first:
+      213: 5263340146180477590
+    second: clarity_abilityatlas_68
+  - first:
+      213: 8538965079951478507
+    second: clarity_abilityatlas_69
+  - first:
+      213: -7872715054209133875
+    second: clarity_abilityatlas_70
+  - first:
+      213: -3293238764675388484
+    second: clarity_abilityatlas_71
+  - first:
+      213: -3801499707484040830
+    second: clarity_abilityatlas_72
+  - first:
+      213: 2104088423140987614
+    second: clarity_abilityatlas_73
+  - first:
+      213: 598665469899149052
+    second: clarity_abilityatlas_74
+  - first:
+      213: 4251841264641183149
+    second: clarity_abilityatlas_75
+  - first:
+      213: 900798300998633844
+    second: clarity_abilityatlas_76
+  - first:
+      213: -6562557857093507049
+    second: clarity_abilityatlas_77
+  - first:
+      213: 4153357803022431143
+    second: clarity_abilityatlas_78
+  - first:
+      213: -1147981002375761072
+    second: clarity_abilityatlas_79
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -125,11 +365,1691 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: clarity_abilityatlas_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 940
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866726dbfdb12e8f0800000000000000
+      internalID: -512816759797811608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_3
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 940
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1ae52628e329c20800000000000000
+      internalID: 3211698213985624567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_4
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 940
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2c178e2a2d5ac20800000000000000
+      internalID: 3217209105952391855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_5
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 941
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293535522f2f1c2e0800000000000000
+      internalID: -2107136028810456174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_6
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 940
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd2318011d755cd0800000000000000
+      internalID: -2570010500241609226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_12
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 852
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbd269d9b503fbb0800000000000000
+      internalID: -4903569273502114872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_13
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 852
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2b63f7412dd5010800000000000000
+      internalID: 1179329662916408023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_39
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 603
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b8a027f8ec0ae30800000000000000
+      internalID: 4512833942114175863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_40
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 603
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f301e603af453e0800000000000000
+      internalID: -2065751243144282230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_41
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 603
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff21417dc6481f90800000000000000
+      internalID: -6982753374055616528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_42
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 603
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c919c4705569aa030800000000000000
+      internalID: 3506780551800197532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_43
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 603
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d2b0c8969c5cab0800000000000000
+      internalID: -4988359557084664452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_44
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 603
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb90432e3ddafcf0800000000000000
+      internalID: -217618373024900110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_45
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 603
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30ba5bfe94e6b4d0800000000000000
+      internalID: -3119054320434499526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_46
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 603
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a2a7781c6501270800000000000000
+      internalID: 8219164709152762385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_47
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 603
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b6ca38756c74c80800000000000000
+      internalID: -8338478105879614715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_48
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 603
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d98f8774b01fa010800000000000000
+      internalID: 1202197992817265107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_49
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 603
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd5241a557825580800000000000000
+      internalID: -8839854316727411271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_50
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 603
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93a1b57a44f21ab0800000000000000
+      internalID: -5038696432434830433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_51
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 516
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baaad021db958db10800000000000000
+      internalID: 2006452302580132523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_52
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 516
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9bae00eb2b4bdb70800000000000000
+      internalID: 8924809738379504538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_53
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 516
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea350680b65cfc480800000000000000
+      internalID: -8876659277031255122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_54
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 516
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1fcb1ad2cb824fa0800000000000000
+      internalID: -5817934099610087649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_55
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 516
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9008ea31f6b8c8320800000000000000
+      internalID: 2561575597254803465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_56
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 516
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1570662af9e1cd3e0800000000000000
+      internalID: -2027712061250336943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_57
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 516
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7667aa37f33ea5ca0800000000000000
+      internalID: -6027255289618991513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_58
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 490
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3fb795875f229f0800000000000000
+      internalID: -494563111811157019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_59
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 490
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84403db67725db310800000000000000
+      internalID: 1422383730182521928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_60
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 488
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68110199b870d930800000000000000
+      internalID: 4165962393714759786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_61
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 490
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16bb0928e76d9b90800000000000000
+      internalID: -7233511179668441571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_62
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 490
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a432258da3c3faf0800000000000000
+      internalID: -363731994856508250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_63
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 490
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ceb8621974d58e0800000000000000
+      internalID: -1703126395333645195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_64
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 488
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14da47bb0a9bb4a0800000000000000
+      internalID: -6576493455734025185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_65
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 490
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866c2e353604c7640800000000000000
+      internalID: 5079005275120387688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_66
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 490
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5a6fdba02083770800000000000000
+      internalID: 8590618534369207726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_67
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 490
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9503da92da69d590800000000000000
+      internalID: -7648965039338879590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_68
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 418
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692d3210af32b0940800000000000000
+      internalID: 5263340146180477590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_69
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 418
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee09f3bf7f708670800000000000000
+      internalID: 8538965079951478507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_70
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 418
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc29eff9e5f7eb290800000000000000
+      internalID: -7872715054209133875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_71
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 418
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb2af6bac01c42d0800000000000000
+      internalID: -3293238764675388484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_72
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 418
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28199a1482c5e3bc0800000000000000
+      internalID: -3801499707484040830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_73
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 416
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2945dd549333d10800000000000000
+      internalID: 2104088423140987614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_74
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 418
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe81a0b213ee4800800000000000000
+      internalID: 598665469899149052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_75
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 418
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad094c5a13910b30800000000000000
+      internalID: 4251841264641183149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_76
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 418
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4798c493847408c00800000000000000
+      internalID: 900798300998633844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_77
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 418
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7182efd166c1de4a0800000000000000
+      internalID: -6562557857093507049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_78
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 418
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3bf3a9ae0b3a930800000000000000
+      internalID: 4153357803022431143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_79
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 419
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053fe705c5d8110f0800000000000000
+      internalID: -1147981002375761072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 940
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3491eafd8ef02e80800000000000000
+      internalID: -8205278635316112322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 940
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999b5ef69c2d958c0800000000000000
+      internalID: -4009942230589130343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_7
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 940
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2532ffc1f80b7ebe0800000000000000
+      internalID: -1447994626463030446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_8
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 940
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e51d6f25fae84a0800000000000000
+      internalID: -6589136433933361652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_9
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 940
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347d8dd10e57a41a0800000000000000
+      internalID: -6824512679892691133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_10
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 940
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbea6ae8b14a0d70800000000000000
+      internalID: 9010086266970762204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_11
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 852
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fcd260b72e60ff0800000000000000
+      internalID: -70119726165143680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_14
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 852
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3d2f6e22e468c40800000000000000
+      internalID: 5514180705572279224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_15
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 852
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb02fa933c3f10a0800000000000000
+      internalID: -6908737111022498886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_16
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 852
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f1ace7a82b2ea80800000000000000
+      internalID: -8438986443836481777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_17
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 852
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392a7eb09e2b6ddf0800000000000000
+      internalID: -155740423100849517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_18
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 852
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1b594a9e699c900800000000000000
+      internalID: 705260746893013441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_19
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 852
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d9385975abd9620800000000000000
+      internalID: 2782585030118186276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_20
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 852
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea490604556832bb0800000000000000
+      internalID: -4961974663721741138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_21
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 852
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc4344659e8ef220800000000000000
+      internalID: 2521609613657459906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_22
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 766
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294521240aff91740800000000000000
+      internalID: 5123407114878997650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_23
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 766
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97f42cd23d27b270800000000000000
+      internalID: 8266125337526859674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_24
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 766
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d0d8d7a3a864d10800000000000000
+      internalID: 2109525459288788308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_25
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 766
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a50813b2f44877d0800000000000000
+      internalID: -2920508549172296283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_26
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 766
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a628cb2e5a03580800000000000000
+      internalID: -8849390874539169212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_27
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 766
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4308156d76d2130800000000000000
+      internalID: 3543602651998467261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_28
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 766
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b428b332b4b0ffb0800000000000000
+      internalID: -4615990940589873999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_29
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 766
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630f1d7bc14366cf0800000000000000
+      internalID: -259462630579507146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_30
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 766
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cadd04fbbdd54ef0800000000000000
+      internalID: -124449615359649080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_31
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 766
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545ebe96c1e51db50800000000000000
+      internalID: 6616172803713131845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_32
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 766
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c05c180083e0f30800000000000000
+      internalID: 4543630648891739198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_33
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 680
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a288798f47ede9130800000000000000
+      internalID: 3575539748147005482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_34
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 680
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9444a89f04134c0800000000000000
+      internalID: -4309591927906088540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_35
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 680
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac264245214848550800000000000000
+      internalID: 6162195404405629642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_36
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 680
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aaa21037057a0750800000000000000
+      internalID: 6271954104798587560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_37
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 680
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f663c11d0802e03e0800000000000000
+      internalID: -2085693839789771153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clarity_abilityatlas_38
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 680
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b344b82cfd63160800000000000000
+      internalID: 7005032297074539351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7a2e246421f81ed46a8145a8e34a9f19
     internalID: 0
     vertices: []
     indices: 

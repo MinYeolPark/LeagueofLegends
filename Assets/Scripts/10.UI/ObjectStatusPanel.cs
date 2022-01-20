@@ -35,7 +35,7 @@ public class ObjectStatusPanel : MonoBehaviour
         abilityHasteText.text = clickedObj.attackDamage.ToString(); ;
         criticalStrikeText.text = clickedObj.attackDamage.ToString(); ;
         moveSpeedText.text = clickedObj.attackDamage.ToString(); ;
-        objPortrait.sprite = clickedObj.localData.portraitImage;
+        objPortrait.sprite = clickedObj.localData.portraitCircle;
         //objItemSlots = stats.attackDamage.ToString(); ;
     }
 }

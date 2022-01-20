@@ -13,38 +13,60 @@ MonoBehaviour:
   m_Name: Minion_Cannon
   m_EditorClassIdentifier: 
   localData: {fileID: 11400000}
-  team: 0
+  portraitCircle: {fileID: 0}
+  portraitSquare: {fileID: 0}
   objType: 1
   attackType: 1
-  projectile: {fileID: 0}
+  projectile: {fileID: 4738708200059309948, guid: b5be7f0e8b9b20f42b2561eb3d28e235, type: 3}
   maxHealth: 677
   health: 100
   healthRegen: 0
+  maxHealthPerLvl: 0
+  healthPerLvl: 0
+  healthRegenPerLvl: 0
   attackDamage: 15
   attackSpeed: 3
-  attackRange: 7
+  attackRange: 10
   lifeSteal: 0
   criticalStrike: 0
   lethality: 0
+  attackDamagePerLvl: 0
+  attackSpeedPerLvl: 0
+  attackRangePerLvl: 0
+  lifeStealPerLvl: 0
+  criticalStrikePerLvl: 0
+  lethalityPerLvl: 0
   armor: 0
   magicResist: 0
   disablingEffect: 0
+  armorPerLvl: 0
+  magicResistPerLvl: 0
+  disablingEffectPerLvl: 0
   abilityPower: 0
   abilityHaste: 0
   magicPenetration: 0
   resource: 0
   resourceRegen: 0
   moveSpeed: 0
+  abilityPowerPerLvl: 0
+  abilityHastePerLvl: 0
+  magicPenetrationPerLvl: 0
+  resourcePerLvl: 0
+  resourceRegenPerLvl: 0
+  moveSpeedPerLvl: 0
   gold: 0
   level: 0
-  expValue: 0
+  returnExp: 0
+  curExp: 0
+  needExp: 0
   kills: 0
   deaths: 0
   assists: 0
   minionScore: 0
-  sightRange: 5
+  sightRange: 12
   attackClip: []
   dieClip: []
   idleClips: []
   emotionClips: []
   localChampionAbilities: []
+  InitialValue: 0

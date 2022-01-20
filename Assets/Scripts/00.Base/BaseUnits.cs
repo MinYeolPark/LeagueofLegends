@@ -31,7 +31,7 @@ public class BaseUnits : MonoBehaviour, IDamagable
     {
         Idle,           //Initialize
         Moving,         //Update Path
-        Targetting,     //Update Target
+        Tracing,     //Update Target
         Attacking,      //Start Attack
         Casting,        //Skill or Spell Casting Animation, not moving
         Damaged,        //Decision for cut Casting
@@ -68,7 +68,7 @@ public class BaseUnits : MonoBehaviour, IDamagable
     }
 
 
-    protected virtual void Start()
+    protected virtual void Awake()
     {
         //사망하지 않은 IDLE 상태로 시작
         state = States.Idle;
@@ -77,7 +77,10 @@ public class BaseUnits : MonoBehaviour, IDamagable
         anim = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>(); //will be disabled until Activate is called
         stats = GetComponent<BaseStats>();
+
         stats.SetStats();
+        agent.acceleration = 100f;
+        agent.angularSpeed = 1000f;
 
         OnDestroy += () => Destroy(gameObject, 2f);
 
@@ -110,6 +113,21 @@ public class BaseUnits : MonoBehaviour, IDamagable
     }
 
     //계속해서 데미지를 주는 주체, 데미지를 받아온다
+    public void OnDamage(BaseUnits unit, float damage)
+    {
+        state = States.Damaged;
+
+        stats.health -= damage;
+
+        DamagePopup.DamageFloat(gameObject.transform.position, damage, false);
+
+        if (stats.health <= 0 && state != States.Dead)
+        {
+            state = States.Dead;
+            Destroy();
+        }
+    }
+
     public void OnDamage(BaseUnits unit, float damage, Vector3 hitPoint, Vector3 hitNormal)
     {
         state = States.Damaged;
@@ -120,43 +138,29 @@ public class BaseUnits : MonoBehaviour, IDamagable
 
         if (stats.health <= 0 && state != States.Dead)
         {
+            state = States.Dead;
             Destroy();
         }
     }
 
     protected virtual void Destroy()
     {
-        state = States.Dead;
-
         if (OnDestroy != null)
         {
             OnDestroy();
-            Debug.Log("Destroy Object");
+            OnDestroy -= () => Destroy(gameObject, 2f);
         }
 
-        agent.isStopped = true;
-        agent.enabled = false;
+        StopAllCoroutines();
+        gameObject.GetComponent<Collider>().enabled = false;
 
-        //If animation is playing
-        if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime < 1.0f)
+        curTarget = null;
+        if(agent.isActiveAndEnabled)
         {
-            return;
+            agent.isStopped = true;
+            agent.updateRotation = false;
+            agent.enabled = false;
         }
-        else
-        {
-            anim.SetTrigger("Dead");
-        }
-        Collider[] colliders = GetComponents<Collider>();
 
-        foreach (Collider col in colliders)
-        {
-            col.enabled = false;
-        }
     }
-
-    protected void SetTarget(GameObject target)
-    {
-        curTarget = target;
-    }
-
 }

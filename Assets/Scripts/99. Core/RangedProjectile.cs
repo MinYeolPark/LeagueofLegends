@@ -6,20 +6,23 @@ public class RangedProjectile : MonoBehaviour
 {
     [SerializeField] private GameObject hitEffecet;
 
-    private BaseUnits fireObj;
+    private GameObject fireObj;
     private GameObject targetObj;
     public float speed = 70f;
     public float damage;
     private void Start()
     {
-        fireObj= FindObjectOfType<BaseChampController>();
 
-        damage = fireObj.GetComponent<BaseStats>().attackDamage;
     }
     public void Seek(GameObject curTarget)
     {
         targetObj = curTarget;
-        Debug.Log($"Target={curTarget}");
+    }
+
+    public void SetDamage(GameObject parentObj)
+    {
+        fireObj = parentObj;
+        damage = fireObj.GetComponent<BaseStats>().attackDamage;
     }
 
     private void Update()
@@ -44,8 +47,8 @@ public class RangedProjectile : MonoBehaviour
 
     void HitTarget()
     {
-        GameObject target = targetObj;               
-        
+        GameObject target = targetObj;
+
         Vector3 hitPoint = target.GetComponent<Collider>().ClosestPoint(transform.position);
         Vector3 hitNormal = transform.position - target.GetComponent<Collider>().transform.position;
 
@@ -61,28 +64,21 @@ public class RangedProjectile : MonoBehaviour
 
         Destroy(gameObject);
     }
-    //private void OnCollisionEnter(Collision other)
+    private void OnCollisionEnter(Collision obj)
+    {
+        Vector3 pos = obj.GetContact(0).point;
+
+        Quaternion rot = Quaternion.LookRotation(-obj.GetContact(0).normal);
+
+        //ShowEffect()
+    }
+
+    //void ShowHittedEffect(Vector3 pos, Quaternion rot)
     //{
-    //    Vector3 hitPoint = other.gameObject.GetComponent<Collider>().ClosestPoint(transform.position);
-    //    Vector3 hitNormal = transform.position - other.transform.position;
-
-    //    BaseUnits target = targetStats.GetComponent<BaseUnits>();
-    //    Debug.Log(other.gameObject.GetComponent<BaseUnits>());
-
-    //    if (other.gameObject.GetComponent<BaseUnits>() == target)
-    //    {
-    //        target.OnDamage(target, damage, hitPoint, hitNormal);
-    //        Debug.Log(other.gameObject.GetComponent<BaseUnits>());
-    //        Debug.Log($"맞은방향={hitNormal},맞은부위={hitPoint}");
-
-    //        if (hitEffecet != null)
-    //        {
-    //            GameObject effectIns = (GameObject)Instantiate(hitEffecet, transform.position, transform.rotation);
-
-    //            Destroy(effectIns, 2f);
-    //        }
-
-    //        Destroy(gameObject, 1f);
-    //    }
+    //    GameObject blood = Instantiate<GameObject>(blood, pos, rot, mosterTransform);
+    //    Destroy(blood, 1.0f);
     //}
+        
+    
+
 }

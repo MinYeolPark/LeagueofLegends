@@ -24,14 +24,15 @@ public class BaseChampController : BaseUnits,IAttackable
     [SerializeField] private GameObject baseIndicator;
     [SerializeField] private CinemachineVirtualCamera localCamera;
 
-    private void Awake()
+    
+    protected override void Awake()
     {
         inputManager = new InputMaster();
         playerInput = GetComponent<PlayerInput>();
         anim = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
-
-        GetComponent<BaseStats>().SetStats();
+        stats = GetComponent<BaseStats>();
+        stats.SetStats();
     }
 
     private void OnEnable()
@@ -133,11 +134,11 @@ public class BaseChampController : BaseUnits,IAttackable
 
                 if (raycastHit.collider.TryGetComponent(out BaseStats obj))
                 {
-                    state = States.Targetting;
+                    state = States.Tracing;
                     target = obj.gameObject;
                     agent.stoppingDistance = localData.attackRange;
 
-                    StartCoroutine(StartAttack());
+                    StartAttack();
                 }
             }
         }
@@ -158,7 +159,7 @@ public class BaseChampController : BaseUnits,IAttackable
         statusBoard.OnBoardPopup();
     }
 
-    public IEnumerator StartAttack()
+    public void StartAttack()
     {
         if (target.TryGetComponent<BaseUnits>(out BaseUnits obj))
         {
@@ -169,7 +170,7 @@ public class BaseChampController : BaseUnits,IAttackable
                 anim.SetBool("BaseAttack", true);
             }
 
-            yield return new WaitForSeconds(stats.attackRange / ((100 + stats.attackSpeed) * 0.01f));
+            //yield return new WaitForSeconds(stats.attackRange / ((100 + stats.attackSpeed) * 0.01f));
 
             if(obj.state==States.Dead)
             {
@@ -180,9 +181,8 @@ public class BaseChampController : BaseUnits,IAttackable
         }           
     }
 
-    public IEnumerator StopAttack()
+    public void StopAttack()
     {
-        yield return null;
         state = States.Idle;
         anim.SetBool("BaseAttack", false);
     }
