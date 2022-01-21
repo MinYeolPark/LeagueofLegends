@@ -1,89 +1,29 @@
 fileFormatVersion: 2
-guid: 0c7bd16d62142eb4eaa0e73aa09acbfd
+guid: c294fc312e353d54a9876455a0b17484
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
   - first:
-      74: 3112402160368592165
-    second: model|BACK_model
+      74: 8579417874225391775
+    second: model|wall_of_grass_back_model
   - first:
-      74: 2177875092145905697
-    second: model|BACK_model.001
+      74: 6078459452179020455
+    second: model|wall_of_grass_front_model
   - first:
-      74: 7721336230299163089
-    second: model|BACK_model.002
+      74: -8727385670103182452
+    second: model|wall_of_grass_idle1_model
   - first:
-      74: 4840544816891116801
-    second: model|BACK_model.003
+      74: -1344847539986181887
+    second: model|wall_of_grass_left_model
   - first:
-      74: -5244841917599829355
-    second: model|BACK_model.004
-  - first:
-      74: -1573518619391531900
-    second: model|Front_model
-  - first:
-      74: -1594577163172344812
-    second: model|Front_model.001
-  - first:
-      74: -6627472622165755122
-    second: model|Front_model.002
-  - first:
-      74: 5716324000403901344
-    second: model|Front_model.003
-  - first:
-      74: -4550357471040546027
-    second: model|Front_model.004
-  - first:
-      74: -7761470097305869616
-    second: model|Idle1_model
-  - first:
-      74: 2780356707150562424
-    second: model|Idle1_model.001
-  - first:
-      74: -6648281702139182953
-    second: model|Idle1_model.002
-  - first:
-      74: 2056459897024204386
-    second: model|Idle1_model.003
-  - first:
-      74: -8369035526798186657
-    second: model|Idle1_model.004
-  - first:
-      74: -9089455924472581582
-    second: model|Left_model
-  - first:
-      74: 4292366421337560963
-    second: model|Left_model.001
-  - first:
-      74: -8580346786263709615
-    second: model|Left_model.002
-  - first:
-      74: -4026645743627216033
-    second: model|Left_model.003
-  - first:
-      74: 4225399591049104037
-    second: model|Left_model.004
-  - first:
-      74: -6427923143473327940
-    second: model|Right_model
-  - first:
-      74: -6234674473281035997
-    second: model|Right_model.001
-  - first:
-      74: 892985545000270544
-    second: model|Right_model.002
-  - first:
-      74: 8904134887984130334
-    second: model|Right_model.003
-  - first:
-      74: -4977181601098853642
-    second: model|Right_model.004
+      74: -9045945934062282863
+    second: model|wall_of_grass_right_model
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: BW_GanKgrass_texture.002
-    second: {fileID: 2100000, guid: 72e9ed933e53cb544a3c43b8334de4f7, type: 2}
+      name: grass_nu_01
+    second: {fileID: 2100000, guid: 9cdc08f645fcec24396f3042094d888f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -112,66 +52,8 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: model|BACK_model
-      takeName: model|BACK_model
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 144
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: model|Front_model
-      takeName: model|Front_model
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 144
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: model|Idle1_model
-      takeName: model|Idle1_model
+      name: model|wall_of_grass_back_model
+      takeName: model|wall_of_grass_back_model
       internalID: 0
       firstFrame: 0
       lastFrame: 144
@@ -199,8 +81,8 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: model|Left_model
-      takeName: model|Left_model
+      name: model|wall_of_grass_front_model
+      takeName: model|wall_of_grass_front_model
       internalID: 0
       firstFrame: 0
       lastFrame: 144
@@ -228,8 +110,66 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: model|Right_model
-      takeName: model|Right_model
+      name: model|wall_of_grass_idle1_model
+      takeName: model|wall_of_grass_idle1_model
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 144
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: model|wall_of_grass_left_model
+      takeName: model|wall_of_grass_left_model
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 144
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: model|wall_of_grass_right_model
+      takeName: model|wall_of_grass_right_model
       internalID: 0
       firstFrame: 0
       lastFrame: 144

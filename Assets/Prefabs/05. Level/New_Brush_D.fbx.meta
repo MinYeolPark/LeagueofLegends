@@ -1,14 +1,74 @@
 fileFormatVersion: 2
-guid: 9f17d766e98431f4f95db5785b97c831
+guid: 604d450334768db4ebdf7b2a422218a4
 ModelImporter:
   serializedVersion: 20200
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      74: 8579417874225391775
+    second: model|wall_of_grass_back_model
+  - first:
+      74: -3163268151850662864
+    second: model|wall_of_grass_back_model.001
+  - first:
+      74: 7472501325772065580
+    second: model|wall_of_grass_back_model.002
+  - first:
+      74: -9034761420771388343
+    second: model|wall_of_grass_back_model.003
+  - first:
+      74: 6078459452179020455
+    second: model|wall_of_grass_front_model
+  - first:
+      74: 5039945538467207880
+    second: model|wall_of_grass_front_model.001
+  - first:
+      74: -6495759573564630612
+    second: model|wall_of_grass_front_model.002
+  - first:
+      74: 2408548272050538209
+    second: model|wall_of_grass_front_model.003
+  - first:
+      74: -8727385670103182452
+    second: model|wall_of_grass_idle1_model
+  - first:
+      74: 2715326452129701411
+    second: model|wall_of_grass_idle1_model.001
+  - first:
+      74: -1729413751407333568
+    second: model|wall_of_grass_idle1_model.002
+  - first:
+      74: 581682944716993038
+    second: model|wall_of_grass_idle1_model.003
+  - first:
+      74: -1344847539986181887
+    second: model|wall_of_grass_left_model
+  - first:
+      74: -4818709450467332935
+    second: model|wall_of_grass_left_model.001
+  - first:
+      74: -5888464194907576253
+    second: model|wall_of_grass_left_model.002
+  - first:
+      74: 1108481247420785495
+    second: model|wall_of_grass_left_model.003
+  - first:
+      74: -9045945934062282863
+    second: model|wall_of_grass_right_model
+  - first:
+      74: 4333427928817923282
+    second: model|wall_of_grass_right_model.001
+  - first:
+      74: -7267643467939324136
+    second: model|wall_of_grass_right_model.002
+  - first:
+      74: -5117423250488666917
+    second: model|wall_of_grass_right_model.003
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: DefaultMaterial.003
-    second: {fileID: 2100000, guid: 459facad709d57a41b8a7efd3e8edd0d, type: 2}
+      name: grass_nu_01.003
+    second: {fileID: 2100000, guid: 9cdc08f645fcec24396f3042094d888f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -20,8 +80,7 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: "Copied Avatar Rig Configuration mis-match. Transform hierarchy
-      does not match:\n\tCannot find root motion transform 'model'.\n"
+    rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
@@ -29,7 +88,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 3
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -92,7 +151,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     globalScale: 1
-    rootMotionBoneName: model
+    rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
@@ -100,7 +159,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
