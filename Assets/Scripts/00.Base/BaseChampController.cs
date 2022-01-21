@@ -24,15 +24,17 @@ public class BaseChampController : BaseUnits,IAttackable
     [SerializeField] private GameObject baseIndicator;
     [SerializeField] private CinemachineVirtualCamera localCamera;
 
-    
+    [Header("Animator parameter Hast import")]
+    private readonly int hashSpeed = Animator.StringToHash("Speed");
+    private readonly int hashAttack = Animator.StringToHash("IsAttack");
+    private readonly int hashDie = Animator.StringToHash("Die");
+
     protected override void Awake()
     {
+        base.Awake();
+
         inputManager = new InputMaster();
         playerInput = GetComponent<PlayerInput>();
-        anim = GetComponent<Animator>();
-        agent = GetComponent<NavMeshAgent>();
-        stats = GetComponent<BaseStats>();
-        stats.SetStats();
     }
 
     private void OnEnable()
@@ -47,14 +49,18 @@ public class BaseChampController : BaseUnits,IAttackable
     private void Update()
     {
         float speed = agent.velocity.magnitude / agent.speed;
-        anim.SetFloat("Speed", speed, motionSmoothTime, Time.deltaTime);     
+        anim.SetFloat(hashSpeed, speed, motionSmoothTime, Time.deltaTime);     
     }
 
     //protected override IEnumerator RangeAttack()
     //{
     //    yield return null;
     //}
-
+    protected override void Destroy()
+    {
+        base.Destroy();
+        anim.SetTrigger(hashDie);
+    }
     protected virtual void OnPassive() { }
     protected virtual void OnAbility1(InputValue value) 
     {
@@ -115,7 +121,7 @@ public class BaseChampController : BaseUnits,IAttackable
                 state = States.Moving;
 
                 //Target Initialize when move
-                anim.SetBool("BaseAttack", false);
+                anim.SetBool(hashAttack, false);
                 target = null;
 
                 //Move
@@ -167,7 +173,7 @@ public class BaseChampController : BaseUnits,IAttackable
             {
                 state = States.Attacking;
 
-                anim.SetBool("BaseAttack", true);
+                anim.SetBool(hashAttack, true);
             }
 
             //yield return new WaitForSeconds(stats.attackRange / ((100 + stats.attackSpeed) * 0.01f));
@@ -175,7 +181,7 @@ public class BaseChampController : BaseUnits,IAttackable
             if(obj.state==States.Dead)
             {
                 state = States.Idle;
-                anim.SetBool("BaseAttack", false);
+                anim.SetBool(hashAttack, false);
                 target = null;
             }
         }           
@@ -184,7 +190,7 @@ public class BaseChampController : BaseUnits,IAttackable
     public void StopAttack()
     {
         state = States.Idle;
-        anim.SetBool("BaseAttack", false);
+        anim.SetBool(hashAttack, false);
     }
 
     public void PurchaseItem(GameObject newItem)

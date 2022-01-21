@@ -74,12 +74,23 @@ public class Turret : BaseStructure, IAttackable
                         {
                             if (obj.GetComponent<BaseUnits>().state != BaseUnits.States.Dead)
                             {
-                                InRangeUnits.Add(obj.GetComponent<BaseUnits>());
+                                if (!InRangeUnits.Contains(obj.GetComponent<BaseUnits>()))
+                                {
+                                    InRangeUnits.Add(obj.GetComponent<BaseUnits>());
+                                }
                             }
                         }
                     }
-                }                
+                    //If obj is missing, Remove from list
+                    else
+                    {
+                        InRangeUnits.Remove(obj.GetComponent<BaseUnits>());
+                    }
+                }
+                //<<
 
+                //>>:Enemy Detecting Rules
+                //1. Targetting Closest Obj
                 GameObject closeObj = null;
                 float shortestDist = Mathf.Infinity;
 
@@ -131,6 +142,7 @@ public class Turret : BaseStructure, IAttackable
             {
                 case States.Idle:
                     curTarget = null;
+                    InRangeUnits.RemoveAll(GameObject => GameObject == null);
                     StopAttack();
                     break;
                 case States.Attacking:

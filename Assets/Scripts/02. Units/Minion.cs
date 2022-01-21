@@ -17,7 +17,7 @@ public class Minion : BaseUnits, IAttackable
     private readonly int hashTrace = Animator.StringToHash("IsTrace");
     private readonly int hashAttack = Animator.StringToHash("IsAttack");
     private readonly int hashDie = Animator.StringToHash("Die");
-    //private readonly int hashAttack = Animator.StringToHash("Attack1");
+
     float motionSmoothTime = 0.1f;
     public float rotateSpeedMovement = 0.1f;
     public float rotateVelocity;

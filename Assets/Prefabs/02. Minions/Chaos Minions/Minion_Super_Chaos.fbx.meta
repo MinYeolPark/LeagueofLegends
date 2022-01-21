@@ -36,7 +36,12 @@ ModelImporter:
   - first:
       74: 3789037123500897755
     second: model|Win2_model
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chaos_Mat
+    second: {fileID: 2100000, guid: e3d1cca4d15984f478f07091ef3d5e86, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

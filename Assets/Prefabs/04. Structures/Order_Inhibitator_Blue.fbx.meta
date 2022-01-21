@@ -4,47 +4,94 @@ ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
   - first:
-      74: 4251799153543488428
-    second: model|ha_orderinhibitor_death_model
+      74: 5830322850047626188
+    second: model|Death_Base_model
   - first:
-      74: -792597813515201689
-    second: model|ha_orderinhibitor_hold_model
+      74: 4002747118202300833
+    second: model|Idle_Hold_model
   - first:
-      74: -4743937499838595613
-    second: model|ha_orderinhibitor_idle1_model
+      74: -64220663844826699
+    second: model|Idle_Normal1_model
   - first:
-      74: -7994883528105818234
-    second: model|ha_orderinhibitor_idle_dead_model
+      74: -5327894154632106162
+    second: model|Idle_Normal2_model
   - first:
-      74: 4532542082205386514
-    second: model|ha_orderinhibitor_idle_model
+      74: 2846491599121447874
+    second: model|Idle_Normal3_model
   - first:
-      74: 3734365353497365605
-    second: model|ha_orderinhibitor_respawn_model
+      74: 8962764470567337859
+    second: model|sruap_chaosinhibitor_idle_hold_model
   - first:
-      74: -7762624720773678226
-    second: model|ha_orderinhibitor_spawn_model
+      74: -7921135152456037836
+    second: model|sruap_chaosinhibitor_spawn_model
+  - first:
+      74: -5606847327031421347
+    second: model|sruap_orderinhibitor_death_model
+  - first:
+      74: 6280237635178965700
+    second: model|sruap_orderinhibitor_death_model.001
+  - first:
+      74: 4861538349924452897
+    second: model|sruap_orderinhibitor_hold_model
+  - first:
+      74: -8047535549295982000
+    second: model|sruap_orderinhibitor_hold_model.001
+  - first:
+      74: -2076020501278616930
+    second: model|sruap_orderinhibitor_idle1_model
+  - first:
+      74: 3088014592939879946
+    second: model|sruap_orderinhibitor_idle1_model.001
+  - first:
+      74: -6891966316596671981
+    second: model|sruap_orderinhibitor_idle2_model
+  - first:
+      74: 7385112112316463432
+    second: model|sruap_orderinhibitor_idle2_model.001
+  - first:
+      74: 5117128738485453046
+    second: model|sruap_orderinhibitor_idle3_model
+  - first:
+      74: -5831606343172306076
+    second: model|sruap_orderinhibitor_idle3_model.001
+  - first:
+      74: -6937846570261420394
+    second: model|sruap_orderinhibitor_idle_dead_model
+  - first:
+      74: 7639256656161176470
+    second: model|sruap_orderinhibitor_idle_dead_model.001
+  - first:
+      74: 325913260915828860
+    second: model|sruap_orderinhibitor_idle_dead_model.002
+  - first:
+      74: 6662167679590425072
+    second: model|sruap_orderinhibitor_respawn_model
+  - first:
+      74: -6516144959628263196
+    second: model|sruap_orderinhibitor_respawn_model.001
+  - first:
+      74: -568876741776667768
+    second: model|sruap_orderinhibitor_respawn_model.002
+  - first:
+      74: 1916227125520407630
+    second: model|sruap_orderinhibitor_spawn_model
+  - first:
+      74: 4562110278332370000
+    second: model|sruap_orderinhibitor_spawn_model.001
+  - first:
+      74: 7727883408101686589
+    second: model|sruap_orderinhibitor_spawn_model.002
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Destroyed.001
-    second: {fileID: 2100000, guid: 6d160b4f14dc91c47afb86fcba4305a7, type: 2}
+      name: Destroyed.005
+    second: {fileID: 2100000, guid: e533b8079110ab44685050f5f3f8dc34, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: HA_Inhib_Cap_Mat
-    second: {fileID: 2100000, guid: 6c4cafbcb8cd49746bb7fa167225f443, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: HA_Inhib_Destroyed_Cap
-    second: {fileID: 2100000, guid: 6c4cafbcb8cd49746bb7fa167225f443, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: HA_Inhib_Mat
-    second: {fileID: 2100000, guid: 52c01fecd9a51c546b61874a97e8e93c, type: 2}
+      name: pally_inhib_texture.002
+    second: {fileID: 2100000, guid: d8926687189ad9f499888502c1fda43b, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

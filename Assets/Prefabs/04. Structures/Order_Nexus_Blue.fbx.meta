@@ -4,22 +4,34 @@ ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
   - first:
-      74: 1734684627256050309
-    second: model|model|model|ha_chaosnexus_death_model|model|ha_chaosnexus_death
+      74: -287427262223075297
+    second: model|sruap_ordernexus_balloon_death_fast_model
   - first:
-      74: 8420297739211642085
-    second: model|model|model|ha_chaosnexus_idle_model|model|ha_chaosnexus_idle_m
+      74: -2963825225115901655
+    second: model|sruap_ordernexus_balloon_death_model
+  - first:
+      74: -1806465187979864099
+    second: model|sruap_ordernexus_death_model
+  - first:
+      74: -311894352592137036
+    second: model|sruap_ordernexus_idle_model
+  - first:
+      74: -7405674535100609637
+    second: model|sruap_ordernexus_spawn_hold_model
+  - first:
+      74: 3339260281690687913
+    second: model|sruap_ordernexus_spawn_model
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Khai_destroyed
-    second: {fileID: 2100000, guid: df5a40cc05fcf4c41b6130162606da45, type: 2}
+      name: Destroyed.003
+    second: {fileID: 2100000, guid: e7b5f367b67bfa04496a9675a44676ba, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: SRUAP_OrderNexus_Mat
-    second: {fileID: 2100000, guid: cd302f58e04e3474ebe7df8cafb66953, type: 2}
+    second: {fileID: 2100000, guid: 0a117fe30fd3e9b41bd14c46f87578d1, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
