@@ -21,14 +21,15 @@ public static class GameDataSettings
         BARRIER,
         CLARITY,
         CLEANSE,
-        EXHASUT,
+        EXHAUST,
         FLASH,
         GHOST,
         HEAL,
         IGNITE,
         SMITE,
         TELEPORT,
-        MARK_DASH       //FOR ARAM
+        MARK_DASH,      //FOR ARAM
+        NULL
     }
 
     public static LANE lane;
@@ -59,5 +60,10 @@ public static class GameDataSettings
     public static float CANNON_FIRST_WAVE = 1200;
     public static float CANNON_SECOND_WAVE = 2100;
 
-
+    //Player Info Coponents
+    public const string PLAYER_CHAMPION = "HasPlayerChampion";
+    public const string PLAYER_SPELL1 = "HasPlayerSpell1";
+    public const string PLAYER_SPELL2 = "HasPlayerSpell2";
+    public const string PLAYER_READY = "IsPlayerLocked";
+    public const string PLAYER_LOADED_LEVEL = "PlayerLoadedLevel";
 }

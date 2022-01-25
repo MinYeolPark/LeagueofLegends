@@ -63,7 +63,7 @@ MonoBehaviour:
   deaths: 0
   assists: 0
   minionScore: 0
-  sightRange: 0
+  sightRange: 10
   attackClip: []
   dieClip: []
   idleClips: []

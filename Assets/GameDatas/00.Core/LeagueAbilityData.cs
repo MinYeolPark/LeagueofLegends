@@ -6,7 +6,14 @@ public abstract class LeagueAbilityData : ScriptableObject
 {    
     public int skillLevel;
     int GetSkillLevel { get { return skillLevel; } set { skillLevel = value; } }
-    
+
+    public DamageType damageType;
+    public enum DamageType
+    {
+        AttackDamage,
+        AbilityDamage,
+        None        
+    }
     public enum AbilityType
     {
         Target,
@@ -38,9 +45,12 @@ public abstract class LeagueAbilityData : ScriptableObject
     public float cost;
     public float range;
     public float durationVFX;
+    public float damage;
     public bool canMove;
+    public bool canRotate;
 
     public Sprite icon;
+    public bool needIndicator;
     public GameObject rangeIndicator;
 
     public AudioClip characterSound;

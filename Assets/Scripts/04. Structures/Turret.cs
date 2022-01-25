@@ -68,8 +68,6 @@ public class Turret : BaseStructure, IAttackable
 
                     if (obj.TryGetComponent<BaseStats>(out BaseStats objStats))
                     {
-                        Debug.Log(obj);
-
                         if (objStats.teamID != stats.teamID)
                         {
                             if (obj.GetComponent<BaseUnits>().state != BaseUnits.States.Dead)

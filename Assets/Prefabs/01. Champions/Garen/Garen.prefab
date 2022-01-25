@@ -136,12 +136,11 @@ GameObject:
   - component: {fileID: 699606305110661074}
   - component: {fileID: 699606305110661077}
   - component: {fileID: 699606305110661075}
-  - component: {fileID: 699606305110661073}
   - component: {fileID: 699606305110661072}
   - component: {fileID: 699606305110661079}
   - component: {fileID: 699606305110661078}
   - component: {fileID: 699606305110661076}
-  - component: {fileID: 699606305110661083}
+  - component: {fileID: 8912567602376125922}
   m_Layer: 6
   m_Name: Garen
   m_TagString: Champion
@@ -217,35 +216,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &699606305110661073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 393196265254830842}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7cc4298fbd923034f98cde739b79659d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  localData: {fileID: 11400000, guid: 17b4b28f61ef56a44b7c557a5e98b9ea, type: 2}
-  anim: {fileID: 699606305110661075}
-  inventory: {fileID: 0}
-  target: {fileID: 0}
-  rotateSpeedMovement: 0.1
-  rotateVelocity: 0
-  baseIndicator: {fileID: 6055679168710634044, guid: 10d414ad6c4a547498354c45568513ef, type: 3}
-  localCamera: {fileID: 0}
-  ahriFirePoint: {fileID: 0}
-  S1_Canvas: {fileID: 0}
-  S1_Indicator: {fileID: 0}
-  S2_Canvas: {fileID: 0}
-  S2_Indicator: {fileID: 0}
-  S3_Canvas: {fileID: 0}
-  S3_Indicator: {fileID: 0}
-  S4_Canvas: {fileID: 0}
-  S4_Indicator: {fileID: 0}
 --- !u!195 &699606305110661072
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -280,7 +250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca97aa63ce205e247b3a61152db4a8a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localData: {fileID: 11400000, guid: 17b4b28f61ef56a44b7c557a5e98b9ea, type: 2}
+  localData: {fileID: 11400000, guid: 6b93861c6829f3a44a0992f6a1d70e3d, type: 2}
   teamID: 1
   maxHealth: 0
   health: 0
@@ -355,7 +325,7 @@ MonoBehaviour:
   redLayer: Red Outlined
   shopLayer: Shop
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
---- !u!114 &699606305110661083
+--- !u!114 &8912567602376125922
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -364,35 +334,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 393196265254830842}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a81d5a1784e00044bbadc2de397f185, type: 3}
+  m_Script: {fileID: 11500000, guid: d9347943ec8e78c4aa61433b5d17c72b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventorySlots:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  inventoryItems:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  quickItems:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  emyptyObject: {fileID: 0}
-  inventorySize: 7
+  localData: {fileID: 11400000, guid: 6b93861c6829f3a44a0992f6a1d70e3d, type: 2}
+  anim: {fileID: 0}
+  inventory: {fileID: 0}
+  target: {fileID: 0}
+  rotateSpeedMovement: 0.1
+  rotateVelocity: 0
+  baseIndicator: {fileID: 0}
+  localCamera: {fileID: 0}
 --- !u!1 &416924869666275124
 GameObject:
   m_ObjectHideFlags: 0

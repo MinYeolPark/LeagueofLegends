@@ -26,7 +26,7 @@ MonoBehaviour:
   healthRegenPerLvl: 0
   attackDamage: 53
   attackSpeed: 0.668
-  attackRange: 5.5
+  attackRange: 2.5
   lifeSteal: 0
   criticalStrike: 0
   lethality: 0
@@ -63,17 +63,17 @@ MonoBehaviour:
   deaths: 0
   assists: 0
   minionScore: 0
-  sightRange: 0
+  sightRange: 10
   attackClip: []
   dieClip: []
   idleClips: []
   emotionClips: []
   localChampionAbilities:
-  - {fileID: 11400000, guid: 047f5527ecc534143bdcbfe88b4b16e0, type: 2}
-  - {fileID: 11400000, guid: da873627a02140e408023c2be4d895ef, type: 2}
-  - {fileID: 11400000, guid: 957025ec87c00f445abbeadf01f841b4, type: 2}
-  - {fileID: 11400000, guid: 5523918e8c71e424dba0007182f33a3d, type: 2}
-  - {fileID: 11400000, guid: 5df075d50fef8dd44851079565479ce3, type: 2}
+  - {fileID: 11400000, guid: 4bbeb4e21130a0040b407c715e56b1a0, type: 2}
+  - {fileID: 11400000, guid: df8c3d5ce87e8be498361dfe13832e04, type: 2}
+  - {fileID: 11400000, guid: 94e04f58aec23ab48a0c5a6465c72a91, type: 2}
+  - {fileID: 11400000, guid: 85abc1414d7f46549b7a125c99691880, type: 2}
+  - {fileID: 11400000, guid: 8a67044460208f94892d8b5856bdcb50, type: 2}
   InitialValue: 0
   category: 0
   resourceType: 0

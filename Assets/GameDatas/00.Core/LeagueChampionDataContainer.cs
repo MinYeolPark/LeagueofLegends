@@ -1,8 +1,6 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
-using System;
 
 [CreateAssetMenu(fileName = "NewObject", menuName = "League of Legends/LeagueChampion Data Container", order =0)]
 public class LeagueChampionDataContainer : ScriptableObject,ISerializationCallbackReceiver

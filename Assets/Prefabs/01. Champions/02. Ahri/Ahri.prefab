@@ -3046,7 +3046,6 @@ GameObject:
   - component: {fileID: 4967181714792163700}
   - component: {fileID: 4967181714792163701}
   - component: {fileID: 4967181714792163703}
-  - component: {fileID: 4967181714792163704}
   m_Layer: 6
   m_Name: Ahri
   m_TagString: Champion
@@ -3260,44 +3259,6 @@ MonoBehaviour:
   redLayer: Red Outlined
   shopLayer: Shop
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
---- !u!114 &4967181714792163704
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5201535120535223385}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a81d5a1784e00044bbadc2de397f185, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inventorySlots:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  inventoryItems:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  quickItems:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  emyptyObject: {fileID: 0}
-  inventorySize: 7
 --- !u!1 &5267564950265071889
 GameObject:
   m_ObjectHideFlags: 0

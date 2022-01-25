@@ -23,18 +23,18 @@ public class PlayerInfo : MonoBehaviourPunCallbacks
     }
 
     public int myChamp=0;
-    public GameDataSettings.CHAMPIONS myChampion;
+    public GameDataSettings.CHAMPIONS myChampion = GameDataSettings.CHAMPIONS.NULL;
     public GameDataSettings.TEAM myTeam;
 
     public Image portrait;
     public TextMeshProUGUI playerNameText;
     public TextMeshProUGUI playerChampNameText;
 
-    public GameDataSettings.SPELL mySpell1;
-    public GameDataSettings.SPELL mySpell2;
+    public GameDataSettings.SPELL mySpell1 = GameDataSettings.SPELL.NULL;
+    public GameDataSettings.SPELL mySpell2 = GameDataSettings.SPELL.NULL;
     public Image spell1;
     public Image spell2;
-
+    private int curButtonId = 0;
     //private void Start()
     //{
     //    SpellSetup();
@@ -61,19 +61,25 @@ public class PlayerInfo : MonoBehaviourPunCallbacks
         portrait.sprite = DataContainer.Instance.champDataContainer.championDatasContainer[selectedChamp].portraitCircle;
     }
     //Temp variable value
-    public void SpellSetup()
+    public void OnSpellSelectPanel(int whichButton)
     {
-      
-    }
+        GameObject panel = FindObjectOfType<NetworkManager>().SpellSelectPanel;
 
-    public void SetFlash()
+        curButtonId = whichButton;
+        if (panel.activeSelf)
+        {
+            panel.SetActive(false);
+        }
+        else
+        {
+            panel.SetActive(true);
+        }        
+    }
+    public void SetSpell(int whichSpell)
     {
-
+        if (curButtonId == 0)
+            mySpell1 = (GameDataSettings.SPELL)whichSpell;
+        else
+            mySpell2 = (GameDataSettings.SPELL)whichSpell;
     }
-
-    public void SetTeleport()
-    {
-
-    }
-    
 }

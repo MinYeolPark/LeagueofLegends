@@ -40,7 +40,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3225006453430878410}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc141fa569e699145b9940b5b466158d, type: 3}
+  m_Script: {fileID: 11500000, guid: 00d89eb3ef19de342bbc94e32402c18f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pfDamagePopup: {fileID: 8879062627339614582, guid: 568c0af76b4a29e4eb7d76b336493bb4, type: 3}

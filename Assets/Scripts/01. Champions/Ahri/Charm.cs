@@ -36,25 +36,5 @@ public class Charm : LeagueAbilityData
         GameObject go = Instantiate(CharmPrefab, firePos.transform.position, Quaternion.identity);
 
         yield return null;
-    }
-   
-    void HitTarget()
-    {
-        //GameObject target = targetObj;
-
-        //Vector3 hitPoint = target.GetComponent<Collider>().ClosestPoint(transform.position);
-        //Vector3 hitNormal = transform.position - target.GetComponent<Collider>().transform.position;
-
-        //target.GetComponent<BaseUnits>().OnDamage(target.GetComponent<BaseUnits>(), damage, hitPoint, hitNormal);
-
-
-        //if (hitEffecet != null)
-        //{
-        //    GameObject effectIns = (GameObject)Instantiate(hitEffecet, transform.position, transform.rotation);
-
-        //    Destroy(effectIns, 2f);
-        //}
-
-        //Destroy(gameObject);
-    }
+    }   
 }

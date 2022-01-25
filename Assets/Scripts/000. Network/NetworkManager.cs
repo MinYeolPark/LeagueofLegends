@@ -6,6 +6,9 @@ using Photon.Realtime;
 using UnityEngine.SceneManagement;
 using ExitGames.Client.Photon;
 using System.Collections.Generic;
+using System.Collections;
+using Photon.Pun.UtilityScripts;
+
 public class NetworkManager : MonoBehaviourPunCallbacks
 {
     //Proto
@@ -29,9 +32,6 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
     [Space(5)]
     [Header("Room Panel Components")]
-    private Dictionary<int, GameObject> RedListEntries=new Dictionary<int, GameObject>();
-    private Dictionary<int, GameObject> BlueListEntries=new Dictionary<int, GameObject>();
-
     public GameObject RoomPanel;
     public Button ChampSelectButton;
     public Button LeaveRoomButton;
@@ -41,13 +41,19 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     public GameObject RedTeamPos;
     public GameObject BlueTeamPos;
     public Transform ChampSlotsPos;
+    public Transform SpellSlotsPos;
+    public Button Spell1Button;
+    public Button Spell2Button;
+    private Dictionary<int, GameObject> playerListEntries;
 
     [Space(5)]
     [Header("ChampSelect Panel Components")]
     public GameObject ChampSelectPanel;
+    public GameObject SpellSelectPanel;
     public Button LockerButton;
     public Button GameExitButton;
     public GameObject pfDeclareChampSlot;
+    public GameObject pfDeclareSpellSlot;
     public GameObject pfPlayerInfo;
     public GameObject pfOppositePlayerSlot;
     public Transform RedTeamChampPos;
@@ -55,6 +61,15 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     public TextMeshProUGUI CountText;
     float count = 10f;
 
+    [Space(5)]
+    [Header("Loading Panel Components")]
+    public GameObject LoadingScreenPanel;
+    public GameObject pfPlayerLoadingSlot;
+
+    //Loading Bar
+    public Transform slotLayerPos;
+    public Image loadingFillImage;
+    public TextMeshProUGUI loadingPercentText;
 
     private void Awake()
     {
@@ -103,6 +118,16 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
     public override void OnJoinedRoom()
     {
+        if(!PhotonNetwork.IsMasterClient)
+        {
+            ChampSelectButton.gameObject.SetActive(false);
+        }       
+
+        if (playerListEntries == null)
+        {
+            playerListEntries = new Dictionary<int, GameObject>();
+        }
+
         foreach (Player p in PhotonNetwork.PlayerList)
         {
             GameObject entry = Instantiate(pfPlayerEntry);
@@ -113,33 +138,41 @@ public class NetworkManager : MonoBehaviourPunCallbacks
             if(entry.GetComponent<PlayerListEntry>().ownerTeamId==GameDataSettings.RED_TEAM)
             {
                 entry.transform.SetParent(RedTeamPos.transform);
-                RedListEntries.Add(p.ActorNumber, entry);
+                PhotonNetwork.LocalPlayer.JoinTeam(1);
             }
             else
             {
                 entry.transform.SetParent(BlueTeamPos.transform);
-                BlueListEntries.Add(p.ActorNumber, entry);
+                PhotonNetwork.LocalPlayer.JoinTeam(2);
             }
 
+            playerListEntries.Add(p.ActorNumber, entry);
+
             //object isPlayerReady;
-            //if (p.CustomProperties.TryGetValue(AsteroidsGame.PLAYER_READY, out isPlayerReady))
+            //if (p.CustomProperties.TryGetValue(GameDataSettings.PLAYER_READY, out isPlayerReady))
             //{
-            //    entry.GetComponent<PlayerListEntry>().SetPlayerReady((bool)isPlayerReady);
-            //}            
+            //    //entry.GetComponent<PlayerListEntry>().SetPlayerReady((bool)isPlayerReady);
+            //}
         }
 
-        //StartGameButton.gameObject.SetActive(CheckPlayersReady());
-
-        //Hashtable props = new Hashtable
-        //    {
-        //        {AsteroidsGame.PLAYER_LOADED_LEVEL, false}
-        //    };
+        //ExitGames.Client.Photon.Hashtable props = new ExitGames.Client.Photon.Hashtable
+        //{
+        //    {GameDataSettings.PLAYER_CHAMPION,GameDataSettings.CHAMPIONS.NULL}            
+        //};
         //PhotonNetwork.LocalPlayer.SetCustomProperties(props);
+    }
 
+    public override void OnLeftRoom()
+    {
+        LobbyPanel.SetActive(true);        
 
-
-        //GameObject list = Instantiate(pfPlayerEntry, RedTeamPos.gameObject.transform.position, RedTeamPos.gameObject.transform.rotation);
-        //list.transform.SetParent(RedTeamPos.transform);
+        foreach (GameObject entry in playerListEntries.Values)
+        {
+            Destroy(entry.gameObject);
+        }
+        
+        playerListEntries.Clear();
+        playerListEntries = null;
     }
 
     public override void OnJoinRandomFailed(short returnCode, string message)
@@ -151,7 +184,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         ro.MaxPlayers = 10;
         ro.IsOpen = true;
         ro.IsVisible = true;        
-        //Make Room
+        //Make Room        
         PhotonNetwork.CreateRoom($"{PhotonNetwork.NickName}'s Room ", ro);
     }
 
@@ -174,17 +207,18 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         if (entry.GetComponent<PlayerListEntry>().ownerTeamId == GameDataSettings.RED_TEAM)
         {
             entry.transform.SetParent(RedTeamPos.transform);
-            RedListEntries.Add(newPlayer.ActorNumber, entry);
         }
         else
         {
             entry.transform.SetParent(BlueTeamPos.transform);
-            BlueListEntries.Add(newPlayer.ActorNumber, entry);
         }        
     }
     public override void OnPlayerLeftRoom(Player otherPlayer)
     {
         ChatRPC("<color=yellow>" + otherPlayer.NickName + "has leved the room</color>");
+
+        Destroy(playerListEntries[otherPlayer.ActorNumber].gameObject);
+        playerListEntries.Remove(otherPlayer.ActorNumber);
     }
 
     public override void OnRoomListUpdate(List<RoomInfo> roomList)
@@ -193,6 +227,12 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
         //UpdateCachedRoomList(roomList);
         //UpdateRoomListView();
+    }
+
+    //Spell, Champion Setting Update
+    public override void OnPlayerPropertiesUpdate(Player targetPlayer, ExitGames.Client.Photon.Hashtable changedProps)
+    {
+        base.OnPlayerPropertiesUpdate(targetPlayer, changedProps);
     }
 
     #region UI BUTTON'S CALLBACK
@@ -233,27 +273,39 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
     public void OnChampSelectButton()
     {
+        if(PhotonNetwork.IsMasterClient)
+        {            
+            photonView.RPC("ChampSelect", RpcTarget.All);
+        }
+    }
+
+    [PunRPC]
+    void ChampSelect()
+    {
         count = 10f;
 
         LoginPanel.SetActive(false);
         LobbyPanel.SetActive(false);
         RoomPanel.SetActive(false);
         ChampSelectPanel.SetActive(true);
-
+                
         //Player Data Instantiate
-        for (int i = 0; i < RedListEntries.Count; i++)
+        for (int i = 0; i < PhotonTeamsManager.Instance.GetTeamMembersCount((byte)GameDataSettings.RED_TEAM); i++)
         {
-            GameObject p = Instantiate(pfPlayerInfo);
+            GameObject p = PhotonNetwork.Instantiate("pfPlayerInfo", transform.position, Quaternion.identity);
             p.transform.SetParent(RedTeamChampPos);
-            p.GetComponent<PlayerInfo>().Initialize(GameDataSettings.RED_TEAM, PhotonNetwork.NickName);
+            p.GetComponent<PlayerInfo>().Initialize(GameDataSettings.RED_TEAM, PhotonNetwork.NickName);                       
         }
-        for (int i = 0; i < BlueListEntries.Count; i++)
+        for (int i = 0; i < PhotonTeamsManager.Instance.GetTeamMembersCount((byte)GameDataSettings.BLUE_TEAM); i++)
         {
-            GameObject p = Instantiate(pfPlayerInfo);
+            GameObject p = PhotonNetwork.Instantiate("pfPlayerInfo", transform.position, Quaternion.identity);
             p.transform.SetParent(BlueTeamChampPos);
             p.GetComponent<PlayerInfo>().Initialize(GameDataSettings.BLUE_TEAM, PhotonNetwork.NickName);
-        }        
 
+            //Spell1Button.GetComponent<Button>().onClick.AddListener(() => p.GetComponent<PlayerInfo>().OnSpellSelectPanel(0));
+            //Spell2Button.GetComponent<Button>().onClick.AddListener(() => p.GetComponent<PlayerInfo>().OnSpellSelectPanel(1));
+        }
+       
         //Champ Data Instantiate
         for (int i = 0; i < DataContainer.Instance.champDataContainer.championDatasContainer.Capacity; i++)
         {
@@ -261,26 +313,60 @@ public class NetworkManager : MonoBehaviourPunCallbacks
             champ.GetComponent<DeclareChampSlot>().Initialize(DataContainer.Instance.champDataContainer.championDatasContainer[i]);
             champ.GetComponent<DeclareChampSlot>().slotId = i;
             champ.transform.SetParent(ChampSlotsPos);
+        }
+
+        //Spell Data Instantiate
+        for (int i = 0; i < DataContainer.Instance.spellDataContainer.spellDatasContainer.Capacity; i++)
+        {
+            GameObject spells = Instantiate(pfDeclareSpellSlot, SpellSlotsPos.transform.position, SpellSlotsPos.transform.rotation);
+            spells.GetComponent<DeclareSpellSlot>().Initialize(DataContainer.Instance.spellDataContainer.spellDatasContainer[i]);
+            spells.GetComponent<DeclareSpellSlot>().slotId = i;
+            spells.transform.SetParent(SpellSlotsPos);
         }        
     }
-
     public void OnGameStartButton()
     {
         if(PhotonNetwork.IsMasterClient)
         {
             PhotonNetwork.CurrentRoom.IsOpen = false;
             PhotonNetwork.CurrentRoom.IsVisible = false;
-            PhotonNetwork.LoadLevel(1);
+            //PhotonNetwork.LoadLevel(1);
         }
-        
+
         //TO DO: Loading Scene Progress
+        //01/25 Update
+        LoginPanel.SetActive(false);
+        LobbyPanel.SetActive(false);
+        RoomPanel.SetActive(false);
+        ChampSelectPanel.SetActive(false);
+        LoadingScreenPanel.SetActive(true);
+
+        GameObject slots = Instantiate(pfPlayerLoadingSlot);
+        slots.transform.SetParent(slotLayerPos);
+
+        StartCoroutine(BeginLoad());
+    }
+
+    private IEnumerator BeginLoad()
+    {
+        AsyncOperation operation = SceneManager.LoadSceneAsync(1);
+
+        while (!operation.isDone)
+        {
+            Debug.Log(operation.progress);
+            float progress = Mathf.Clamp01(operation.progress / 0.9f);
+            loadingFillImage.fillAmount = progress;
+            loadingPercentText.text = Mathf.Round(progress * 100) + "%";
+
+            yield return new WaitForSeconds(3f);
+        }
+        operation = null;
     }
     #endregion
 
     #region CHATTING
     public void OnChatSendButton()
     {
-        Debug.Log(ChatInputField.text);
         photonView.RPC("ChatRPC", RpcTarget.All, PhotonNetwork.NickName + " : " + ChatInputField.text);
         ChatInputField.text = "";
     }

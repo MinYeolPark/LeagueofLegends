@@ -25,9 +25,15 @@ public class BaseChampController : BaseUnits,IAttackable
     [SerializeField] private CinemachineVirtualCamera localCamera;
 
     [Header("Animator parameter Hast import")]
-    private readonly int hashSpeed = Animator.StringToHash("Speed");
-    private readonly int hashAttack = Animator.StringToHash("IsAttack");
-    private readonly int hashDie = Animator.StringToHash("Die");
+    protected readonly int hashSpeed = Animator.StringToHash("Speed");
+    protected readonly int hashAttack = Animator.StringToHash("IsAttack");
+    protected readonly int hashCritical = Animator.StringToHash("IsCritical");
+    protected readonly int hashDie = Animator.StringToHash("Die");
+    protected readonly int hashAbilityPassive = Animator.StringToHash("Passive");
+    protected readonly int hashAbility1 = Animator.StringToHash("Ability1");
+    protected readonly int hashAbility2 = Animator.StringToHash("Ability2");
+    protected readonly int hashAbility3 = Animator.StringToHash("Ability3");
+    protected readonly int hashAbility4 = Animator.StringToHash("Ability4");
 
     protected override void Awake()
     {
@@ -113,8 +119,11 @@ public class BaseChampController : BaseUnits,IAttackable
 
     protected virtual void OnRightClick(InputValue value)
     {
+        Debug.Log("Mouse Clicked");
+
         if (Mouse.current.rightButton.wasPressedThisFrame)
         {
+            Debug.Log("Mouse Clicked");
             Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
             if (Physics.Raycast(ray, out RaycastHit raycastHit, Mathf.Infinity))
             {
@@ -207,20 +216,22 @@ public class BaseChampController : BaseUnits,IAttackable
     {
         if (!whichSkill.canMove)
         {
-            if (agent.isActiveAndEnabled && agent.isStopped == false)
+            if (agent.isActiveAndEnabled && agent.isStopped == false && agent.updateRotation == true)
             {
                 state = States.Casting;
                 agent.isStopped = true;
-                agent.updateRotation = false;
+                agent.updatePosition = false;
+                agent.updateRotation = false;                
             }
         }
     }
     public void CheckActionEnd()
     {
-        if (agent.isActiveAndEnabled && agent.isStopped == true)
+        if (agent.isActiveAndEnabled && agent.isStopped == true && agent.updateRotation == false)
         {
             state = States.Idle;
             agent.isStopped = false;
+            agent.updatePosition = true;
             agent.updateRotation = true;
         }
     }

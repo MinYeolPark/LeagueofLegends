@@ -46,8 +46,8 @@ public class Ahri : BaseChampController
 
         if (localData.localChampionAbilities[1].abilityState == LeagueAbilityData.AbilityState.Active)
         {
-            anim.SetBool("BaseAttack", false);
-            anim.SetTrigger("Ability1");
+            anim.SetBool(hashAttack, false);            
+            anim.SetTrigger(hashAbility1);
         }
     }
     protected override void OnAbility2(InputValue value)
@@ -55,8 +55,8 @@ public class Ahri : BaseChampController
         base.OnAbility2(value);
         if (localData.localChampionAbilities[2].abilityState == LeagueAbilityData.AbilityState.Active)
         {
-            anim.SetBool("BaseAttack", false);
-            anim.SetTrigger("Ability2");
+            anim.SetBool(hashAttack, false);
+            anim.SetTrigger(hashAbility2);
         }
     }
     protected override void OnAbility3(InputValue value)
@@ -65,22 +65,8 @@ public class Ahri : BaseChampController
 
         if (localData.localChampionAbilities[3].abilityState == LeagueAbilityData.AbilityState.Active)
         {
-            anim.SetBool("BaseAttack", false);
-            anim.SetTrigger("Ability3");
-
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            
-            if (Physics.Raycast(ray, out RaycastHit raycastHit, Mathf.Infinity))
-            {
-                //ROTATION
-                Quaternion rotationToLookAt = Quaternion.LookRotation(raycastHit.point - transform.position);
-                float rotationY = Mathf.SmoothDampAngle(transform.eulerAngles.y,
-                    rotationToLookAt.eulerAngles.y,
-                    ref rotateVelocity,
-                    rotateSpeedMovement * (Time.deltaTime * 5));
-
-                transform.eulerAngles = new Vector3(0, rotationY, 0);
-            }           
+            anim.SetBool(hashAttack, false);
+            anim.SetTrigger(hashAbility3);
         }
 
     }
@@ -90,8 +76,8 @@ public class Ahri : BaseChampController
 
         if (localData.localChampionAbilities[4].abilityState == LeagueAbilityData.AbilityState.Active)
         {
-            anim.SetBool("BaseAttack", false);
-            anim.SetTrigger("Ability4");
+            anim.SetBool(hashAttack, false);
+            anim.SetTrigger(hashAbility4);
         }
     }
 
@@ -101,7 +87,7 @@ public class Ahri : BaseChampController
         {
             StopAttack();
 
-            anim.SetBool("BaseAttack", false);
+            anim.SetBool(hashAttack, true);
             target = null;
         }
 
