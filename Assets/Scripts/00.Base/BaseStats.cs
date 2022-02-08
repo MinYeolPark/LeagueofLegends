@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BaseStats : MonoBehaviour
 {
-    [SerializeField] public LeagueObjectData localData;
+    public LeagueObjectData localData;
 
     public GameDataSettings.TEAM teamID = GameDataSettings.TEAM.NEAUTRAL;       //Default
 
@@ -34,6 +34,7 @@ public class BaseStats : MonoBehaviour
     public float abilityHaste;
     public float magicPenetration;  //마법관통력
     public float resource;          //자원: 스킬을 사용하는데 필요한 자원
+    public float maxResource;          //자원: 스킬을 사용하는데 필요한 자원
     public float resourceRegen;
 
     [Space(5)]
@@ -80,12 +81,14 @@ public class BaseStats : MonoBehaviour
         moveSpeed = localData.moveSpeed;
         sightRange = localData.sightRange;
         disablingEffect = localData.disablingEffect;   
-        curExp = localData.curExp;
-        level = localData.level;
-        gold = localData.gold;
-        kills = localData.kills;
-        deaths = localData.deaths;
-        assists = localData.assists;
-        minionScore = localData.minionScore;
+
+        //Initialize value
+        level = 1;        
+        curExp = 0;
+        gold = 0;
+        kills = 0;
+        deaths = 0;
+        assists = 0;
+        minionScore = 0;
     }            
 }

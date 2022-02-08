@@ -12,7 +12,7 @@ public class Garen : BaseChampController
     protected override void OnAbility1(InputValue value)
     {
         base.OnAbility1(value);
-
+        localData.localChampionAbilities[1].SetActivate();
         if (localData.localChampionAbilities[1].abilityState == LeagueAbilityData.AbilityState.Active)
         {
             anim.SetBool(hashAttack, false);

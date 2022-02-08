@@ -3,25 +3,37 @@ using TMPro;
 
 public class GameScorePanel : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI redKillText;
-    [SerializeField] private TextMeshProUGUI blueKillText;
-    [SerializeField] private TextMeshProUGUI playerKDAText;
-    [SerializeField] private TextMeshProUGUI minionScoreText;
-    [SerializeField] private TextMeshProUGUI gameTimeText;
+    public TextMeshProUGUI redKillText;
+    public TextMeshProUGUI blueKillText;
+    public TextMeshProUGUI playerKDAText;
+    public TextMeshProUGUI minionScoreText;
+    public TextMeshProUGUI gameTimeText;
 
+    GameObject localChamp;
     BaseStats stats;
-    private void Start()
-    {
-        GameObject localChamp = FindObjectOfType<BaseChampController>().gameObject;
-        stats = localChamp.GetComponent<BaseStats>();
 
-        InvokeRepeating("UpdateStatePanel",0f,Time.deltaTime);
+    public void Initialize()
+    {
+        if(localChamp==null)
+        {
+            if (Photon.Pun.PhotonNetwork.IsConnected)
+            {
+                localChamp = UIManager.Instance.localChamp.gameObject;
+                stats = localChamp.gameObject.GetComponent<BaseStats>();
+            }
+        }
+
+
+        InvokeRepeating("UpdateStatePanel", 0f, Time.deltaTime);
     }
 
     void UpdateStatePanel()
     {
-        playerKDAText.text = $"{stats.kills}/{stats.deaths}/{stats.assists}";
-        minionScoreText.text = stats.minionScore.ToString("D0");
-        gameTimeText.text = GameManager.Instance.GameTime.ToString("00:00");
+        if (Photon.Pun.PhotonNetwork.IsConnected)
+        {
+            playerKDAText.text = $"{stats.kills}/{stats.deaths}/{stats.assists}";
+            minionScoreText.text = stats.minionScore.ToString("D0");
+            gameTimeText.text = GameManager.Instance.GameTime.ToString("00:00");
+        }            
     }
 }

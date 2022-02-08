@@ -1,7 +1,7 @@
 public static class GameDataSettings
 {
     //All champion have to update
-    public static CHAMPIONS champ = CHAMPIONS.NULL;
+    public static CHAMPIONS champions = CHAMPIONS.NULL;
     public enum CHAMPIONS
     {
         AHRI,
@@ -18,17 +18,17 @@ public static class GameDataSettings
     public static SPELL spell;
     public enum SPELL
     {
-        BARRIER,
-        CLARITY,
-        CLEANSE,
-        EXHAUST,
         FLASH,
-        GHOST,
-        HEAL,
-        IGNITE,
-        SMITE,
         TELEPORT,
-        MARK_DASH,      //FOR ARAM
+        //BARRIER,
+        //CLARITY,
+        //CLEANSE,
+        //EXHAUST,
+        //GHOST,
+        //HEAL,
+        //IGNITE,
+        //SMITE,
+        //MARK_DASH,      //FOR ARAM
         NULL
     }
 

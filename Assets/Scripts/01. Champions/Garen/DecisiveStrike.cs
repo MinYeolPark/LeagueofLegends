@@ -5,15 +5,17 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "NewSkill", menuName = "League of Legends/LeagueAbility Data/Garen/DecisiveStrike")]
 public class DecisiveStrike : LeagueAbilityData
 {
-    // Start is called before the first frame update
-    void Start()
+    public override IEnumerator Initialize(GameObject obj)
     {
-        
+        Debug.Log("DecisiveStrike Init");
+
+        yield return null;
     }
 
-    // Update is called once per frame
-    void Update()
+    public override IEnumerator TriggerAbility(GameObject obj)
     {
-        
+        Debug.Log("DecisiveStrike Active!!");
+
+        yield return null;
     }
 }

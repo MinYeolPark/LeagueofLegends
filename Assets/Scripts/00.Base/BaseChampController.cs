@@ -12,17 +12,23 @@ public class BaseChampController : BaseUnits,IAttackable
     public GameObject target;
 
     //Movement
-    float motionSmoothTime = .1f;
+    float motionSmoothTime = 0.1f;
     public float rotateSpeedMovement = 0.1f;
     public float rotateVelocity;
 
+    float angularSpeed = 1000f;
+    float accelation = 1000f;
+
     //Inputs
-    private PlayerInput playerInput;
     private InputMaster inputManager;
 
     private float indicatorOffset=0.5f;
     [SerializeField] private GameObject baseIndicator;
-    [SerializeField] private CinemachineVirtualCamera localCamera;
+
+    bool bOnIndicator = false;
+
+    //UI Binding
+    SkillPanel skillPanel;
 
     [Header("Animator parameter Hast import")]
     protected readonly int hashSpeed = Animator.StringToHash("Speed");
@@ -40,7 +46,15 @@ public class BaseChampController : BaseUnits,IAttackable
         base.Awake();
 
         inputManager = new InputMaster();
-        playerInput = GetComponent<PlayerInput>();
+        skillPanel = FindObjectOfType<SkillPanel>();
+
+        agent.speed = stats.moveSpeed;
+        agent.angularSpeed = angularSpeed;
+        agent.acceleration = accelation;
+
+        baseIndicator.transform.localScale = new Vector3(stats.attackRange / 2, stats.attackRange / 2, stats.attackRange / 2);
+        baseIndicator.SetActive(false);
+        bOnIndicator = false;   
     }
 
     private void OnEnable()
@@ -55,7 +69,7 @@ public class BaseChampController : BaseUnits,IAttackable
     private void Update()
     {
         float speed = agent.velocity.magnitude / agent.speed;
-        anim.SetFloat(hashSpeed, speed, motionSmoothTime, Time.deltaTime);     
+        anim.SetFloat(hashSpeed, speed, motionSmoothTime, Time.deltaTime);
     }
 
     //protected override IEnumerator RangeAttack()
@@ -67,17 +81,25 @@ public class BaseChampController : BaseUnits,IAttackable
         base.Destroy();
         anim.SetTrigger(hashDie);
     }
-    protected virtual void OnPassive() { }
+    protected virtual void OnPassive() 
+    {
+        //skillPanel.abilityCoolDown[0].ButtonTriggered();
+    }
     protected virtual void OnAbility1(InputValue value) 
     {
+        //skillPanel.abilityCoolDown[1].ButtonTriggered();
+
         if(localData.localChampionAbilities[1].abilityState!=LeagueAbilityData.AbilityState.CoolDown)
         {
             localData.localChampionAbilities[1].abilityState = LeagueAbilityData.AbilityState.Active;
         }
+
     }
 
     protected virtual void OnAbility2(InputValue value) 
     {
+        //skillPanel.abilityCoolDown[2].ButtonTriggered();
+
         if (localData.localChampionAbilities[2].abilityState != LeagueAbilityData.AbilityState.CoolDown)
         {
             localData.localChampionAbilities[2].abilityState = LeagueAbilityData.AbilityState.Active;
@@ -86,6 +108,8 @@ public class BaseChampController : BaseUnits,IAttackable
 
     protected virtual void OnAbility3(InputValue value) 
     {
+        //skillPanel.abilityCoolDown[3].ButtonTriggered();
+
         if (localData.localChampionAbilities[3].abilityState != LeagueAbilityData.AbilityState.CoolDown)
         { 
             localData.localChampionAbilities[3].abilityState = LeagueAbilityData.AbilityState.Active;
@@ -94,20 +118,23 @@ public class BaseChampController : BaseUnits,IAttackable
 
     protected virtual void OnAbility4(InputValue value)
     {
+        //skillPanel.abilityCoolDown[4].ButtonTriggered();
+
         if (localData.localChampionAbilities[4].abilityState != LeagueAbilityData.AbilityState.CoolDown)
         {
             localData.localChampionAbilities[4].abilityState = LeagueAbilityData.AbilityState.Active;
         }
-
     }
 
     protected virtual void OnSummonersSpell1(InputValue value)
     {
         Debug.Log("Spell 1");
+        //skillPanel.abilityCoolDown[5].ButtonTriggered();
     }
     protected virtual void OnSummonersSpell2(InputValue value)
     {
         Debug.Log("Spell 2");
+        //skillPanel.abilityCoolDown[6].ButtonTriggered();
     }
 
     protected virtual void OnRecall(InputValue value)
@@ -119,12 +146,10 @@ public class BaseChampController : BaseUnits,IAttackable
 
     protected virtual void OnRightClick(InputValue value)
     {
-        Debug.Log("Mouse Clicked");
-
         if (Mouse.current.rightButton.wasPressedThisFrame)
         {
-            Debug.Log("Mouse Clicked");
             Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
+
             if (Physics.Raycast(ray, out RaycastHit raycastHit, Mathf.Infinity))
             {
                 state = States.Moving;
@@ -138,14 +163,13 @@ public class BaseChampController : BaseUnits,IAttackable
                 agent.stoppingDistance = 0;
 
                 //ROTATION
-                Quaternion rotationToLookAt = Quaternion.LookRotation(raycastHit.point - transform.position);
-                float rotationY = Mathf.SmoothDampAngle(transform.eulerAngles.y,
-                    rotationToLookAt.eulerAngles.y,
-                    ref rotateVelocity,
-                    rotateSpeedMovement * (Time.deltaTime * 5));
+                //Quaternion rotationToLookAt = Quaternion.LookRotation(raycastHit.point - transform.position);
+                //float rotationY = Mathf.SmoothDampAngle(transform.eulerAngles.y,
+                //    rotationToLookAt.eulerAngles.y,
+                //    ref rotateVelocity,
+                //    rotateSpeedMovement * (Time.deltaTime * 5));
 
-                transform.eulerAngles = new Vector3(0, rotationY, 0);
-
+                //transform.eulerAngles = new Vector3(0, rotationY, 0);
 
                 if (raycastHit.collider.TryGetComponent(out BaseStats obj))
                 {
@@ -159,14 +183,21 @@ public class BaseChampController : BaseUnits,IAttackable
         }
     }
 
-
-
     protected virtual void OnAttack(InputValue value)
     {
-        GameObject attkRange = Instantiate(baseIndicator, 
-            new Vector3(transform.position.x,transform.position.y+ indicatorOffset, transform.position.z), 
-            transform.rotation, gameObject.transform) as GameObject;
+        if(baseIndicator.activeSelf==false)
+        {
+            baseIndicator.SetActive(true);
+            bOnIndicator = true;
+        }
+        else
+        {
+            baseIndicator.SetActive(false);
+            bOnIndicator = false;
+            return;
+        }
     }
+
     public void OnTab(InputValue value)
     {
         Debug.Log("On Tab");
@@ -212,6 +243,11 @@ public class BaseChampController : BaseUnits,IAttackable
         }
     }
 
+
+    /// <summary>
+    /// Checking animation is playing
+    /// </summary>
+    /// <param name="whichSkill"></param>
     public void CheckActionStart(LeagueAbilityData whichSkill)
     {
         if (!whichSkill.canMove)
@@ -221,18 +257,27 @@ public class BaseChampController : BaseUnits,IAttackable
                 state = States.Casting;
                 agent.isStopped = true;
                 agent.updatePosition = false;
-                agent.updateRotation = false;                
+                agent.updateRotation = false;
+
+                agent.angularSpeed = 0f;
             }
         }
     }
+
+    /// <summary>
+    /// Checking animation is end
+    /// </summary>
     public void CheckActionEnd()
     {
         if (agent.isActiveAndEnabled && agent.isStopped == true && agent.updateRotation == false)
         {
             state = States.Idle;
+            
             agent.isStopped = false;
             agent.updatePosition = true;
             agent.updateRotation = true;
+
+            agent.angularSpeed = angularSpeed;
         }
     }
 }

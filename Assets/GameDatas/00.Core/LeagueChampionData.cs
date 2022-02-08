@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
-
+using UnityEngine.Serialization;
+using System;
 [CreateAssetMenu(fileName = "NewObject", menuName = "League of Legends/LeagueChampion Data")]
 public class LeagueChampionData : LeagueObjectData
 {
@@ -12,13 +13,12 @@ public class LeagueChampionData : LeagueObjectData
         ADCarry,
         Mage,
         Assasin
-    }
+    }    
 
     public ResourceType resourceType;
     public enum ResourceType
     {
         None,
         Mana,
-
     }
 }

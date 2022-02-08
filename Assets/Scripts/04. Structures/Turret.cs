@@ -103,9 +103,15 @@ public class Turret : BaseStructure, IAttackable
                             shortestDist = temp;
                             closeObj = obj.gameObject;
 
-                            if (closeObj.GetComponent<BaseStats>().teamID != stats.teamID)
+                            if (closeObj.GetComponent<BaseStats>().teamID != stats.teamID)                             
                             {
                                 curTarget = closeObj.gameObject;
+
+
+                                if (Vector3.Distance(curTarget.transform.position, transform.position) >= stats.attackRange)
+                                {
+                                    curTarget = null;                                    
+                                }
                             }
                         }
                     }

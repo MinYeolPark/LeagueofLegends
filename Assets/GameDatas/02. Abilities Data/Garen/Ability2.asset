@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillLevel: 0
   damageType: 0
-  abilityState: 1
+  abilityState: 0
   displayedName: 
   activeTime: 0
   duration: 0

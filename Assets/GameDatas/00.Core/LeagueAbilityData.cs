@@ -63,7 +63,7 @@ public abstract class LeagueAbilityData : ScriptableObject
     public virtual void SetActivate() { abilityState = AbilityState.Active; }
     public virtual void SetCoolDown() { abilityState = AbilityState.CoolDown; }
 
-    public virtual  IEnumerator Initialize(GameObject obj) { yield return null; }
+    public virtual IEnumerator Initialize(GameObject obj) { yield return null; }
     public virtual IEnumerator TriggerAbility(GameObject obj) { yield return null; }
 
 }

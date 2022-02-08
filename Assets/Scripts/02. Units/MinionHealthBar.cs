@@ -21,6 +21,6 @@ public class MinionHealthBar : MonoBehaviour
 
     public void OnValueChange()
     {
-        Debug.Log("On Value CHange");
+        Debug.Log("On Value Change");
     }
 }

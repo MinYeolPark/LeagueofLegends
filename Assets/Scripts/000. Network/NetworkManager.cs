@@ -4,13 +4,15 @@ using TMPro;
 using Photon.Pun;
 using Photon.Realtime;
 using UnityEngine.SceneManagement;
-using ExitGames.Client.Photon;
 using System.Collections.Generic;
-using System.Collections;
 using Photon.Pun.UtilityScripts;
+using Hashtable = ExitGames.Client.Photon.Hashtable;
+using System.Collections;
 
 public class NetworkManager : MonoBehaviourPunCallbacks
 {
+    public static NetworkManager Instance;
+
     //Proto
     private readonly string version = "1.0";
     private string userId = "Jongro Monkey";
@@ -49,7 +51,6 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     [Space(5)]
     [Header("ChampSelect Panel Components")]
     public GameObject ChampSelectPanel;
-    public GameObject SpellSelectPanel;
     public Button LockerButton;
     public Button GameExitButton;
     public GameObject pfDeclareChampSlot;
@@ -73,8 +74,12 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
     private void Awake()
     {
+        Instance = this;
+
         if (PhotonNetwork.IsConnected == false)
         {
+            LoginButton.interactable = false;
+
             //TO DO: Singleton
 
             //Sync with Master Client
@@ -100,7 +105,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     }
     public override void OnConnectedToMaster()
     {
-        LoginButton.gameObject.SetActive(true);
+        LoginButton.interactable = true;
     }
     public void Disconnect() => PhotonNetwork.Disconnect();
     public override void OnDisconnected(DisconnectCause cause)
@@ -109,7 +114,11 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         LobbyPanel.SetActive(false);
         RoomPanel.SetActive(false);
         ChampSelectPanel.SetActive(false);
+
+        JoinRoomButton.interactable = false;
+        Debug.LogError($"Disconnected from server = {cause}");        
     }
+
     public override void OnJoinedLobby()
     {
         LobbyPlayersText.text = $"Lobby Players = { PhotonNetwork.CountOfPlayers - PhotonNetwork.CountOfPlayersInRooms}" +
@@ -138,12 +147,12 @@ public class NetworkManager : MonoBehaviourPunCallbacks
             if(entry.GetComponent<PlayerListEntry>().ownerTeamId==GameDataSettings.RED_TEAM)
             {
                 entry.transform.SetParent(RedTeamPos.transform);
-                PhotonNetwork.LocalPlayer.JoinTeam(1);
+                PhotonNetwork.LocalPlayer.JoinTeam("Red");
             }
             else
             {
                 entry.transform.SetParent(BlueTeamPos.transform);
-                PhotonNetwork.LocalPlayer.JoinTeam(2);
+                PhotonNetwork.LocalPlayer.JoinTeam("Blue");
             }
 
             playerListEntries.Add(p.ActorNumber, entry);
@@ -154,12 +163,6 @@ public class NetworkManager : MonoBehaviourPunCallbacks
             //    //entry.GetComponent<PlayerListEntry>().SetPlayerReady((bool)isPlayerReady);
             //}
         }
-
-        //ExitGames.Client.Photon.Hashtable props = new ExitGames.Client.Photon.Hashtable
-        //{
-        //    {GameDataSettings.PLAYER_CHAMPION,GameDataSettings.CHAMPIONS.NULL}            
-        //};
-        //PhotonNetwork.LocalPlayer.SetCustomProperties(props);
     }
 
     public override void OnLeftRoom()
@@ -221,27 +224,27 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         playerListEntries.Remove(otherPlayer.ActorNumber);
     }
 
-    public override void OnRoomListUpdate(List<RoomInfo> roomList)
-    {
-        //ClearRoomListView();
-
-        //UpdateCachedRoomList(roomList);
-        //UpdateRoomListView();
-    }
-
     //Spell, Champion Setting Update
     public override void OnPlayerPropertiesUpdate(Player targetPlayer, ExitGames.Client.Photon.Hashtable changedProps)
     {
-        base.OnPlayerPropertiesUpdate(targetPlayer, changedProps);
+        if (playerListEntries == null)
+        {
+            playerListEntries = new Dictionary<int, GameObject>();
+        }
     }
 
     #region UI BUTTON'S CALLBACK
     public void OnLoginButton()
     {
-        LoginPanel.SetActive(false);
-        LobbyPanel.SetActive(true);
-        RoomPanel.SetActive(false);
-        ChampSelectPanel.SetActive(false);
+        LoginButton.interactable = false;
+
+        if(PhotonNetwork.IsConnected)
+        {
+            LoginPanel.SetActive(false);
+            LobbyPanel.SetActive(true);
+            RoomPanel.SetActive(false);
+            ChampSelectPanel.SetActive(false);
+        }        
 
         if (!string.IsNullOrEmpty(IdInputField.text))
         {
@@ -288,24 +291,26 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         LobbyPanel.SetActive(false);
         RoomPanel.SetActive(false);
         ChampSelectPanel.SetActive(true);
-                
-        //Player Data Instantiate
-        for (int i = 0; i < PhotonTeamsManager.Instance.GetTeamMembersCount((byte)GameDataSettings.RED_TEAM); i++)
-        {
-            GameObject p = PhotonNetwork.Instantiate("pfPlayerInfo", transform.position, Quaternion.identity);
-            p.transform.SetParent(RedTeamChampPos);
-            p.GetComponent<PlayerInfo>().Initialize(GameDataSettings.RED_TEAM, PhotonNetwork.NickName);                       
-        }
-        for (int i = 0; i < PhotonTeamsManager.Instance.GetTeamMembersCount((byte)GameDataSettings.BLUE_TEAM); i++)
-        {
-            GameObject p = PhotonNetwork.Instantiate("pfPlayerInfo", transform.position, Quaternion.identity);
-            p.transform.SetParent(BlueTeamChampPos);
-            p.GetComponent<PlayerInfo>().Initialize(GameDataSettings.BLUE_TEAM, PhotonNetwork.NickName);
 
-            //Spell1Button.GetComponent<Button>().onClick.AddListener(() => p.GetComponent<PlayerInfo>().OnSpellSelectPanel(0));
-            //Spell2Button.GetComponent<Button>().onClick.AddListener(() => p.GetComponent<PlayerInfo>().OnSpellSelectPanel(1));
-        }
-       
+        //>>: Player Data Instantiate
+
+        foreach (Player player in PhotonNetwork.PlayerList)
+        {
+            if(player.GetPhotonTeam().Name=="Red")
+            {
+                GameObject p = Instantiate(pfPlayerInfo);
+                p.transform.SetParent(RedTeamChampPos);
+                p.GetComponent<PlayerInfo>().Initialize(GameDataSettings.RED_TEAM, player.ActorNumber, player.NickName);
+            }
+            else
+            {
+                GameObject p = Instantiate(pfPlayerInfo);
+                p.transform.SetParent(BlueTeamChampPos);
+                p.GetComponent<PlayerInfo>().Initialize(GameDataSettings.BLUE_TEAM, player.ActorNumber, player.NickName);
+            }
+        }       
+        //:<<
+
         //Champ Data Instantiate
         for (int i = 0; i < DataContainer.Instance.champDataContainer.championDatasContainer.Capacity; i++)
         {
@@ -324,36 +329,47 @@ public class NetworkManager : MonoBehaviourPunCallbacks
             spells.transform.SetParent(SpellSlotsPos);
         }        
     }
+
+    public void OnGameExitButton()
+    {
+        LoginPanel.SetActive(false);
+        LobbyPanel.SetActive(true);
+        RoomPanel.SetActive(false);
+        ChampSelectPanel.SetActive(false);
+
+        PhotonNetwork.LeaveRoom();
+    }
     public void OnGameStartButton()
     {
-        if(PhotonNetwork.IsMasterClient)
+        PhotonNetwork.CurrentRoom.IsOpen = false;
+        PhotonNetwork.CurrentRoom.IsVisible = false;
+
+        if (PhotonNetwork.IsMasterClient)
         {
             PhotonNetwork.CurrentRoom.IsOpen = false;
             PhotonNetwork.CurrentRoom.IsVisible = false;
             //PhotonNetwork.LoadLevel(1);
         }
 
-        //TO DO: Loading Scene Progress
-        //01/25 Update
         LoginPanel.SetActive(false);
         LobbyPanel.SetActive(false);
         RoomPanel.SetActive(false);
         ChampSelectPanel.SetActive(false);
         LoadingScreenPanel.SetActive(true);
 
+        //>>: To Do -> Update Loading Screen
         GameObject slots = Instantiate(pfPlayerLoadingSlot);
         slots.transform.SetParent(slotLayerPos);
+        //:<<
 
         StartCoroutine(BeginLoad());
     }
-
     private IEnumerator BeginLoad()
     {
         AsyncOperation operation = SceneManager.LoadSceneAsync(1);
 
         while (!operation.isDone)
         {
-            Debug.Log(operation.progress);
             float progress = Mathf.Clamp01(operation.progress / 0.9f);
             loadingFillImage.fillAmount = progress;
             loadingPercentText.text = Mathf.Round(progress * 100) + "%";

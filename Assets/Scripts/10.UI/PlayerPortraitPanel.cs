@@ -8,12 +8,19 @@ public class PlayerPortraitPanel : MonoBehaviour
     [SerializeField] private Image playerPortraitImg;
     [SerializeField] private TextMeshProUGUI levelText;
 
-    BaseStats stats;
     GameObject localChamp;
-    private void Start()
+    BaseStats stats;
+
+    public void Initialize()
     {
-        localChamp = FindObjectOfType<BaseChampController>().gameObject;
-        stats = localChamp.GetComponent<BaseStats>();
+        if (localChamp == null)
+        {
+            if (Photon.Pun.PhotonNetwork.IsConnected)
+            {
+                localChamp = UIManager.Instance.localChamp.gameObject;
+                stats = localChamp.gameObject.GetComponent<BaseStats>();
+            }
+        }
 
         playerEXPImg.fillAmount = 0;
 
@@ -22,8 +29,11 @@ public class PlayerPortraitPanel : MonoBehaviour
 
     void UpdatePortrait()
     {
-        playerPortraitImg.sprite = stats.localData.portraitCircle;
-        playerEXPImg.fillAmount = stats.curExp / 100;
-        levelText.text = stats.level.ToString();
+        if (Photon.Pun.PhotonNetwork.IsConnected)
+        {
+            playerPortraitImg.sprite = stats.localData.portraitCircle;
+            playerEXPImg.fillAmount = stats.curExp / 100;
+            levelText.text = stats.level.ToString();
+        }
     }
 }

@@ -1,85 +1,128 @@
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
+using ExitGames.Client.Photon;
 using Photon.Pun;
+using Photon.Realtime;
+using Photon.Pun.UtilityScripts;
+using TMPro;
+
 public class PlayerInfo : MonoBehaviourPunCallbacks
 {
-    public static PlayerInfo Instance;
-    private void Awake()
-    {
-        if (PlayerInfo.Instance == null)
-        {
-            PlayerInfo.Instance = this;
-        }
-        else
-        {
-            if (PlayerInfo.Instance != this)
-            {
-                Destroy(PlayerInfo.Instance.gameObject);
-                PlayerInfo.Instance = this;
-            }
-        }
-        DontDestroyOnLoad(gameObject);
-    }
-
-    public int myChamp=0;
-    public GameDataSettings.CHAMPIONS myChampion = GameDataSettings.CHAMPIONS.NULL;
-    public GameDataSettings.TEAM myTeam;
+    public int ownerId;
+    private bool isPlayerReady;
 
     public Image portrait;
     public TextMeshProUGUI playerNameText;
     public TextMeshProUGUI playerChampNameText;
 
+    public GameDataSettings.CHAMPIONS myChampion = GameDataSettings.CHAMPIONS.NULL;
+    public GameDataSettings.TEAM myTeam;
+
     public GameDataSettings.SPELL mySpell1 = GameDataSettings.SPELL.NULL;
     public GameDataSettings.SPELL mySpell2 = GameDataSettings.SPELL.NULL;
     public Image spell1;
     public Image spell2;
-    private int curButtonId = 0;
-    //private void Start()
-    //{
-    //    SpellSetup();
-    //    if (PlayerPrefs.HasKey("MyCharacter"))
-    //    {
-    //        myChamp = PlayerPrefs.GetInt("MyCharacter");
-    //    }
-    //    else
-    //    {
-    //        //mySelectedChampion = 0;
-    //        //PlayerPrefs.SetInt("MyCharacter", mySelectedChampion);
-    //        //PlayerPrefs.
-    //    }
-    //}
 
-    public void Initialize(int myTeamId, string myNickName)
+    public override void OnEnable()
     {
-        myTeam = (GameDataSettings.TEAM)myTeamId;
-        playerNameText.text = myNickName;
-    }
-    public void SetChampion(int selectedChamp)
-    {        
-        myChampion = (GameDataSettings.CHAMPIONS)selectedChamp;
-        portrait.sprite = DataContainer.Instance.champDataContainer.championDatasContainer[selectedChamp].portraitCircle;
-    }
-    //Temp variable value
-    public void OnSpellSelectPanel(int whichButton)
-    {
-        GameObject panel = FindObjectOfType<NetworkManager>().SpellSelectPanel;
+        base.OnEnable();
 
-        curButtonId = whichButton;
-        if (panel.activeSelf)
+        PlayerNumbering.OnPlayerNumberingChanged += OnPlayerNumberingChanged;
+    }
+    public override void OnDisable()
+    {
+        base.OnEnable();
+
+        PlayerNumbering.OnPlayerNumberingChanged -= OnPlayerNumberingChanged;
+    }
+    private void OnPlayerNumberingChanged()
+    {
+        foreach (Player p in PhotonNetwork.PlayerList)
         {
-            panel.SetActive(false);
+            if (p.ActorNumber == ownerId)
+            {
+                Debug.Log("Actor Update");
+            }
+        }
+    }
+    private void Start()
+    {
+        if(PhotonNetwork.LocalPlayer.ActorNumber!=ownerId)
+        {
+            Debug.Log($"{PhotonNetwork.LocalPlayer.ActorNumber}, ownerId={ownerId}");
         }
         else
         {
-            panel.SetActive(true);
-        }        
+            //:<<Set User Properties
+            Hashtable initialProps = new Hashtable
+            {
+                {GameDataSettings.PLAYER_CHAMPION, GameDataSettings.CHAMPIONS.NULL},
+                {GameDataSettings.PLAYER_SPELL1, GameDataSettings.SPELL.NULL },
+                {GameDataSettings.PLAYER_SPELL2, GameDataSettings.SPELL.NULL },
+                {GameDataSettings.PLAYER_READY, false},
+                {GameDataSettings.PLAYER_LOADED_LEVEL, false}
+            };
+
+            PhotonNetwork.LocalPlayer.SetCustomProperties(initialProps);
+
+            //Check Player's Ready Init
+            if(PhotonNetwork.IsMasterClient)
+            {
+                //FindObjectOfType<NetworkManager>().
+            }
+            
+        }
     }
+    public void Initialize(int myTeamId, int playerId, string myNickName)
+    {
+        myTeam = (GameDataSettings.TEAM)myTeamId;
+        ownerId = playerId;
+        playerNameText.text = myNickName;
+    }
+
+    public void SetChampion(int selectedChamp)
+    {
+        myChampion = (GameDataSettings.CHAMPIONS)selectedChamp;
+        portrait.sprite = DataContainer.Instance.champDataContainer.championDatasContainer[selectedChamp].portraitCircle;
+        playerChampNameText.text = DataContainer.Instance.champDataContainer.championDatasContainer[selectedChamp].name;
+
+        Hashtable initialProps = new Hashtable
+        {
+            { GameDataSettings.PLAYER_CHAMPION, (GameDataSettings.CHAMPIONS)selectedChamp}
+        };
+
+        PhotonNetwork.LocalPlayer.SetCustomProperties(initialProps);
+    }
+
     public void SetSpell(int whichSpell)
     {
-        if (curButtonId == 0)
-            mySpell1 = (GameDataSettings.SPELL)whichSpell;
-        else
-            mySpell2 = (GameDataSettings.SPELL)whichSpell;
+        switch(RoomManager.Instance.selectedButton)
+        {
+            case 0:
+                mySpell1 = (GameDataSettings.SPELL)whichSpell;
+                spell1.sprite = DataContainer.Instance.spellDataContainer.spellDatasContainer[whichSpell].icon;
+
+                Hashtable newSpell1 = new Hashtable
+                {
+                    {GameDataSettings.PLAYER_SPELL1, (GameDataSettings.SPELL)whichSpell }
+                };
+
+                PhotonNetwork.LocalPlayer.SetCustomProperties(newSpell1);
+                mySpell1 = (GameDataSettings.SPELL)whichSpell;
+                break;
+            case 1:
+                mySpell2 = (GameDataSettings.SPELL)whichSpell;
+                spell2.sprite = DataContainer.Instance.spellDataContainer.spellDatasContainer[whichSpell].icon;
+
+                Hashtable newSpell2 = new Hashtable
+                {
+                    {GameDataSettings.PLAYER_SPELL2, (GameDataSettings.SPELL)whichSpell }
+                };
+
+                PhotonNetwork.LocalPlayer.SetCustomProperties(newSpell2);
+                mySpell2 = (GameDataSettings.SPELL)whichSpell;
+                break;
+        }
     }
+
 }

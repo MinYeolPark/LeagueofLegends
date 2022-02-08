@@ -5,15 +5,13 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "NewSkill", menuName = "League of Legends/LeagueAbility Data/Garen/Courage")]
 public class Courage : LeagueAbilityData
 {
-    // Start is called before the first frame update
-    void Start()
+    public override IEnumerator Initialize(GameObject obj)
     {
-        
+        return base.Initialize(obj);    
     }
 
-    // Update is called once per frame
-    void Update()
+    public override IEnumerator TriggerAbility(GameObject obj)
     {
-        
+        return base.TriggerAbility(obj);    
     }
 }

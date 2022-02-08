@@ -141,8 +141,9 @@ GameObject:
   - component: {fileID: 699606305110661078}
   - component: {fileID: 699606305110661076}
   - component: {fileID: 8912567602376125922}
+  - component: {fileID: 7119245644449429659}
   m_Layer: 6
-  m_Name: Garen
+  m_Name: GAREN
   m_TagString: Champion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -340,11 +341,34 @@ MonoBehaviour:
   localData: {fileID: 11400000, guid: 6b93861c6829f3a44a0992f6a1d70e3d, type: 2}
   anim: {fileID: 0}
   inventory: {fileID: 0}
+  localChampData: {fileID: 11400000, guid: 6b93861c6829f3a44a0992f6a1d70e3d, type: 2}
   target: {fileID: 0}
   rotateSpeedMovement: 0.1
   rotateVelocity: 0
   baseIndicator: {fileID: 0}
   localCamera: {fileID: 0}
+--- !u!114 &7119245644449429659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393196265254830842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &416924869666275124
 GameObject:
   m_ObjectHideFlags: 0

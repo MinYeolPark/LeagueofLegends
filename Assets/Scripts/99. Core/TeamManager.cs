@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun.UtilityScripts;
 
 public class TeamManager : MonoBehaviour
 {
     public GameDataSettings.TEAM teamId;
-    public List<GameObject> champions;    
-
+    public List<GameObject> champions;
+    public List<Transform> champSpawnPoints;
     public List<Transform> midWayPoints;
     public List<Transform> botWayPoints;
     public List<Transform> topWayPoints;
@@ -16,7 +17,18 @@ public class TeamManager : MonoBehaviour
     {
         public List<Transform> wayPoints;
     }
+    private void Start()
+    {
+        //Photon.Realtime.Player[] players;
+        //if (PhotonTeamsManager.Instance.TryGetTeamMembers((byte)teamId, out players))
+        //{
+        //    foreach (var player in players)
+        //    {
+        //        champions.Add(player.);
+        //    }
+        //}
 
+    }
     //public List<Transform> MakePath(GameDataSettings.TEAM team, int whichLane)
     //{
     //    //List<Transform> newPath = new List<Transform>();

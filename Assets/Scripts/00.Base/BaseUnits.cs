@@ -31,7 +31,7 @@ public class BaseUnits : MonoBehaviour, IDamagable
     {
         Idle,           //Initialize
         Moving,         //Update Path
-        Tracing,     //Update Target
+        Tracing,        //Update Target
         Attacking,      //Start Attack
         Casting,        //Skill or Spell Casting Animation, not moving
         Damaged,        //Decision for cut Casting
@@ -43,7 +43,6 @@ public class BaseUnits : MonoBehaviour, IDamagable
     {
         get
         {
-            //추적할 대상이 존재하고, 대상이 사망하지 않았다면 true
             if (curTarget != null && curTarget.GetComponent<BaseUnits>().state != States.Dead)
             {
                 return true;
@@ -55,18 +54,26 @@ public class BaseUnits : MonoBehaviour, IDamagable
             }
         }
     }
-    public bool IsTargetInRange
+    public Collider[] IsTargetInRange
     {
         get
         {
-            if (HasTarget)
+            Collider[] inRange = Physics.OverlapSphere(transform.position, stats.sightRange);
+
+            if(inRange!=null)
             {
-                return (transform.position - curTarget.transform.position).sqrMagnitude <= stats.attackRange * stats.attackRange;
+                foreach (var item in inRange)
+                {
+                    Debug.Log(item.name);
+                }
+                return inRange; 
             }
-            return false;
+            else
+            {
+                return null; 
+            }
         }
     }
-
 
     protected virtual void Awake()
     {
@@ -88,10 +95,6 @@ public class BaseUnits : MonoBehaviour, IDamagable
         {
             rangedProjectile = localData.projectile;
         }
-        else
-        {
-            return;
-        }
     }
 
     protected virtual IEnumerator MeleeAttack()
@@ -102,8 +105,7 @@ public class BaseUnits : MonoBehaviour, IDamagable
 
     protected virtual IEnumerator RangeAttack()
     {
-        Debug.Log("RangeAttack Coroutine");
-        
+        Debug.Log("RangeAttack Coroutine");        
         yield return null;
     }
 
@@ -151,6 +153,7 @@ public class BaseUnits : MonoBehaviour, IDamagable
             OnDestroy -= () => Destroy(gameObject, 2f);
         }
 
+        //Enable 
         StopAllCoroutines();
         gameObject.GetComponent<Collider>().enabled = false;
 

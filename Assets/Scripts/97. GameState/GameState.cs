@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using Photon.Pun;
+using System.IO;
 public abstract class GameState
 {
     protected readonly GameManager gameState;
@@ -12,7 +13,7 @@ public abstract class GameState
     }
 
     public virtual IEnumerator GameStart()
-    {
+    {             
         yield break;
     }
 

@@ -16,10 +16,6 @@ public class LeagueChampionDataContainer : ScriptableObject,ISerializationCallba
     {
         List<LeagueChampionData> temp = championDatasContainer.OrderBy(x=>x.name).ToList();
 
-        foreach (var item in temp)
-        {
-            Debug.Log(item);
-        }
         championDatasContainer = temp;
     }
 }

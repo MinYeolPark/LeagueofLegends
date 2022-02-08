@@ -8,16 +8,16 @@ public class FpsCheckPanel : MonoBehaviour
 
     float deltaTime = 0.0f;
 
-    private void Start()
-    {
-        InvokeRepeating("UpdateFPS", 1f,1f);
-    }
-
     private void Update()
     {
         deltaTime += (Time.unscaledDeltaTime - deltaTime) * 0.1f;
     }
-    
+
+    public void Initialize()
+    {
+        InvokeRepeating("UpdateFPS", 1f, 1f);
+    }
+
     void UpdateFPS()
     {
         float msec = deltaTime * 1000.0f;

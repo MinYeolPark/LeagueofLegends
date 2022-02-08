@@ -26,20 +26,17 @@ public class Ahri : BaseChampController
     public Canvas S4_Canvas;
     public Image S4_Indicator;
 
-    //public UnityEvent OnAbility1Active;
-    //public UnityEvent OnAbility2Active;
-    //public UnityEvent OnAbility3Active;
-    //public UnityEvent OnAbility4Active;
-
     protected override void Awake()
     {
         base.Awake();
+
         rangedProjectile = localData.projectile;
     }
     protected override void OnPassive() 
     {
         base.OnPassive();
     }
+
     protected override void OnAbility1(InputValue value)
     {
         base.OnAbility1(value);
@@ -53,6 +50,7 @@ public class Ahri : BaseChampController
     protected override void OnAbility2(InputValue value)
     {
         base.OnAbility2(value);
+
         if (localData.localChampionAbilities[2].abilityState == LeagueAbilityData.AbilityState.Active)
         {
             anim.SetBool(hashAttack, false);
@@ -107,5 +105,5 @@ public class Ahri : BaseChampController
                 }
             }
         }
-    }    
+    }
 }

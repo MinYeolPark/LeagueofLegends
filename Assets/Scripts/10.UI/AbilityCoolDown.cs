@@ -7,35 +7,41 @@ using UnityEngine.InputSystem;
 
 public class AbilityCoolDown : MonoBehaviour
 {
+    public LeagueAbilityData abilityData;
+    private GameObject localChamp;    
+
     public KeyCode keycode;
     public Image coolMask;
     public TextMeshProUGUI coolDownText;
 
-    [SerializeField] private LeagueAbilityData ability;
-    [SerializeField] private GameObject localChamp;
+    public Image skillButtonImage;
+    public AudioSource skillSource;
+    public float coolDownDuration;
 
-    private Image skillButtonImage;
-    private AudioSource skillSource;
-    private float coolDownDuration;
     private float nextReadyTime;
     private float coolDownTimeLeft;
 
+    [SerializeField] private TextMeshProUGUI keyCodeText;
+    [SerializeField] private TextMeshProUGUI costText;
+
     void Start()
     {
-        Initialize(ability, localChamp);        
+        if(localChamp==null)
+        {
+            if(Photon.Pun.PhotonNetwork.IsConnected)
+            {
+                localChamp = GameManager.Instance.localChamp.gameObject;
+            }
+        }
     }
 
-    public void Initialize(LeagueAbilityData selectedAbility, GameObject selectedChamp)
-    {
-        ability = selectedAbility;
-        skillButtonImage = GetComponent<Image>();
-        //skillSource = GetComponent<AudioSource>();
-        skillButtonImage.sprite = ability.icon;
-        coolMask.sprite = ability.icon; 
-        coolDownDuration = ability.coolDownTime;
-
-        StartCoroutine(ability.Initialize(selectedChamp));
+    public void Initialize()
+    {  
+        StartCoroutine(abilityData.Initialize(localChamp));
         AbilityReady();
+
+        keyCodeText.text = keycode.ToString();
+        costText.text = abilityData.cost.ToString();
     }
 
     private void Update()
@@ -59,14 +65,17 @@ public class AbilityCoolDown : MonoBehaviour
 
     private void AbilityReady()
     {
-        ability.SetReady();
-        coolDownText.gameObject.SetActive(false);
-        coolMask.gameObject.SetActive(false);
+        if(abilityData!=null)
+        {
+            abilityData.SetReady();
+            coolDownText.gameObject.SetActive(false);
+            coolMask.gameObject.SetActive(false);
+        }        
     }
 
     private void CoolDown()
     {
-        ability.SetCoolDown();
+        abilityData.SetCoolDown();
         coolDownTimeLeft -= Time.deltaTime;
 
         float roundedCd = coolDownTimeLeft;
@@ -83,9 +92,9 @@ public class AbilityCoolDown : MonoBehaviour
         coolMask.fillAmount = (coolDownTimeLeft / coolDownDuration);
     }
 
-    private void ButtonTriggered()
+    public void ButtonTriggered()
     {
-        ability.SetActivate();
+        abilityData.SetActivate();
         nextReadyTime = coolDownDuration + Time.time;
         coolDownTimeLeft = coolDownDuration;
 
@@ -94,6 +103,6 @@ public class AbilityCoolDown : MonoBehaviour
 
         //skillSource.clip = ability.skillSounds;
         //skillSource.Play();
-        StartCoroutine(ability.TriggerAbility(localChamp));
+        StartCoroutine(abilityData.TriggerAbility(localChamp));
     }
 }

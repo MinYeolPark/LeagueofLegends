@@ -13,18 +13,24 @@ MonoBehaviour:
   m_Name: Ability1
   m_EditorClassIdentifier: 
   skillLevel: 0
-  abilityState: 0
+  damageType: 0
+  abilityState: 2
   displayedName: Orb of Deception
   activeTime: 0
   duration: 0
   coolDownTime: 3
   cost: 0
   range: 0
+  durationVFX: 0
+  damage: 0
   canMove: 0
+  canRotate: 0
   icon: {fileID: 21300000, guid: 9872bc9da4b3f1e448aa179ee35f7008, type: 3}
+  needIndicator: 0
   rangeIndicator: {fileID: 0}
   characterSound: {fileID: 0}
   skillSounds: []
   description: 'ACTIVE: Ahri sends her orb in the target direction, dealing magic
     damage to enemies within its path. At maximum range, the orb homes back to Ahri,
     dealing the same in true damage to enemies hit on its way back.'
+  OrbofDecptionPrefab: {fileID: 1466745915212507218, guid: c6d9790282b1d2543a9291584ce8ad5a, type: 3}

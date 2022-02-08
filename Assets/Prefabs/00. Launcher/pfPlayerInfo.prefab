@@ -31,7 +31,7 @@ RectTransform:
   m_Children:
   - {fileID: 2875397901993078621}
   m_Father: {fileID: 8448353918841615074}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -182,7 +182,7 @@ RectTransform:
   m_Children:
   - {fileID: 2746243889454780146}
   m_Father: {fileID: 8448353918841615074}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -330,8 +330,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 7863828952469963897}
   - {fileID: 6334621007166983618}
+  - {fileID: 7863828952469963897}
   m_Father: {fileID: 4503842158071418544}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -797,7 +797,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4503842158071418544}
   - component: {fileID: -7148729698257699214}
-  - component: {fileID: -8925529313990379926}
   m_Layer: 5
   m_Name: pfPlayerInfo
   m_TagString: Untagged
@@ -840,35 +839,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6256cabafe5b1b742882657013f60357, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myChamp: 0
-  myChampion: 0
-  myTeam: 0
+  ownerId: 0
   portrait: {fileID: 7842149457438736776}
   playerNameText: {fileID: 4595484651514078937}
   playerChampNameText: {fileID: 6541917919171003450}
+  myChampion: 0
+  myTeam: 0
   mySpell1: 0
   mySpell2: 0
   spell1: {fileID: 89610227333760259}
   spell2: {fileID: 3301932543284797205}
---- !u!114 &-8925529313990379926
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8026546793572863587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ObservedComponentsFoldoutOpen: 1
-  Group: 0
-  prefixField: -1
-  Synchronization: 3
-  OwnershipTransfer: 0
-  observableSearch: 2
-  ObservedComponents: []
-  sceneViewId: 0
-  InstantiationId: 0
-  isRuntimeInstantiated: 0

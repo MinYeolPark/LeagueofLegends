@@ -8,12 +8,10 @@ public class EssenceTheft : LeagueAbilityData
     public override IEnumerator Initialize(GameObject obj)
     {
         yield return null;
-        Debug.Log("EssenceTheft Init");
     }
     public override IEnumerator TriggerAbility(GameObject obj)
     {
         yield return null;
 
-        Debug.Log("EssenceTheft Activate");
     }
 }
