@@ -12,7 +12,7 @@ public class DeclareChampSlot : MonoBehaviourPunCallbacks
     public TextMeshProUGUI champNameText;
     public Image portrait;
     public int slotId = 0;
-    PlayerInfo playerInfo;
+    PlayerListEntry playerInfo;
 
     private void Awake()
     {
@@ -39,13 +39,13 @@ public class DeclareChampSlot : MonoBehaviourPunCallbacks
             if(PhotonNetwork.LocalPlayer.ActorNumber==players[i].ownerId)
             {
                 players[i].SetChampion(slotId);
+
+                Hashtable champ = new Hashtable
+                {
+                    { GameDataSettings.PLAYER_CHAMPION, (GameDataSettings.CHAMPIONS)slotId}
+                };
+                PhotonNetwork.LocalPlayer.SetCustomProperties(champ);
             }
         }
-
-        //Hashtable props = new Hashtable() 
-        //{ 
-        //    { GameDataSettings.PLAYER_CHAMPION, (GameDataSettings.CHAMPIONS)slotId } 
-        //};
-
     }
 }

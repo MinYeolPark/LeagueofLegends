@@ -51,7 +51,7 @@ public class Flash : LeagueAbilityData
 
         if(vfx!=null)
         {
-            Destroy(vfx,durationVFX);
+            Destroy(vfx,continuousTime);
         }
     }
 }

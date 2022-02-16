@@ -17,8 +17,6 @@ public class Charm : LeagueAbilityData
     public override IEnumerator TriggerAbility(GameObject obj)
     {
         Transform firePos = obj.GetComponent<Ahri>().ahriFirePoint;
-        float rotateSpeedMovement = 0.1f;
-        float rotateVelocity = 1f;
 
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 

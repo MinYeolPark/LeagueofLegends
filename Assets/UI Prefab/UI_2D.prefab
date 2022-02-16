@@ -522,7 +522,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Q
+  m_text: R
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -881,7 +881,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Q
+  m_text: None
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -2412,7 +2412,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 999
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -8186,7 +8186,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Q
+  m_text: W
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -8395,7 +8395,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Q
+  m_text: E
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -10247,7 +10247,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 999
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -12356,7 +12356,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 999
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -14886,7 +14886,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 999
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -18033,7 +18033,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 999
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -27114,7 +27114,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7541424030188509768
 RectTransform:
   m_ObjectHideFlags: 0
@@ -27162,7 +27162,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -27513,7 +27513,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -27535,11 +27535,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ffea540a90f9594a9c60b1f1e36bcf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  abilityData: {fileID: 0}
+  abilityData: {fileID: 11400000, guid: 8a67044460208f94892d8b5856bdcb50, type: 2}
   keycode: 114
   coolMask: {fileID: 7541424030623263259}
   coolDownText: {fileID: 3981014803476711733}
-  skillButtonImage: {fileID: 0}
+  skillButtonImage: {fileID: 7541424030293035629}
   skillSource: {fileID: 0}
   coolDownDuration: 0
   keyCodeText: {fileID: 3981014803124816029}
@@ -28316,6 +28316,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec7664c02e1f65d4381d1ffbeec2acd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  localChamp: {fileID: 0}
+  localChampData: {fileID: 0}
   abilityCoolDown:
   - {fileID: 7541424030633577021}
   - {fileID: 7541424031983986508}
@@ -28417,7 +28419,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7541424030613650125
 RectTransform:
   m_ObjectHideFlags: 0
@@ -28465,7 +28467,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -28492,7 +28494,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7541424030623263258
 RectTransform:
   m_ObjectHideFlags: 0
@@ -28540,7 +28542,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -28622,7 +28624,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -28657,11 +28659,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ffea540a90f9594a9c60b1f1e36bcf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  abilityData: {fileID: 0}
+  abilityData: {fileID: 11400000, guid: 4bbeb4e21130a0040b407c715e56b1a0, type: 2}
   keycode: 0
   coolMask: {fileID: 7541424030188509769}
   coolDownText: {fileID: 3981014803333783772}
-  skillButtonImage: {fileID: 0}
+  skillButtonImage: {fileID: 7541424030633577011}
   skillSource: {fileID: 0}
   coolDownDuration: 0
   keyCodeText: {fileID: 3981014803141174179}
@@ -29078,7 +29080,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -29100,11 +29102,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ffea540a90f9594a9c60b1f1e36bcf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  abilityData: {fileID: 0}
+  abilityData: {fileID: 11400000, guid: 85abc1414d7f46549b7a125c99691880, type: 2}
   keycode: 101
   coolMask: {fileID: 7541424030613650126}
   coolDownText: {fileID: 3981014803671225776}
-  skillButtonImage: {fileID: 0}
+  skillButtonImage: {fileID: 7541424031008419178}
   skillSource: {fileID: 0}
   coolDownDuration: 0
   keyCodeText: {fileID: 3981014803724854934}
@@ -30044,7 +30046,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -30066,11 +30068,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ffea540a90f9594a9c60b1f1e36bcf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  abilityData: {fileID: 0}
+  abilityData: {fileID: 11400000, guid: 94e04f58aec23ab48a0c5a6465c72a91, type: 2}
   keycode: 119
   coolMask: {fileID: 7541424032201615473}
   coolDownText: {fileID: 3981014803305642438}
-  skillButtonImage: {fileID: 0}
+  skillButtonImage: {fileID: 7541424031541374175}
   skillSource: {fileID: 0}
   coolDownDuration: 0
   keyCodeText: {fileID: 3981014803717403273}
@@ -30729,7 +30731,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: a02c5802c3fa09646807b7fc46668044, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -30751,13 +30753,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ffea540a90f9594a9c60b1f1e36bcf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  abilityData: {fileID: 0}
+  abilityData: {fileID: 11400000, guid: df8c3d5ce87e8be498361dfe13832e04, type: 2}
   keycode: 113
   coolMask: {fileID: 7541424032151589133}
   coolDownText: {fileID: 3981014803997437995}
-  skillButtonImage: {fileID: 0}
+  skillButtonImage: {fileID: 7541424031983986499}
   skillSource: {fileID: 0}
-  coolDownDuration: 0
+  coolDownDuration: 3
   keyCodeText: {fileID: 3981014804734190833}
   costText: {fileID: 3981014804529965165}
 --- !u!114 &7541424031983986509
@@ -30999,7 +31001,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7541424032151589132
 RectTransform:
   m_ObjectHideFlags: 0
@@ -31047,7 +31049,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: a02c5802c3fa09646807b7fc46668044, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -31074,7 +31076,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7541424032201615472
 RectTransform:
   m_ObjectHideFlags: 0
@@ -31122,7 +31124,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1

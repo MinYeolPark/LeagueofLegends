@@ -59,14 +59,18 @@ public class PlayerInfo : MonoBehaviourPunCallbacks
                 {GameDataSettings.PLAYER_CHAMPION, GameDataSettings.CHAMPIONS.NULL},
                 {GameDataSettings.PLAYER_SPELL1, GameDataSettings.SPELL.NULL },
                 {GameDataSettings.PLAYER_SPELL2, GameDataSettings.SPELL.NULL },
-                {GameDataSettings.PLAYER_READY, false},
+                {GameDataSettings.PLAYER_READY, !isPlayerReady},
                 {GameDataSettings.PLAYER_LOADED_LEVEL, false}
             };
 
             PhotonNetwork.LocalPlayer.SetCustomProperties(initialProps);
 
+            //Check Player Locker
+
+            PhotonNetwork.LocalPlayer.SetCustomProperties(initialProps);
+
             //Check Player's Ready Init
-            if(PhotonNetwork.IsMasterClient)
+            if (PhotonNetwork.IsMasterClient)
             {
                 //FindObjectOfType<NetworkManager>().
             }
@@ -124,5 +128,8 @@ public class PlayerInfo : MonoBehaviourPunCallbacks
                 break;
         }
     }
-
+    public void SetPlayerReady(bool playerReady)
+    {
+        Debug.Log("Player Ready to start");
+    }
 }

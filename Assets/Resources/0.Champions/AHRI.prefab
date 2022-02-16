@@ -3142,6 +3142,7 @@ MonoBehaviour:
   rotateSpeedMovement: 0.1
   rotateVelocity: 0
   baseIndicator: {fileID: 6055679168710634044, guid: 10d414ad6c4a547498354c45568513ef, type: 3}
+  bAnimIsPlaying: 0
   ahriFirePoint: {fileID: 4967181715442884559}
   S1_Canvas: {fileID: 0}
   S1_Indicator: {fileID: 0}

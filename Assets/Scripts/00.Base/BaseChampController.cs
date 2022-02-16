@@ -7,6 +7,8 @@ using UnityEngine.AI;
 //[RequireComponent(typeof(MouseInteractive))]
 public class BaseChampController : BaseUnits,IAttackable
 {
+    public static BaseChampController Instance;
+
     public LeagueInventoryData inventory;
     //Critical
     public GameObject target;
@@ -22,28 +24,29 @@ public class BaseChampController : BaseUnits,IAttackable
     //Inputs
     private InputMaster inputManager;
 
-    private float indicatorOffset=0.5f;
     [SerializeField] private GameObject baseIndicator;
 
     bool bOnIndicator = false;
-
+    public bool bAnimIsPlaying = false;
     //UI Binding
     SkillPanel skillPanel;
 
     [Header("Animator parameter Hast import")]
-    protected readonly int hashSpeed = Animator.StringToHash("Speed");
-    protected readonly int hashAttack = Animator.StringToHash("IsAttack");
-    protected readonly int hashCritical = Animator.StringToHash("IsCritical");
-    protected readonly int hashDie = Animator.StringToHash("Die");
-    protected readonly int hashAbilityPassive = Animator.StringToHash("Passive");
-    protected readonly int hashAbility1 = Animator.StringToHash("Ability1");
-    protected readonly int hashAbility2 = Animator.StringToHash("Ability2");
-    protected readonly int hashAbility3 = Animator.StringToHash("Ability3");
-    protected readonly int hashAbility4 = Animator.StringToHash("Ability4");
+    public readonly int hashSpeed = Animator.StringToHash("Speed");
+    public readonly int hashAttack = Animator.StringToHash("IsAttack");
+    public readonly int hashCritical = Animator.StringToHash("IsCritical");
+    public readonly int hashDie = Animator.StringToHash("Die");
+    public readonly int hashAbilityPassive = Animator.StringToHash("Passive");
+    public readonly int hashAbility1 = Animator.StringToHash("Ability1");
+    public readonly int hashAbility2 = Animator.StringToHash("Ability2");
+    public readonly int hashAbility3 = Animator.StringToHash("Ability3");
+    public readonly int hashAbility4 = Animator.StringToHash("Ability4");
 
     protected override void Awake()
     {
         base.Awake();
+
+        Instance = this;
 
         inputManager = new InputMaster();
         skillPanel = FindObjectOfType<SkillPanel>();
@@ -52,9 +55,9 @@ public class BaseChampController : BaseUnits,IAttackable
         agent.angularSpeed = angularSpeed;
         agent.acceleration = accelation;
 
-        baseIndicator.transform.localScale = new Vector3(stats.attackRange / 2, stats.attackRange / 2, stats.attackRange / 2);
-        baseIndicator.SetActive(false);
-        bOnIndicator = false;   
+        //baseIndicator.transform.localScale = new Vector3(stats.attackRange / 2, stats.attackRange / 2, stats.attackRange / 2);
+        //baseIndicator.SetActive(false);
+        //bOnIndicator = false;   
     }
 
     private void OnEnable()
@@ -83,13 +86,29 @@ public class BaseChampController : BaseUnits,IAttackable
     }
     protected virtual void OnPassive() 
     {
-        //skillPanel.abilityCoolDown[0].ButtonTriggered();
+        if (skillPanel.abilityCoolDown[0].coolDownComplete)
+        {
+            skillPanel.abilityCoolDown[0].AbilityReady();
+            skillPanel.abilityCoolDown[0].ButtonTriggered();
+        }
+        else
+        {
+            skillPanel.abilityCoolDown[0].CoolDown();
+        }
     }
     protected virtual void OnAbility1(InputValue value) 
     {
-        //skillPanel.abilityCoolDown[1].ButtonTriggered();
+        if (skillPanel.abilityCoolDown[1].coolDownComplete)
+        {
+            skillPanel.abilityCoolDown[1].AbilityReady();
+            skillPanel.abilityCoolDown[1].ButtonTriggered();
+        }
+        else
+        {
+            skillPanel.abilityCoolDown[1].CoolDown();
+        }
 
-        if(localData.localChampionAbilities[1].abilityState!=LeagueAbilityData.AbilityState.CoolDown)
+        if (localData.localChampionAbilities[1].abilityState!=LeagueAbilityData.AbilityState.CoolDown)
         {
             localData.localChampionAbilities[1].abilityState = LeagueAbilityData.AbilityState.Active;
         }
@@ -98,7 +117,15 @@ public class BaseChampController : BaseUnits,IAttackable
 
     protected virtual void OnAbility2(InputValue value) 
     {
-        //skillPanel.abilityCoolDown[2].ButtonTriggered();
+        if(skillPanel.abilityCoolDown[2].coolDownComplete)
+        {
+            skillPanel.abilityCoolDown[2].AbilityReady();
+            skillPanel.abilityCoolDown[2].ButtonTriggered();
+        }
+        else
+        {
+            skillPanel.abilityCoolDown[2].CoolDown();
+        }
 
         if (localData.localChampionAbilities[2].abilityState != LeagueAbilityData.AbilityState.CoolDown)
         {
@@ -108,7 +135,15 @@ public class BaseChampController : BaseUnits,IAttackable
 
     protected virtual void OnAbility3(InputValue value) 
     {
-        //skillPanel.abilityCoolDown[3].ButtonTriggered();
+        if (skillPanel.abilityCoolDown[3].coolDownComplete)
+        {
+            //skillPanel.abilityCoolDown[3].AbilityReady();
+            skillPanel.abilityCoolDown[3].ButtonTriggered();
+        }
+        else
+        {
+            skillPanel.abilityCoolDown[3].CoolDown();
+        }
 
         if (localData.localChampionAbilities[3].abilityState != LeagueAbilityData.AbilityState.CoolDown)
         { 
@@ -118,7 +153,15 @@ public class BaseChampController : BaseUnits,IAttackable
 
     protected virtual void OnAbility4(InputValue value)
     {
-        //skillPanel.abilityCoolDown[4].ButtonTriggered();
+        if (skillPanel.abilityCoolDown[4].coolDownComplete)
+        {
+            skillPanel.abilityCoolDown[4].AbilityReady();
+            skillPanel.abilityCoolDown[4].ButtonTriggered();
+        }
+        else
+        {
+            skillPanel.abilityCoolDown[4].CoolDown();
+        }
 
         if (localData.localChampionAbilities[4].abilityState != LeagueAbilityData.AbilityState.CoolDown)
         {
@@ -212,6 +255,7 @@ public class BaseChampController : BaseUnits,IAttackable
             if(obj.state!=States.Dead)
             {
                 state = States.Attacking;
+                transform.LookAt(curTarget.transform);
 
                 anim.SetBool(hashAttack, true);
             }
@@ -250,6 +294,8 @@ public class BaseChampController : BaseUnits,IAttackable
     /// <param name="whichSkill"></param>
     public void CheckActionStart(LeagueAbilityData whichSkill)
     {
+        bAnimIsPlaying = true;
+         
         if (!whichSkill.canMove)
         {
             if (agent.isActiveAndEnabled && agent.isStopped == false && agent.updateRotation == true)
@@ -263,12 +309,14 @@ public class BaseChampController : BaseUnits,IAttackable
             }
         }
     }
-
+    
     /// <summary>
     /// Checking animation is end
     /// </summary>
     public void CheckActionEnd()
     {
+        bAnimIsPlaying = false;
+
         if (agent.isActiveAndEnabled && agent.isStopped == true && agent.updateRotation == false)
         {
             state = States.Idle;
@@ -279,5 +327,10 @@ public class BaseChampController : BaseUnits,IAttackable
 
             agent.angularSpeed = angularSpeed;
         }
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        Debug.Log("Trigger Entered" + other);
     }
 }

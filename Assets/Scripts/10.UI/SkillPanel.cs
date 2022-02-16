@@ -5,8 +5,8 @@ using UnityEngine.UI;
 using TMPro;
 public class SkillPanel : MonoBehaviour
 {
-    private BaseChampController localChamp;
-    private LeagueObjectData localChampData;
+    public BaseChampController localChamp;
+    public LeagueObjectData localChampData;
 
     public List<AbilityCoolDown> abilityCoolDown;
     public List<AbilityCoolDown> spellCoolDown;

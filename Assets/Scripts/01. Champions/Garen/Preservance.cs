@@ -5,15 +5,13 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "NewSkill", menuName = "League of Legends/LeagueAbility Data/Garen/Preservance")]
 public class Preservance : LeagueAbilityData
 {
-    // Start is called before the first frame update
-    void Start()
+    public override IEnumerator Initialize(GameObject obj)
     {
-        
+        yield return null;
     }
 
-    // Update is called once per frame
-    void Update()
+    public override IEnumerator TriggerAbility(GameObject obj)
     {
-        
+        yield return null;
     }
 }

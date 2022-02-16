@@ -1,3 +1,5 @@
+using UnityEngine;
+
 public static class GameDataSettings
 {
     //All champion have to update
@@ -39,26 +41,40 @@ public static class GameDataSettings
         TOP,
         BOT
     }
+    public static TEAM GetTeam(int playerIdx)
+    {
+        int teamId = playerIdx%2;
 
-    public static int MELEE_COUNT = 3;
-    public static int RANGE_COUNT = 3;
-    public static int CANNON_COUNT = 1;
-    public static int SUPER_COUNT = 1;
-    public static int SUPER_ALL_COUNT = 2;
+        switch (teamId)
+        {
+            case 0: return TEAM.RED_TEAM;
+            case 1: return TEAM.BLUE_TEAM;
 
-    public static int RED_TEAM = 1;
-    public static int BLUE_TEAM = 2;
-    public static int NEAUTRAL = 3;
+            default:
+                Debug.LogError($"Get Team team ID={teamId}, Team Devidede Error");
+                return TEAM.RED_TEAM;
+        }
+    }
 
-    public static int SPAWN_MID = 0;
-    public static int SPAWN_TOP = 1;
-    public static int SPAWN_BOT = 2;
+    public const int MELEE_COUNT = 3;
+    public const int RANGE_COUNT = 3;
+    public const int CANNON_COUNT = 1;
+    public const int SUPER_COUNT = 1;
+    public const int SUPER_ALL_COUNT = 2;
 
-    public static float MINION_WAVESPAWNINTERVAL_TIME = 5f;
-    public static float MINION_WAVESTART_TIME = 3;
-    public static float MINION_SPAWNINTERVAL = 0.7f;
-    public static float CANNON_FIRST_WAVE = 1200;
-    public static float CANNON_SECOND_WAVE = 2100;
+    public const int NEAUTRAL = 0;
+    public const int RED_TEAM = 1;
+    public const int BLUE_TEAM = 2;
+
+    public const int SPAWN_MID = 0;
+    public const int SPAWN_TOP = 1;
+    public const int SPAWN_BOT = 2;
+
+    public const float MINION_WAVESPAWNINTERVAL_TIME = 5f;
+    public const float MINION_WAVESTART_TIME = 3;
+    public const float MINION_SPAWNINTERVAL = 0.7f;
+    public const float CANNON_FIRST_WAVE = 1200;
+    public const float CANNON_SECOND_WAVE = 2100;
 
     //Player Info Coponents
     public const string PLAYER_CHAMPION = "HasPlayerChampion";

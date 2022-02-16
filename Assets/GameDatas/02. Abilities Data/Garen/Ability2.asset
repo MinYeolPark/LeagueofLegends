@@ -15,17 +15,21 @@ MonoBehaviour:
   skillLevel: 0
   damageType: 0
   abilityState: 0
-  displayedName: 
+  displayedName: Courage
   activeTime: 0
-  duration: 0
-  coolDownTime: 0
+  coolDownTime: 3
   cost: 0
   range: 0
-  durationVFX: 0
   damage: 0
+  continuousMovement: 0
+  continuousVFX: {fileID: 0}
+  continuousTime: 0
+  cancelMovement: 0
+  canRecast: 0
+  reCastCount: 0
   canMove: 1
   canRotate: 1
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 822f5694eb45268428aae1676ecb98e3, type: 3}
   needIndicator: 0
   rangeIndicator: {fileID: 0}
   characterSound: {fileID: 0}

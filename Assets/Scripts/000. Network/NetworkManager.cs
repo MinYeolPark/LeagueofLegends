@@ -11,8 +11,23 @@ using System.Collections;
 
 public class NetworkManager : MonoBehaviourPunCallbacks
 {
-    public static NetworkManager Instance;
-
+    private static NetworkManager instance;
+    public static NetworkManager Instance
+    {
+        get
+        {
+            if(instance==null)
+            {
+                instance = FindObjectOfType<NetworkManager>();
+                if(instance==null)
+                {
+                    instance = new GameObject().AddComponent<NetworkManager>();
+                }
+            }
+            return instance;
+        }
+    }
+    
     //Proto
     private readonly string version = "1.0";
     private string userId = "Jongro Monkey";
@@ -74,7 +89,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
     private void Awake()
     {
-        Instance = this;
+        instance = this;
 
         if (PhotonNetwork.IsConnected == false)
         {
@@ -103,10 +118,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
             //TO DO: Game Start
         }
     }
-    public override void OnConnectedToMaster()
-    {
-        LoginButton.interactable = true;
-    }
+    public override void OnConnectedToMaster() => LoginButton.interactable = true;
     public void Disconnect() => PhotonNetwork.Disconnect();
     public override void OnDisconnected(DisconnectCause cause)
     {
@@ -132,6 +144,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
             ChampSelectButton.gameObject.SetActive(false);
         }       
 
+        //Init Player entries
         if (playerListEntries == null)
         {
             playerListEntries = new Dictionary<int, GameObject>();
@@ -143,6 +156,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
             //Set TeamId
             entry.GetComponent<PlayerListEntry>().Initialize(p.ActorNumber, p.NickName);
+            Debug.Log("GetPlayer Number=" + p.GetPlayerNumber());
             //Seperate Team Id and set Parent
             if(entry.GetComponent<PlayerListEntry>().ownerTeamId==GameDataSettings.RED_TEAM)
             {
@@ -155,13 +169,13 @@ public class NetworkManager : MonoBehaviourPunCallbacks
                 PhotonNetwork.LocalPlayer.JoinTeam("Blue");
             }
 
-            playerListEntries.Add(p.ActorNumber, entry);
+            object isPlayerReady;
+            if (p.CustomProperties.TryGetValue(GameDataSettings.PLAYER_READY, out isPlayerReady))
+            {
+                entry.GetComponent<PlayerInfo>().SetPlayerReady((bool)isPlayerReady);
+            }
 
-            //object isPlayerReady;
-            //if (p.CustomProperties.TryGetValue(GameDataSettings.PLAYER_READY, out isPlayerReady))
-            //{
-            //    //entry.GetComponent<PlayerListEntry>().SetPlayerReady((bool)isPlayerReady);
-            //}
+            playerListEntries.Add(p.ActorNumber, entry);
         }
     }
 
@@ -180,8 +194,6 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
     public override void OnJoinRandomFailed(short returnCode, string message)
     {
-        Debug.Log(message);
-
         //Setting Room properties
         RoomOptions ro = new RoomOptions();
         ro.MaxPlayers = 10;
@@ -191,39 +203,42 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         PhotonNetwork.CreateRoom($"{PhotonNetwork.NickName}'s Room ", ro);
     }
 
-    public override void OnCreatedRoom()
-    {
-        Debug.Log($"Room Name={PhotonNetwork.CurrentRoom.Name}");
-    }
-
-    public override void OnCreateRoomFailed(short returnCode, string message) 
-    {
-        Debug.Log($"Create Room Failed cause of ={message}");
-    }
-
     public override void OnPlayerEnteredRoom(Player newPlayer)
     {
         ChatRPC("<color=yellow>" + newPlayer.NickName + "has joined the room</color>");
 
         GameObject entry = Instantiate(pfPlayerEntry);
         entry.GetComponent<PlayerListEntry>().Initialize(newPlayer.ActorNumber, newPlayer.NickName);
-        if (entry.GetComponent<PlayerListEntry>().ownerTeamId == GameDataSettings.RED_TEAM)
+
+        if (PhotonTeamsManager.Instance.TryGetTeamByName("Red", out PhotonTeam team))
         {
             entry.transform.SetParent(RedTeamPos.transform);
+            newPlayer.JoinTeam("Red");
         }
         else
         {
             entry.transform.SetParent(BlueTeamPos.transform);
-        }        
+            newPlayer.JoinTeam("Blue");
+        }
+
+        playerListEntries.Add(newPlayer.ActorNumber, entry);
     }
     public override void OnPlayerLeftRoom(Player otherPlayer)
     {
         ChatRPC("<color=yellow>" + otherPlayer.NickName + "has leved the room</color>");
 
+        //playerListEntries.Idx==ActorNumber
         Destroy(playerListEntries[otherPlayer.ActorNumber].gameObject);
         playerListEntries.Remove(otherPlayer.ActorNumber);
     }
 
+    public override void OnMasterClientSwitched(Player newMasterClient)
+    {
+        if (PhotonNetwork.LocalPlayer.ActorNumber == newMasterClient.ActorNumber)
+        {
+            ChatRPC("<color=yellow>Now " + newMasterClient.NickName + "is room Manager</color>");
+        }
+    }
     //Spell, Champion Setting Update
     public override void OnPlayerPropertiesUpdate(Player targetPlayer, ExitGames.Client.Photon.Hashtable changedProps)
     {
@@ -231,6 +246,42 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         {
             playerListEntries = new Dictionary<int, GameObject>();
         }
+
+        GameObject entry;
+        if (playerListEntries.TryGetValue(targetPlayer.ActorNumber, out entry))
+        {
+            object isPlayerReady;
+            if (changedProps.TryGetValue(GameDataSettings.PLAYER_READY, out isPlayerReady))
+            {
+                entry.GetComponent<PlayerInfo>().SetPlayerReady((bool)isPlayerReady);
+            }
+        }
+        //To Do.. Spell setting check and Champion check
+    }
+    private bool CheckPlayersReady()
+    {
+        if (!PhotonNetwork.IsMasterClient)
+        {
+            return false;
+        }
+
+        foreach (Player p in PhotonNetwork.PlayerList)
+        {
+            object isPlayerReady;
+            if (p.CustomProperties.TryGetValue(GameDataSettings.PLAYER_READY, out isPlayerReady))
+            {
+                if (!(bool)isPlayerReady)
+                {
+                    return false;
+                }
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        return true;
     }
 
     #region UI BUTTON'S CALLBACK
@@ -301,13 +352,37 @@ public class NetworkManager : MonoBehaviourPunCallbacks
                 GameObject p = Instantiate(pfPlayerInfo);
                 p.transform.SetParent(RedTeamChampPos);
                 p.GetComponent<PlayerInfo>().Initialize(GameDataSettings.RED_TEAM, player.ActorNumber, player.NickName);
+
+                ///////////////////////////////////////////////////
+                ///Check Locker
+                //////////////////////////////////////////////////////
+                object isPlayerReady;
+                if (player.CustomProperties.TryGetValue(GameDataSettings.PLAYER_READY, out isPlayerReady))
+                {
+                    p.GetComponent<PlayerInfo>().SetPlayerReady((bool)isPlayerReady);
+                }
             }
             else
             {
                 GameObject p = Instantiate(pfPlayerInfo);
                 p.transform.SetParent(BlueTeamChampPos);
                 p.GetComponent<PlayerInfo>().Initialize(GameDataSettings.BLUE_TEAM, player.ActorNumber, player.NickName);
+
+                ///////////////////////////////////////////////////
+                ///Check Locker
+                ///////////////////////////////////////////////////
+                object isPlayerReady;
+                if (player.CustomProperties.TryGetValue(GameDataSettings.PLAYER_READY, out isPlayerReady))
+                {
+                    p.GetComponent<PlayerInfo>().SetPlayerReady((bool)isPlayerReady);
+                }
             }
+            ///////////////////////////////////////////////////
+            Hashtable props = new Hashtable
+            {
+                {GameDataSettings.PLAYER_LOADED_LEVEL, false}
+            };
+            PhotonNetwork.LocalPlayer.SetCustomProperties(props);
         }       
         //:<<
 
@@ -383,7 +458,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     #region CHATTING
     public void OnChatSendButton()
     {
-        photonView.RPC("ChatRPC", RpcTarget.All, PhotonNetwork.NickName + " : " + ChatInputField.text);
+        photonView.RPC("ChatRPC", RpcTarget.AllBuffered, PhotonNetwork.NickName + " : " + ChatInputField.text);
         ChatInputField.text = "";
     }
 

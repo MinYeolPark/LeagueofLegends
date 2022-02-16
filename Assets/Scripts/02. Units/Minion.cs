@@ -174,6 +174,7 @@ public class Minion : BaseUnits, IAttackable
                         agent.isStopped = true;
                         agent.stoppingDistance = stats.attackRange;
 
+                        transform.LookAt(curTarget.transform);
                         anim.SetBool(hashAttack, true);
                         anim.SetBool(hashTrace, false); 
                     }                        

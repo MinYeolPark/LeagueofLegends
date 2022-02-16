@@ -9,9 +9,12 @@ public class PlayerListEntry : MonoBehaviour
 {
     [Header("UI References")]
     public TextMeshProUGUI PlayerNameText;
+
+    public GameDataSettings.TEAM ownerTeam;
     public int ownerId;
     public int ownerTeamId;
 
+    #region Unity
     public void OnEnable()
     {
         PlayerNumbering.OnPlayerNumberingChanged += OnPlayerNumberingChanged;
@@ -21,14 +24,29 @@ public class PlayerListEntry : MonoBehaviour
         PlayerNumbering.OnPlayerNumberingChanged -= OnPlayerNumberingChanged;
     }
 
-    public void Initialize(int playerId, string playerName)
+    #endregion
+
+    public void Initialize(int actorNum, string playerName)
     {
-        ownerId = playerId;
+        ownerId = actorNum;
         PlayerNameText.text = playerName;
 
         //ownerTeamId:1 => RedTeam, ownerTeamId:2 => BlueTeam
-        //Temport
-        ownerTeamId = playerId % 2 == 1 ? GameDataSettings.RED_TEAM : GameDataSettings.BLUE_TEAM;
+        //ownerTeamId = PhotonNetwork.CountOfPlayersInRooms;
+        if(PhotonTeamsManager.Instance.TryGetTeamByName("Red", out PhotonTeam team))
+        {
+            ownerTeamId = GameDataSettings.RED_TEAM;
+            ownerTeam = GameDataSettings.TEAM.RED_TEAM;
+        }
+        else
+        {
+            ownerTeamId = GameDataSettings.BLUE_TEAM;
+            ownerTeam = GameDataSettings.TEAM.BLUE_TEAM;
+        }
+        //ownerTeamId = actorNum % 2 == 1 ? GameDataSettings.RED_TEAM : GameDataSettings.BLUE_TEAM;
+        Debug.Log("ownerId=" + ownerId);
+        Debug.Log("playerId=" + actorNum);
+        Debug.Log("TeamId=" + ownerTeamId);
     }
 
     private void OnPlayerNumberingChanged()
@@ -38,6 +56,7 @@ public class PlayerListEntry : MonoBehaviour
             if (p.ActorNumber == ownerId)
             {
                 //To Do:.. Get properties set
+               // p.SetTeam(GameDataSettings.GetTeam((int)p.GetPlayerNumber());
             }
         }
     }

@@ -207,8 +207,8 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 393196265254830842}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: ce096bbe58dc9f84bb35746bfd4d4133, type: 3}
-  m_Controller: {fileID: 9100000, guid: 7e5fa2381af300a498a41d1ccd683475, type: 2}
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b283ee37e16353f46bd667313eab6713, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -268,6 +268,7 @@ MonoBehaviour:
   abilityHaste: 0
   magicPenetration: 0
   resource: 0
+  maxResource: 0
   resourceRegen: 0
   moveSpeed: 0
   curExp: 0
@@ -341,12 +342,11 @@ MonoBehaviour:
   localData: {fileID: 11400000, guid: 6b93861c6829f3a44a0992f6a1d70e3d, type: 2}
   anim: {fileID: 0}
   inventory: {fileID: 0}
-  localChampData: {fileID: 11400000, guid: 6b93861c6829f3a44a0992f6a1d70e3d, type: 2}
   target: {fileID: 0}
   rotateSpeedMovement: 0.1
   rotateVelocity: 0
   baseIndicator: {fileID: 0}
-  localCamera: {fileID: 0}
+  bAnimIsPlaying: 0
 --- !u!114 &7119245644449429659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3845,6 +3845,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7008705922344544006}
+  - component: {fileID: 6677648701668139774}
   m_Layer: 0
   m_Name: Weapon_end
   m_TagString: Untagged
@@ -3866,6 +3867,20 @@ Transform:
   m_Father: {fileID: 7817006484966100205}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &6677648701668139774
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7856838808290422629}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.2
+  m_Height: 2
+  m_Direction: 2
+  m_Center: {x: 0, y: 0, z: 1}
 --- !u!1 &7878938517689682797
 GameObject:
   m_ObjectHideFlags: 0

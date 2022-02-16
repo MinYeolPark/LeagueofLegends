@@ -4,7 +4,7 @@ using UnityEngine;
 using Photon.Pun;
 using System.IO;
 using Photon.Pun.UtilityScripts;
-
+using Photon.Realtime;
 public class GameStartState : GameState
 {
     public GameStartState(GameManager gameState) : base(gameState)
@@ -19,7 +19,6 @@ public class GameStartState : GameState
         {
             foreach (Photon.Realtime.Player player in Photon.Pun.PhotonNetwork.PlayerList)
             {
-                Debug.Log(player.GetPhotonTeam().Name);
                 if (player.GetPhotonTeam().Name == "Red")
                 {
                     int rand = Random.Range(0, 5);
@@ -43,4 +42,6 @@ public class GameStartState : GameState
 
         return base.GameStart();
     }
+
+    
 }

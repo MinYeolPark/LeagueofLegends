@@ -448,5 +448,10 @@ namespace Photon.Realtime
 
             return false;
         }
+
+        public void SetTeam(int ownerTeamId)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

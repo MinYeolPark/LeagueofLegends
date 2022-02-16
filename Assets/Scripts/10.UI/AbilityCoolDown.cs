@@ -8,6 +8,7 @@ using UnityEngine.InputSystem;
 public class AbilityCoolDown : MonoBehaviour
 {
     public LeagueAbilityData abilityData;
+    [SerializeField]
     private GameObject localChamp;    
 
     public KeyCode keycode;
@@ -18,7 +19,8 @@ public class AbilityCoolDown : MonoBehaviour
     public AudioSource skillSource;
     public float coolDownDuration;
 
-    private float nextReadyTime;
+    public float nextReadyTime;
+    public bool coolDownComplete;
     private float coolDownTimeLeft;
 
     [SerializeField] private TextMeshProUGUI keyCodeText;
@@ -46,24 +48,19 @@ public class AbilityCoolDown : MonoBehaviour
 
     private void Update()
     {
-        bool coolDownComplete = (Time.time > nextReadyTime);
+        coolDownComplete = (Time.time > nextReadyTime);
 
-        if(coolDownComplete)
+        if (coolDownComplete)
         {
             AbilityReady();
-
-            if (Input.GetKeyDown(keycode))
-            {
-                ButtonTriggered();
-            }
         }
-        else
-        {
-            CoolDown();
-        }
+        //else
+        //{
+        //    CoolDown();
+        //}
     }
 
-    private void AbilityReady()
+    public void AbilityReady()
     {
         if(abilityData!=null)
         {
@@ -73,7 +70,7 @@ public class AbilityCoolDown : MonoBehaviour
         }        
     }
 
-    private void CoolDown()
+    public void CoolDown()
     {
         abilityData.SetCoolDown();
         coolDownTimeLeft -= Time.deltaTime;

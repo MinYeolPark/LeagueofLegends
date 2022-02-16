@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class MinionSpawner : MonoBehaviour
+using Photon.Realtime;
+using Photon.Pun;
+using Hashtable = ExitGames.Client.Photon.Hashtable;
+public class MinionSpawner : MonoBehaviourPunCallbacks
 {
     private List<Minion> minions = new List<Minion>();
 
@@ -34,15 +36,18 @@ public class MinionSpawner : MonoBehaviour
         else
         {
             //Instantiate Minion After WAVESTART_TIME and Spawn every MINION_SPAWNINTERVAL_TIME
-            if (waveTimer <= 0f)
+            if (PhotonNetwork.IsMasterClient)
             {
-                StartCoroutine(SpawnWave());
-                waveTimer = GameDataSettings.MINION_WAVESPAWNINTERVAL_TIME;       //Reset Timer
-                waveNumber++;
-            }
-            else
-            {
-                waveTimer -= Time.deltaTime;
+                if (waveTimer <= 0f)
+                {
+                    StartCoroutine(SpawnWave());
+                    waveTimer = GameDataSettings.MINION_WAVESPAWNINTERVAL_TIME;       //Reset Timer
+                    waveNumber++;
+                }
+                else
+                {
+                    waveTimer -= Time.deltaTime;
+                }
             }
         }
 
@@ -63,25 +68,26 @@ public class MinionSpawner : MonoBehaviour
 
         IEnumerator SpawnUnit(GameObject prefab, Transform spawnLoc)
         {
-            TeamManager teamManager = GetComponentInParent<TeamManager>();           
+            TeamManager teamManager = GetComponentInParent<TeamManager>();
 
-            Minion minion = Instantiate(prefab, spawnLoc.transform.position, Quaternion.identity).GetComponent<Minion>();
-            
-            if(spawnLoc==midSpawnPoint)
+            GameObject minion = PhotonNetwork.InstantiateRoomObject(prefab.name.ToString(), spawnLoc.position, Quaternion.identity);
+            Minion spwawnedMinion = minion.GetComponent<Minion>();
+
+            if (spawnLoc==midSpawnPoint)
             {
-                minion.path = teamManager.midWayPoints;
+                spwawnedMinion.path = teamManager.midWayPoints;
             }
             else if(spawnLoc==topSpawnPoint)
             {
-                minion.path = teamManager.topWayPoints;
+                spwawnedMinion.path = teamManager.topWayPoints;
             }
             else
             {
-                minion.path = teamManager.botWayPoints;
+                spwawnedMinion.path = teamManager.botWayPoints;
             }
 
-            minions.Add(minion);
-            minion.OnDestroy += () => minions.Remove(minion);
+            minions.Add(spwawnedMinion);
+            spwawnedMinion.OnDestroy += () => minions.Remove(spwawnedMinion);
             //minion.onDeath += () => Destroy(minion.gameObject, 1f);     //사망한 미니언 1초뒤에 파괴
 
             yield return new WaitForSeconds(0.5f);      //0.2초마다 생성
