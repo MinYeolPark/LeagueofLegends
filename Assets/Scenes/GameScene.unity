@@ -7668,7 +7668,7 @@ PrefabInstance:
     - target: {fileID: 2485371895293427368, guid: 505c4351a1ad17c4980449956a0a80a3, type: 3}
       propertyPath: firePoint
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1908174754}
     - target: {fileID: 2485371896085318689, guid: 505c4351a1ad17c4980449956a0a80a3, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -8778,54 +8778,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!21 &330682040
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: UI/DividedHealthBar
-  m_Shader: {fileID: 4800000, guid: f417ed6352c7c194da55986920648a97, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BurnTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _CellTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _AAF: 1
-    - _BigGapInterval: 5
-    - _BigGapSize: 0.05
-    - _DamageValue: 0
-    - _Flip: 0
-    - _GapInterval: 100
-    - _GapSize: 0.025
-    - _MaxValue: 1000
-    - _Value: 1000
-    m_Colors:
-    - _BigGapColour: {r: 0, g: 0, b: 0, a: 1}
-    - _DamageColour: {r: 1, g: 0.43, b: 0.43, a: 1}
-    - _EmptyColour: {r: 0, g: 0, b: 0, a: 0}
-    - _FullColour: {r: 0.09431505, g: 0, b: 1, a: 1}
-    - _GapColour: {r: 0.2, g: 0.29, b: 0.19, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1 &335200025 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8213484249597697114, guid: 22e096f2e59356e459f5fe52bfbe1d98, type: 3}
@@ -8889,7 +8841,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 337108802}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d480d745f6f41bc4f96c37cdbc0f2a17, type: 3}
   m_Name: 
@@ -9098,7 +9050,7 @@ PrefabInstance:
     - target: {fileID: 2485371895293427368, guid: 505c4351a1ad17c4980449956a0a80a3, type: 3}
       propertyPath: firePoint
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1064877800}
     - target: {fileID: 2485371896085318689, guid: 505c4351a1ad17c4980449956a0a80a3, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -13099,7 +13051,7 @@ PrefabInstance:
     - target: {fileID: 2485371895293427368, guid: 505c4351a1ad17c4980449956a0a80a3, type: 3}
       propertyPath: firePoint
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1026119837}
     - target: {fileID: 2485371896085318689, guid: 505c4351a1ad17c4980449956a0a80a3, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -15104,54 +15056,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2726423217611138421, guid: 22e096f2e59356e459f5fe52bfbe1d98, type: 3}
   m_PrefabInstance: {fileID: 194950690}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &568739549
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: UI/DividedHealthBar
-  m_Shader: {fileID: 4800000, guid: f417ed6352c7c194da55986920648a97, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BurnTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _CellTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _AAF: 1
-    - _BigGapInterval: 5
-    - _BigGapSize: 0.05
-    - _DamageValue: 0
-    - _Flip: 0
-    - _GapInterval: 100
-    - _GapSize: 0.025
-    - _MaxValue: 1000
-    - _Value: 1000
-    m_Colors:
-    - _BigGapColour: {r: 0, g: 0, b: 0, a: 1}
-    - _DamageColour: {r: 1, g: 0.43, b: 0.43, a: 1}
-    - _EmptyColour: {r: 0, g: 0, b: 0, a: 0}
-    - _FullColour: {r: 0, g: 1, b: 0, a: 1}
-    - _GapColour: {r: 0.2, g: 0.29, b: 0.19, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1 &570101585 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4230972444027696096, guid: 22e096f2e59356e459f5fe52bfbe1d98, type: 3}
@@ -16059,7 +15963,7 @@ PrefabInstance:
     - target: {fileID: 2485371895293427368, guid: 505c4351a1ad17c4980449956a0a80a3, type: 3}
       propertyPath: firePoint
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1670146525}
     - target: {fileID: 2485371896085318689, guid: 505c4351a1ad17c4980449956a0a80a3, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -17163,6 +17067,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 623028967}
   m_CullTransparentMesh: 1
+--- !u!4 &628472127 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2610576139999485703, guid: 505c4351a1ad17c4980449956a0a80a3, type: 3}
+  m_PrefabInstance: {fileID: 1025118578}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &629321291 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8213484249597697114, guid: 22e096f2e59356e459f5fe52bfbe1d98, type: 3}
@@ -22352,6 +22261,11 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!4 &847626627 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2610576139999485703, guid: 505c4351a1ad17c4980449956a0a80a3, type: 3}
+  m_PrefabInstance: {fileID: 1382375082}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &854102405 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8213484249597697114, guid: 22e096f2e59356e459f5fe52bfbe1d98, type: 3}
@@ -24681,7 +24595,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.41942197, y: 0.0000014836179, z: -0.00000068524025, w: 0.90779144}
+  m_LocalRotation: {x: 0.41942197, y: 0.0000015340753, z: -0.0000007085403, w: 0.90779144}
   m_LocalPosition: {x: 80.100006, y: 17.740932, z: 52.68234}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -25769,7 +25683,7 @@ PrefabInstance:
     - target: {fileID: 2485371895293427368, guid: 505c4351a1ad17c4980449956a0a80a3, type: 3}
       propertyPath: firePoint
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 628472127}
     - target: {fileID: 2485371896085318689, guid: 505c4351a1ad17c4980449956a0a80a3, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -25828,6 +25742,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 505c4351a1ad17c4980449956a0a80a3, type: 3}
+--- !u!4 &1026119837 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2610576139999485703, guid: 505c4351a1ad17c4980449956a0a80a3, type: 3}
+  m_PrefabInstance: {fileID: 483076055}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1026997203
 GameObject:
   m_ObjectHideFlags: 0
@@ -26936,6 +26855,11 @@ Transform:
   m_Father: {fileID: 300371725}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1064877800 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2610576139999485703, guid: 505c4351a1ad17c4980449956a0a80a3, type: 3}
+  m_PrefabInstance: {fileID: 343180842}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1066666660 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8213484249597697114, guid: 22e096f2e59356e459f5fe52bfbe1d98, type: 3}
@@ -27178,7 +27102,7 @@ PrefabInstance:
     - target: {fileID: 2485371895293427368, guid: 505c4351a1ad17c4980449956a0a80a3, type: 3}
       propertyPath: firePoint
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1651045202}
     - target: {fileID: 2485371896085318689, guid: 505c4351a1ad17c4980449956a0a80a3, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -29316,7 +29240,7 @@ PrefabInstance:
     - target: {fileID: 2485371895293427368, guid: 505c4351a1ad17c4980449956a0a80a3, type: 3}
       propertyPath: firePoint
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2037279742}
     - target: {fileID: 2485371896085318689, guid: 505c4351a1ad17c4980449956a0a80a3, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -34620,7 +34544,7 @@ PrefabInstance:
     - target: {fileID: 2485371895293427368, guid: 505c4351a1ad17c4980449956a0a80a3, type: 3}
       propertyPath: firePoint
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 847626627}
     - target: {fileID: 2485371896085318689, guid: 505c4351a1ad17c4980449956a0a80a3, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -35806,6 +35730,54 @@ MonoBehaviour:
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
+--- !u!21 &1433983253
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI/DividedHealthBar
+  m_Shader: {fileID: 4800000, guid: f417ed6352c7c194da55986920648a97, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BurnTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CellTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AAF: 1
+    - _BigGapInterval: 5
+    - _BigGapSize: 0.05
+    - _DamageValue: 0
+    - _Flip: 0
+    - _GapInterval: 100
+    - _GapSize: 0.025
+    - _MaxValue: 1000
+    - _Value: 1000
+    m_Colors:
+    - _BigGapColour: {r: 0, g: 0, b: 0, a: 1}
+    - _DamageColour: {r: 1, g: 0.43, b: 0.43, a: 1}
+    - _EmptyColour: {r: 0, g: 0, b: 0, a: 0}
+    - _FullColour: {r: 0.09431505, g: 0, b: 1, a: 1}
+    - _GapColour: {r: 0.2, g: 0.29, b: 0.19, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1001 &1436147000
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41835,6 +41807,11 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!4 &1651045202 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2610576139999485703, guid: 505c4351a1ad17c4980449956a0a80a3, type: 3}
+  m_PrefabInstance: {fileID: 1079254506}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1651110277
 GameObject:
   m_ObjectHideFlags: 0
@@ -42782,7 +42759,7 @@ PrefabInstance:
     - target: {fileID: 2485371895293427368, guid: 505c4351a1ad17c4980449956a0a80a3, type: 3}
       propertyPath: firePoint
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1895015595}
     - target: {fileID: 2485371896085318689, guid: 505c4351a1ad17c4980449956a0a80a3, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -43127,6 +43104,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22e096f2e59356e459f5fe52bfbe1d98, type: 3}
+--- !u!4 &1670146525 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2610576139999485703, guid: 505c4351a1ad17c4980449956a0a80a3, type: 3}
+  m_PrefabInstance: {fileID: 588858659}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1672508218
 GameObject:
   m_ObjectHideFlags: 0
@@ -45284,6 +45266,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1788611141}
   m_CullTransparentMesh: 1
+--- !u!4 &1790453489 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2610576139999485703, guid: 505c4351a1ad17c4980449956a0a80a3, type: 3}
+  m_PrefabInstance: {fileID: 1888332790}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1792645066 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2135225149029295211, guid: 22e096f2e59356e459f5fe52bfbe1d98, type: 3}
@@ -47298,7 +47285,7 @@ PrefabInstance:
     - target: {fileID: 2485371895293427368, guid: 505c4351a1ad17c4980449956a0a80a3, type: 3}
       propertyPath: firePoint
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1790453489}
     - target: {fileID: 2485371896085318689, guid: 505c4351a1ad17c4980449956a0a80a3, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -47381,6 +47368,11 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!4 &1895015595 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2610576139999485703, guid: 505c4351a1ad17c4980449956a0a80a3, type: 3}
+  m_PrefabInstance: {fileID: 1661086274}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1896093170
 GameObject:
   m_ObjectHideFlags: 0
@@ -47677,6 +47669,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1907461851}
   m_CullTransparentMesh: 1
+--- !u!4 &1908174754 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2610576139999485703, guid: 505c4351a1ad17c4980449956a0a80a3, type: 3}
+  m_PrefabInstance: {fileID: 292781845}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1909150921 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4230972444027696096, guid: 22e096f2e59356e459f5fe52bfbe1d98, type: 3}
@@ -49197,7 +49194,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1957594110}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d480d745f6f41bc4f96c37cdbc0f2a17, type: 3}
   m_Name: 
@@ -50581,6 +50578,54 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!21 &2020033437
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI/DividedHealthBar
+  m_Shader: {fileID: 4800000, guid: f417ed6352c7c194da55986920648a97, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BurnTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CellTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AAF: 1
+    - _BigGapInterval: 5
+    - _BigGapSize: 0.05
+    - _DamageValue: 0
+    - _Flip: 0
+    - _GapInterval: 100
+    - _GapSize: 0.025
+    - _MaxValue: 1000
+    - _Value: 1000
+    m_Colors:
+    - _BigGapColour: {r: 0, g: 0, b: 0, a: 1}
+    - _DamageColour: {r: 1, g: 0.43, b: 0.43, a: 1}
+    - _EmptyColour: {r: 0, g: 0, b: 0, a: 0}
+    - _FullColour: {r: 0, g: 1, b: 0, a: 1}
+    - _GapColour: {r: 0.2, g: 0.29, b: 0.19, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &2020420313 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8213484249597697114, guid: 22e096f2e59356e459f5fe52bfbe1d98, type: 3}
@@ -50931,6 +50976,11 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!4 &2037279742 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2610576139999485703, guid: 505c4351a1ad17c4980449956a0a80a3, type: 3}
+  m_PrefabInstance: {fileID: 1185973321}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2041699357
 GameObject:
   m_ObjectHideFlags: 0

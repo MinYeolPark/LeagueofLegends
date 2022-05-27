@@ -113,11 +113,11 @@ public class Minion : BaseUnits, IAttackable
                         }
                     }
                     //<<                
-                    //if (agent.remainingDistance <= 1f && pathIdx < path.Count)
-                    //{
-                    //    pathIdx++;
-                    //    agent.SetDestination(path[pathIdx].position);
-                    //}
+                    if (agent.remainingDistance <= 1f && pathIdx < path.Count)
+                    {
+                        pathIdx++;
+                        agent.SetDestination(path[pathIdx].position);
+                    }
                 }
 
                 //If hasTarget, approach to curTarget

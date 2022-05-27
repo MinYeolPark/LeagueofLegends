@@ -172,12 +172,12 @@ public class BaseChampController : BaseUnits,IAttackable
     protected virtual void OnSummonersSpell1(InputValue value)
     {
         Debug.Log("Spell 1");
-        //skillPanel.abilityCoolDown[5].ButtonTriggered();
+        skillPanel.abilityCoolDown[5].ButtonTriggered();
     }
     protected virtual void OnSummonersSpell2(InputValue value)
     {
         Debug.Log("Spell 2");
-        //skillPanel.abilityCoolDown[6].ButtonTriggered();
+        skillPanel.abilityCoolDown[6].ButtonTriggered();
     }
 
     protected virtual void OnRecall(InputValue value)
@@ -255,7 +255,7 @@ public class BaseChampController : BaseUnits,IAttackable
             if(obj.state!=States.Dead)
             {
                 state = States.Attacking;
-                transform.LookAt(curTarget.transform);
+                transform.LookAt(target.transform);
 
                 anim.SetBool(hashAttack, true);
             }

@@ -38,6 +38,7 @@ public class MinionSpawner : MonoBehaviourPunCallbacks
             //Instantiate Minion After WAVESTART_TIME and Spawn every MINION_SPAWNINTERVAL_TIME
             if (PhotonNetwork.IsMasterClient)
             {
+                print("¡¯¿‘");
                 if (waveTimer <= 0f)
                 {
                     StartCoroutine(SpawnWave());
@@ -54,8 +55,14 @@ public class MinionSpawner : MonoBehaviourPunCallbacks
 
         IEnumerator SpawnWave()
         {
-            //if (TeamID == 0)
-            //{
+            for (int i = 0; i < GameDataSettings.MELEE_COUNT; i++)
+            {
+                StartCoroutine(SpawnUnit(meleeMinion.gameObject, spawnLoc: midSpawnPoint));
+                StartCoroutine(SpawnUnit(meleeMinion.gameObject, spawnLoc: topSpawnPoint));
+                StartCoroutine(SpawnUnit(meleeMinion.gameObject, spawnLoc: botSpawnPoint));
+                Debug.Log("Minion Spawn");
+                yield return new WaitForSeconds(GameDataSettings.MINION_SPAWNINTERVAL);      //Spawn Interval
+            }
             for (int i = 0; i < GameDataSettings.RANGE_COUNT; i++)
             {
                 StartCoroutine(SpawnUnit(castMinion.gameObject, spawnLoc: midSpawnPoint));
@@ -69,8 +76,9 @@ public class MinionSpawner : MonoBehaviourPunCallbacks
         IEnumerator SpawnUnit(GameObject prefab, Transform spawnLoc)
         {
             TeamManager teamManager = GetComponentInParent<TeamManager>();
-
-            GameObject minion = PhotonNetwork.InstantiateRoomObject(prefab.name.ToString(), spawnLoc.position, Quaternion.identity);
+            print("spawn units");
+            //GameObject minion = PhotonNetwork.InstantiateRoomObject(prefab.name.ToString(), spawnLoc.position, Quaternion.identity);
+            GameObject minion=Instantiate(prefab, spawnLoc);
             Minion spwawnedMinion = minion.GetComponent<Minion>();
 
             if (spawnLoc==midSpawnPoint)
